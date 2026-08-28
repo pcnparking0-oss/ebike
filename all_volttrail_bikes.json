@@ -1,0 +1,1136 @@
+[
+  {
+    "id": "ultra-bee",
+    "img": "/images/product-ultra-bee.jpg",
+    "desc": "The Sur-Ron Ultra Bee MX 2025 is the do-it-all mid-weight electric dirt bike, delivering 11kW peak power, around 55mph and up to 50 miles of range. A favourite step-up for adult riders who have outgrown the Light Bee X.",
+    "brand": "Sur-Ron",
+    "name": "Ultra Bee MX 2025",
+    "specs": [
+      "11kW peak",
+      "55mph",
+      "50mi range"
+    ],
+    "price": "£4,999",
+    "tags": [
+      "surron",
+      "adult",
+      "offroad"
+    ],
+    "badges": [
+      "new",
+      "stock"
+    ],
+    "finance": "~£139/mo",
+    "page": "product-ultra-bee",
+    "color": "#aaff00",
+    "colours": [
+      {
+        "hex": "#aaff00",
+        "name": "Volt Green"
+      },
+      {
+        "hex": "#ffffff",
+        "name": "White"
+      },
+      {
+        "hex": "#1a1a2e",
+        "name": "Midnight Blue"
+      },
+      {
+        "hex": "#cc2200",
+        "name": "Racing Red"
+      }
+    ]
+  },
+  {
+    "id": "lbx",
+    "img": "/images/product-lbx.jpg",
+    "desc": "The Sur-Ron Light Bee X (LBX) is the UK's best-selling electric dirt bike. Lightweight, agile and endlessly upgradeable, with 6kW peak power and roughly 45mph for trails, pit-bike racing and backyard fun.",
+    "brand": "Sur-Ron",
+    "name": "Light Bee X (LBX)",
+    "specs": [
+      "6kW peak",
+      "45mph",
+      "47mi range"
+    ],
+    "price": "£3,199",
+    "tags": [
+      "surron",
+      "adult",
+      "offroad"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": "~£89/mo",
+    "color": "#aaff00",
+    "colours": [
+      {
+        "hex": "#aaff00",
+        "name": "Volt Green"
+      },
+      {
+        "hex": "#ffffff",
+        "name": "White"
+      },
+      {
+        "hex": "#e8a020",
+        "name": "Gold"
+      },
+      {
+        "hex": "#333333",
+        "name": "Stealth Black"
+      }
+    ]
+  },
+  {
+    "id": "lbx-road",
+    "img": "/images/product-lbx-road.jpg",
+    "desc": "The Sur-Ron Light Bee L1e is the road-legal version of the legendary Light Bee, type-approved for UK roads. Restricted to 28mph, it needs L-plates, insurance and a CBT, making it ideal for 16+ riders.",
+    "brand": "Sur-Ron",
+    "name": "Light Bee L1e – Road Legal",
+    "specs": [
+      "6kW peak",
+      "28mph restricted",
+      "L1e road legal"
+    ],
+    "price": "£3,499",
+    "tags": [
+      "surron",
+      "adult",
+      "road"
+    ],
+    "badges": [
+      "road",
+      "stock"
+    ],
+    "finance": "~£97/mo",
+    "color": "#ffaa00",
+    "colours": [
+      {
+        "hex": "#ffaa00",
+        "name": "Amber"
+      },
+      {
+        "hex": "#333333",
+        "name": "Stealth Black"
+      }
+    ]
+  },
+  {
+    "id": "storm-bee",
+    "img": "/images/product-storm-bee.jpg",
+    "desc": "The Sur-Ron Storm Bee is a full-size electric motocross machine and a genuine 1:1 replacement for a 250-350cc petrol bike, with 21.5kW peak power, around 68mph and up to 60 miles of range.",
+    "brand": "Sur-Ron",
+    "name": "Storm Bee",
+    "specs": [
+      "21.5kW peak",
+      "68mph",
+      "60mi range"
+    ],
+    "price": "£7,999",
+    "tags": [
+      "surron",
+      "adult",
+      "offroad"
+    ],
+    "badges": [
+      "new"
+    ],
+    "finance": "~£222/mo",
+    "color": "#aaff00",
+    "colours": [
+      {
+        "hex": "#aaff00",
+        "name": "Volt Green"
+      },
+      {
+        "hex": "#cc2200",
+        "name": "Red"
+      }
+    ]
+  },
+  {
+    "id": "hyper-bee",
+    "img": "/images/product-hyper-bee.jpg",
+    "desc": "The Sur-Ron Hyper Bee is the brand's youth and pit-bike model on 14in/12in wheels, bringing Sur-Ron build quality and ride feel to younger and smaller riders for off-road use.",
+    "age": "Ages 8+",
+    "brand": "Sur-Ron",
+    "name": "Hyper Bee 2025",
+    "specs": [
+      "Youth/pit bike",
+      "14in/12in wheels",
+      "Off-road"
+    ],
+    "price": "£2,999",
+    "tags": [
+      "surron",
+      "kids",
+      "offroad"
+    ],
+    "badges": [
+      "new",
+      "stock"
+    ],
+    "finance": "~£83/mo",
+    "color": "#aaff00",
+    "colours": [
+      {
+        "hex": "#aaff00",
+        "name": "Volt Green"
+      },
+      {
+        "hex": "#ff6600",
+        "name": "Orange"
+      },
+      {
+        "hex": "#0088ff",
+        "name": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "talaria-sting-r",
+    "img": "/images/product-talaria-sting-r.jpg",
+    "desc": "The Talaria Sting R MX4 is a popular adult off-road electric dirt bike with 8kW peak power, around 53mph and roughly 53 miles of range. Gear-drive delivery and a tough chassis make it a strong Sur-Ron rival.",
+    "brand": "Talaria",
+    "name": "Sting R MX4 – Off Road",
+    "specs": [
+      "8kW peak",
+      "53mph",
+      "53mi range"
+    ],
+    "price": "£3,735",
+    "tags": [
+      "talaria",
+      "adult",
+      "offroad"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": "~£104/mo",
+    "color": "#aaff00",
+    "colours": [
+      {
+        "hex": "#aaff00",
+        "name": "Volt Green"
+      },
+      {
+        "hex": "#333333",
+        "name": "Black"
+      },
+      {
+        "hex": "#cc2200",
+        "name": "Red"
+      }
+    ]
+  },
+  {
+    "id": "talaria-sting-road",
+    "img": "/images/product-talaria-sting-road.jpg",
+    "desc": "The Talaria Sting L1e is the road-legal Sting, type-approved for UK roads at 28mph. It adds lights, indicators, mirrors and a number plate holder so 16+ riders can ride legally with a CBT.",
+    "brand": "Talaria",
+    "name": "Sting L1e – Road Legal",
+    "specs": [
+      "8kW peak",
+      "28mph L1e",
+      "Road legal"
+    ],
+    "price": "£3,890",
+    "tags": [
+      "talaria",
+      "adult",
+      "road"
+    ],
+    "badges": [
+      "road",
+      "stock"
+    ],
+    "finance": "~£108/mo",
+    "color": "#ffaa00",
+    "colours": [
+      {
+        "hex": "#ffaa00",
+        "name": "Amber"
+      },
+      {
+        "hex": "#333333",
+        "name": "Black"
+      }
+    ]
+  },
+  {
+    "id": "talaria-mx5",
+    "img": "/images/product-talaria-mx5.jpg",
+    "desc": "The Talaria Sting MX5 Pro steps up to a 72V 40Ah battery for a substantial power and range boost over 60V models. Talaria's most potent Sting, built for demanding off-road riding.",
+    "brand": "Talaria",
+    "name": "Sting MX5 Pro – 72V",
+    "specs": [
+      "72V 40Ah battery",
+      "Off-road",
+      "Gear drive"
+    ],
+    "price": "£3,995",
+    "tags": [
+      "talaria",
+      "adult",
+      "offroad"
+    ],
+    "badges": [
+      "new"
+    ],
+    "finance": "~£111/mo",
+    "color": "#aaff00",
+    "colours": [
+      {
+        "hex": "#aaff00",
+        "name": "Volt Green"
+      },
+      {
+        "hex": "#333333",
+        "name": "Black"
+      }
+    ]
+  },
+  {
+    "id": "talaria-x3",
+    "img": "/images/product-talaria-x3.jpg",
+    "desc": "The Talaria X3 (also known as the XXX) features a distinctive frame-spanning 60V battery design and a lightweight chassis, offering precise handling for off-road adventures.",
+    "brand": "Talaria",
+    "name": "X3 (XXX)",
+    "specs": [
+      "60V battery",
+      "Off-road",
+      "Lightweight chassis"
+    ],
+    "price": "£3,235",
+    "tags": [
+      "talaria",
+      "adult",
+      "offroad"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": "~£90/mo",
+    "color": "#aaff00",
+    "colours": [
+      {
+        "hex": "#aaff00",
+        "name": "Volt Green"
+      },
+      {
+        "hex": "#0088ff",
+        "name": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "talaria-komodo",
+    "img": "/images/product-talaria-komodo.jpg",
+    "desc": "The Talaria Komodo TL6000 is a high-power electric dirt bike with 22kW peak power, around 66mph and up to 70 miles of range — Talaria's answer to high-end electric performance bikes.",
+    "brand": "Talaria",
+    "name": "Komodo TL6000",
+    "specs": [
+      "22kW peak",
+      "66mph",
+      "70mi range"
+    ],
+    "price": "£5,495",
+    "tags": [
+      "talaria",
+      "adult",
+      "offroad"
+    ],
+    "badges": [
+      "new"
+    ],
+    "finance": "~£153/mo",
+    "color": "#aaff00",
+    "colours": [
+      {
+        "hex": "#aaff00",
+        "name": "Volt Green"
+      },
+      {
+        "hex": "#0088ff",
+        "name": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "stark-mx",
+    "img": "/images/product-stark-mx.jpg",
+    "desc": "The Stark Varg MX 1.2 is the world's most powerful electric motocross bike, with up to 80HP, a 7.2kWh battery and KYB suspension. The MX 1.2 brings a lighter chassis and around 20% more range.",
+    "brand": "Stark Varg",
+    "name": "Varg MX 1.2",
+    "specs": [
+      "60kW / 80HP",
+      "7.2kWh battery",
+      "KYB suspension"
+    ],
+    "price": "£10,490",
+    "tags": [
+      "stark",
+      "adult",
+      "offroad"
+    ],
+    "badges": [
+      "new"
+    ],
+    "finance": "~£291/mo",
+    "color": "#aaff00",
+    "colours": [
+      {
+        "hex": "#aaff00",
+        "name": "Volt"
+      },
+      {
+        "hex": "#cc2200",
+        "name": "Red"
+      },
+      {
+        "hex": "#333333",
+        "name": "Black"
+      }
+    ]
+  },
+  {
+    "id": "stark-ex",
+    "img": "/images/product-stark-ex.jpg",
+    "desc": "The Stark Varg EX is the road-legal version of the Varg, adding UK road approval and an 18in rear wheel for enduro use, with up to 80HP of fully adjustable electric power.",
+    "brand": "Stark Varg",
+    "name": "Varg EX – Road Legal",
+    "specs": [
+      "60kW / 80HP",
+      "Road legal",
+      "73mi range"
+    ],
+    "price": "£11,290",
+    "tags": [
+      "stark",
+      "adult",
+      "road"
+    ],
+    "badges": [
+      "new",
+      "road"
+    ],
+    "finance": "~£314/mo",
+    "color": "#ffaa00",
+    "colours": [
+      {
+        "hex": "#ffaa00",
+        "name": "Amber"
+      },
+      {
+        "hex": "#333333",
+        "name": "Black"
+      }
+    ]
+  },
+  {
+    "id": "ktm-sxe5",
+    "img": "/images/product-ktm-sxe5.jpg",
+    "desc": "The KTM SX-E 5 is an advanced all-electric youth motocross bike with 5kW peak power, a 907Wh battery and fully adjustable WP Xact suspension. A genuine READY TO RACE platform for junior racers.",
+    "age": "Ages 8-12",
+    "brand": "KTM",
+    "name": "SX-E 5",
+    "specs": [
+      "5kW peak",
+      "907Wh battery",
+      "WP Xact suspension"
+    ],
+    "price": "£4,999",
+    "tags": [
+      "ktm",
+      "kids",
+      "offroad"
+    ],
+    "badges": [
+      "new"
+    ],
+    "finance": "~£139/mo",
+    "color": "#ff6600",
+    "colours": [
+      {
+        "hex": "#ff6600",
+        "name": "KTM Orange"
+      }
+    ]
+  },
+  {
+    "id": "ktm-sxe3",
+    "img": "/images/product-ktm-sxe3.jpg",
+    "desc": "The KTM SX-E 3 is the ideal electric mini-crosser for thrill-seeking juniors, with a 3.8kW motor, 648Wh battery and six ride modes — the perfect step up from a balance bike.",
+    "age": "Ages 6-9",
+    "brand": "KTM",
+    "name": "SX-E 3",
+    "specs": [
+      "3.8kW motor",
+      "648Wh battery",
+      "6 ride modes"
+    ],
+    "price": "£4,399",
+    "tags": [
+      "ktm",
+      "kids",
+      "offroad"
+    ],
+    "badges": [
+      "new"
+    ],
+    "finance": "~£122/mo",
+    "color": "#ff6600",
+    "colours": [
+      {
+        "hex": "#ff6600",
+        "name": "KTM Orange"
+      }
+    ]
+  },
+  {
+    "id": "ktm-sxe2",
+    "img": "/images/product-ktm-sxe2.jpg",
+    "desc": "The KTM SX-E 2 bridges the gap between a balance bike and the SX-E 3. On 10in wheels with adjustable ergonomics, it is the ideal first electric motorcycle for the youngest riders.",
+    "age": "Ages 4-7",
+    "brand": "KTM",
+    "name": "SX-E 2",
+    "specs": [
+      "Electric mini",
+      "10in wheels",
+      "Youth entry"
+    ],
+    "price": "£3,799",
+    "tags": [
+      "ktm",
+      "kids",
+      "offroad"
+    ],
+    "badges": [
+      "new"
+    ],
+    "finance": "~£106/mo",
+    "color": "#ff6600",
+    "colours": [
+      {
+        "hex": "#ff6600",
+        "name": "KTM Orange"
+      }
+    ]
+  },
+  {
+    "id": "eride-ss",
+    "img": "/images/product-eride-ss.jpg",
+    "desc": "The E Ride Pro SS 2.0 is a high-value 72V electric dirt bike with 12kW peak power and around 56mph. It sits between the Sur-Ron and Stark Varg price brackets for riders wanting more power affordably.",
+    "brand": "E Ride Pro",
+    "name": "SS 2.0 (19in) – 72V 12kW",
+    "specs": [
+      "12kW peak",
+      "56mph",
+      "50mi range"
+    ],
+    "price": "£4,300",
+    "tags": [
+      "eride",
+      "adult",
+      "offroad"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": "~£120/mo",
+    "color": "#aaff00",
+    "colours": [
+      {
+        "hex": "#aaff00",
+        "name": "Green"
+      },
+      {
+        "hex": "#333333",
+        "name": "Black"
+      }
+    ]
+  },
+  {
+    "id": "eride-s",
+    "img": "/images/product-eride-s.jpg",
+    "desc": "The E Ride Pro S is the 17in, 72V 6kW model in the E Ride Pro range — a more compact, accessible off-road electric dirt bike with strong value.",
+    "brand": "E Ride Pro",
+    "name": "S (17in) – 72V 6kW",
+    "specs": [
+      "6kW peak",
+      "72V battery",
+      "Off-road"
+    ],
+    "price": "£3,500",
+    "tags": [
+      "eride",
+      "adult",
+      "offroad"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": "~£97/mo",
+    "color": "#aaff00",
+    "colours": [
+      {
+        "hex": "#aaff00",
+        "name": "Green"
+      },
+      {
+        "hex": "#333333",
+        "name": "Black"
+      }
+    ]
+  },
+  {
+    "id": "rfn-ares-rally",
+    "img": "/images/product-rfn-ares-rally.jpg",
+    "desc": "The RFN Ares Rally is an award-winning adult off-road electric dirt bike with a 5kW motor, long range and 200mm of suspension travel. Its convertible design adapts from enduro to trail riding tool-free.",
+    "brand": "RFN",
+    "name": "Ares Rally",
+    "specs": [
+      "5kW motor",
+      "140km range",
+      "200mm travel"
+    ],
+    "price": "£3,995",
+    "tags": [
+      "rfn",
+      "adult",
+      "offroad"
+    ],
+    "badges": [
+      "new"
+    ],
+    "finance": "~£111/mo",
+    "color": "#cc2200",
+    "colours": [
+      {
+        "hex": "#cc2200",
+        "name": "Red"
+      },
+      {
+        "hex": "#333333",
+        "name": "Black"
+      }
+    ]
+  },
+  {
+    "id": "rfn-ares-rally-pro",
+    "img": "/images/product-rfn-ares-rally-pro.jpg",
+    "desc": "The RFN Ares Rally Pro is the race-focused version of the Ares Rally, with a 72V 12.5kW system and top-tier components built for competition and extreme off-road performance.",
+    "brand": "RFN",
+    "name": "Ares Rally Pro",
+    "specs": [
+      "Race-spec",
+      "72V 12.5kW",
+      "Off-road MX"
+    ],
+    "price": "£4,995",
+    "tags": [
+      "rfn",
+      "adult",
+      "offroad"
+    ],
+    "badges": [
+      "new"
+    ],
+    "finance": "~£139/mo",
+    "color": "#cc2200",
+    "colours": [
+      {
+        "hex": "#cc2200",
+        "name": "Red"
+      },
+      {
+        "hex": "#333333",
+        "name": "Black"
+      }
+    ]
+  },
+  {
+    "id": "rfn-ares-rs",
+    "img": "/images/product-rfn-ares-rs.jpg",
+    "desc": "The RFN Ares RS Endurance is the road-legal L1e model in the Ares range, with a 74V 4kW system designed for comfortable daily commuting with light off-road capability.",
+    "brand": "RFN",
+    "name": "Ares RS Endurance (L1e)",
+    "specs": [
+      "74V 4kW",
+      "Road legal L1e",
+      "Commuter"
+    ],
+    "price": "£4,295",
+    "tags": [
+      "rfn",
+      "adult",
+      "road"
+    ],
+    "badges": [
+      "road"
+    ],
+    "finance": "~£119/mo",
+    "color": "#ffaa00",
+    "colours": [
+      {
+        "hex": "#ffaa00",
+        "name": "Amber"
+      },
+      {
+        "hex": "#333333",
+        "name": "Black"
+      }
+    ]
+  },
+  {
+    "id": "rfn-warrior-sxe5",
+    "img": "/images/product-rfn-warrior-sxe5.jpg",
+    "desc": "The RFN Warrior Youth SX-E5 is a kids' electric dirt bike aimed at 6-10 year olds, delivering a balanced mix of power and control to build young riders' confidence off-road.",
+    "age": "Ages 6-10",
+    "brand": "RFN",
+    "name": "Warrior Youth SX-E5",
+    "specs": [
+      "Ages 6-10",
+      "Off-road",
+      "Kids MX"
+    ],
+    "price": "£1,995",
+    "tags": [
+      "rfn",
+      "kids",
+      "offroad"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": "~£55/mo",
+    "color": "#cc2200",
+    "colours": [
+      {
+        "hex": "#cc2200",
+        "name": "Red"
+      }
+    ]
+  },
+  {
+    "id": "rfn-warrior-sxe8",
+    "img": "/images/product-rfn-warrior-sxe8.jpg",
+    "desc": "The RFN Warrior Youth SX-E8 is a youth electric dirt bike for older kids, with more performance than the SX-E5 while keeping RFN's core safety technology.",
+    "age": "Ages 10-14",
+    "brand": "RFN",
+    "name": "Warrior Youth SX-E8",
+    "specs": [
+      "Youth",
+      "Off-road",
+      "Kids MX"
+    ],
+    "price": "£2,795",
+    "tags": [
+      "rfn",
+      "kids",
+      "offroad"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": "~£78/mo",
+    "color": "#cc2200",
+    "colours": [
+      {
+        "hex": "#cc2200",
+        "name": "Red"
+      }
+    ]
+  },
+  {
+    "id": "revvi-12",
+    "img": "/images/product-revvi-12.jpg",
+    "desc": "The Revvi 12in is the UK's best-selling kids' electric balance bike. At just 9kg with two speed settings, it lets children aged 2-6 learn balance then progress to throttle control.",
+    "age": "Ages 2-6",
+    "brand": "Revvi",
+    "name": "Revvi 12in Kids Electric Balance Bike",
+    "specs": [
+      "250W motor",
+      "Ages 2-6",
+      "9kg, 2 speeds"
+    ],
+    "price": "£325",
+    "tags": [
+      "revvi",
+      "kids",
+      "offroad"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#0088ff",
+    "colours": [
+      {
+        "hex": "#0088ff",
+        "name": "Blue"
+      },
+      {
+        "hex": "#cc2200",
+        "name": "Red"
+      },
+      {
+        "hex": "#aaff00",
+        "name": "Green"
+      }
+    ]
+  },
+  {
+    "id": "revvi-16",
+    "img": "/images/product-revvi-16.jpg",
+    "desc": "The Revvi 16in is a kids' electric balance bike for ages 4-6, with a 250W motor, three speed settings and larger 16in wheels for a wider variety of terrain.",
+    "age": "Ages 4-6",
+    "brand": "Revvi",
+    "name": "Revvi 16in Kids Electric Balance Bike",
+    "specs": [
+      "250W motor",
+      "Ages 5+",
+      "3 speeds, 11kg"
+    ],
+    "price": "£449",
+    "tags": [
+      "revvi",
+      "kids",
+      "offroad"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#0088ff",
+    "colours": [
+      {
+        "hex": "#0088ff",
+        "name": "Blue"
+      },
+      {
+        "hex": "#cc2200",
+        "name": "Red"
+      },
+      {
+        "hex": "#aaff00",
+        "name": "Green"
+      }
+    ]
+  },
+  {
+    "id": "revvi-16-plus",
+    "img": "/images/product-revvi-16-plus.jpg",
+    "desc": "The Revvi 16in Plus adds front suspension forks, knobbly tyres and alloy rims to the popular 16in model, giving young riders genuine off-road capability on dirt tracks and pump tracks.",
+    "age": "Ages 6-8",
+    "brand": "Revvi",
+    "name": "Revvi 16in Plus Kids Electric Balance Bike",
+    "specs": [
+      "250W motor",
+      "Front suspension",
+      "Knobbly tyres"
+    ],
+    "price": "£559",
+    "tags": [
+      "revvi",
+      "kids",
+      "offroad"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#0088ff",
+    "colours": [
+      {
+        "hex": "#0088ff",
+        "name": "Blue"
+      },
+      {
+        "hex": "#aaff00",
+        "name": "Green"
+      },
+      {
+        "hex": "#ff6600",
+        "name": "Orange"
+      }
+    ]
+  },
+  {
+    "id": "revvi-18",
+    "img": "/images/product-revvi-18.jpg",
+    "desc": "The Revvi 18in is a popular step-up electric dirt bike for kids aged 8-12, reaching up to 20mph with hydraulic disc brakes and a lightweight aluminium frame.",
+    "age": "Ages 8-12",
+    "brand": "Revvi",
+    "name": "Revvi 18in Kids Electric Bike",
+    "specs": [
+      "Ages 8-12",
+      "20mph",
+      "Hydraulic discs"
+    ],
+    "price": "£849",
+    "tags": [
+      "revvi",
+      "kids",
+      "offroad"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": "~£24/mo",
+    "color": "#0088ff",
+    "colours": [
+      {
+        "hex": "#0088ff",
+        "name": "Blue"
+      },
+      {
+        "hex": "#333333",
+        "name": "Black"
+      }
+    ]
+  },
+  {
+    "id": "revvi-20",
+    "img": "/images/product-revvi-20.jpg",
+    "desc": "The Revvi 20in is the top of the Revvi range for riders aged 10+, with an 800W motor, three speeds up to 22mph and full suspension for a genuine mini dirt bike experience.",
+    "age": "Ages 10+",
+    "brand": "Revvi",
+    "name": "Revvi 20in Kids Electric Bike",
+    "specs": [
+      "Ages 10+",
+      "22mph, 800W",
+      "Full suspension"
+    ],
+    "price": "£1,099",
+    "tags": [
+      "revvi",
+      "kids",
+      "offroad"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": "~£31/mo",
+    "color": "#0088ff",
+    "colours": [
+      {
+        "hex": "#0088ff",
+        "name": "Blue"
+      },
+      {
+        "hex": "#333333",
+        "name": "Black"
+      },
+      {
+        "hex": "#aaff00",
+        "name": "Green"
+      }
+    ]
+  },
+  {
+    "id": "funbikes-mx350",
+    "img": "/images/product-funbikes-mx350.jpg",
+    "desc": "The FunBikes MX350 is a 350W, 36V kids' electric dirt bike with a lithium battery — an affordable, fun entry point for younger off-road riders.",
+    "age": "Ages 4-8",
+    "brand": "FunBikes",
+    "name": "MX350 350W Kids Electric Dirt Bike",
+    "specs": [
+      "350W",
+      "36V",
+      "Lithium battery"
+    ],
+    "price": "£325",
+    "tags": [
+      "funbikes",
+      "kids",
+      "offroad"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#cc2200",
+    "colours": [
+      {
+        "hex": "#cc2200",
+        "name": "Red"
+      }
+    ]
+  },
+  {
+    "id": "funbikes-790",
+    "img": "/images/product-funbikes-790.jpg",
+    "desc": "The FunBikes MXR 790W is a kids' electric dirt bike for ages 6-10, reaching up to 15mph with an adjustable speed limiter so parents can match the power to the child.",
+    "age": "Ages 6-10",
+    "brand": "FunBikes",
+    "name": "MXR 790W – Ages 6–10",
+    "specs": [
+      "790W",
+      "15mph",
+      "Adjustable limiter"
+    ],
+    "price": "£435",
+    "tags": [
+      "funbikes",
+      "kids",
+      "offroad"
+    ],
+    "badges": [
+      "sale",
+      "stock"
+    ],
+    "finance": null,
+    "color": "#cc2200",
+    "colours": [
+      {
+        "hex": "#cc2200",
+        "name": "Red"
+      },
+      {
+        "hex": "#0088ff",
+        "name": "Blue"
+      },
+      {
+        "hex": "#aaff00",
+        "name": "Green"
+      }
+    ]
+  },
+  {
+    "id": "funbikes-1400",
+    "img": "/images/product-funbikes-1400.jpg",
+    "desc": "The FunBikes MXR 1400W is a kids' electric dirt bike for ages 10-14, with 1400W of power, up to 20mph and an adjustable speed limiter.",
+    "age": "Ages 10-14",
+    "brand": "FunBikes",
+    "name": "MXR 1400W – Ages 10–14",
+    "specs": [
+      "1400W",
+      "20mph",
+      "Adjustable limiter"
+    ],
+    "price": "£799",
+    "tags": [
+      "funbikes",
+      "kids",
+      "offroad"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": "~£22/mo",
+    "color": "#cc2200",
+    "colours": [
+      {
+        "hex": "#cc2200",
+        "name": "Red"
+      },
+      {
+        "hex": "#0088ff",
+        "name": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "funbikes-1800",
+    "img": "/images/product-funbikes-1800.jpg",
+    "desc": "The FunBikes MXR 1800W is the most powerful bike in the MXR range, with 1800W, up to 25mph and a lithium battery — built for older, more confident young riders.",
+    "age": "Ages 12+",
+    "brand": "FunBikes",
+    "name": "MXR 1800W 2025",
+    "specs": [
+      "1800W",
+      "25mph",
+      "Lithium battery"
+    ],
+    "price": "£995",
+    "tags": [
+      "funbikes",
+      "kids",
+      "offroad"
+    ],
+    "badges": [
+      "new",
+      "stock"
+    ],
+    "finance": "~£28/mo",
+    "color": "#cc2200",
+    "colours": [
+      {
+        "hex": "#cc2200",
+        "name": "Red"
+      },
+      {
+        "hex": "#ff6600",
+        "name": "Orange"
+      },
+      {
+        "hex": "#333333",
+        "name": "Black"
+      }
+    ]
+  },
+  {
+    "id": "razor-mx350",
+    "img": "/images/product-razor-mx350.jpg",
+    "desc": "The Razor MX350 Dirt Rocket is a well-known, affordable kids' electric dirt bike reaching up to 14mph, with a steel frame and authentic off-road styling.",
+    "age": "Ages 13+",
+    "brand": "Razor",
+    "name": "MX350 Dirt Rocket",
+    "specs": [
+      "Up to 14mph",
+      "Steel frame",
+      "Ages 13+"
+    ],
+    "price": "£325",
+    "tags": [
+      "razor",
+      "kids",
+      "offroad"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#cc2200",
+    "colours": [
+      {
+        "hex": "#cc2200",
+        "name": "Red"
+      }
+    ]
+  },
+  {
+    "id": "razor-mx400",
+    "img": "/images/product-razor-mx400.jpg",
+    "desc": "The Razor MX400 Dirt Rocket is a slightly larger kids' electric dirt bike than the MX350, with a steel frame and up to 14mph for young off-road riders.",
+    "age": "Ages 13+",
+    "brand": "Razor",
+    "name": "MX400 Dirt Rocket",
+    "specs": [
+      "Up to 14mph",
+      "Steel frame",
+      "Ages 13+"
+    ],
+    "price": "£399",
+    "tags": [
+      "razor",
+      "kids",
+      "offroad"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#cc2200",
+    "colours": [
+      {
+        "hex": "#cc2200",
+        "name": "Red"
+      }
+    ]
+  }
+]

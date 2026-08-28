@@ -1,0 +1,299 @@
+[
+  {
+    "id": "segway-snarler",
+    "img": "/images/product-segway-snarler.jpg",
+    "desc": "The Segway Snarler ATV6 is an electric utility quad with 30kW of power and around 50mph, combining Segway-Ninebot engineering with all-terrain capability.",
+    "brand": "Segway",
+    "name": "Snarler ATV6 Electric",
+    "specs": [
+      "30kW",
+      "50mph",
+      "Utility ATV"
+    ],
+    "price": "£6,999",
+    "tags": [
+      "segway",
+      "adult",
+      "utility"
+    ],
+    "badges": [
+      "new"
+    ],
+    "finance": "~£194/mo",
+    "color": "#aaff00",
+    "colours": [
+      {
+        "hex": "#aaff00",
+        "name": "Green"
+      },
+      {
+        "hex": "#888888",
+        "name": "Grey"
+      }
+    ]
+  },
+  {
+    "id": "ecorider-explorer-gt",
+    "img": "/images/product-ecorider-explorer-gt.jpg",
+    "desc": "The Eco Rider Explorer GT is a UK-made adult electric quad with 4-wheel direct drive, a 3000W brushless motor and around 70km of range — built for farms, estates and utility work.",
+    "brand": "Eco Rider",
+    "name": "Explorer GT Electric Quad",
+    "specs": [
+      "4-wheel drive",
+      "3000W brushless",
+      "70km range"
+    ],
+    "price": "£5,054",
+    "tags": [
+      "ecorider",
+      "adult",
+      "utility"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": "~£140/mo",
+    "color": "#aaff00",
+    "colours": [
+      {
+        "hex": "#aaff00",
+        "name": "Green"
+      },
+      {
+        "hex": "#333333",
+        "name": "Black"
+      }
+    ]
+  },
+  {
+    "id": "ecorider-explorer",
+    "img": "/images/product-ecorider-explorer.jpg",
+    "desc": "The Eco Rider Explorer is a 2100W brushless electric utility quad with a tow ball and front winch, offering 40-50km of range for silent, low-maintenance estate and farm work.",
+    "brand": "Eco Rider",
+    "name": "Explorer 2100W Electric Quad",
+    "specs": [
+      "2100W brushless",
+      "Tow ball + winch",
+      "40-50km range"
+    ],
+    "price": "£4,295",
+    "tags": [
+      "ecorider",
+      "adult",
+      "utility"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": "~£119/mo",
+    "color": "#aaff00",
+    "colours": [
+      {
+        "hex": "#aaff00",
+        "name": "Green"
+      },
+      {
+        "hex": "#888888",
+        "name": "Grey"
+      }
+    ]
+  },
+  {
+    "id": "ecorider-shredder",
+    "img": "/images/product-ecorider-shredder.jpg",
+    "desc": "The Eco Rider Shredder is the sport-focused model in the Eco Rider electric quad range, built for off-road fun with zero emissions and near-silent running.",
+    "brand": "Eco Rider",
+    "name": "Shredder Electric Sport Quad",
+    "specs": [
+      "Sport quad",
+      "Off-road",
+      "Electric"
+    ],
+    "price": "£3,995",
+    "tags": [
+      "ecorider",
+      "adult",
+      "utility"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": "~£111/mo",
+    "color": "#aaff00",
+    "colours": [
+      {
+        "hex": "#aaff00",
+        "name": "Green"
+      },
+      {
+        "hex": "#cc2200",
+        "name": "Red"
+      }
+    ]
+  },
+  {
+    "id": "segway-kids-quad",
+    "img": "/images/product-segway-kids-quad.jpg",
+    "desc": "The Segway Junior Electric Quad is a youth-sized electric ATV with a speed limiter, bringing Segway engineering to younger riders for safe off-road fun.",
+    "age": "Ages 8-14",
+    "brand": "Segway",
+    "name": "Segway Junior Electric Quad",
+    "specs": [
+      "Youth ATV",
+      "Speed limiter",
+      "Electric"
+    ],
+    "price": "£1,499",
+    "tags": [
+      "segway",
+      "kids"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": [
+      {
+        "hex": "#aaff00",
+        "name": "Green"
+      },
+      {
+        "hex": "#333333",
+        "name": "Black"
+      }
+    ]
+  },
+  {
+    "id": "funbikes-quad-500",
+    "img": "/images/product-funbikes-quad-500.jpg",
+    "desc": "The FunBikes Kids Quad 500W is an electric quad bike for children aged 6-12, reaching up to 10mph with an adjustable speed limiter.",
+    "age": "Ages 6-12",
+    "brand": "FunBikes",
+    "name": "Kids Quad 500W – Ages 6–12",
+    "specs": [
+      "500W",
+      "10mph",
+      "Adjustable limiter"
+    ],
+    "price": "£499",
+    "tags": [
+      "funbikes",
+      "kids"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#cc2200",
+    "colours": [
+      {
+        "hex": "#cc2200",
+        "name": "Red"
+      },
+      {
+        "hex": "#0088ff",
+        "name": "Blue"
+      },
+      {
+        "hex": "#ffaa00",
+        "name": "Yellow"
+      }
+    ]
+  },
+  {
+    "id": "funbikes-quad-1000",
+    "img": "/images/product-funbikes-quad-1000.jpg",
+    "desc": "The FunBikes Kids Quad 1000W is an electric quad for ages 10+, with 1000W of power, up to 18mph and a lithium battery.",
+    "age": "Ages 10+",
+    "brand": "FunBikes",
+    "name": "Kids Quad 1000W – Ages 10+",
+    "specs": [
+      "1000W",
+      "18mph",
+      "Lithium battery"
+    ],
+    "price": "£699",
+    "tags": [
+      "funbikes",
+      "kids"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": "~£19/mo",
+    "color": "#cc2200",
+    "colours": [
+      {
+        "hex": "#cc2200",
+        "name": "Red"
+      },
+      {
+        "hex": "#333333",
+        "name": "Black"
+      }
+    ]
+  },
+  {
+    "id": "funbikes-quad-1500",
+    "img": "/images/product-funbikes-quad-1500.jpg",
+    "desc": "The FunBikes Kids Quad 1500W is the most powerful kids' quad in the FunBikes range, built for teenage riders with an adjustable speed limiter and lithium battery.",
+    "age": "Ages 12+",
+    "brand": "FunBikes",
+    "name": "Kids Quad 1500W – Teens",
+    "specs": [
+      "1500W",
+      "Adjustable limiter",
+      "Lithium battery"
+    ],
+    "price": "£899",
+    "tags": [
+      "funbikes",
+      "kids"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": "~£25/mo",
+    "color": "#cc2200",
+    "colours": [
+      {
+        "hex": "#cc2200",
+        "name": "Red"
+      },
+      {
+        "hex": "#0088ff",
+        "name": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "razor-quad",
+    "img": "/images/product-razor-quad.jpg",
+    "desc": "The Razor Dirt Quad is a kids' electric ATV with 350W of power and up to 8mph, designed for off-road fun for children aged 8 and over.",
+    "age": "Ages 8+",
+    "brand": "Razor",
+    "name": "Razor Dirt Quad – Kids Electric ATV",
+    "specs": [
+      "350W",
+      "Up to 8mph",
+      "Ages 8+"
+    ],
+    "price": "£399",
+    "tags": [
+      "razor",
+      "kids"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#cc2200",
+    "colours": [
+      {
+        "hex": "#cc2200",
+        "name": "Red"
+      }
+    ]
+  }
+]

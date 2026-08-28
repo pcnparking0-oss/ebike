@@ -1,0 +1,1115 @@
+[
+  {
+    "id": "bat-surron-lightbee",
+    "img": "/images/product-bat-surron-lightbee.jpg",
+    "desc": "Genuine replacement 60V lithium-ion battery pack for the Sur-Ron Light Bee X and Light Bee L1e. High-quality 21700 cells with a smart BMS restore full range and performance to your electric dirt bike.",
+    "brand": "Sur-Ron",
+    "name": "Sur-Ron Light Bee 60V Replacement Battery",
+    "specs": [
+      "60V",
+      "32-40Ah Li-Ion",
+      "Fits Light Bee X & L1e"
+    ],
+    "price": "£699",
+    "tags": [
+      "batteries"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "chg-surron-lightbee",
+    "img": "/images/product-chg-surron-lightbee.jpg",
+    "desc": "Official Sur-Ron 10A fast charger for the 60V Light Bee X and L1e. Intelligent power delivery with over-voltage, temperature and short-circuit protection. Full charge in around 2.5-3.5 hours from any UK socket.",
+    "brand": "Sur-Ron",
+    "name": "Sur-Ron Light Bee 60V Charger (10A)",
+    "specs": [
+      "60V 10A output",
+      "~3hr charge",
+      "UK plug"
+    ],
+    "price": "£89",
+    "tags": [
+      "batteries"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "bat-surron-stormbee",
+    "img": "/images/product-bat-surron-stormbee.jpg",
+    "desc": "Genuine replacement 104V high-voltage lithium-ion battery pack for the Sur-Ron Storm Bee. Delivers the full power and range the Storm Bee was built for.",
+    "brand": "Sur-Ron",
+    "name": "Sur-Ron Storm Bee 104V Replacement Battery",
+    "specs": [
+      "104V",
+      "55Ah Li-Ion",
+      "Fits Storm Bee"
+    ],
+    "price": "£2,499",
+    "tags": [
+      "batteries"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": "~£69/mo",
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "chg-surron-stormbee",
+    "img": "/images/product-chg-surron-stormbee.jpg",
+    "desc": "Official Sur-Ron high-voltage fast charger for the 104V Storm Bee battery. Engineered for safe, stable charging with full battery protection.",
+    "brand": "Sur-Ron",
+    "name": "Sur-Ron Storm Bee 104V Fast Charger",
+    "specs": [
+      "104V fast charger",
+      "High-voltage",
+      "UK plug"
+    ],
+    "price": "£169",
+    "tags": [
+      "batteries"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "bat-surron-ultrabee",
+    "img": "/images/product-bat-surron-ultrabee.jpg",
+    "desc": "Genuine replacement 74V lithium-ion battery pack for the Sur-Ron Ultra Bee. High-capacity cells with smart BMS for maximum range and performance.",
+    "brand": "Sur-Ron",
+    "name": "Sur-Ron Ultra Bee 74V Replacement Battery",
+    "specs": [
+      "74V",
+      "55-60Ah Li-Ion",
+      "Fits Ultra Bee"
+    ],
+    "price": "£1,599",
+    "tags": [
+      "batteries"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": "~£44/mo",
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "chg-surron-ultrabee",
+    "img": "/images/product-chg-surron-ultrabee.jpg",
+    "desc": "Official Sur-Ron fast charger for the 74V Ultra Bee battery pack. Reliable, protected charging from any standard UK socket.",
+    "brand": "Sur-Ron",
+    "name": "Sur-Ron Ultra Bee 74V Charger",
+    "specs": [
+      "74V fast charger",
+      "Smart protection",
+      "UK plug"
+    ],
+    "price": "£129",
+    "tags": [
+      "batteries"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "bat-surron-hyperbee",
+    "img": "/images/product-bat-surron-hyperbee.jpg",
+    "desc": "Genuine replacement 58V lithium-ion battery pack for the Sur-Ron Hyper Bee youth electric dirt bike.",
+    "brand": "Sur-Ron",
+    "name": "Sur-Ron Hyper Bee 58V Replacement Battery",
+    "specs": [
+      "58V",
+      "22Ah Li-Ion",
+      "Fits Hyper Bee"
+    ],
+    "price": "£749",
+    "tags": [
+      "batteries"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "chg-surron-hyperbee",
+    "img": "/images/product-chg-surron-hyperbee.jpg",
+    "desc": "Official Sur-Ron charger for the 58V Hyper Bee battery pack. Safe, protected charging from any UK socket.",
+    "brand": "Sur-Ron",
+    "name": "Sur-Ron Hyper Bee 58V Charger",
+    "specs": [
+      "58V charger",
+      "Smart protection",
+      "UK plug"
+    ],
+    "price": "£79",
+    "tags": [
+      "batteries"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "bat-talaria-stingr",
+    "img": "/images/product-bat-talaria-stingr.jpg",
+    "desc": "Genuine replacement 60V 45Ah lithium-ion battery pack for the Talaria Sting R MX4. 2.7kWh of high-quality LG cells for extended range.",
+    "brand": "Talaria",
+    "name": "Talaria Sting R 60V 45Ah Replacement Battery",
+    "specs": [
+      "60V 45Ah",
+      "2.7kWh LG cells",
+      "Fits Sting R MX4"
+    ],
+    "price": "£899",
+    "tags": [
+      "batteries"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": "~£25/mo",
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "bat-talaria-sting38",
+    "img": "/images/product-bat-talaria-sting38.jpg",
+    "desc": "Genuine OEM 60V 38Ah lithium-ion battery pack for the Talaria Sting, Sting L1e, TL45 and TL3000. Removable pack with cell balancing BMS.",
+    "brand": "Talaria",
+    "name": "Talaria Sting 60V 38Ah Replacement Battery",
+    "specs": [
+      "60V 38Ah",
+      "Cell-balancing BMS",
+      "Fits Sting / L1e / X3"
+    ],
+    "price": "£799",
+    "tags": [
+      "batteries"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": "~£22/mo",
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "chg-talaria-60v",
+    "img": "/images/product-chg-talaria-60v.jpg",
+    "desc": "Official Talaria 60V OEM charger for the Sting, Sting R, Sting L1e and X3. The Sting R charger achieves a full 0-100% charge in around 3 hours.",
+    "brand": "Talaria",
+    "name": "Talaria 60V OEM Charger",
+    "specs": [
+      "60V charger",
+      "~3hr charge",
+      "UK plug"
+    ],
+    "price": "£99",
+    "tags": [
+      "batteries"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "bat-talaria-72v",
+    "img": "/images/product-bat-talaria-72v.jpg",
+    "desc": "Genuine replacement 72V 40Ah lithium-ion battery pack (2,880Wh) for the Talaria Sting MX5 Pro and Komodo. Talaria's most powerful battery with advanced BMS.",
+    "brand": "Talaria",
+    "name": "Talaria 72V 40Ah Replacement Battery (MX5 / Komodo)",
+    "specs": [
+      "72V 40Ah",
+      "2,880Wh",
+      "Fits MX5 Pro & Komodo"
+    ],
+    "price": "£1,099",
+    "tags": [
+      "batteries"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": "~£31/mo",
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "chg-talaria-72v",
+    "img": "/images/product-chg-talaria-72v.jpg",
+    "desc": "Official Talaria 72V charger for the Sting MX5 Pro and Komodo battery packs. Not interchangeable with 60V Talaria models.",
+    "brand": "Talaria",
+    "name": "Talaria 72V Charger (MX5 / Komodo)",
+    "specs": [
+      "72V charger",
+      "Smart protection",
+      "UK plug"
+    ],
+    "price": "£119",
+    "tags": [
+      "batteries"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "bat-stark-varg",
+    "img": "/images/product-bat-stark-varg.jpg",
+    "desc": "Genuine replacement 6.5kWh battery pack for the Stark Varg MX 1.2 and Varg EX. Features the patented honeycomb magnesium \"Flying V\" case for cooling and a class-leading capacity-to-weight ratio.",
+    "brand": "Stark Varg",
+    "name": "Stark Varg 6.5kWh Replacement Battery Pack",
+    "specs": [
+      "6.5kWh",
+      "Honeycomb magnesium case",
+      "Fits Varg MX & EX"
+    ],
+    "price": "£3,499",
+    "tags": [
+      "batteries"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": "~£97/mo",
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "chg-stark-varg",
+    "img": "/images/product-chg-stark-varg.jpg",
+    "desc": "Official Stark Varg 3.3kW fast charger. Delivers a full battery charge in under 2 hours from a standard 220V power socket.",
+    "brand": "Stark Varg",
+    "name": "Stark Varg 3.3kW Fast Charger",
+    "specs": [
+      "3.3kW output",
+      "Full charge under 2hr",
+      "220V"
+    ],
+    "price": "£349",
+    "tags": [
+      "batteries"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "chg-stark-110v",
+    "img": "/images/product-chg-stark-110v.jpg",
+    "desc": "110V charging adapter for the Stark Varg fast charger, for use with 110V power sockets.",
+    "brand": "Stark Varg",
+    "name": "Stark Varg 110V Charging Adapter",
+    "specs": [
+      "110V adapter",
+      "For Varg charger",
+      "Compact"
+    ],
+    "price": "£89",
+    "tags": [
+      "batteries"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "bat-ktm-sxe5",
+    "img": "/images/product-bat-ktm-sxe5.jpg",
+    "desc": "Genuine KTM PowerPack lithium-ion battery for the SX-E 5. 84 cells in a die-cast aluminium casing storing 907Wh, with an integrated battery management system.",
+    "brand": "KTM",
+    "name": "KTM PowerPack 907Wh Battery (SX-E 5)",
+    "specs": [
+      "907Wh / 21Ah",
+      "84 Li-Ion cells",
+      "Fits SX-E 5"
+    ],
+    "price": "£1,299",
+    "tags": [
+      "batteries"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": "~£36/mo",
+    "color": "#ff6600",
+    "colours": []
+  },
+  {
+    "id": "bat-ktm-sxe3",
+    "img": "/images/product-bat-ktm-sxe3.jpg",
+    "desc": "Genuine KTM PowerPack lithium-ion battery for the SX-E 3. 60 cells storing 648Wh with an integrated BMS. The SX-E 3 can also be upgraded to the larger SX-E 5 pack.",
+    "brand": "KTM",
+    "name": "KTM PowerPack 648Wh Battery (SX-E 3)",
+    "specs": [
+      "648Wh",
+      "60 Li-Ion cells",
+      "Fits SX-E 3"
+    ],
+    "price": "£999",
+    "tags": [
+      "batteries"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": "~£28/mo",
+    "color": "#ff6600",
+    "colours": []
+  },
+  {
+    "id": "chg-ktm",
+    "img": "/images/product-chg-ktm.jpg",
+    "desc": "Official KTM 900W worldwide charger for the SX-E 2, SX-E 3 and SX-E 5. Connects to any 80-240V socket and charges the SX-E 5 from 0-80% in just 45 minutes.",
+    "brand": "KTM",
+    "name": "KTM 900W Charger (SX-E Range)",
+    "specs": [
+      "900W, 80-240V",
+      "0-80% in 45 min",
+      "Fits all SX-E"
+    ],
+    "price": "£249",
+    "tags": [
+      "batteries"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#ff6600",
+    "colours": []
+  },
+  {
+    "id": "bat-eride-72v",
+    "img": "/images/product-bat-eride-72v.jpg",
+    "desc": "Replacement 72V lithium-ion battery pack for the E Ride Pro SS 2.0 and S electric dirt bikes. Please contact us to confirm the exact pack for your model.",
+    "brand": "E Ride Pro",
+    "name": "E Ride Pro 72V Replacement Battery",
+    "specs": [
+      "72V Li-Ion",
+      "Fits SS 2.0 & S",
+      "Smart BMS"
+    ],
+    "price": "£849",
+    "tags": [
+      "batteries"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": "~£24/mo",
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "chg-eride-72v",
+    "img": "/images/product-chg-eride-72v.jpg",
+    "desc": "Replacement 72V charger for the E Ride Pro SS 2.0 and S electric dirt bikes. Safe, protected charging from a standard UK socket.",
+    "brand": "E Ride Pro",
+    "name": "E Ride Pro 72V Charger",
+    "specs": [
+      "72V charger",
+      "Smart protection",
+      "UK plug"
+    ],
+    "price": "£109",
+    "tags": [
+      "batteries"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "bat-rfn-ares",
+    "img": "/images/product-bat-rfn-ares.jpg",
+    "desc": "Replacement lithium-ion battery pack for the RFN Ares Rally and Rally Pro electric dirt bikes. Please contact us to confirm the exact pack for your model and year.",
+    "brand": "RFN",
+    "name": "RFN Ares Replacement Battery",
+    "specs": [
+      "Li-Ion pack",
+      "Fits Ares Rally / Pro",
+      "RFN OEM"
+    ],
+    "price": "£849",
+    "tags": [
+      "batteries"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": "~£24/mo",
+    "color": "#cc2200",
+    "colours": []
+  },
+  {
+    "id": "chg-rfn",
+    "img": "/images/product-chg-rfn.jpg",
+    "desc": "RFN OEM charger for the Ares and Warrior ranges. Reliable, protected charging from a standard UK socket.",
+    "brand": "RFN",
+    "name": "RFN OEM Charger",
+    "specs": [
+      "RFN OEM charger",
+      "Smart protection",
+      "UK plug"
+    ],
+    "price": "£99",
+    "tags": [
+      "batteries"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#cc2200",
+    "colours": []
+  },
+  {
+    "id": "bat-revvi-3618",
+    "img": "/images/product-bat-revvi-3618.jpg",
+    "desc": "Genuine removable 36V 5.0Ah battery pack to fit the Revvi 18in kids electric bike. Easy to swap for extended ride time.",
+    "brand": "Revvi",
+    "name": "Revvi 36V 5.0Ah Battery (18in)",
+    "specs": [
+      "36V 5.0Ah",
+      "Removable",
+      "Fits Revvi 18in"
+    ],
+    "price": "£99",
+    "tags": [
+      "batteries"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#0088ff",
+    "colours": []
+  },
+  {
+    "id": "chg-revvi-36v",
+    "img": "/images/product-chg-revvi-36v.jpg",
+    "desc": "Genuine Revvi 36V 3.0A charger for use with the Revvi 18in and 20in kids electric bikes.",
+    "brand": "Revvi",
+    "name": "Revvi 36V 3.0A Charger (18in / 20in)",
+    "specs": [
+      "36V 3.0A",
+      "Fits 18in & 20in",
+      "UK plug"
+    ],
+    "price": "£39",
+    "tags": [
+      "batteries"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#0088ff",
+    "colours": []
+  },
+  {
+    "id": "bat-revvi-small",
+    "desc": "Replacement battery pack for the Revvi 12in and 16in kids electric balance bikes. Please contact us to confirm the correct pack for your model.",
+    "brand": "Revvi",
+    "name": "Revvi Battery (12in / 16in)",
+    "specs": [
+      "Removable pack",
+      "Fits 12in & 16in",
+      "Revvi OEM"
+    ],
+    "price": "£69",
+    "tags": [
+      "batteries"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#0088ff",
+    "colours": []
+  },
+  {
+    "id": "chg-razor-24v",
+    "img": "/images/product-chg-razor-24v.jpg",
+    "desc": "Replacement 24V 2A battery charger for the Razor MX350 and MX400 Dirt Rocket electric dirt bikes.",
+    "brand": "Razor",
+    "name": "Razor 24V 2A Charger (MX350 / MX400)",
+    "specs": [
+      "24V 2A",
+      "Fits MX350 & MX400",
+      "UK plug"
+    ],
+    "price": "£25",
+    "tags": [
+      "batteries"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#cc2200",
+    "colours": []
+  },
+  {
+    "id": "bat-razor-24v",
+    "img": "/images/product-bat-razor-24v.jpg",
+    "desc": "Replacement 24V battery set (2 x 12V) for the Razor MX350 and MX400 Dirt Rocket electric dirt bikes.",
+    "brand": "Razor",
+    "name": "Razor 24V Battery Set (MX350 / MX400)",
+    "specs": [
+      "24V (2 x 12V)",
+      "Fits MX350 & MX400",
+      "Razor spec"
+    ],
+    "price": "£59",
+    "tags": [
+      "batteries"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#cc2200",
+    "colours": []
+  },
+  {
+    "id": "helmet-mx",
+    "img": "/images/product-helmet-mx.jpg",
+    "desc": "An ECE 22.06-certified adult off-road MX helmet — lightweight, well-ventilated and available in multiple sizes for electric dirt bike and quad riding.",
+    "brand": "VoltTrail",
+    "name": "Off-Road MX Helmet – Adult",
+    "specs": [
+      "ECE 22.06",
+      "Lightweight",
+      "Multiple sizes"
+    ],
+    "price": "£89",
+    "tags": [
+      "protection"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": [
+      {
+        "hex": "#333333",
+        "name": "Black"
+      },
+      {
+        "hex": "#ffffff",
+        "name": "White"
+      },
+      {
+        "hex": "#cc2200",
+        "name": "Red"
+      },
+      {
+        "hex": "#0088ff",
+        "name": "Blue"
+      }
+    ]
+  },
+  {
+    "id": "helmet-kids",
+    "img": "/images/product-helmet-kids.jpg",
+    "desc": "An ECE-certified kids' off-road MX helmet in junior sizes — lightweight protection for young electric dirt bike and quad riders.",
+    "brand": "VoltTrail",
+    "name": "Kids Off-Road MX Helmet",
+    "specs": [
+      "ECE certified",
+      "Junior sizes",
+      "Lightweight"
+    ],
+    "price": "£49",
+    "tags": [
+      "protection"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": [
+      {
+        "hex": "#333333",
+        "name": "Black"
+      },
+      {
+        "hex": "#cc2200",
+        "name": "Red"
+      },
+      {
+        "hex": "#aaff00",
+        "name": "Green"
+      }
+    ]
+  },
+  {
+    "id": "body-armour",
+    "img": "/images/product-body-armour.jpg",
+    "desc": "A CE Level 1 body armour set with chest and back protection — lightweight off-road protection for adult electric dirt bike and quad riders.",
+    "brand": "VoltTrail",
+    "name": "Body Armour Set – Chest & Back",
+    "specs": [
+      "CE Level 1",
+      "Adult",
+      "Lightweight"
+    ],
+    "price": "£65",
+    "tags": [
+      "protection"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "mx-goggles",
+    "img": "/images/product-mx-goggles.jpg",
+    "desc": "Anti-fog MX goggles with an adjustable strap and tear-off compatibility — clear vision for off-road electric dirt bike and quad riding.",
+    "brand": "VoltTrail",
+    "name": "MX Goggles – Anti-Fog",
+    "specs": [
+      "Anti-fog lens",
+      "Adjustable strap",
+      "Tear-off ready"
+    ],
+    "price": "£25",
+    "tags": [
+      "protection",
+      "gear"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": [
+      {
+        "hex": "#333333",
+        "name": "Black"
+      },
+      {
+        "hex": "#aaff00",
+        "name": "Green"
+      }
+    ]
+  },
+  {
+    "id": "mx-gloves",
+    "img": "/images/product-mx-gloves.jpg",
+    "desc": "Breathable off-road riding gloves with touchscreen-compatible fingertips, available in all sizes for electric dirt bike and quad riders.",
+    "brand": "VoltTrail",
+    "name": "Off-Road Riding Gloves",
+    "specs": [
+      "Breathable",
+      "Touchscreen",
+      "All sizes"
+    ],
+    "price": "£22",
+    "tags": [
+      "gear"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": [
+      {
+        "hex": "#333333",
+        "name": "Black"
+      },
+      {
+        "hex": "#cc2200",
+        "name": "Red"
+      }
+    ]
+  },
+  {
+    "id": "mx-boots",
+    "img": "/images/product-mx-boots.jpg",
+    "desc": "Adult motocross boots with strong ankle support, secure buckle closure and a grippy off-road sole for electric dirt bike and quad riding.",
+    "brand": "VoltTrail",
+    "name": "Motocross Boots – Adult",
+    "specs": [
+      "Ankle support",
+      "Buckle closure",
+      "Off-road sole"
+    ],
+    "price": "£119",
+    "tags": [
+      "gear"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": [
+      {
+        "hex": "#333333",
+        "name": "Black"
+      },
+      {
+        "hex": "#ffffff",
+        "name": "White"
+      }
+    ]
+  },
+  {
+    "id": "chain-sprocket",
+    "img": "/images/product-chain-sprocket.jpg",
+    "desc": "A durable off-road chain and sprocket kit sized to fit popular Sur-Ron and Talaria electric dirt bikes.",
+    "brand": "VoltTrail",
+    "name": "Chain & Sprocket Kit",
+    "specs": [
+      "Off-road spec",
+      "Sur-Ron/Talaria fit",
+      "Durable"
+    ],
+    "price": "£59",
+    "tags": [
+      "parts-upgrades"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "brake-pads",
+    "img": "/images/product-brake-pads.jpg",
+    "desc": "Sintered performance brake pads (sold as a pair) offering a strong bite and long service life for electric dirt bikes.",
+    "brand": "VoltTrail",
+    "name": "Performance Brake Pads (Pair)",
+    "specs": [
+      "Sintered",
+      "Strong bite",
+      "Long life"
+    ],
+    "price": "£29",
+    "tags": [
+      "parts-upgrades"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "offroad-tyre",
+    "img": "/images/product-offroad-tyre.jpg",
+    "desc": "An off-road knobbly tyre in 19in and 18in fitments, with an aggressive tread pattern for grip on dirt, trails and tracks.",
+    "brand": "VoltTrail",
+    "name": "Off-Road Knobbly Tyre",
+    "specs": [
+      "19in / 18in",
+      "Off-road tread",
+      "Tube type"
+    ],
+    "price": "£45",
+    "tags": [
+      "tyres"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "front-sprocket",
+    "img": "/images/product-front-sprocket.jpg",
+    "desc": "An upgraded front sprocket for Sur-Ron and Talaria electric dirt bikes — the cheapest, most popular performance mod. Change your gearing for more top speed or more low-end torque to suit your riding.",
+    "brand": "VoltTrail",
+    "name": "Upgraded Front Sprocket",
+    "specs": [
+      "Sur-Ron / Talaria fit",
+      "Changes gearing",
+      "Hardened steel"
+    ],
+    "price": "£24",
+    "tags": [
+      "parts-upgrades"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "inner-tube",
+    "img": "/images/product-inner-tube.jpg",
+    "desc": "A heavy-duty inner tube for 19in and 18in electric dirt bike wheels. A high-wear consumable — keep a spare for trail-side puncture repairs.",
+    "brand": "VoltTrail",
+    "name": "Heavy-Duty Inner Tube (19in / 18in)",
+    "specs": [
+      "19in / 18in",
+      "Heavy-duty",
+      "Puncture spare"
+    ],
+    "price": "£15",
+    "tags": [
+      "parts-upgrades"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "handlebar-kit",
+    "img": "/images/product-handlebar-kit.jpg",
+    "desc": "A handlebar and grips upgrade kit for electric dirt bikes — a popular comfort and control upgrade, and a common replacement after a fall. Improves feel and confidence on the trail.",
+    "brand": "VoltTrail",
+    "name": "Handlebar & Grips Upgrade Kit",
+    "specs": [
+      "Tapered alloy bar",
+      "Off-road grips",
+      "Universal fit"
+    ],
+    "price": "£45",
+    "tags": [
+      "parts-upgrades"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "kickstand",
+    "img": "/images/product-kickstand.jpg",
+    "desc": "A folding side stand for Sur-Ron and Talaria electric dirt bikes. The OEM stand is a common early weak point — this heavy-duty replacement is a popular upgrade.",
+    "brand": "VoltTrail",
+    "name": "Folding Side Stand / Kickstand",
+    "specs": [
+      "Sur-Ron / Talaria fit",
+      "Heavy-duty",
+      "Spring-loaded"
+    ],
+    "price": "£35",
+    "tags": [
+      "parts-upgrades"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "led-headlight",
+    "img": "/images/product-led-headlight.jpg",
+    "desc": "An LED headlight upgrade for electric dirt bikes — the top off-road visibility upgrade and an essential part of any road-legal conversion. Bright, low-draw and durable.",
+    "brand": "VoltTrail",
+    "name": "LED Headlight Upgrade",
+    "specs": [
+      "High-output LED",
+      "Low power draw",
+      "Off-road & road use"
+    ],
+    "price": "£49",
+    "tags": [
+      "parts-upgrades"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "cooling-fan",
+    "img": "/images/product-cooling-fan.jpg",
+    "desc": "A motor and controller cooling fan kit for electric dirt bikes — sought-after by riders pushing higher power. Helps keep your drivetrain cool on long, hard rides. Confirm fitment for your model.",
+    "brand": "VoltTrail",
+    "name": "Motor / Controller Cooling Fan Kit",
+    "specs": [
+      "Improves cooling",
+      "For higher power",
+      "Confirm fitment"
+    ],
+    "price": "£39",
+    "tags": [
+      "parts-upgrades"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "shinko-241",
+    "img": "/images/product-shinko-241.jpg",
+    "desc": "The Shinko 241 dual-sport tyre in 19in — the most popular tyre in the electric dirt bike segment. Excels on hard-pack, rocky trails and the road, making it the default choice for Sur-Ron and Talaria-class bikes.",
+    "brand": "Shinko",
+    "name": "Shinko 241 Dual-Sport Tyre (19in)",
+    "specs": [
+      "19in dual-sport",
+      "Hard-pack & road",
+      "Segment best-seller"
+    ],
+    "price": "£55",
+    "tags": [
+      "tyres"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "front-mx-tyre",
+    "img": "/images/product-front-mx-tyre.jpg",
+    "desc": "A front knobbly MX tyre in 70/100-19 — the front-specific companion to a rear knobbly. Aggressive tread for confident steering and grip on loose off-road terrain.",
+    "brand": "VoltTrail",
+    "name": "Front Knobbly MX Tyre (70/100-19)",
+    "specs": [
+      "70/100-19 front",
+      "Off-road tread",
+      "Sur-Ron / Talaria fit"
+    ],
+    "price": "£42",
+    "tags": [
+      "tyres"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "tyre-tubes-pair",
+    "img": "/images/product-tyre-tubes-pair.jpg",
+    "desc": "A pair of heavy-duty tyre tubes for electric dirt bikes — a high-turnover consumable bought with every new tyre. Keep spares for trail-side repairs.",
+    "brand": "VoltTrail",
+    "name": "Heavy-Duty Tyre Tubes (Pair)",
+    "specs": [
+      "Pair of tubes",
+      "Heavy-duty",
+      "19in / 18in"
+    ],
+    "price": "£22",
+    "tags": [
+      "tyres"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "wheel-rear",
+    "img": "/images/product-wheel-rear.jpg",
+    "desc": "A complete rear wheel for 19in electric dirt bikes with the tyre already fitted. Saves a workshop visit — a popular choice after rim damage. Confirm fitment for your model.",
+    "brand": "VoltTrail",
+    "name": "Complete Rear Wheel (19in, Tyre Fitted)",
+    "specs": [
+      "19in rear",
+      "Tyre pre-fitted",
+      "Confirm fitment"
+    ],
+    "price": "£199",
+    "tags": [
+      "tyres"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": []
+  },
+  {
+    "id": "wheel-front",
+    "img": "/images/product-wheel-front.jpg",
+    "desc": "A complete front wheel for 19in electric dirt bikes with the tyre already fitted. Sold as a pair option with the rear wheel — a fast fix after rim damage. Confirm fitment for your model.",
+    "brand": "VoltTrail",
+    "name": "Complete Front Wheel (19in, Tyre Fitted)",
+    "specs": [
+      "19in front",
+      "Tyre pre-fitted",
+      "Confirm fitment"
+    ],
+    "price": "£189",
+    "tags": [
+      "tyres"
+    ],
+    "badges": [
+      "stock"
+    ],
+    "finance": null,
+    "color": "#aaff00",
+    "colours": []
+  }
+]
