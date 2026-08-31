@@ -45,15 +45,15 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
       {/* Header */}
       <div className="bg-white border border-slate-200/90 rounded-3xl p-6 sm:p-10 shadow-xs">
         <div className="max-w-3xl space-y-3">
-          <div className="inline-flex items-center gap-2 bg-blue-50 border border-blue-200 text-blue-700 text-xs font-bold px-3 py-1 rounded-full shadow-2xs">
+          <div className="inline-flex items-center gap-2 bg-blue-50 border border-blue-200 text-blue-700 text-xs font-bold px-3 py-1 rounded-full shadow-2xs font-mono">
             <MessageSquare className="w-3.5 h-3.5" />
-            <span>UK Customer Care & Cytech Service Workshop</span>
+            <span>UK CUSTOMER CARE & WORKSHOP SUPPORT</span>
           </div>
-          <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 font-heading">
-            Get in Touch with Apex Ebikes UK
+          <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-950 font-heading">
+            Get in Touch with VoltTrail UK
           </h1>
           <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-            Whether you need advice choosing the right 250W commuter bike, want to redeem your Cyclescheme or GCI voucher, or require Cytech certified workshop service, our UK-based technical team is here to help.
+            Whether you need advice choosing the right electric off-road bike, want to enquire about 0% finance or Cycle to Work eligibility, or require certified workshop service and original spare parts, our UK specialist team is here to help.
           </p>
         </div>
 
@@ -73,7 +73,7 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
               <Mail className="w-4 h-4" />
             </div>
             <span className="text-xs text-slate-500 font-semibold uppercase font-mono block">Email Support</span>
-            <span className="text-sm font-bold text-slate-900 block font-heading">support@apexebikes.co.uk</span>
+            <span className="text-sm font-bold text-slate-900 block font-heading">support@volttrail.co.uk</span>
             <span className="text-[11px] text-emerald-700 font-medium block">Avg. response under 2 hours</span>
           </div>
 
@@ -81,16 +81,16 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
             <div className="w-8 h-8 rounded-lg bg-amber-100 text-amber-700 flex items-center justify-center mb-2">
               <Wrench className="w-4 h-4" />
             </div>
-            <span className="text-xs text-slate-500 font-semibold uppercase font-mono block">Cycle to Work Desk</span>
-            <span className="text-sm font-bold text-slate-900 block font-heading">c2w@apexebikes.co.uk</span>
-            <span className="text-[11px] text-slate-500 block">Instant voucher verification</span>
+            <span className="text-xs text-slate-500 font-semibold uppercase font-mono block">Technical Workshop</span>
+            <span className="text-sm font-bold text-slate-900 block font-heading">workshop@volttrail.co.uk</span>
+            <span className="text-[11px] text-slate-500 block">Spares, tuning & warranty</span>
           </div>
 
           <div className="bg-slate-50 border border-slate-200/80 rounded-2xl p-4 space-y-1.5">
             <div className="w-8 h-8 rounded-lg bg-indigo-100 text-indigo-700 flex items-center justify-center mb-2">
               <Clock className="w-4 h-4" />
             </div>
-            <span className="text-xs text-slate-500 font-semibold uppercase font-mono block">Birmingham Workshop</span>
+            <span className="text-xs text-slate-500 font-semibold uppercase font-mono block">UK Service Center</span>
             <span className="text-sm font-bold text-slate-900 block font-heading">Open Mon–Sat</span>
             <span className="text-[11px] text-slate-500 block">Sat: 9:00am – 5:00pm</span>
           </div>
@@ -105,7 +105,7 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
             Send an Enquiry to Our UK Team
           </h2>
           <p className="text-xs text-slate-600 mb-6">
-            Fill in the details below and an Apex e-bike specialist will respond with technical advice, voucher assistance, or workshop availability.
+            Fill in the details below and a VoltTrail electric machine specialist will respond with technical advice, stock reservation, or workshop availability.
           </p>
 
           {isSubmitted ? (
@@ -117,7 +117,7 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
                 Thank You, Message Dispatched!
               </h3>
               <p className="text-xs text-slate-600 max-w-md mx-auto leading-relaxed">
-                Your enquiry regarding <strong className="text-slate-900 font-medium">"{formData.subject}"</strong> has been assigned ticket <strong className="text-blue-600 font-mono font-bold">#APX-UK-2849</strong>. A technical advisor will reply to <span className="font-semibold text-slate-800">{formData.email || 'your email'}</span> within 2 business hours.
+                Your enquiry regarding <strong className="text-slate-900 font-medium">"{formData.subject}"</strong> has been assigned ticket <strong className="text-blue-600 font-mono font-bold">#VT-UK-2849</strong>. A Dirt Bike technical advisor will reply to <span className="font-semibold text-slate-800">{formData.email || 'your email'}</span> within 2 business hours.
               </p>
               <button
                 onClick={() => {

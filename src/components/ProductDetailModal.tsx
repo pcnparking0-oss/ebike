@@ -20,7 +20,8 @@ import {
   Sparkles,
   ShoppingBag,
   Clock,
-  RotateCcw
+  RotateCcw,
+  Landmark
 } from 'lucide-react';
 
 interface ProductDetailModalProps {
@@ -39,7 +40,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
   if (!product) return null;
 
   const [activeImageIndex, setActiveImageIndex] = useState(0);
-  const [selectedFinanceTab, setSelectedFinanceTab] = useState<'c2w' | 'novuna' | 'klarna'>('c2w');
+  const [selectedFinanceTab, setSelectedFinanceTab] = useState<'c2w' | 'novuna' | 'klarna' | 'bank_transfer'>('c2w');
   const [selectedTaxBand, setSelectedTaxBand] = useState<'basic' | 'higher' | 'additional'>('higher');
   const [selectedTerm, setSelectedTerm] = useState<12 | 18 | 24 | 36>(12);
   const [expandedFaqIndex, setExpandedFaqIndex] = useState<number | null>(0);
@@ -196,20 +197,31 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
 
                 {/* Interactive UK Finance & Scheme Calculator Switcher */}
                 <div className="border-t border-slate-200 pt-3">
-                  <div className="flex items-center gap-1.5 p-1 bg-slate-200/70 rounded-lg text-xs font-medium mb-3">
+                  <div className="flex items-center gap-1 p-1 bg-slate-200/70 rounded-lg text-xs font-medium mb-3 overflow-x-auto no-scrollbar">
                     <button
                       onClick={() => setSelectedFinanceTab('c2w')}
-                      className={`flex-1 py-1.5 px-2 rounded-md transition-all cursor-pointer ${
+                      className={`py-1.5 px-2.5 rounded-md transition-all cursor-pointer whitespace-nowrap ${
                         selectedFinanceTab === 'c2w'
                           ? 'bg-white text-slate-900 font-bold shadow-xs'
                           : 'text-slate-600 hover:text-slate-900'
                       }`}
                     >
-                      Cycle to Work (Save up to 47%)
+                      Cycle to Work (-47%)
+                    </button>
+                    <button
+                      onClick={() => setSelectedFinanceTab('bank_transfer')}
+                      className={`py-1.5 px-2.5 rounded-md transition-all cursor-pointer whitespace-nowrap flex items-center gap-1 ${
+                        selectedFinanceTab === 'bank_transfer'
+                          ? 'bg-white text-blue-900 font-bold shadow-xs'
+                          : 'text-slate-600 hover:text-slate-900'
+                      }`}
+                    >
+                      <Landmark className="w-3 h-3 text-blue-600" />
+                      <span>Bank Transfer</span>
                     </button>
                     <button
                       onClick={() => setSelectedFinanceTab('novuna')}
-                      className={`flex-1 py-1.5 px-2 rounded-md transition-all cursor-pointer ${
+                      className={`py-1.5 px-2.5 rounded-md transition-all cursor-pointer whitespace-nowrap ${
                         selectedFinanceTab === 'novuna'
                           ? 'bg-white text-slate-900 font-bold shadow-xs'
                           : 'text-slate-600 hover:text-slate-900'
@@ -219,7 +231,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                     </button>
                     <button
                       onClick={() => setSelectedFinanceTab('klarna')}
-                      className={`flex-1 py-1.5 px-2 rounded-md transition-all cursor-pointer ${
+                      className={`py-1.5 px-2.5 rounded-md transition-all cursor-pointer whitespace-nowrap ${
                         selectedFinanceTab === 'klarna'
                           ? 'bg-white text-slate-900 font-bold shadow-xs'
                           : 'text-slate-600 hover:text-slate-900'
@@ -285,6 +297,22 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
 
                       <p className="text-[10px] text-slate-500 italic">
                         *Deducted from gross salary before income tax & NI via Cyclescheme, Green Commute Initiative or Vivup.
+                      </p>
+                    </div>
+                  )}
+
+                  {/* Tab 1b: Direct Bank Transfer (BACS / Faster Payments) */}
+                  {selectedFinanceTab === 'bank_transfer' && (
+                    <div className="bg-white border border-blue-200 rounded-lg p-3 space-y-2 text-xs shadow-2xs">
+                      <div className="flex items-center justify-between">
+                        <span className="text-blue-950 font-bold flex items-center gap-1.5">
+                          <Landmark className="w-3.5 h-3.5 text-blue-600" />
+                          <span>Direct Bank Transfer (BACS / Faster Payments)</span>
+                        </span>
+                        <span className="font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded text-[10px] font-mono">0% Fee</span>
+                      </div>
+                      <p className="text-[11px] text-slate-600 leading-relaxed">
+                        Pay directly via BACS or UK Faster Payments. An official HMRC-compliant VAT proforma invoice and payment reference will be issued upon placing your order.
                       </p>
                     </div>
                   )}

@@ -145,11 +145,11 @@ export const PrivacyPolicy: React.FC<PrivacyPolicyProps> = ({ onNavigateToView }
           <p className="mt-0.5">To exercise any statutory data rights or query cookie preferences, email our data team directly.</p>
         </div>
         <a
-          href="mailto:dpo@apexebikes.co.uk"
+          href="mailto:dpo@volttrail.co.uk"
           className="inline-flex items-center gap-2 bg-white hover:bg-slate-100 border border-slate-200 text-blue-600 px-4 py-2 rounded-lg font-bold transition-all shadow-2xs cursor-pointer shrink-0"
         >
           <Mail className="w-4 h-4" />
-          <span>dpo@apexebikes.co.uk</span>
+          <span>dpo@volttrail.co.uk</span>
         </a>
       </div>
     </div>

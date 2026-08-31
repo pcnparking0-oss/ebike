@@ -103,12 +103,12 @@ export function generateProductJsonLd(product: Product) {
     "gtin13": product.gtin13,
     "brand": {
       "@type": "Brand",
-      "name": "Apex Ebikes UK"
+      "name": "VoltTrail UK"
     },
-    "category": `Sporting Goods > Cycling > Electric Bicycles > ${product.category}`,
+    "category": `Sporting Goods > Cycling > Electric Dirt Bikes > ${product.category}`,
     "offers": {
       "@type": "Offer",
-      "url": `https://apexebikes.co.uk/products/${product.slug}`,
+      "url": `https://volttrail.co.uk/products/${product.slug}`,
       "priceCurrency": "GBP",
       "price": product.priceGBP.toFixed(2),
       "priceValidUntil": "2026-12-31",
@@ -116,7 +116,7 @@ export function generateProductJsonLd(product: Product) {
       "availability": product.inStock ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
       "seller": {
         "@type": "Organization",
-        "name": "Apex Ebikes UK Ltd"
+        "name": "VoltTrail UK Ltd"
       },
       "shippingDetails": {
         "@type": "OfferShippingDetails",
@@ -197,10 +197,10 @@ export function generateLocalBusinessJsonLd() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "BicycleStore",
-    "name": "Apex Ebikes UK Flagship Showroom & Service Hub",
+    "name": "VoltTrail UK Flagship Electric Dirt Bike & Motocross Hub",
     "image": "https://images.unsplash.com/photo-1571068316344-75bc76f77890?auto=format&fit=crop&w=1200&q=80",
-    "@id": "https://apexebikes.co.uk/#london-store",
-    "url": "https://apexebikes.co.uk",
+    "@id": "https://volttrail.co.uk/#london-store",
+    "url": "https://volttrail.co.uk",
     "telephone": "+44 20 7946 0888",
     "priceRange": "£££",
     "address": {
