@@ -60,59 +60,65 @@ export const HomePage: React.FC<HomePageProps> = ({
 
   return (
     <div className="space-y-12 pb-16 animate-fade-in text-slate-800">
-      {/* 1. Hero Section - Full Frame 3:2 Uncropped Cover Image Showing Full Rider & Bike */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4">
-        <div className="relative w-full rounded-2xl sm:rounded-3xl overflow-hidden shadow-xl border border-slate-200/80 bg-slate-950 aspect-[3/2] max-h-[640px] group">
-          <picture className="w-full h-full block">
-            {/* Ultra-high quality WebP for modern browsers */}
-            <source
-              type="image/webp"
-              srcSet="/images/hero-cover-desktop.webp 2400w, /images/hero-cover-tablet.jpg 1500w, /images/hero-cover-mobile.jpg 900w"
-              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 1280px"
-            />
-            {/* Progressive High-Res JPEG Fallbacks for all viewports */}
-            <source
-              media="(min-width: 1024px)"
-              srcSet="/images/hero-cover-desktop.jpg 2400w, /images/hero-cover.jpg 1600w"
-              sizes="1280px"
-            />
-            <source
-              media="(min-width: 640px)"
-              srcSet="/images/hero-cover-tablet.jpg 1500w"
-              sizes="(max-width: 1024px) 100vw, 1200px"
-            />
-            <img
-              id="hero-cover-image"
-              src="/images/hero-cover-desktop.jpg"
-              srcSet="/images/hero-cover-mobile.jpg 900w, /images/hero-cover-tablet.jpg 1500w, /images/hero-cover-desktop.jpg 2400w"
-              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 1280px"
-              alt="VoltTrail Electric Dirt Bike and Rider on Mountain Trail"
-              referrerPolicy="no-referrer"
-              className="w-full h-full object-contain sm:object-cover object-center transform group-hover:scale-[1.01] transition-transform duration-700 ease-out"
-              loading="eager"
-              decoding="async"
-            />
-          </picture>
+      {/* 1. Hero Section - Full Screen Length with Cinematic Dark Hover Effect */}
+      <section className="relative w-full h-[65vh] sm:h-[80vh] lg:h-[88vh] min-h-[500px] max-h-[920px] overflow-hidden bg-slate-950 border-b border-slate-800 shadow-2xl group cursor-pointer" onClick={() => onNavigateToView('shop')}>
+        <picture className="w-full h-full block">
+          {/* Ultra-high quality WebP for modern browsers */}
+          <source
+            type="image/webp"
+            srcSet="/images/hero-cover-desktop.webp 2400w, /images/hero-cover-tablet.jpg 1500w, /images/hero-cover-mobile.jpg 900w"
+            sizes="100vw"
+          />
+          {/* Progressive High-Res JPEG Fallbacks for all viewports */}
+          <source
+            media="(min-width: 1024px)"
+            srcSet="/images/hero-cover-desktop.jpg 2400w, /images/hero-cover.jpg 1600w"
+            sizes="100vw"
+          />
+          <source
+            media="(min-width: 640px)"
+            srcSet="/images/hero-cover-tablet.jpg 1500w"
+            sizes="100vw"
+          />
+          <img
+            id="hero-cover-image"
+            src="/images/hero-cover-desktop.jpg"
+            srcSet="/images/hero-cover-mobile.jpg 900w, /images/hero-cover-tablet.jpg 1500w, /images/hero-cover-desktop.jpg 2400w"
+            sizes="100vw"
+            alt="VoltTrail Electric Dirt Bike and Rider on Mountain Trail"
+            referrerPolicy="no-referrer"
+            className="w-full h-full object-cover object-center transform scale-100 group-hover:scale-[1.02] transition-all duration-700 ease-out group-hover:brightness-90"
+            loading="eager"
+            decoding="async"
+          />
+        </picture>
 
-          {/* Minimal soft gradient overlay at bottom edge to protect readability */}
-          <div className="absolute inset-x-0 bottom-0 h-24 sm:h-28 bg-gradient-to-t from-slate-950/70 via-slate-950/20 to-transparent pointer-events-none" />
+        {/* Dark Hover Overlay - Smooth darkening transition on hover */}
+        <div className="absolute inset-0 bg-slate-950/15 group-hover:bg-slate-950/55 transition-colors duration-500 pointer-events-none" />
 
-          {/* Floating Tagline and Shop Button - Clean and unobtrusive */}
-          <div className="absolute bottom-3 sm:bottom-5 left-3 sm:left-6 right-3 sm:right-6 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-2 sm:gap-3 z-10">
-            <div className="bg-slate-950/60 backdrop-blur-md px-3.5 sm:px-4 py-1.5 sm:py-2 rounded-xl border border-white/15 text-white shadow-lg">
-              <p className="text-[11px] sm:text-xs font-semibold tracking-wide font-heading flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shrink-0"></span>
-                <span className="truncate sm:whitespace-normal">Unleash The Trail • High Performance Electric Dirt Bikes</span>
+        {/* Ambient bottom gradient to anchor the tagline & shop button */}
+        <div className="absolute inset-x-0 bottom-0 h-44 bg-gradient-to-t from-slate-950/90 via-slate-950/40 to-transparent pointer-events-none" />
+
+        {/* Floating Tagline and Shop Button - Clean and responsive within max container */}
+        <div className="absolute bottom-6 sm:bottom-8 inset-x-0 z-10 pointer-events-none">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 pointer-events-auto">
+            <div className="bg-slate-950/70 group-hover:bg-slate-950/85 backdrop-blur-md px-4 py-2.5 rounded-xl border border-white/20 text-white shadow-2xl transition-colors duration-300">
+              <p className="text-xs sm:text-sm font-semibold tracking-wide font-heading flex items-center gap-2">
+                <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse shrink-0"></span>
+                <span>Unleash The Trail • High Performance Electric Dirt Bikes</span>
               </p>
             </div>
 
             <button
-              onClick={() => onNavigateToView('shop')}
-              className="bg-blue-600 hover:bg-blue-500 text-white text-xs sm:text-sm font-bold px-4 sm:px-5 py-2 sm:py-2.5 rounded-xl shadow-lg hover:shadow-blue-600/40 transition-all flex items-center justify-center gap-2 cursor-pointer backdrop-blur-xs active:scale-95 shrink-0"
+              onClick={(e) => {
+                e.stopPropagation();
+                onNavigateToView('shop');
+              }}
+              className="bg-blue-600 hover:bg-blue-500 text-white text-xs sm:text-sm font-bold px-6 py-3 rounded-xl shadow-xl hover:shadow-blue-600/50 transition-all flex items-center justify-center gap-2.5 cursor-pointer backdrop-blur-xs active:scale-95 shrink-0 group/btn"
             >
-              <ShoppingBag className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-              <span>Shop Now</span>
-              <ArrowRight className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+              <ShoppingBag className="w-4 h-4" />
+              <span>Shop All Bikes</span>
+              <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-0.5 transition-transform" />
             </button>
           </div>
         </div>
