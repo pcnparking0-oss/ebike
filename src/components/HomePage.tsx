@@ -60,47 +60,47 @@ export const HomePage: React.FC<HomePageProps> = ({
 
   return (
     <div className="space-y-12 pb-16 animate-fade-in text-slate-800">
-      {/* 1. Hero Section - Crisp High-Resolution Multi-Device Cover Image with Tagline and Shop Button */}
+      {/* 1. Hero Section - Full Frame 3:2 Uncropped Cover Image Showing Full Rider & Bike */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4">
-        <div className="relative w-full rounded-2xl sm:rounded-3xl overflow-hidden shadow-xl border border-slate-200/80 bg-slate-900 aspect-[16/10] sm:aspect-[16/9] md:aspect-[21/9] max-h-[520px] group">
+        <div className="relative w-full rounded-2xl sm:rounded-3xl overflow-hidden shadow-xl border border-slate-200/80 bg-slate-950 aspect-[3/2] max-h-[640px] group">
           <picture className="w-full h-full block">
             {/* Ultra-high quality WebP for modern browsers */}
             <source
               type="image/webp"
-              srcSet="/images/hero-cover-desktop.webp 2400w, /images/hero-cover-tablet.jpg 1200w, /images/hero-cover-mobile.jpg 768w"
+              srcSet="/images/hero-cover-desktop.webp 2400w, /images/hero-cover-tablet.jpg 1500w, /images/hero-cover-mobile.jpg 900w"
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 1280px"
             />
             {/* Progressive High-Res JPEG Fallbacks for all viewports */}
             <source
               media="(min-width: 1024px)"
-              srcSet="/images/hero-cover-desktop.jpg 2400w, /images/hero-cover.jpg 1920w"
+              srcSet="/images/hero-cover-desktop.jpg 2400w, /images/hero-cover.jpg 1600w"
               sizes="1280px"
             />
             <source
               media="(min-width: 640px)"
-              srcSet="/images/hero-cover-tablet.jpg 1200w"
+              srcSet="/images/hero-cover-tablet.jpg 1500w"
               sizes="(max-width: 1024px) 100vw, 1200px"
             />
             <img
               id="hero-cover-image"
               src="/images/hero-cover-desktop.jpg"
-              srcSet="/images/hero-cover-mobile.jpg 768w, /images/hero-cover-tablet.jpg 1200w, /images/hero-cover-desktop.jpg 2400w"
+              srcSet="/images/hero-cover-mobile.jpg 900w, /images/hero-cover-tablet.jpg 1500w, /images/hero-cover-desktop.jpg 2400w"
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 1280px"
-              alt="VoltTrail Electric Dirt Bikes & Mountain Trail Riding"
+              alt="VoltTrail Electric Dirt Bike and Rider on Mountain Trail"
               referrerPolicy="no-referrer"
-              className="w-full h-full object-cover object-center transform group-hover:scale-[1.01] transition-transform duration-700 ease-out"
+              className="w-full h-full object-contain sm:object-cover object-center transform group-hover:scale-[1.01] transition-transform duration-700 ease-out"
               loading="eager"
               decoding="async"
             />
           </picture>
 
-          {/* Subtle bottom gradient to highlight tagline and shop button cleanly */}
-          <div className="absolute inset-x-0 bottom-0 h-32 sm:h-36 bg-gradient-to-t from-slate-950/80 via-slate-950/25 to-transparent pointer-events-none" />
+          {/* Minimal soft gradient overlay at bottom edge to protect readability */}
+          <div className="absolute inset-x-0 bottom-0 h-24 sm:h-28 bg-gradient-to-t from-slate-950/70 via-slate-950/20 to-transparent pointer-events-none" />
 
-          {/* Floating Tagline and Shop Button - Responsive for Mobile and Desktop */}
-          <div className="absolute bottom-3 sm:bottom-6 left-3 sm:left-6 right-3 sm:right-6 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-2.5 sm:gap-3 z-10">
-            <div className="bg-slate-950/70 backdrop-blur-md px-3.5 sm:px-4 py-2 sm:py-2.5 rounded-xl border border-white/15 text-white shadow-lg">
-              <p className="text-[11px] sm:text-sm font-semibold tracking-wide font-heading flex items-center gap-2">
+          {/* Floating Tagline and Shop Button - Clean and unobtrusive */}
+          <div className="absolute bottom-3 sm:bottom-5 left-3 sm:left-6 right-3 sm:right-6 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-2 sm:gap-3 z-10">
+            <div className="bg-slate-950/60 backdrop-blur-md px-3.5 sm:px-4 py-1.5 sm:py-2 rounded-xl border border-white/15 text-white shadow-lg">
+              <p className="text-[11px] sm:text-xs font-semibold tracking-wide font-heading flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shrink-0"></span>
                 <span className="truncate sm:whitespace-normal">Unleash The Trail • High Performance Electric Dirt Bikes</span>
               </p>
@@ -108,11 +108,11 @@ export const HomePage: React.FC<HomePageProps> = ({
 
             <button
               onClick={() => onNavigateToView('shop')}
-              className="bg-blue-600 hover:bg-blue-500 text-white text-xs sm:text-sm font-bold px-5 py-2.5 rounded-xl shadow-lg hover:shadow-blue-600/40 transition-all flex items-center justify-center gap-2 cursor-pointer backdrop-blur-xs active:scale-95 shrink-0"
+              className="bg-blue-600 hover:bg-blue-500 text-white text-xs sm:text-sm font-bold px-4 sm:px-5 py-2 sm:py-2.5 rounded-xl shadow-lg hover:shadow-blue-600/40 transition-all flex items-center justify-center gap-2 cursor-pointer backdrop-blur-xs active:scale-95 shrink-0"
             >
-              <ShoppingBag className="w-4 h-4" />
+              <ShoppingBag className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
               <span>Shop Now</span>
-              <ArrowRight className="w-4 h-4" />
+              <ArrowRight className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
             </button>
           </div>
         </div>

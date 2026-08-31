@@ -58,8 +58,13 @@ export const Footer: React.FC<FooterProps> = ({ onSelectView }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
         <div className="lg:col-span-2">
           <div className="flex items-center gap-2.5 mb-3">
-            <div className="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center text-white">
-              <Bike className="w-4 h-4" />
+            <div className="w-8 h-8 rounded-lg overflow-hidden bg-slate-900 border border-slate-200 flex items-center justify-center shrink-0 shadow-2xs">
+              <img
+                src="/images/site-icon.png"
+                alt="VoltTrail UK Site Icon"
+                className="w-full h-full object-cover"
+                referrerPolicy="no-referrer"
+              />
             </div>
             <span className="text-base font-extrabold text-slate-900 font-heading tracking-tight">VOLTTRAIL UK</span>
           </div>

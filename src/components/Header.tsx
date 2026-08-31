@@ -111,9 +111,14 @@ export const Header: React.FC<HeaderProps> = ({
       {/* Main Brand Bar */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex items-center justify-between gap-4">
         {/* Brand Logo */}
-        <div className="flex items-center gap-3 cursor-pointer" onClick={() => onSelectView('home')}>
-          <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center shadow-sm text-white">
-            <Bike className="w-5 h-5" />
+        <div className="flex items-center gap-3 cursor-pointer group" onClick={() => onSelectView('home')}>
+          <div className="w-10 h-10 rounded-xl overflow-hidden shadow-sm bg-slate-900 border border-slate-200/80 flex items-center justify-center group-hover:scale-105 transition-transform shrink-0">
+            <img
+              src="/images/site-icon.png"
+              alt="VoltTrail UK Site Icon"
+              className="w-full h-full object-cover"
+              referrerPolicy="no-referrer"
+            />
           </div>
           <div>
             <div className="flex items-center gap-1.5">
