@@ -72,8 +72,8 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
             <div className="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center mb-2">
               <Mail className="w-4 h-4" />
             </div>
-            <span className="text-xs text-slate-500 font-semibold uppercase font-mono block">Email Support</span>
-            <span className="text-sm font-bold text-slate-900 block font-heading">support@volttrail.co.uk</span>
+            <span className="text-xs text-slate-500 font-semibold uppercase font-mono block">Email Support & Sales</span>
+            <span className="text-sm font-bold text-slate-900 block font-heading">sales@ebikessales.online</span>
             <span className="text-[11px] text-emerald-700 font-medium block">Avg. response under 2 hours</span>
           </div>
 
