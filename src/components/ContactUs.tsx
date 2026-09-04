@@ -50,7 +50,7 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
             <span>UK CUSTOMER CARE & WORKSHOP SUPPORT</span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-950 font-heading">
-            Get in Touch with VoltTrail UK
+            Get in Touch with Electric Dirt Bikes
           </h1>
           <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
             Whether you need advice choosing the right electric off-road bike, want to enquire about 0% finance or Cycle to Work eligibility, or require certified workshop service and original spare parts, our UK specialist team is here to help.
@@ -82,7 +82,7 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
               <Wrench className="w-4 h-4" />
             </div>
             <span className="text-xs text-slate-500 font-semibold uppercase font-mono block">Technical Workshop</span>
-            <span className="text-sm font-bold text-slate-900 block font-heading">workshop@volttrail.co.uk</span>
+            <span className="text-sm font-bold text-slate-900 block font-heading">workshop@ebikessales.online</span>
             <span className="text-[11px] text-slate-500 block">Spares, tuning & warranty</span>
           </div>
 
@@ -105,7 +105,7 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
             Send an Enquiry to Our UK Team
           </h2>
           <p className="text-xs text-slate-600 mb-6">
-            Fill in the details below and a VoltTrail electric machine specialist will respond with technical advice, stock reservation, or workshop availability.
+            Fill in the details below and an Electric Dirt Bikes specialist will respond with technical advice, stock reservation, or workshop availability.
           </p>
 
           {isSubmitted ? (

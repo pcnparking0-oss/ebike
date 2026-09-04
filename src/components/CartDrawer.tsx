@@ -61,13 +61,13 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
       setVoucherDiscount(discount);
       setAppliedVoucher(`Cycle to Work Certificate (${code})`);
       setVoucherCode('');
-    } else if (code === 'VOLT10' || code === 'APEX10') {
+    } else if (code === 'VOLT10' || code === 'APEX10' || code === 'DIRT10') {
       const discount = Math.round(subtotal * 0.10);
       setVoucherDiscount(discount);
-      setAppliedVoucher('VoltTrail 10% Welcome Discount');
+      setAppliedVoucher('Electric Dirt Bikes 10% Welcome Discount');
       setVoucherCode('');
     } else {
-      alert('Voucher not recognised. Try entering "VOLT10" for 10% off, or "CYCLESCHEME-2026" for Cycle to Work voucher redemption.');
+      alert('Voucher not recognised. Try entering "DIRT10" for 10% off, or "CYCLESCHEME-2026" for Cycle to Work voucher redemption.');
     }
   };
 

@@ -103,12 +103,12 @@ export function generateProductJsonLd(product: Product) {
     "gtin13": product.gtin13,
     "brand": {
       "@type": "Brand",
-      "name": "VoltTrail UK"
+      "name": "Electric Dirt Bikes"
     },
     "category": `Sporting Goods > Cycling > Electric Dirt Bikes > ${product.category}`,
     "offers": {
       "@type": "Offer",
-      "url": `https://volttrail.co.uk/products/${product.slug}`,
+      "url": `https://ebikessales.online/products/${product.slug}`,
       "priceCurrency": "GBP",
       "price": product.priceGBP.toFixed(2),
       "priceValidUntil": "2026-12-31",
@@ -116,7 +116,7 @@ export function generateProductJsonLd(product: Product) {
       "availability": product.inStock ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
       "seller": {
         "@type": "Organization",
-        "name": "VoltTrail UK Ltd"
+        "name": "Electric Dirt Bikes Ltd"
       },
       "shippingDetails": {
         "@type": "OfferShippingDetails",
@@ -197,10 +197,10 @@ export function generateLocalBusinessJsonLd() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "BicycleStore",
-    "name": "VoltTrail UK Flagship Electric Dirt Bike & Motocross Hub",
+    "name": "Electric Dirt Bikes Flagship Hub",
     "image": "https://images.unsplash.com/photo-1571068316344-75bc76f77890?auto=format&fit=crop&w=1200&q=80",
-    "@id": "https://volttrail.co.uk/#london-store",
-    "url": "https://volttrail.co.uk",
+    "@id": "https://ebikessales.online/#london-store",
+    "url": "https://ebikessales.online",
     "telephone": "+44 20 7946 0888",
     "priceRange": "£££",
     "address": {

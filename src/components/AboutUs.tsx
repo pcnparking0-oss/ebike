@@ -26,7 +26,7 @@ export const AboutUs: React.FC<AboutUsProps> = ({ onNavigateToView }) => {
       <div className="bg-white border border-slate-200/90 rounded-3xl p-6 sm:p-10 shadow-xs relative overflow-hidden">
         <div className="max-w-3xl space-y-4">
           <div className="inline-flex items-center gap-2 bg-blue-50 border border-blue-200 text-blue-700 text-xs font-bold px-3 py-1 rounded-full shadow-2xs">
-            <span className="text-sm">🇬🇧</span> Official UK Authorized Electric Dirt Bike Distributor
+            <span className="text-sm">🇬🇧</span> Official UK Authorized Electric Dirt Bikes Distributor
           </div>
           
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 font-heading tracking-tight leading-tight">
@@ -34,7 +34,7 @@ export const AboutUs: React.FC<AboutUsProps> = ({ onNavigateToView }) => {
           </h1>
           
           <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-            VoltTrail UK was established to provide British riders with authorized access to the world's most cutting-edge electric dirt bikes, motocross machines, road-legal electric enduro, e-MTB, and youth quads—complete with factory warranties, express UK dispatch, and professional workshop support.
+            Electric Dirt Bikes was established to provide riders with authorized access to the world's most cutting-edge electric dirt bikes, motocross machines, road-legal electric enduro, e-MTB, and youth quads—complete with factory warranties, express dispatch, and professional workshop support.
           </p>
 
           <div className="pt-2 flex items-center gap-3 flex-wrap">
@@ -119,13 +119,13 @@ export const AboutUs: React.FC<AboutUsProps> = ({ onNavigateToView }) => {
       <div className="bg-white border border-slate-200/90 rounded-2xl p-6 sm:p-8 shadow-xs grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         <div className="space-y-4">
           <span className="text-xs font-bold uppercase tracking-wider text-blue-600 font-mono">
-            VoltTrail UK Service & Support
+            Electric Dirt Bikes Service & Support
           </span>
           <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 font-heading">
             Dedicated to High-Performance Electric Riding
           </h2>
           <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-            VoltTrail UK was founded by motocross racers, enduro enthusiasts, and electric powertrain engineers passionate about quiet, high-torque off-road riding. We understand the performance, battery management, and trail durability needed for British terrain.
+            Electric Dirt Bikes was founded by motocross racers, enduro enthusiasts, and electric powertrain engineers passionate about quiet, high-torque off-road riding. We understand the performance, battery management, and trail durability needed for all terrain.
           </p>
           <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
             Whether you are hitting off-road trails, private motocross tracks, farming estates, or commuting on a road-legal Sur-Ron Light Bee L1e, our team is here to support you at every stage.
@@ -134,7 +134,7 @@ export const AboutUs: React.FC<AboutUsProps> = ({ onNavigateToView }) => {
           <ul className="space-y-2 text-xs text-slate-700 pt-2">
             <li className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-              <span>Full compliance with UK Consumer Rights Act 2015 & 30-Day Guarantee</span>
+              <span>Full compliance with Consumer Rights Act & 30-Day Guarantee</span>
             </li>
             <li className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-emerald-600" />
@@ -142,7 +142,7 @@ export const AboutUs: React.FC<AboutUsProps> = ({ onNavigateToView }) => {
             </li>
             <li className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-              <span>2-Year Comprehensive UK Warranty with domestic technical hotline support</span>
+              <span>2-Year Comprehensive Warranty with dedicated technical hotline support</span>
             </li>
           </ul>
         </div>
@@ -151,7 +151,7 @@ export const AboutUs: React.FC<AboutUsProps> = ({ onNavigateToView }) => {
           <div className="aspect-16/10 rounded-xl overflow-hidden bg-slate-200">
             <img
               src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=1000&q=80"
-              alt="VoltTrail UK Technical Facility"
+              alt="Electric Dirt Bikes Technical Facility"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
             />
@@ -159,7 +159,7 @@ export const AboutUs: React.FC<AboutUsProps> = ({ onNavigateToView }) => {
           <div className="flex items-center justify-between text-xs text-slate-600">
             <div className="flex items-center gap-1.5 font-medium">
               <MapPin className="w-4 h-4 text-blue-600" />
-              <span>VoltTrail UK Distribution Hub & Technical Workshop</span>
+              <span>Electric Dirt Bikes Distribution Hub & Technical Workshop</span>
             </div>
             <span className="bg-emerald-50 text-emerald-700 border border-emerald-200 px-2 py-0.5 rounded font-bold text-[10px]">
               Open Mon-Sat

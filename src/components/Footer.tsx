@@ -61,18 +61,18 @@ export const Footer: React.FC<FooterProps> = ({ onSelectView }) => {
             <div className="w-8 h-8 rounded-lg overflow-hidden bg-slate-900 border border-slate-200 flex items-center justify-center shrink-0 shadow-2xs">
               <img
                 src="/images/site-icon.png"
-                alt="VoltTrail UK Site Icon"
+                alt="Electric Dirt Bikes Site Icon"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
               />
             </div>
-            <span className="text-base font-extrabold text-slate-900 font-heading tracking-tight">VOLTTRAIL UK</span>
+            <span className="text-base font-extrabold text-slate-900 font-heading tracking-tight">ELECTRIC DIRT BIKES</span>
           </div>
           <p className="text-slate-600 text-xs max-w-sm mb-4 leading-relaxed">
             The UK's premier official dealer for electric dirt bikes, motocross, road-legal mopeds, e-MTB, and youth quads. Providing unparalleled performance, manufacturer warranties, and dedicated UK servicing.
           </p>
           <div className="space-y-1 text-[11px] text-slate-400">
-            <p>VoltTrail UK Ltd • Registered in England & Wales #14289012</p>
+            <p>Electric Dirt Bikes Ltd • Registered in England & Wales #14289012</p>
             <p>UK VAT Registration Number: GB 894 1209 44</p>
             <p>Official Distributor: Sur-Ron | Talaria | Stark Future | E-Ride Pro | RFN</p>
           </div>
@@ -187,7 +187,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectView }) => {
       <div className="border-t border-slate-100 py-4 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2 text-[11px] text-slate-500 flex-wrap">
-            <span>© 2026 VoltTrail UK Ltd. All rights reserved.</span>
+            <span>© 2026 Electric Dirt Bikes Ltd. All rights reserved.</span>
             <span>•</span>
             <span>Official UK Distributor for Sur-Ron, Talaria, Stark Future & E-Ride Pro</span>
           </div>

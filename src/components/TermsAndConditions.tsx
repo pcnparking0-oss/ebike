@@ -49,7 +49,7 @@ export const TermsAndConditions: React.FC<TermsAndConditionsProps> = ({ onNaviga
       title: '3. Accepted Payment Methods, Direct Bank Transfer & Invoicing',
       summary: 'Accepted payment methods include UK Direct Bank Transfer (BACS / Faster Payments), major debit/credit cards, 0% APR finance, and proforma invoices.',
       content: `• Direct Bank Transfer (BACS / Faster Payments): We accept direct transfers for all orders with a 0% processing surcharge. Orders paid by bank transfer are reserved immediately and released for workshop PDI upon confirmation of funds.
-• Payment Reference: Please ensure your unique VoltTrail Order Reference (e.g. VT-XXXXXX) is quoted with your transfer to ensure automated reconciliation.
+• Payment Reference: Please ensure your unique Electric Dirt Bikes Order Reference (e.g. EDB-XXXXXX) is quoted with your transfer to ensure automated reconciliation.
 • VAT Proforma Invoice: An official HMRC-compliant VAT invoice with full business credentials (GB 894 1209 44) is issued for all orders.
 • Cards & Finance: We accept Visa, Mastercard, American Express, and Klarna / Novuna 0% APR finance subject to status.`
     },
@@ -59,12 +59,12 @@ export const TermsAndConditions: React.FC<TermsAndConditionsProps> = ({ onNaviga
       summary: 'Terms governing voucher redemption with Cyclescheme, Green Commute Initiative (GCI), Vivup, and Halfords Cycle2Work.',
       content: `• Voucher Redemption: Cycle to Work vouchers issued by approved providers constitute full or partial payment. Your employer retains statutory ownership of the equipment during the hire period.
 • Cancellation of Scheme Orders: Once a Cycle to Work voucher is redeemed and the collection/delivery confirmation is signed, cancellations must be processed in accordance with your employer's salary sacrifice agreement and the scheme provider's terms.
-• Surcharges: Apex Ebikes UK does not apply hidden processing surcharges to Cycle to Work voucher redemptions.`
+• Surcharges: Electric Dirt Bikes does not apply hidden processing surcharges to Cycle to Work voucher redemptions.`
     },
     {
       id: 'two-year-warranty',
-      title: '5. 2-Year Comprehensive UK Warranty & Exclusions',
-      summary: 'Every new VoltTrail machine is covered by our comprehensive 2-Year UK domestic warranty backing frame, motor, controller, display, and battery.',
+      title: '5. 2-Year Comprehensive Warranty & Exclusions',
+      summary: 'Every new Electric Dirt Bikes machine is covered by our comprehensive 2-Year warranty backing frame, motor, controller, display, and battery.',
       content: `• What is Covered: 24 months coverage on the electric motor, electronic controller, LCD/TFT display, frame integrity, and lithium-ion battery (guaranteed to maintain at least 70% capacity over 500 charge cycles).
 • Excluded Wear & Tear Items: Brake pads, tyres, inner tubes, chains, cassette sprockets, and cables subject to normal operational friction.
 • Voiding Conditions: Warranty is voided if the machine is modified beyond manufacturer guidelines or exposed to high-pressure jet washing directly targeting sealed bearing cartridges.`
@@ -75,7 +75,7 @@ export const TermsAndConditions: React.FC<TermsAndConditionsProps> = ({ onNaviga
       summary: 'Information on Cytech Level 3 master assembly and DPD / DX Freight tracked shipping throughout Great Britain and Northern Ireland.',
       content: `• Cytech Level 3 Certified PDI: Prior to dispatch from our UK central facility, every bike undergoes an extensive 32-point safety check including brake hydraulic bleeding, spoke tension verification, suspension calibration, and battery diagnostic testing.
 • Delivery Timeframes: Mainland England, Wales, and Scottish Lowlands receive complimentary 24-48 hour delivery. Scottish Highlands, Islands, and Northern Ireland may require 3-5 working days.
-• Delivery Inspection: Please inspect the outer protective packaging upon arrival. In the rare event of transit damage, note this with the courier and notify support@volttrail.co.uk within 48 hours.`
+• Delivery Inspection: Please inspect the outer protective packaging upon arrival. In the rare event of transit damage, note this with the courier and notify sales@ebikessales.online within 48 hours.`
     },
     {
       id: 'jurisdiction',
@@ -154,13 +154,13 @@ export const TermsAndConditions: React.FC<TermsAndConditionsProps> = ({ onNaviga
 
       {/* Company Legal Footnote Box */}
       <div className="bg-slate-50 border border-slate-200 rounded-xl p-5 text-xs text-slate-600 space-y-2">
-        <h3 className="font-bold text-slate-900">VoltTrail UK Corporate Identity:</h3>
+        <h3 className="font-bold text-slate-900">Electric Dirt Bikes Corporate Identity:</h3>
         <p>
-          VoltTrail UK Ltd is a private limited company registered in England and Wales under company number 14289012.
+          Electric Dirt Bikes Ltd is a private limited company registered in England and Wales under company number 14289012.
           <br />
           Registered Office: 42 Innovation Way, Digbeth, Birmingham, B5 5TH, United Kingdom.
           <br />
-          VAT Registration: GB 894 1209 44 • Enquiries: legal@volttrail.co.uk
+          VAT Registration: GB 894 1209 44 • Enquiries: sales@ebikessales.online
         </p>
       </div>
     </div>
