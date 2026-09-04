@@ -336,7 +336,7 @@ export const UK_LOCAL_STORES = [
   {
     id: 'london-flagship',
     city: 'London',
-    name: 'Electric Dirt Bikes - London Flagship Hub',
+    name: 'DirtVolt - London Flagship Hub',
     streetAddress: '142-144 Old Street, Shoreditch',
     addressLocality: 'London',
     postalCode: 'EC1V 9BW',
@@ -352,7 +352,7 @@ export const UK_LOCAL_STORES = [
   {
     id: 'manchester-hub',
     city: 'Manchester',
-    name: 'Electric Dirt Bikes - Manchester Regional Hub',
+    name: 'DirtVolt - Manchester Regional Hub',
     streetAddress: 'Unit 4, Great Ancoats Street',
     addressLocality: 'Manchester',
     postalCode: 'M4 5AB',
@@ -368,7 +368,7 @@ export const UK_LOCAL_STORES = [
   {
     id: 'bristol-centre',
     city: 'Bristol',
-    name: 'Electric Dirt Bikes - Bristol Hill-Test & Service Centre',
+    name: 'DirtVolt - Bristol Hill-Test & Service Centre',
     streetAddress: '78 Gloucester Road, Bishopston',
     addressLocality: 'Bristol',
     postalCode: 'BS7 8BN',

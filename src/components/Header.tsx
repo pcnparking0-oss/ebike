@@ -115,7 +115,7 @@ export const Header: React.FC<HeaderProps> = ({
           <div className="w-10 h-10 rounded-xl overflow-hidden shadow-sm bg-slate-950 border border-slate-800 flex items-center justify-center group-hover:scale-105 group-hover:border-blue-500/50 transition-all duration-300 shrink-0">
             <img
               src="/images/site-icon.png"
-              alt="Electric Dirt Bikes Site Icon"
+              alt="DirtVolt Logo"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
             />
@@ -123,7 +123,7 @@ export const Header: React.FC<HeaderProps> = ({
           <div>
             <div className="flex items-center gap-1.5">
               <span className="text-xl font-extrabold tracking-tight text-slate-950 font-heading">
-                ELECTRIC <span className="text-blue-600">DIRT BIKES</span>
+                DIRT<span className="text-blue-600">VOLT</span>
               </span>
             </div>
             <p className="text-[11px] text-slate-500 font-medium tracking-tight hidden sm:block">

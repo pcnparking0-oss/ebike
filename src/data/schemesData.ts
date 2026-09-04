@@ -103,7 +103,7 @@ export function generateProductJsonLd(product: Product) {
     "gtin13": product.gtin13,
     "brand": {
       "@type": "Brand",
-      "name": "Electric Dirt Bikes"
+      "name": "DirtVolt"
     },
     "category": `Sporting Goods > Cycling > Electric Dirt Bikes > ${product.category}`,
     "offers": {
@@ -116,7 +116,7 @@ export function generateProductJsonLd(product: Product) {
       "availability": product.inStock ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
       "seller": {
         "@type": "Organization",
-        "name": "Electric Dirt Bikes Ltd"
+        "name": "DirtVolt Ltd"
       },
       "shippingDetails": {
         "@type": "OfferShippingDetails",
@@ -197,7 +197,7 @@ export function generateLocalBusinessJsonLd() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "BicycleStore",
-    "name": "Electric Dirt Bikes Flagship Hub",
+    "name": "DirtVolt Flagship Hub",
     "image": "https://images.unsplash.com/photo-1571068316344-75bc76f77890?auto=format&fit=crop&w=1200&q=80",
     "@id": "https://ebikessales.online/#london-store",
     "url": "https://ebikessales.online",

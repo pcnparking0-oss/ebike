@@ -49,9 +49,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IP67 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The Sur-Ron Ultra Bee MX 2025 is the do-it-all mid-weight electric dirt bike, delivering 11kW peak power, around 55mph and up to 50 miles of range. A favourite step-up for adult riders who have outgrown the Light Bee X. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "Sur-Ron Ultra Bee MX 2025 UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the Sur-Ron Ultra Bee MX 2025 in the UK at Electric Dirt Bikes. 11kW peak, 55mph, 50mi range. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The Sur-Ron Ultra Bee MX 2025 is the do-it-all mid-weight electric dirt bike, delivering 11kW peak power, around 55mph and up to 50 miles of range. A favourite step-up for adult riders who have outgrown the Light Bee X. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "Sur-Ron Ultra Bee MX 2025 UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the Sur-Ron Ultra Bee MX 2025 in the UK at DirtVolt. 11kW peak, 55mph, 50mi range. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 4070,
       "batteryBrand": "Sur-Ron 74V 55Ah High-Power Lithium Pack",
@@ -91,7 +91,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -143,9 +143,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IP65 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The Sur-Ron Light Bee X (LBX) is the UK's best-selling electric dirt bike. Lightweight, agile and endlessly upgradeable, with 6kW peak power and roughly 45mph for trails, pit-bike racing and backyard fun. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "Sur-Ron Light Bee X (LBX) UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the Sur-Ron Light Bee X (LBX) in the UK at Electric Dirt Bikes. 6kW peak, 45mph, 47mi range. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The Sur-Ron Light Bee X (LBX) is the UK's best-selling electric dirt bike. Lightweight, agile and endlessly upgradeable, with 6kW peak power and roughly 45mph for trails, pit-bike racing and backyard fun. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "Sur-Ron Light Bee X (LBX) UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the Sur-Ron Light Bee X (LBX) in the UK at DirtVolt. 6kW peak, 45mph, 47mi range. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 2280,
       "batteryBrand": "Sur-Ron 60V 38Ah High-Drain Lithium Battery",
@@ -185,7 +185,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -237,9 +237,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IP65 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The Sur-Ron Light Bee L1e is the road-legal version of the legendary Light Bee, type-approved for UK roads. Restricted to 28mph, it needs L-plates, insurance and a CBT, making it ideal for 16+ riders. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "Sur-Ron Light Bee L1e – Road Legal UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the Sur-Ron Light Bee L1e – Road Legal in the UK at Electric Dirt Bikes. 6kW peak, 28mph restricted, L1e road legal. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The Sur-Ron Light Bee L1e is the road-legal version of the legendary Light Bee, type-approved for UK roads. Restricted to 28mph, it needs L-plates, insurance and a CBT, making it ideal for 16+ riders. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "Sur-Ron Light Bee L1e – Road Legal UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the Sur-Ron Light Bee L1e – Road Legal in the UK at DirtVolt. 6kW peak, 28mph restricted, L1e road legal. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 2280,
       "batteryBrand": "Sur-Ron 60V 38Ah Removable Lithium Pack",
@@ -279,7 +279,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -331,9 +331,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IP67 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The Sur-Ron Storm Bee is a full-size electric motocross machine and a genuine 1:1 replacement for a 250-350cc petrol bike, with 21.5kW peak power, around 68mph and up to 60 miles of range. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "Sur-Ron Storm Bee UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the Sur-Ron Storm Bee in the UK at Electric Dirt Bikes. 21.5kW peak, 68mph, 60mi range. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The Sur-Ron Storm Bee is a full-size electric motocross machine and a genuine 1:1 replacement for a 250-350cc petrol bike, with 21.5kW peak power, around 68mph and up to 60 miles of range. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "Sur-Ron Storm Bee UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the Sur-Ron Storm Bee in the UK at DirtVolt. 21.5kW peak, 68mph, 60mi range. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 5720,
       "batteryBrand": "Sur-Ron 104V 55Ah Industrial Grade Lithium Pack",
@@ -373,7 +373,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -425,9 +425,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IP65 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The Sur-Ron Hyper Bee is the brand's youth and pit-bike model on 14in/12in wheels, bringing Sur-Ron build quality and ride feel to younger and smaller riders for off-road use. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "Sur-Ron Hyper Bee 2025 UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the Sur-Ron Hyper Bee 2025 in the UK at Electric Dirt Bikes. Youth/pit bike, 14in/12in wheels, Off-road. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The Sur-Ron Hyper Bee is the brand's youth and pit-bike model on 14in/12in wheels, bringing Sur-Ron build quality and ride feel to younger and smaller riders for off-road use. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "Sur-Ron Hyper Bee 2025 UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the Sur-Ron Hyper Bee 2025 in the UK at DirtVolt. Youth/pit bike, 14in/12in wheels, Off-road. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 1160,
       "batteryBrand": "Sur-Ron 58V 20Ah Removable Lithium Battery",
@@ -467,7 +467,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -519,9 +519,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IP67 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The Talaria Sting R MX4 is a popular adult off-road electric dirt bike with 8kW peak power, around 53mph and roughly 53 miles of range. Gear-drive delivery and a tough chassis make it a strong Sur-Ron rival. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "Talaria Sting R MX4 – Off Road UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the Talaria Sting R MX4 – Off Road in the UK at Electric Dirt Bikes. 8kW peak, 53mph, 53mi range. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The Talaria Sting R MX4 is a popular adult off-road electric dirt bike with 8kW peak power, around 53mph and roughly 53 miles of range. Gear-drive delivery and a tough chassis make it a strong Sur-Ron rival. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "Talaria Sting R MX4 – Off Road UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the Talaria Sting R MX4 – Off Road in the UK at DirtVolt. 8kW peak, 53mph, 53mi range. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 2700,
       "batteryBrand": "Talaria 60V 45Ah LG 21700 Lithium Pack",
@@ -561,7 +561,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -613,9 +613,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IP67 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The Talaria Sting L1e is the road-legal Sting, type-approved for UK roads at 28mph. It adds lights, indicators, mirrors and a number plate holder so 16+ riders can ride legally with a CBT. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "Talaria Sting L1e – Road Legal UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the Talaria Sting L1e – Road Legal in the UK at Electric Dirt Bikes. 8kW peak, 28mph L1e, Road legal. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The Talaria Sting L1e is the road-legal Sting, type-approved for UK roads at 28mph. It adds lights, indicators, mirrors and a number plate holder so 16+ riders can ride legally with a CBT. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "Talaria Sting L1e – Road Legal UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the Talaria Sting L1e – Road Legal in the UK at DirtVolt. 8kW peak, 28mph L1e, Road legal. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 2700,
       "batteryBrand": "Talaria 60V 45Ah Removable Lithium Battery",
@@ -655,7 +655,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -707,9 +707,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IP67 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The Talaria Sting MX5 Pro steps up to a 72V 40Ah battery for a substantial power and range boost over 60V models. Talaria's most potent Sting, built for demanding off-road riding. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "Talaria Sting MX5 Pro – 72V UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the Talaria Sting MX5 Pro – 72V in the UK at Electric Dirt Bikes. 72V 40Ah battery, Off-road, Gear drive. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The Talaria Sting MX5 Pro steps up to a 72V 40Ah battery for a substantial power and range boost over 60V models. Talaria's most potent Sting, built for demanding off-road riding. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "Talaria Sting MX5 Pro – 72V UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the Talaria Sting MX5 Pro – 72V in the UK at DirtVolt. 72V 40Ah battery, Off-road, Gear drive. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 2880,
       "batteryBrand": "Talaria 72V 40Ah High-Output Lithium Battery",
@@ -749,7 +749,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -801,9 +801,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IP65 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The Talaria X3 (also known as the XXX) features a distinctive frame-spanning 60V battery design and a lightweight chassis, offering precise handling for off-road adventures. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "Talaria X3 (XXX) UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the Talaria X3 (XXX) in the UK at Electric Dirt Bikes. 60V battery, Off-road, Lightweight chassis. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The Talaria X3 (also known as the XXX) features a distinctive frame-spanning 60V battery design and a lightweight chassis, offering precise handling for off-road adventures. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "Talaria X3 (XXX) UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the Talaria X3 (XXX) in the UK at DirtVolt. 60V battery, Off-road, Lightweight chassis. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Talaria 60V 40Ah Integrated Lithium Pack",
@@ -843,7 +843,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -895,9 +895,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IP67 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The Talaria Komodo TL6000 is a high-power electric dirt bike with 22kW peak power, around 66mph and up to 70 miles of range — Talaria's answer to high-end electric performance bikes. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "Talaria Komodo TL6000 UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the Talaria Komodo TL6000 in the UK at Electric Dirt Bikes. 22kW peak, 66mph, 70mi range. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The Talaria Komodo TL6000 is a high-power electric dirt bike with 22kW peak power, around 66mph and up to 70 miles of range — Talaria's answer to high-end electric performance bikes. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "Talaria Komodo TL6000 UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the Talaria Komodo TL6000 in the UK at DirtVolt. 22kW peak, 66mph, 70mi range. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 3600,
       "batteryBrand": "Talaria 72V 50Ah High Discharge Pack",
@@ -937,7 +937,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -989,9 +989,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IP69K Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The Stark Varg MX 1.2 is the world's most powerful electric motocross bike, with up to 80HP, a 7.2kWh battery and KYB suspension. The MX 1.2 brings a lighter chassis and around 20% more range. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "Stark Varg Varg MX 1.2 UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the Stark Varg Varg MX 1.2 in the UK at Electric Dirt Bikes. 60kW / 80HP, 7.2kWh battery, KYB suspension. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The Stark Varg MX 1.2 is the world's most powerful electric motocross bike, with up to 80HP, a 7.2kWh battery and KYB suspension. The MX 1.2 brings a lighter chassis and around 20% more range. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "Stark Varg Varg MX 1.2 UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the Stark Varg Varg MX 1.2 in the UK at DirtVolt. 60kW / 80HP, 7.2kWh battery, KYB suspension. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 7200,
       "batteryBrand": "Stark Future 7.2kWh Flying V Honeycomb Pack",
@@ -1031,7 +1031,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -1083,9 +1083,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IP69K Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The Stark Varg EX is the road-legal version of the Varg, adding UK road approval and an 18in rear wheel for enduro use, with up to 80HP of fully adjustable electric power. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "Stark Varg Varg EX – Road Legal UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the Stark Varg Varg EX – Road Legal in the UK at Electric Dirt Bikes. 60kW / 80HP, Road legal, 73mi range. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The Stark Varg EX is the road-legal version of the Varg, adding UK road approval and an 18in rear wheel for enduro use, with up to 80HP of fully adjustable electric power. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "Stark Varg Varg EX – Road Legal UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the Stark Varg Varg EX – Road Legal in the UK at DirtVolt. 60kW / 80HP, Road legal, 73mi range. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 7200,
       "batteryBrand": "Stark Future 7.2kWh High-Density Honeycomb Pack",
@@ -1125,7 +1125,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -1177,9 +1177,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IP67 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The KTM SX-E 5 is an advanced all-electric youth motocross bike with 5kW peak power, a 907Wh battery and fully adjustable WP Xact suspension. A genuine READY TO RACE platform for junior racers. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "KTM SX-E 5 UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the KTM SX-E 5 in the UK at Electric Dirt Bikes. 5kW peak, 907Wh battery, WP Xact suspension. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The KTM SX-E 5 is an advanced all-electric youth motocross bike with 5kW peak power, a 907Wh battery and fully adjustable WP Xact suspension. A genuine READY TO RACE platform for junior racers. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "KTM SX-E 5 UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the KTM SX-E 5 in the UK at DirtVolt. 5kW peak, 907Wh battery, WP Xact suspension. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 907,
       "batteryBrand": "KTM PowerPack 48V Lithium-Ion (Quick Change)",
@@ -1219,7 +1219,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -1271,9 +1271,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IP67 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The KTM SX-E 3 is the ideal electric mini-crosser for thrill-seeking juniors, with a 3.8kW motor, 648Wh battery and six ride modes — the perfect step up from a balance bike. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "KTM SX-E 3 UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the KTM SX-E 3 in the UK at Electric Dirt Bikes. 3.8kW motor, 648Wh battery, 6 ride modes. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The KTM SX-E 3 is the ideal electric mini-crosser for thrill-seeking juniors, with a 3.8kW motor, 648Wh battery and six ride modes — the perfect step up from a balance bike. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "KTM SX-E 3 UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the KTM SX-E 3 in the UK at DirtVolt. 3.8kW motor, 648Wh battery, 6 ride modes. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 648,
       "batteryBrand": "KTM 48V Lithium-Ion Battery Pack",
@@ -1313,7 +1313,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -1365,9 +1365,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IP65 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The KTM SX-E 2 bridges the gap between a balance bike and the SX-E 3. On 10in wheels with adjustable ergonomics, it is the ideal first electric motorcycle for the youngest riders. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "KTM SX-E 2 UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the KTM SX-E 2 in the UK at Electric Dirt Bikes. Electric mini, 10in wheels, Youth entry. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The KTM SX-E 2 bridges the gap between a balance bike and the SX-E 3. On 10in wheels with adjustable ergonomics, it is the ideal first electric motorcycle for the youngest riders. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "KTM SX-E 2 UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the KTM SX-E 2 in the UK at DirtVolt. Electric mini, 10in wheels, Youth entry. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 280,
       "batteryBrand": "KTM BLi300 Power Tool Style Quick Battery",
@@ -1407,7 +1407,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -1459,9 +1459,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IP67 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The E Ride Pro SS 2.0 is a high-value 72V electric dirt bike with 12kW peak power and around 56mph. It sits between the Sur-Ron and Stark Varg price brackets for riders wanting more power affordably. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "E Ride Pro SS 2.0 (19in) – 72V 12kW UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the E Ride Pro SS 2.0 (19in) – 72V 12kW in the UK at Electric Dirt Bikes. 12kW peak, 56mph, 50mi range. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The E Ride Pro SS 2.0 is a high-value 72V electric dirt bike with 12kW peak power and around 56mph. It sits between the Sur-Ron and Stark Varg price brackets for riders wanting more power affordably. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "E Ride Pro SS 2.0 (19in) – 72V 12kW UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the E Ride Pro SS 2.0 (19in) – 72V 12kW in the UK at DirtVolt. 12kW peak, 56mph, 50mi range. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 2880,
       "batteryBrand": "E Ride Pro 72V 40Ah High Drain Lithium Pack",
@@ -1501,7 +1501,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -1553,9 +1553,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IP65 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The E Ride Pro S is the 17in, 72V 6kW model in the E Ride Pro range — a more compact, accessible off-road electric dirt bike with strong value. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "E Ride Pro S (17in) – 72V 6kW UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the E Ride Pro S (17in) – 72V 6kW in the UK at Electric Dirt Bikes. 6kW peak, 72V battery, Off-road. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The E Ride Pro S is the 17in, 72V 6kW model in the E Ride Pro range — a more compact, accessible off-road electric dirt bike with strong value. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "E Ride Pro S (17in) – 72V 6kW UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the E Ride Pro S (17in) – 72V 6kW in the UK at DirtVolt. 6kW peak, 72V battery, Off-road. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 2160,
       "batteryBrand": "E Ride Pro 72V 30Ah Lithium Battery",
@@ -1595,7 +1595,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -1647,9 +1647,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IP67 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The RFN Ares Rally is an award-winning adult off-road electric dirt bike with a 5kW motor, long range and 200mm of suspension travel. Its convertible design adapts from enduro to trail riding tool-free. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "RFN Ares Rally UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the RFN Ares Rally in the UK at Electric Dirt Bikes. 5kW motor, 140km range, 200mm travel. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The RFN Ares Rally is an award-winning adult off-road electric dirt bike with a 5kW motor, long range and 200mm of suspension travel. Its convertible design adapts from enduro to trail riding tool-free. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "RFN Ares Rally UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the RFN Ares Rally in the UK at DirtVolt. 5kW motor, 140km range, 200mm travel. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 2590,
       "batteryBrand": "RFN 74V 35Ah High Capacity Lithium Battery",
@@ -1689,7 +1689,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -1741,9 +1741,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IP67 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The RFN Ares Rally Pro is the race-focused version of the Ares Rally, with a 72V 12.5kW system and top-tier components built for competition and extreme off-road performance. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "RFN Ares Rally Pro UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the RFN Ares Rally Pro in the UK at Electric Dirt Bikes. Race-spec, 72V 12.5kW, Off-road MX. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The RFN Ares Rally Pro is the race-focused version of the Ares Rally, with a 72V 12.5kW system and top-tier components built for competition and extreme off-road performance. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "RFN Ares Rally Pro UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the RFN Ares Rally Pro in the UK at DirtVolt. Race-spec, 72V 12.5kW, Off-road MX. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 3182,
       "batteryBrand": "RFN 74V 43Ah High Discharge Lithium Pack",
@@ -1783,7 +1783,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -1835,9 +1835,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IP67 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The RFN Ares RS Endurance is the road-legal L1e model in the Ares range, with a 74V 4kW system designed for comfortable daily commuting with light off-road capability. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "RFN Ares RS Endurance (L1e) UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the RFN Ares RS Endurance (L1e) in the UK at Electric Dirt Bikes. 74V 4kW, Road legal L1e, Commuter. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The RFN Ares RS Endurance is the road-legal L1e model in the Ares range, with a 74V 4kW system designed for comfortable daily commuting with light off-road capability. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "RFN Ares RS Endurance (L1e) UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the RFN Ares RS Endurance (L1e) in the UK at DirtVolt. 74V 4kW, Road legal L1e, Commuter. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 2590,
       "batteryBrand": "RFN 74V 35Ah Removable Lithium Pack",
@@ -1877,7 +1877,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -1929,9 +1929,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IP65 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The RFN Warrior Youth SX-E5 is a kids' electric dirt bike aimed at 6-10 year olds, delivering a balanced mix of power and control to build young riders' confidence off-road. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "RFN Warrior Youth SX-E5 UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the RFN Warrior Youth SX-E5 in the UK at Electric Dirt Bikes. Ages 6-10, Off-road, Kids MX. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The RFN Warrior Youth SX-E5 is a kids' electric dirt bike aimed at 6-10 year olds, delivering a balanced mix of power and control to build young riders' confidence off-road. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "RFN Warrior Youth SX-E5 UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the RFN Warrior Youth SX-E5 in the UK at DirtVolt. Ages 6-10, Off-road, Kids MX. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 720,
       "batteryBrand": "RFN 48V 15Ah Lithium Pack",
@@ -1971,7 +1971,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -2023,9 +2023,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IP65 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The RFN Warrior Youth SX-E8 is a youth electric dirt bike for older kids, with more performance than the SX-E5 while keeping RFN's core safety technology. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "RFN Warrior Youth SX-E8 UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the RFN Warrior Youth SX-E8 in the UK at Electric Dirt Bikes. Youth, Off-road, Kids MX. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The RFN Warrior Youth SX-E8 is a youth electric dirt bike for older kids, with more performance than the SX-E5 while keeping RFN's core safety technology. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "RFN Warrior Youth SX-E8 UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the RFN Warrior Youth SX-E8 in the UK at DirtVolt. Youth, Off-road, Kids MX. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 960,
       "batteryBrand": "RFN 48V 20Ah Lithium Pack",
@@ -2065,7 +2065,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -2117,9 +2117,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IPX5 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The Revvi 12in is the UK's best-selling kids' electric balance bike. At just 9kg with two speed settings, it lets children aged 2-6 learn balance then progress to throttle control. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "Revvi 12in Kids Electric Balance Bike UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the Revvi 12in Kids Electric Balance Bike in the UK at Electric Dirt Bikes. 250W motor, Ages 2-6, 9kg, 2 speeds. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The Revvi 12in is the UK's best-selling kids' electric balance bike. At just 9kg with two speed settings, it lets children aged 2-6 learn balance then progress to throttle control. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "Revvi 12in Kids Electric Balance Bike UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the Revvi 12in Kids Electric Balance Bike in the UK at DirtVolt. 250W motor, Ages 2-6, 9kg, 2 speeds. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 125,
       "batteryBrand": "Revvi 24V 5.2Ah Quick Release Battery",
@@ -2159,7 +2159,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -2211,9 +2211,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IPX5 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The Revvi 16in is a kids' electric balance bike for ages 4-6, with a 250W motor, three speed settings and larger 16in wheels for a wider variety of terrain. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "Revvi 16in Kids Electric Balance Bike UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the Revvi 16in Kids Electric Balance Bike in the UK at Electric Dirt Bikes. 250W motor, Ages 5+, 3 speeds, 11kg. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The Revvi 16in is a kids' electric balance bike for ages 4-6, with a 250W motor, three speed settings and larger 16in wheels for a wider variety of terrain. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "Revvi 16in Kids Electric Balance Bike UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the Revvi 16in Kids Electric Balance Bike in the UK at DirtVolt. 250W motor, Ages 5+, 3 speeds, 11kg. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 125,
       "batteryBrand": "Revvi 24V 5.2Ah Quick Release Battery",
@@ -2253,7 +2253,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -2305,9 +2305,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IPX5 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The Revvi 16in Plus adds front suspension forks, knobbly tyres and alloy rims to the popular 16in model, giving young riders genuine off-road capability on dirt tracks and pump tracks. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "Revvi 16in Plus Kids Electric Balance Bike UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the Revvi 16in Plus Kids Electric Balance Bike in the UK at Electric Dirt Bikes. 250W motor, Front suspension, Knobbly tyres. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The Revvi 16in Plus adds front suspension forks, knobbly tyres and alloy rims to the popular 16in model, giving young riders genuine off-road capability on dirt tracks and pump tracks. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "Revvi 16in Plus Kids Electric Balance Bike UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the Revvi 16in Plus Kids Electric Balance Bike in the UK at DirtVolt. 250W motor, Front suspension, Knobbly tyres. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 187,
       "batteryBrand": "Revvi 36V 5.2Ah High Performance Battery",
@@ -2347,7 +2347,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -2399,9 +2399,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IP65 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The Revvi 18in is a popular step-up electric dirt bike for kids aged 8-12, reaching up to 20mph with hydraulic disc brakes and a lightweight aluminium frame. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "Revvi 18in Kids Electric Bike UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the Revvi 18in Kids Electric Bike in the UK at Electric Dirt Bikes. Ages 8-12, 20mph, Hydraulic discs. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The Revvi 18in is a popular step-up electric dirt bike for kids aged 8-12, reaching up to 20mph with hydraulic disc brakes and a lightweight aluminium frame. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "Revvi 18in Kids Electric Bike UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the Revvi 18in Kids Electric Bike in the UK at DirtVolt. Ages 8-12, 20mph, Hydraulic discs. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 280,
       "batteryBrand": "Revvi 36V 7.8Ah Removable Lithium Battery",
@@ -2441,7 +2441,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -2493,9 +2493,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IP65 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The Revvi 20in is the top of the Revvi range for riders aged 10+, with an 800W motor, three speeds up to 22mph and full suspension for a genuine mini dirt bike experience. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "Revvi 20in Kids Electric Bike UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the Revvi 20in Kids Electric Bike in the UK at Electric Dirt Bikes. Ages 10+, 22mph, 800W, Full suspension. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The Revvi 20in is the top of the Revvi range for riders aged 10+, with an 800W motor, three speeds up to 22mph and full suspension for a genuine mini dirt bike experience. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "Revvi 20in Kids Electric Bike UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the Revvi 20in Kids Electric Bike in the UK at DirtVolt. Ages 10+, 22mph, 800W, Full suspension. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 500,
       "batteryBrand": "Revvi 48V 10.4Ah Lithium Battery Pack",
@@ -2535,7 +2535,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -2587,9 +2587,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IP65 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The FunBikes MX350 is a 350W, 36V kids' electric dirt bike with a lithium battery — an affordable, fun entry point for younger off-road riders. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "FunBikes MX350 350W Kids Electric Dirt Bikes | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the FunBikes MX350 350W Kids Electric Dirt Bike in the UK at Electric Dirt Bikes. 350W, 36V, Lithium battery. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The FunBikes MX350 is a 350W, 36V kids' electric dirt bike with a lithium battery — an affordable, fun entry point for younger off-road riders. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "FunBikes MX350 350W Kids Electric Dirt Bikes | Official DirtVolt Dealer",
+    "metaDescription": "Buy the FunBikes MX350 350W Kids Electric Dirt Bike in the UK at DirtVolt. 350W, 36V, Lithium battery. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 288,
       "batteryBrand": "FunBikes 36V Lithium Battery Pack",
@@ -2629,7 +2629,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -2681,9 +2681,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IP65 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The FunBikes MXR 790W is a kids' electric dirt bike for ages 6-10, reaching up to 15mph with an adjustable speed limiter so parents can match the power to the child. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "FunBikes MXR 790W – Ages 6–10 UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the FunBikes MXR 790W – Ages 6–10 in the UK at Electric Dirt Bikes. 790W, 15mph, Adjustable limiter. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The FunBikes MXR 790W is a kids' electric dirt bike for ages 6-10, reaching up to 15mph with an adjustable speed limiter so parents can match the power to the child. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "FunBikes MXR 790W – Ages 6–10 UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the FunBikes MXR 790W – Ages 6–10 in the UK at DirtVolt. 790W, 15mph, Adjustable limiter. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 432,
       "batteryBrand": "FunBikes 36V 12Ah Lithium Battery",
@@ -2723,7 +2723,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -2775,9 +2775,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IP65 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The FunBikes MXR 1400W is a kids' electric dirt bike for ages 10-14, with 1400W of power, up to 20mph and an adjustable speed limiter. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "FunBikes MXR 1400W – Ages 10–14 UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the FunBikes MXR 1400W – Ages 10–14 in the UK at Electric Dirt Bikes. 1400W, 20mph, Adjustable limiter. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The FunBikes MXR 1400W is a kids' electric dirt bike for ages 10-14, with 1400W of power, up to 20mph and an adjustable speed limiter. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "FunBikes MXR 1400W – Ages 10–14 UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the FunBikes MXR 1400W – Ages 10–14 in the UK at DirtVolt. 1400W, 20mph, Adjustable limiter. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 720,
       "batteryBrand": "FunBikes 48V 15Ah Lithium Battery Pack",
@@ -2817,7 +2817,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -2869,9 +2869,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IP65 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The FunBikes MXR 1800W is the most powerful bike in the MXR range, with 1800W, up to 25mph and a lithium battery — built for older, more confident young riders. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "FunBikes MXR 1800W 2025 UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the FunBikes MXR 1800W 2025 in the UK at Electric Dirt Bikes. 1800W, 25mph, Lithium battery. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The FunBikes MXR 1800W is the most powerful bike in the MXR range, with 1800W, up to 25mph and a lithium battery — built for older, more confident young riders. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "FunBikes MXR 1800W 2025 UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the FunBikes MXR 1800W 2025 in the UK at DirtVolt. 1800W, 25mph, Lithium battery. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 864,
       "batteryBrand": "FunBikes 48V 18Ah High-Output Lithium Pack",
@@ -2911,7 +2911,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -2963,9 +2963,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IPX5 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The Razor MX350 Dirt Rocket is a well-known, affordable kids' electric dirt bike reaching up to 14mph, with a steel frame and authentic off-road styling. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "Razor MX350 Dirt Rocket UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the Razor MX350 Dirt Rocket in the UK at Electric Dirt Bikes. Up to 14mph, Steel frame, Ages 13+. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The Razor MX350 Dirt Rocket is a well-known, affordable kids' electric dirt bike reaching up to 14mph, with a steel frame and authentic off-road styling. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "Razor MX350 Dirt Rocket UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the Razor MX350 Dirt Rocket in the UK at DirtVolt. Up to 14mph, Steel frame, Ages 13+. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 168,
       "batteryBrand": "Razor 24V Sealed Battery",
@@ -3005,7 +3005,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -3057,9 +3057,9 @@ export const UK_PRODUCTS: Product[] = [
       "🌧️ IPX5 Weatherproofing: Sealed against British mud and rain",
       "🇬🇧 Official UK Stock: 2-Year Warranty & Free UK Mainland Tracked Delivery"
     ],
-    "description": "The Razor MX400 Dirt Rocket is a slightly larger kids' electric dirt bike than the MX350, with a steel frame and up to 14mph for young off-road riders. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from Electric Dirt Bikes.",
-    "metaTitle": "Razor MX400 Dirt Rocket UK | Official Electric Dirt Bikes Dealer",
-    "metaDescription": "Buy the Razor MX400 Dirt Rocket in the UK at Electric Dirt Bikes. Up to 14mph, Steel frame, Ages 13+. Free UK delivery, 0% finance, and 2-year UK warranty.",
+    "description": "The Razor MX400 Dirt Rocket is a slightly larger kids' electric dirt bike than the MX350, with a steel frame and up to 14mph for young off-road riders. Supplied brand new in box with official UK warranty, charger, toolkit, user manual, and factory support from DirtVolt.",
+    "metaTitle": "Razor MX400 Dirt Rocket UK | Official DirtVolt Dealer",
+    "metaDescription": "Buy the Razor MX400 Dirt Rocket in the UK at DirtVolt. Up to 14mph, Steel frame, Ages 13+. Free UK delivery, 0% finance, and 2-year UK warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 168,
       "batteryBrand": "Razor 24V Sealed Battery",
@@ -3099,7 +3099,7 @@ export const UK_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty and UK delivery is included?",
-        "answer": "All Electric Dirt Bikes bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
+        "answer": "All DirtVolt bikes include our official 2-Year UK Warranty, full access to our UK parts depot, and free tracked nationwide delivery."
       }
     ],
     "idealForCities": [
@@ -3150,8 +3150,8 @@ export const UK_PRODUCTS: Product[] = [
       "🇬🇧 Official UK Stock with 2-Year Warranty & UK delivery"
     ],
     "description": "The Segway Snarler ATV6 is an electric utility quad with 30kW of power and around 50mph, combining Segway-Ninebot engineering with all-terrain capability.",
-    "metaTitle": "Segway Snarler ATV6 Electric UK | Electric Quad | Electric Dirt Bikes",
-    "metaDescription": "Buy the Segway Snarler ATV6 Electric in the UK at Electric Dirt Bikes. High-torque electric quad with free UK delivery and warranty.",
+    "metaTitle": "Segway Snarler ATV6 Electric UK | Electric Quad | DirtVolt",
+    "metaDescription": "Buy the Segway Snarler ATV6 Electric in the UK at DirtVolt. High-torque electric quad with free UK delivery and warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Segway Quad PowerPack",
@@ -3218,8 +3218,8 @@ export const UK_PRODUCTS: Product[] = [
       "🇬🇧 Official UK Stock with 2-Year Warranty & UK delivery"
     ],
     "description": "The Eco Rider Explorer GT is a UK-made adult electric quad with 4-wheel direct drive, a 3000W brushless motor and around 70km of range — built for farms, estates and utility work.",
-    "metaTitle": "Eco Rider Explorer GT Electric Quad UK | Electric Quad | Electric Dirt Bikes",
-    "metaDescription": "Buy the Eco Rider Explorer GT Electric Quad in the UK at Electric Dirt Bikes. High-torque electric quad with free UK delivery and warranty.",
+    "metaTitle": "Eco Rider Explorer GT Electric Quad UK | Electric Quad | DirtVolt",
+    "metaDescription": "Buy the Eco Rider Explorer GT Electric Quad in the UK at DirtVolt. High-torque electric quad with free UK delivery and warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Eco Rider Quad PowerPack",
@@ -3286,8 +3286,8 @@ export const UK_PRODUCTS: Product[] = [
       "🇬🇧 Official UK Stock with 2-Year Warranty & UK delivery"
     ],
     "description": "The Eco Rider Explorer is a 2100W brushless electric utility quad with a tow ball and front winch, offering 40-50km of range for silent, low-maintenance estate and farm work.",
-    "metaTitle": "Eco Rider Explorer 2100W Electric Quad UK | Electric Quad | Electric Dirt Bikes",
-    "metaDescription": "Buy the Eco Rider Explorer 2100W Electric Quad in the UK at Electric Dirt Bikes. High-torque electric quad with free UK delivery and warranty.",
+    "metaTitle": "Eco Rider Explorer 2100W Electric Quad UK | Electric Quad | DirtVolt",
+    "metaDescription": "Buy the Eco Rider Explorer 2100W Electric Quad in the UK at DirtVolt. High-torque electric quad with free UK delivery and warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Eco Rider Quad PowerPack",
@@ -3354,8 +3354,8 @@ export const UK_PRODUCTS: Product[] = [
       "🇬🇧 Official UK Stock with 2-Year Warranty & UK delivery"
     ],
     "description": "The Eco Rider Shredder is the sport-focused model in the Eco Rider electric quad range, built for off-road fun with zero emissions and near-silent running.",
-    "metaTitle": "Eco Rider Shredder Electric Sport Quad UK | Electric Quad | Electric Dirt Bikes",
-    "metaDescription": "Buy the Eco Rider Shredder Electric Sport Quad in the UK at Electric Dirt Bikes. High-torque electric quad with free UK delivery and warranty.",
+    "metaTitle": "Eco Rider Shredder Electric Sport Quad UK | Electric Quad | DirtVolt",
+    "metaDescription": "Buy the Eco Rider Shredder Electric Sport Quad in the UK at DirtVolt. High-torque electric quad with free UK delivery and warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Eco Rider Quad PowerPack",
@@ -3422,8 +3422,8 @@ export const UK_PRODUCTS: Product[] = [
       "🇬🇧 Official UK Stock with 2-Year Warranty & UK delivery"
     ],
     "description": "The Segway Junior Electric Quad is a youth-sized electric ATV with a speed limiter, bringing Segway engineering to younger riders for safe off-road fun.",
-    "metaTitle": "Segway Junior Electric Quad UK | Electric Quad | Electric Dirt Bikes",
-    "metaDescription": "Buy the Segway Junior Electric Quad in the UK at Electric Dirt Bikes. High-torque electric quad with free UK delivery and warranty.",
+    "metaTitle": "Segway Junior Electric Quad UK | Electric Quad | DirtVolt",
+    "metaDescription": "Buy the Segway Junior Electric Quad in the UK at DirtVolt. High-torque electric quad with free UK delivery and warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Segway Quad PowerPack",
@@ -3490,8 +3490,8 @@ export const UK_PRODUCTS: Product[] = [
       "🇬🇧 Official UK Stock with 2-Year Warranty & UK delivery"
     ],
     "description": "The FunBikes Kids Quad 500W is an electric quad bike for children aged 6-12, reaching up to 10mph with an adjustable speed limiter.",
-    "metaTitle": "FunBikes Kids Quad 500W – Ages 6–12 UK | Electric Quad | Electric Dirt Bikes",
-    "metaDescription": "Buy the FunBikes Kids Quad 500W – Ages 6–12 in the UK at Electric Dirt Bikes. High-torque electric quad with free UK delivery and warranty.",
+    "metaTitle": "FunBikes Kids Quad 500W – Ages 6–12 UK | Electric Quad | DirtVolt",
+    "metaDescription": "Buy the FunBikes Kids Quad 500W – Ages 6–12 in the UK at DirtVolt. High-torque electric quad with free UK delivery and warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "FunBikes Quad PowerPack",
@@ -3558,8 +3558,8 @@ export const UK_PRODUCTS: Product[] = [
       "🇬🇧 Official UK Stock with 2-Year Warranty & UK delivery"
     ],
     "description": "The FunBikes Kids Quad 1000W is an electric quad for ages 10+, with 1000W of power, up to 18mph and a lithium battery.",
-    "metaTitle": "FunBikes Kids Quad 1000W – Ages 10+ UK | Electric Quad | Electric Dirt Bikes",
-    "metaDescription": "Buy the FunBikes Kids Quad 1000W – Ages 10+ in the UK at Electric Dirt Bikes. High-torque electric quad with free UK delivery and warranty.",
+    "metaTitle": "FunBikes Kids Quad 1000W – Ages 10+ UK | Electric Quad | DirtVolt",
+    "metaDescription": "Buy the FunBikes Kids Quad 1000W – Ages 10+ in the UK at DirtVolt. High-torque electric quad with free UK delivery and warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "FunBikes Quad PowerPack",
@@ -3626,8 +3626,8 @@ export const UK_PRODUCTS: Product[] = [
       "🇬🇧 Official UK Stock with 2-Year Warranty & UK delivery"
     ],
     "description": "The FunBikes Kids Quad 1500W is the most powerful kids' quad in the FunBikes range, built for teenage riders with an adjustable speed limiter and lithium battery.",
-    "metaTitle": "FunBikes Kids Quad 1500W – Teens UK | Electric Quad | Electric Dirt Bikes",
-    "metaDescription": "Buy the FunBikes Kids Quad 1500W – Teens in the UK at Electric Dirt Bikes. High-torque electric quad with free UK delivery and warranty.",
+    "metaTitle": "FunBikes Kids Quad 1500W – Teens UK | Electric Quad | DirtVolt",
+    "metaDescription": "Buy the FunBikes Kids Quad 1500W – Teens in the UK at DirtVolt. High-torque electric quad with free UK delivery and warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "FunBikes Quad PowerPack",
@@ -3694,8 +3694,8 @@ export const UK_PRODUCTS: Product[] = [
       "🇬🇧 Official UK Stock with 2-Year Warranty & UK delivery"
     ],
     "description": "The Razor Dirt Quad is a kids' electric ATV with 350W of power and up to 8mph, designed for off-road fun for children aged 8 and over.",
-    "metaTitle": "Razor Dirt Quad – Kids Electric ATV UK | Electric Quad | Electric Dirt Bikes",
-    "metaDescription": "Buy the Razor Dirt Quad – Kids Electric ATV in the UK at Electric Dirt Bikes. High-torque electric quad with free UK delivery and warranty.",
+    "metaTitle": "Razor Dirt Quad – Kids Electric ATV UK | Electric Quad | DirtVolt",
+    "metaDescription": "Buy the Razor Dirt Quad – Kids Electric ATV in the UK at DirtVolt. High-torque electric quad with free UK delivery and warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Razor Quad PowerPack",
@@ -3761,8 +3761,8 @@ export const UK_PRODUCTS: Product[] = [
       "🇬🇧 Dispatched directly from UK depot with tracked 24-48h courier"
     ],
     "description": "Official Sur-Ron Light Bee 60V Replacement Battery. Genuine manufacturer component with full quality assurance and UK warranty.",
-    "metaTitle": "Sur-Ron Light Bee 60V Replacement Battery | Electric Dirt Bikes Official Parts",
-    "metaDescription": "Buy genuine Sur-Ron Light Bee 60V Replacement Battery in the UK from Electric Dirt Bikes. Rapid UK dispatch and official warranty.",
+    "metaTitle": "Sur-Ron Light Bee 60V Replacement Battery | DirtVolt Official Parts",
+    "metaDescription": "Buy genuine Sur-Ron Light Bee 60V Replacement Battery in the UK from DirtVolt. Rapid UK dispatch and official warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
       "batteryBrand": "N/A",
@@ -3771,7 +3771,7 @@ export const UK_PRODUCTS: Product[] = [
       "chargingTimeHours": 0,
       "removableBattery": false,
       "motorType": "Mid-Drive Motor",
-      "motorBrand": "Electric Dirt Bikes Hardware",
+      "motorBrand": "DirtVolt Hardware",
       "motorPowerW": 0,
       "torqueNm": 0,
       "weightKg": 2,
@@ -3828,8 +3828,8 @@ export const UK_PRODUCTS: Product[] = [
       "🇬🇧 Dispatched directly from UK depot with tracked 24-48h courier"
     ],
     "description": "Official Sur-Ron Light Bee 60V Charger (10A). Genuine manufacturer component with full quality assurance and UK warranty.",
-    "metaTitle": "Sur-Ron Light Bee 60V Charger (10A) | Electric Dirt Bikes Official Parts",
-    "metaDescription": "Buy genuine Sur-Ron Light Bee 60V Charger (10A) in the UK from Electric Dirt Bikes. Rapid UK dispatch and official warranty.",
+    "metaTitle": "Sur-Ron Light Bee 60V Charger (10A) | DirtVolt Official Parts",
+    "metaDescription": "Buy genuine Sur-Ron Light Bee 60V Charger (10A) in the UK from DirtVolt. Rapid UK dispatch and official warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
       "batteryBrand": "N/A",
@@ -3838,7 +3838,7 @@ export const UK_PRODUCTS: Product[] = [
       "chargingTimeHours": 0,
       "removableBattery": false,
       "motorType": "Mid-Drive Motor",
-      "motorBrand": "Electric Dirt Bikes Hardware",
+      "motorBrand": "DirtVolt Hardware",
       "motorPowerW": 0,
       "torqueNm": 0,
       "weightKg": 2,
@@ -3895,8 +3895,8 @@ export const UK_PRODUCTS: Product[] = [
       "🇬🇧 Dispatched directly from UK depot with tracked 24-48h courier"
     ],
     "description": "Official Sur-Ron Storm Bee 104V Replacement Battery. Genuine manufacturer component with full quality assurance and UK warranty.",
-    "metaTitle": "Sur-Ron Storm Bee 104V Replacement Battery | Electric Dirt Bikes Official Parts",
-    "metaDescription": "Buy genuine Sur-Ron Storm Bee 104V Replacement Battery in the UK from Electric Dirt Bikes. Rapid UK dispatch and official warranty.",
+    "metaTitle": "Sur-Ron Storm Bee 104V Replacement Battery | DirtVolt Official Parts",
+    "metaDescription": "Buy genuine Sur-Ron Storm Bee 104V Replacement Battery in the UK from DirtVolt. Rapid UK dispatch and official warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
       "batteryBrand": "N/A",
@@ -3905,7 +3905,7 @@ export const UK_PRODUCTS: Product[] = [
       "chargingTimeHours": 0,
       "removableBattery": false,
       "motorType": "Mid-Drive Motor",
-      "motorBrand": "Electric Dirt Bikes Hardware",
+      "motorBrand": "DirtVolt Hardware",
       "motorPowerW": 0,
       "torqueNm": 0,
       "weightKg": 2,
@@ -3962,8 +3962,8 @@ export const UK_PRODUCTS: Product[] = [
       "🇬🇧 Dispatched directly from UK depot with tracked 24-48h courier"
     ],
     "description": "Official Sur-Ron Storm Bee 104V Fast Charger. Genuine manufacturer component with full quality assurance and UK warranty.",
-    "metaTitle": "Sur-Ron Storm Bee 104V Fast Charger | Electric Dirt Bikes Official Parts",
-    "metaDescription": "Buy genuine Sur-Ron Storm Bee 104V Fast Charger in the UK from Electric Dirt Bikes. Rapid UK dispatch and official warranty.",
+    "metaTitle": "Sur-Ron Storm Bee 104V Fast Charger | DirtVolt Official Parts",
+    "metaDescription": "Buy genuine Sur-Ron Storm Bee 104V Fast Charger in the UK from DirtVolt. Rapid UK dispatch and official warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
       "batteryBrand": "N/A",
@@ -3972,7 +3972,7 @@ export const UK_PRODUCTS: Product[] = [
       "chargingTimeHours": 0,
       "removableBattery": false,
       "motorType": "Mid-Drive Motor",
-      "motorBrand": "Electric Dirt Bikes Hardware",
+      "motorBrand": "DirtVolt Hardware",
       "motorPowerW": 0,
       "torqueNm": 0,
       "weightKg": 2,
@@ -4029,8 +4029,8 @@ export const UK_PRODUCTS: Product[] = [
       "🇬🇧 Dispatched directly from UK depot with tracked 24-48h courier"
     ],
     "description": "Official Sur-Ron Ultra Bee 74V Replacement Battery. Genuine manufacturer component with full quality assurance and UK warranty.",
-    "metaTitle": "Sur-Ron Ultra Bee 74V Replacement Battery | Electric Dirt Bikes Official Parts",
-    "metaDescription": "Buy genuine Sur-Ron Ultra Bee 74V Replacement Battery in the UK from Electric Dirt Bikes. Rapid UK dispatch and official warranty.",
+    "metaTitle": "Sur-Ron Ultra Bee 74V Replacement Battery | DirtVolt Official Parts",
+    "metaDescription": "Buy genuine Sur-Ron Ultra Bee 74V Replacement Battery in the UK from DirtVolt. Rapid UK dispatch and official warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
       "batteryBrand": "N/A",
@@ -4039,7 +4039,7 @@ export const UK_PRODUCTS: Product[] = [
       "chargingTimeHours": 0,
       "removableBattery": false,
       "motorType": "Mid-Drive Motor",
-      "motorBrand": "Electric Dirt Bikes Hardware",
+      "motorBrand": "DirtVolt Hardware",
       "motorPowerW": 0,
       "torqueNm": 0,
       "weightKg": 2,
@@ -4096,8 +4096,8 @@ export const UK_PRODUCTS: Product[] = [
       "🇬🇧 Dispatched directly from UK depot with tracked 24-48h courier"
     ],
     "description": "Official Sur-Ron Ultra Bee 74V Charger. Genuine manufacturer component with full quality assurance and UK warranty.",
-    "metaTitle": "Sur-Ron Ultra Bee 74V Charger | Electric Dirt Bikes Official Parts",
-    "metaDescription": "Buy genuine Sur-Ron Ultra Bee 74V Charger in the UK from Electric Dirt Bikes. Rapid UK dispatch and official warranty.",
+    "metaTitle": "Sur-Ron Ultra Bee 74V Charger | DirtVolt Official Parts",
+    "metaDescription": "Buy genuine Sur-Ron Ultra Bee 74V Charger in the UK from DirtVolt. Rapid UK dispatch and official warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
       "batteryBrand": "N/A",
@@ -4106,7 +4106,7 @@ export const UK_PRODUCTS: Product[] = [
       "chargingTimeHours": 0,
       "removableBattery": false,
       "motorType": "Mid-Drive Motor",
-      "motorBrand": "Electric Dirt Bikes Hardware",
+      "motorBrand": "DirtVolt Hardware",
       "motorPowerW": 0,
       "torqueNm": 0,
       "weightKg": 2,
@@ -4163,8 +4163,8 @@ export const UK_PRODUCTS: Product[] = [
       "🇬🇧 Dispatched directly from UK depot with tracked 24-48h courier"
     ],
     "description": "Official Sur-Ron Hyper Bee 58V Replacement Battery. Genuine manufacturer component with full quality assurance and UK warranty.",
-    "metaTitle": "Sur-Ron Hyper Bee 58V Replacement Battery | Electric Dirt Bikes Official Parts",
-    "metaDescription": "Buy genuine Sur-Ron Hyper Bee 58V Replacement Battery in the UK from Electric Dirt Bikes. Rapid UK dispatch and official warranty.",
+    "metaTitle": "Sur-Ron Hyper Bee 58V Replacement Battery | DirtVolt Official Parts",
+    "metaDescription": "Buy genuine Sur-Ron Hyper Bee 58V Replacement Battery in the UK from DirtVolt. Rapid UK dispatch and official warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
       "batteryBrand": "N/A",
@@ -4173,7 +4173,7 @@ export const UK_PRODUCTS: Product[] = [
       "chargingTimeHours": 0,
       "removableBattery": false,
       "motorType": "Mid-Drive Motor",
-      "motorBrand": "Electric Dirt Bikes Hardware",
+      "motorBrand": "DirtVolt Hardware",
       "motorPowerW": 0,
       "torqueNm": 0,
       "weightKg": 2,
@@ -4230,8 +4230,8 @@ export const UK_PRODUCTS: Product[] = [
       "🇬🇧 Dispatched directly from UK depot with tracked 24-48h courier"
     ],
     "description": "Official Sur-Ron Hyper Bee 58V Charger. Genuine manufacturer component with full quality assurance and UK warranty.",
-    "metaTitle": "Sur-Ron Hyper Bee 58V Charger | Electric Dirt Bikes Official Parts",
-    "metaDescription": "Buy genuine Sur-Ron Hyper Bee 58V Charger in the UK from Electric Dirt Bikes. Rapid UK dispatch and official warranty.",
+    "metaTitle": "Sur-Ron Hyper Bee 58V Charger | DirtVolt Official Parts",
+    "metaDescription": "Buy genuine Sur-Ron Hyper Bee 58V Charger in the UK from DirtVolt. Rapid UK dispatch and official warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
       "batteryBrand": "N/A",
@@ -4240,7 +4240,7 @@ export const UK_PRODUCTS: Product[] = [
       "chargingTimeHours": 0,
       "removableBattery": false,
       "motorType": "Mid-Drive Motor",
-      "motorBrand": "Electric Dirt Bikes Hardware",
+      "motorBrand": "DirtVolt Hardware",
       "motorPowerW": 0,
       "torqueNm": 0,
       "weightKg": 2,
@@ -4297,8 +4297,8 @@ export const UK_PRODUCTS: Product[] = [
       "🇬🇧 Dispatched directly from UK depot with tracked 24-48h courier"
     ],
     "description": "Official Talaria Sting R 60V 45Ah Replacement Battery. Genuine manufacturer component with full quality assurance and UK warranty.",
-    "metaTitle": "Talaria Sting R 60V 45Ah Replacement Battery | Electric Dirt Bikes Official Parts",
-    "metaDescription": "Buy genuine Talaria Sting R 60V 45Ah Replacement Battery in the UK from Electric Dirt Bikes. Rapid UK dispatch and official warranty.",
+    "metaTitle": "Talaria Sting R 60V 45Ah Replacement Battery | DirtVolt Official Parts",
+    "metaDescription": "Buy genuine Talaria Sting R 60V 45Ah Replacement Battery in the UK from DirtVolt. Rapid UK dispatch and official warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
       "batteryBrand": "N/A",
@@ -4307,7 +4307,7 @@ export const UK_PRODUCTS: Product[] = [
       "chargingTimeHours": 0,
       "removableBattery": false,
       "motorType": "Mid-Drive Motor",
-      "motorBrand": "Electric Dirt Bikes Hardware",
+      "motorBrand": "DirtVolt Hardware",
       "motorPowerW": 0,
       "torqueNm": 0,
       "weightKg": 2,
@@ -4364,8 +4364,8 @@ export const UK_PRODUCTS: Product[] = [
       "🇬🇧 Dispatched directly from UK depot with tracked 24-48h courier"
     ],
     "description": "Official Talaria Sting 60V 38Ah Replacement Battery. Genuine manufacturer component with full quality assurance and UK warranty.",
-    "metaTitle": "Talaria Sting 60V 38Ah Replacement Battery | Electric Dirt Bikes Official Parts",
-    "metaDescription": "Buy genuine Talaria Sting 60V 38Ah Replacement Battery in the UK from Electric Dirt Bikes. Rapid UK dispatch and official warranty.",
+    "metaTitle": "Talaria Sting 60V 38Ah Replacement Battery | DirtVolt Official Parts",
+    "metaDescription": "Buy genuine Talaria Sting 60V 38Ah Replacement Battery in the UK from DirtVolt. Rapid UK dispatch and official warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
       "batteryBrand": "N/A",
@@ -4374,7 +4374,7 @@ export const UK_PRODUCTS: Product[] = [
       "chargingTimeHours": 0,
       "removableBattery": false,
       "motorType": "Mid-Drive Motor",
-      "motorBrand": "Electric Dirt Bikes Hardware",
+      "motorBrand": "DirtVolt Hardware",
       "motorPowerW": 0,
       "torqueNm": 0,
       "weightKg": 2,
@@ -4431,8 +4431,8 @@ export const UK_PRODUCTS: Product[] = [
       "🇬🇧 Dispatched directly from UK depot with tracked 24-48h courier"
     ],
     "description": "Official Talaria 60V OEM Charger. Genuine manufacturer component with full quality assurance and UK warranty.",
-    "metaTitle": "Talaria 60V OEM Charger | Electric Dirt Bikes Official Parts",
-    "metaDescription": "Buy genuine Talaria 60V OEM Charger in the UK from Electric Dirt Bikes. Rapid UK dispatch and official warranty.",
+    "metaTitle": "Talaria 60V OEM Charger | DirtVolt Official Parts",
+    "metaDescription": "Buy genuine Talaria 60V OEM Charger in the UK from DirtVolt. Rapid UK dispatch and official warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
       "batteryBrand": "N/A",
@@ -4441,7 +4441,7 @@ export const UK_PRODUCTS: Product[] = [
       "chargingTimeHours": 0,
       "removableBattery": false,
       "motorType": "Mid-Drive Motor",
-      "motorBrand": "Electric Dirt Bikes Hardware",
+      "motorBrand": "DirtVolt Hardware",
       "motorPowerW": 0,
       "torqueNm": 0,
       "weightKg": 2,
@@ -4498,8 +4498,8 @@ export const UK_PRODUCTS: Product[] = [
       "🇬🇧 Dispatched directly from UK depot with tracked 24-48h courier"
     ],
     "description": "Official Talaria 72V 40Ah Replacement Battery (MX5 / Komodo). Genuine manufacturer component with full quality assurance and UK warranty.",
-    "metaTitle": "Talaria 72V 40Ah Replacement Battery (MX5 / Komodo) | Electric Dirt Bikes Official Parts",
-    "metaDescription": "Buy genuine Talaria 72V 40Ah Replacement Battery (MX5 / Komodo) in the UK from Electric Dirt Bikes. Rapid UK dispatch and official warranty.",
+    "metaTitle": "Talaria 72V 40Ah Replacement Battery (MX5 / Komodo) | DirtVolt Official Parts",
+    "metaDescription": "Buy genuine Talaria 72V 40Ah Replacement Battery (MX5 / Komodo) in the UK from DirtVolt. Rapid UK dispatch and official warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
       "batteryBrand": "N/A",
@@ -4508,7 +4508,7 @@ export const UK_PRODUCTS: Product[] = [
       "chargingTimeHours": 0,
       "removableBattery": false,
       "motorType": "Mid-Drive Motor",
-      "motorBrand": "Electric Dirt Bikes Hardware",
+      "motorBrand": "DirtVolt Hardware",
       "motorPowerW": 0,
       "torqueNm": 0,
       "weightKg": 2,
@@ -4565,8 +4565,8 @@ export const UK_PRODUCTS: Product[] = [
       "🇬🇧 Dispatched directly from UK depot with tracked 24-48h courier"
     ],
     "description": "Official Talaria 72V Charger (MX5 / Komodo). Genuine manufacturer component with full quality assurance and UK warranty.",
-    "metaTitle": "Talaria 72V Charger (MX5 / Komodo) | Electric Dirt Bikes Official Parts",
-    "metaDescription": "Buy genuine Talaria 72V Charger (MX5 / Komodo) in the UK from Electric Dirt Bikes. Rapid UK dispatch and official warranty.",
+    "metaTitle": "Talaria 72V Charger (MX5 / Komodo) | DirtVolt Official Parts",
+    "metaDescription": "Buy genuine Talaria 72V Charger (MX5 / Komodo) in the UK from DirtVolt. Rapid UK dispatch and official warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
       "batteryBrand": "N/A",
@@ -4575,7 +4575,7 @@ export const UK_PRODUCTS: Product[] = [
       "chargingTimeHours": 0,
       "removableBattery": false,
       "motorType": "Mid-Drive Motor",
-      "motorBrand": "Electric Dirt Bikes Hardware",
+      "motorBrand": "DirtVolt Hardware",
       "motorPowerW": 0,
       "torqueNm": 0,
       "weightKg": 2,
@@ -4632,8 +4632,8 @@ export const UK_PRODUCTS: Product[] = [
       "🇬🇧 Dispatched directly from UK depot with tracked 24-48h courier"
     ],
     "description": "Official Stark Varg 6.5kWh Replacement Battery Pack. Genuine manufacturer component with full quality assurance and UK warranty.",
-    "metaTitle": "Stark Varg 6.5kWh Replacement Battery Pack | Electric Dirt Bikes Official Parts",
-    "metaDescription": "Buy genuine Stark Varg 6.5kWh Replacement Battery Pack in the UK from Electric Dirt Bikes. Rapid UK dispatch and official warranty.",
+    "metaTitle": "Stark Varg 6.5kWh Replacement Battery Pack | DirtVolt Official Parts",
+    "metaDescription": "Buy genuine Stark Varg 6.5kWh Replacement Battery Pack in the UK from DirtVolt. Rapid UK dispatch and official warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
       "batteryBrand": "N/A",
@@ -4642,7 +4642,7 @@ export const UK_PRODUCTS: Product[] = [
       "chargingTimeHours": 0,
       "removableBattery": false,
       "motorType": "Mid-Drive Motor",
-      "motorBrand": "Electric Dirt Bikes Hardware",
+      "motorBrand": "DirtVolt Hardware",
       "motorPowerW": 0,
       "torqueNm": 0,
       "weightKg": 2,
@@ -4699,8 +4699,8 @@ export const UK_PRODUCTS: Product[] = [
       "🇬🇧 Dispatched directly from UK depot with tracked 24-48h courier"
     ],
     "description": "Official Stark Varg 3.3kW Fast Charger. Genuine manufacturer component with full quality assurance and UK warranty.",
-    "metaTitle": "Stark Varg 3.3kW Fast Charger | Electric Dirt Bikes Official Parts",
-    "metaDescription": "Buy genuine Stark Varg 3.3kW Fast Charger in the UK from Electric Dirt Bikes. Rapid UK dispatch and official warranty.",
+    "metaTitle": "Stark Varg 3.3kW Fast Charger | DirtVolt Official Parts",
+    "metaDescription": "Buy genuine Stark Varg 3.3kW Fast Charger in the UK from DirtVolt. Rapid UK dispatch and official warranty.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
       "batteryBrand": "N/A",
@@ -4709,7 +4709,7 @@ export const UK_PRODUCTS: Product[] = [
       "chargingTimeHours": 0,
       "removableBattery": false,
       "motorType": "Mid-Drive Motor",
-      "motorBrand": "Electric Dirt Bikes Hardware",
+      "motorBrand": "DirtVolt Hardware",
       "motorPowerW": 0,
       "torqueNm": 0,
       "weightKg": 2,

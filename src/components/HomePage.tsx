@@ -92,7 +92,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             src="/images/hero-cover-desktop.jpg"
             srcSet="/images/hero-cover-mobile.jpg 900w, /images/hero-cover-tablet.jpg 1500w, /images/hero-cover-desktop.jpg 2400w"
             sizes="100vw"
-            alt="Electric Dirt Bikes Motocross and Rider on Mountain Trail"
+            alt="DirtVolt Motocross and Rider on Mountain Trail"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover object-center transform scale-100 group-hover:scale-[1.02] transition-all duration-700 ease-out group-hover:brightness-90"
             loading="eager"
@@ -284,7 +284,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                 <span>Full Inventory</span>
               </div>
               <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-950 font-heading">
-                Explore All Electric Dirt Bikes Models
+                Explore All DirtVolt Models
               </h2>
               <p className="text-xs sm:text-sm text-slate-500 mt-1">
                 Browse our complete UK stock of high-power electric motocross, enduro, youth bikes, quads, and official accessories.
@@ -482,10 +482,10 @@ export const HomePage: React.FC<HomePageProps> = ({
           <div className="max-w-2xl space-y-2 relative z-10">
             <span className="text-xs font-bold uppercase tracking-wider text-blue-400 font-mono flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-blue-400"></span>
-              The Electric Dirt Bikes Standard
+              The DirtVolt Standard
             </span>
             <h2 className="text-2xl sm:text-3xl font-extrabold font-heading text-white">
-              Why Riders Choose Electric Dirt Bikes
+              Why Riders Choose DirtVolt
             </h2>
             <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
               Authorized UK distributor for the world's most capable electric off-road and all-terrain machines with dedicated workshop support.
@@ -632,7 +632,7 @@ export const HomePage: React.FC<HomePageProps> = ({
               ))}
             </div>
             <p className="text-xs text-slate-700 leading-relaxed italic">
-              "The Talaria Sting R MX4 with gearbox is so much better than belt-driven bikes. Zero maintenance worries on gritty woodland tracks, and Electric Dirt Bikes' team answered all my battery care questions."
+              "The Talaria Sting R MX4 with gearbox is so much better than belt-driven bikes. Zero maintenance worries on gritty woodland tracks, and DirtVolt's team answered all my battery care questions."
             </p>
             <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
               <span className="font-bold text-slate-950">Marcus Wright</span>
@@ -669,7 +669,7 @@ export const HomePage: React.FC<HomePageProps> = ({
               Ready to Experience Electric Off-Road?
             </h2>
             <p className="text-xs sm:text-sm text-blue-100 max-w-xl leading-relaxed">
-              Order today with free express delivery, 2-year warranty protection, and full technical workshop support from Electric Dirt Bikes.
+              Order today with free express delivery, 2-year warranty protection, and full technical workshop support from DirtVolt.
             </p>
           </div>
           <div className="shrink-0 flex flex-wrap gap-3 relative z-10">

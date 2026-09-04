@@ -34,7 +34,7 @@ export const AboutUs: React.FC<AboutUsProps> = ({ onNavigateToView }) => {
           </h1>
           
           <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-            Electric Dirt Bikes was established to provide riders with authorized access to the world's most cutting-edge electric dirt bikes, motocross machines, road-legal electric enduro, e-MTB, and youth quads—complete with factory warranties, express dispatch, and professional workshop support.
+            DirtVolt was established to provide riders with authorized access to the world's most cutting-edge electric dirt bikes, motocross machines, road-legal electric enduro, e-MTB, and youth quads—complete with factory warranties, express dispatch, and professional workshop support.
           </p>
 
           <div className="pt-2 flex items-center gap-3 flex-wrap">
@@ -119,13 +119,13 @@ export const AboutUs: React.FC<AboutUsProps> = ({ onNavigateToView }) => {
       <div className="bg-white border border-slate-200/90 rounded-2xl p-6 sm:p-8 shadow-xs grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         <div className="space-y-4">
           <span className="text-xs font-bold uppercase tracking-wider text-blue-600 font-mono">
-            Electric Dirt Bikes Service & Support
+            DirtVolt Service & Support
           </span>
           <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 font-heading">
             Dedicated to High-Performance Electric Riding
           </h2>
           <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-            Electric Dirt Bikes was founded by motocross racers, enduro enthusiasts, and electric powertrain engineers passionate about quiet, high-torque off-road riding. We understand the performance, battery management, and trail durability needed for all terrain.
+            DirtVolt was founded by motocross racers, enduro enthusiasts, and electric powertrain engineers passionate about quiet, high-torque off-road riding. We understand the performance, battery management, and trail durability needed for all terrain.
           </p>
           <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
             Whether you are hitting off-road trails, private motocross tracks, farming estates, or commuting on a road-legal Sur-Ron Light Bee L1e, our team is here to support you at every stage.
@@ -151,7 +151,7 @@ export const AboutUs: React.FC<AboutUsProps> = ({ onNavigateToView }) => {
           <div className="aspect-16/10 rounded-xl overflow-hidden bg-slate-200">
             <img
               src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=1000&q=80"
-              alt="Electric Dirt Bikes Technical Facility"
+              alt="DirtVolt Technical Facility"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
             />
@@ -159,7 +159,7 @@ export const AboutUs: React.FC<AboutUsProps> = ({ onNavigateToView }) => {
           <div className="flex items-center justify-between text-xs text-slate-600">
             <div className="flex items-center gap-1.5 font-medium">
               <MapPin className="w-4 h-4 text-blue-600" />
-              <span>Electric Dirt Bikes Distribution Hub & Technical Workshop</span>
+              <span>DirtVolt Distribution Hub & Technical Workshop</span>
             </div>
             <span className="bg-emerald-50 text-emerald-700 border border-emerald-200 px-2 py-0.5 rounded font-bold text-[10px]">
               Open Mon-Sat
