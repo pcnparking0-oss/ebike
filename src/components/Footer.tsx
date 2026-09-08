@@ -68,6 +68,9 @@ export const Footer: React.FC<FooterProps> = ({ onSelectView }) => {
             </div>
             <span className="text-base font-extrabold text-slate-900 font-heading tracking-tight">DIRTVOLT</span>
           </div>
+          <p className="text-[11px] font-semibold text-blue-600 mb-2 tracking-tight">
+            Official Electric Dirt Bikes, Motocross & High-Performance e-MTB Store
+          </p>
           <p className="text-slate-600 text-xs max-w-sm mb-4 leading-relaxed">
             The premier official dealer for electric dirt bikes, motocross, road-legal mopeds, e-MTB, and youth quads. Providing unparalleled performance, manufacturer warranties, and dedicated servicing.
           </p>

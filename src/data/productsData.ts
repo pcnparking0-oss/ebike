@@ -4741,3 +4741,5 @@ export const UK_PRODUCTS: Product[] = [
     "featured": false
   }
 ];
+
+export * from './products/index';

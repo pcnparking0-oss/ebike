@@ -109,10 +109,10 @@ export const Header: React.FC<HeaderProps> = ({
       </div>
 
       {/* Main Brand Bar */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex items-center justify-between gap-4">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5 sm:py-3.5 flex items-center justify-between gap-3 sm:gap-4">
         {/* Brand Logo */}
-        <div className="flex items-center gap-3 cursor-pointer group" onClick={() => onSelectView('home')}>
-          <div className="w-10 h-10 rounded-xl overflow-hidden shadow-sm bg-slate-950 border border-slate-800 flex items-center justify-center group-hover:scale-105 group-hover:border-blue-500/50 transition-all duration-300 shrink-0">
+        <div className="flex items-center gap-2.5 sm:gap-3 cursor-pointer group min-w-0" onClick={() => onSelectView('home')}>
+          <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl overflow-hidden shadow-sm bg-slate-950 border border-slate-800 flex items-center justify-center group-hover:scale-105 group-hover:border-blue-500/50 transition-all duration-300 shrink-0">
             <img
               src="/images/site-icon.png"
               alt="DirtVolt Logo"
@@ -120,13 +120,13 @@ export const Header: React.FC<HeaderProps> = ({
               referrerPolicy="no-referrer"
             />
           </div>
-          <div>
+          <div className="min-w-0">
             <div className="flex items-center gap-1.5">
-              <span className="text-xl font-extrabold tracking-tight text-slate-950 font-heading">
+              <span className="text-lg sm:text-xl font-extrabold tracking-tight text-slate-950 font-heading">
                 DIRT<span className="text-blue-600">VOLT</span>
               </span>
             </div>
-            <p className="text-[11px] text-slate-500 font-medium tracking-tight hidden sm:block">
+            <p className="text-[9.5px] sm:text-[11px] text-slate-500 font-medium tracking-tight leading-tight block">
               Official Electric Dirt Bikes, Motocross & High-Performance e-MTB Store
             </p>
           </div>
@@ -154,11 +154,11 @@ export const Header: React.FC<HeaderProps> = ({
         </div>
 
         {/* Actions & Basket */}
-        <div className="flex items-center gap-2.5">
+        <div className="flex items-center gap-2.5 shrink-0">
           <button
             id="open-basket-btn"
             onClick={onOpenCart}
-            className="relative flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-white px-4 py-2 rounded-xl text-xs font-bold transition-all shadow-sm hover:shadow-md active:scale-95 cursor-pointer"
+            className="relative flex items-center gap-1.5 sm:gap-2 bg-slate-900 hover:bg-slate-800 text-white px-3 sm:px-4 py-2 rounded-xl text-xs font-bold transition-all shadow-sm hover:shadow-md active:scale-95 cursor-pointer"
           >
             <ShoppingBag className="w-4 h-4 text-blue-400" />
             <span>Basket</span>
