@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import { ViewMode } from '../types';
 import { 
   Home,
@@ -18,7 +19,8 @@ import {
   ArrowRight,
   Sparkles,
   Shield,
-  Layers
+  Layers,
+  X
 } from 'lucide-react';
 
 export interface QuadNavFilter {
@@ -53,17 +55,38 @@ export const Header: React.FC<HeaderProps> = ({
 }) => {
   const [isQuadsOpen, setIsQuadsOpen] = useState(false);
   const quadsDropdownRef = useRef<HTMLDivElement>(null);
+  const mobileDrawerRef = useRef<HTMLDivElement>(null);
 
   // Close dropdown on click outside
   useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (quadsDropdownRef.current && !quadsDropdownRef.current.contains(event.target as Node)) {
+    const handleClickOutside = (event: MouseEvent | TouchEvent) => {
+      const target = event.target as Node;
+      if (
+        quadsDropdownRef.current && 
+        !quadsDropdownRef.current.contains(target) &&
+        (!mobileDrawerRef.current || !mobileDrawerRef.current.contains(target))
+      ) {
         setIsQuadsOpen(false);
       }
     };
     document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
+    document.addEventListener('touchstart', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener('touchstart', handleClickOutside);
+    };
   }, []);
+
+  // Lock body scroll on mobile when drawer is open
+  useEffect(() => {
+    if (isQuadsOpen && typeof window !== 'undefined' && window.innerWidth < 640) {
+      const originalOverflow = document.body.style.overflow;
+      document.body.style.overflow = 'hidden';
+      return () => {
+        document.body.style.overflow = originalOverflow;
+      };
+    }
+  }, [isQuadsOpen]);
 
   const handleQuadItemClick = (filter: QuadNavFilter) => {
     setIsQuadsOpen(false);
@@ -234,14 +257,21 @@ export const Header: React.FC<HeaderProps> = ({
                 <div 
                   ref={quadsDropdownRef}
                   className="relative shrink-0"
-                  onMouseEnter={() => setIsQuadsOpen(true)}
+                  onMouseEnter={() => {
+                    if (typeof window !== 'undefined' && window.innerWidth >= 640) {
+                      setIsQuadsOpen(true);
+                    }
+                  }}
                 >
                   <button
                     id="nav-tab-quads-menu"
                     type="button"
                     aria-expanded={isQuadsOpen}
                     aria-haspopup="true"
-                    onClick={() => setIsQuadsOpen(!isQuadsOpen)}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setIsQuadsOpen((prev) => !prev);
+                    }}
                     className={`flex items-center gap-1.5 px-3 sm:px-3.5 py-1.5 rounded-lg text-xs font-bold whitespace-nowrap transition-all cursor-pointer ${
                       isQuadsOpen
                         ? 'bg-slate-950 text-amber-400 shadow-sm ring-1 ring-slate-800'
@@ -254,11 +284,15 @@ export const Header: React.FC<HeaderProps> = ({
                     <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${isQuadsOpen ? 'rotate-180 text-amber-400' : 'text-amber-700'}`} />
                   </button>
 
-                  {/* Mega Menu Dropdown exactly structured like https://volttrail.org/ */}
+                  {/* Desktop Mega Menu Dropdown (hidden on mobile) */}
                   {isQuadsOpen && (
                     <div 
-                      className="absolute top-full left-0 sm:left-auto sm:right-auto mt-2 w-[310px] sm:w-[600px] md:w-[680px] bg-slate-950 text-slate-100 border border-slate-800 border-t-2 border-t-amber-500 rounded-2xl shadow-2xl p-4 sm:p-6 z-50"
-                      onMouseLeave={() => setIsQuadsOpen(false)}
+                      className="hidden sm:block absolute top-full left-0 mt-2 w-[600px] md:w-[680px] max-w-[calc(100vw-2rem)] bg-slate-950 text-slate-100 border border-slate-800 border-t-2 border-t-amber-500 rounded-2xl shadow-2xl p-4 sm:p-6 z-50"
+                      onMouseLeave={() => {
+                        if (typeof window !== 'undefined' && window.innerWidth >= 640) {
+                          setIsQuadsOpen(false);
+                        }
+                      }}
                     >
                       {/* Top Bar Label / Reference indicator */}
                       <div className="flex items-center justify-between pb-3 mb-4 border-b border-slate-800/80">
@@ -411,6 +445,171 @@ export const Header: React.FC<HeaderProps> = ({
                         </span>
                       </div>
                     </div>
+                  )}
+
+                  {/* Mobile Touch Drawer Portal (escapes header & nav overflow-x-auto constraints) */}
+                  {isQuadsOpen && typeof document !== 'undefined' && createPortal(
+                    <div className="fixed inset-0 z-50 sm:hidden flex flex-col justify-end">
+                      {/* Dark backdrop */}
+                      <div 
+                        className="fixed inset-0 bg-slate-950/80 backdrop-blur-xs transition-opacity"
+                        onClick={() => setIsQuadsOpen(false)}
+                        aria-label="Close Electric Quads Menu"
+                      />
+
+                      {/* Mobile Bottom Sheet */}
+                      <div 
+                        ref={mobileDrawerRef}
+                        className="relative z-10 bg-slate-950 text-slate-100 border-t-2 border-amber-500 rounded-t-3xl shadow-2xl max-h-[85vh] flex flex-col overflow-hidden animate-in slide-in-from-bottom duration-250"
+                        onClick={(e) => e.stopPropagation()}
+                      >
+                        {/* Drag Handle Bar */}
+                        <div className="pt-3 pb-1 flex justify-center shrink-0">
+                          <div className="w-12 h-1 bg-slate-700 rounded-full" />
+                        </div>
+
+                        {/* Sheet Header */}
+                        <div className="px-5 py-3 border-b border-slate-800/90 flex items-center justify-between shrink-0">
+                          <div className="flex items-center gap-2">
+                            <span className="text-base">🚜</span>
+                            <div>
+                              <div className="flex items-center gap-1.5">
+                                <span className="text-sm font-extrabold text-white font-heading">
+                                  Electric Quads & ATVs
+                                </span>
+                                <span className="text-[10px] bg-amber-400/20 text-amber-300 border border-amber-500/30 px-1.5 py-0.2 rounded-full font-mono font-bold">
+                                  9 Models
+                                </span>
+                              </div>
+                              <p className="text-[10px] text-slate-400">Adult 4x4, Utility Workhorses & Youth Quads</p>
+                            </div>
+                          </div>
+
+                          <button
+                            type="button"
+                            onClick={() => setIsQuadsOpen(false)}
+                            className="w-8 h-8 rounded-full bg-slate-850 hover:bg-slate-800 text-slate-400 hover:text-white flex items-center justify-center transition-colors cursor-pointer border border-slate-700/60 active:scale-95"
+                            aria-label="Close menu"
+                          >
+                            <X className="w-4 h-4" />
+                          </button>
+                        </div>
+
+                        {/* Scrollable Body Content */}
+                        <div className="px-5 py-4 overflow-y-auto space-y-4 flex-1 overscroll-contain">
+                          {/* View All Quads Quick Action Card */}
+                          <button
+                            type="button"
+                            onClick={() => handleQuadItemClick({ folderId: 'quads-folder', category: 'Electric Quads & UTVs' })}
+                            className="w-full flex items-center justify-between p-3.5 rounded-2xl bg-gradient-to-r from-amber-500/20 via-amber-500/10 to-amber-600/20 border border-amber-500/40 hover:border-amber-400 text-amber-300 font-bold text-xs transition-all cursor-pointer group shadow-xs active:scale-[0.99]"
+                          >
+                            <div className="flex items-center gap-2.5">
+                              <div className="w-7 h-7 rounded-lg bg-amber-500/20 flex items-center justify-center text-amber-400 shrink-0">
+                                <Zap className="w-4 h-4" />
+                              </div>
+                              <div className="text-left">
+                                <span className="text-white font-extrabold block text-xs">Browse All 9 Electric Quads</span>
+                                <span className="text-[10.5px] text-amber-200/80 font-normal">Full specifications, battery ranges & pricing</span>
+                              </div>
+                            </div>
+                            <ArrowRight className="w-4 h-4 text-amber-400 group-hover:translate-x-1 transition-transform shrink-0 ml-2" />
+                          </button>
+
+                          {/* By Rider Sub-categories */}
+                          <div>
+                            <h4 className="text-[11px] font-extrabold uppercase tracking-wider text-amber-400 mb-2">
+                              By Rider Type
+                            </h4>
+                            <div className="grid grid-cols-1 gap-2">
+                              <button
+                                type="button"
+                                onClick={() => handleQuadItemClick({ folderId: 'quads-adult', category: 'Electric Quads & UTVs' })}
+                                className="w-full text-left p-3 rounded-xl bg-slate-900 hover:bg-slate-850 border border-slate-800 transition-all cursor-pointer flex items-center justify-between active:scale-[0.99]"
+                              >
+                                <div>
+                                  <div className="text-xs font-bold text-slate-100 flex items-center gap-2">
+                                    <span>Adult & Utility Quads</span>
+                                    <span className="text-[10px] bg-slate-800 text-amber-300 font-mono px-1.5 py-0.2 rounded border border-slate-700">4 Models</span>
+                                  </div>
+                                  <p className="text-[11px] text-slate-400 mt-0.5">High-torque estate, farm & 4x4 off-roaders with winches</p>
+                                </div>
+                                <ArrowRight className="w-3.5 h-3.5 text-slate-500 shrink-0 ml-2" />
+                              </button>
+
+                              <button
+                                type="button"
+                                onClick={() => handleQuadItemClick({ folderId: 'quads-kids', category: 'Electric Quads & UTVs' })}
+                                className="w-full text-left p-3 rounded-xl bg-slate-900 hover:bg-slate-850 border border-slate-800 transition-all cursor-pointer flex items-center justify-between active:scale-[0.99]"
+                              >
+                                <div>
+                                  <div className="text-xs font-bold text-slate-100 flex items-center gap-2">
+                                    <span>Kids & Youth Electric Quads</span>
+                                    <span className="text-[10px] bg-slate-800 text-amber-300 font-mono px-1.5 py-0.2 rounded border border-slate-700">5 Models</span>
+                                  </div>
+                                  <p className="text-[11px] text-slate-400 mt-0.5">Key parental speed limiters, enclosed footwells & safety brakes</p>
+                                </div>
+                                <ArrowRight className="w-3.5 h-3.5 text-slate-500 shrink-0 ml-2" />
+                              </button>
+                            </div>
+                          </div>
+
+                          {/* Quad Brands Grid */}
+                          <div>
+                            <h4 className="text-[11px] font-extrabold uppercase tracking-wider text-amber-400 mb-2">
+                              Quad Brands
+                            </h4>
+                            <div className="grid grid-cols-2 gap-2">
+                              {[
+                                { name: 'Segway', brand: 'Segway', count: '2 Models', desc: 'Snarler & Junior' },
+                                { name: 'Eco Rider', brand: 'Eco Rider', count: '3 Models', desc: 'Explorer GT 4x4' },
+                                { name: 'FunBikes', brand: 'FunBikes', count: '3 Models', desc: '500W-1500W Beast' },
+                                { name: 'Razor', brand: 'Razor', count: '1 Model', desc: 'Dirt Quad 4-Wheeler' },
+                              ].map((qb) => (
+                                <button
+                                  key={qb.brand}
+                                  type="button"
+                                  onClick={() => handleQuadItemClick({ 
+                                    folderId: qb.brand === 'Eco Rider' ? 'brand-ecorider' : 'quads-folder', 
+                                    brand: qb.brand 
+                                  })}
+                                  className="text-left p-2.5 rounded-xl bg-slate-900 hover:bg-slate-850 border border-slate-800 transition-all cursor-pointer active:scale-[0.98]"
+                                >
+                                  <div className="text-xs font-bold text-slate-200">{qb.name}</div>
+                                  <div className="text-[10px] font-mono text-amber-400 mt-0.5">{qb.count}</div>
+                                  <div className="text-[9.5px] text-slate-400 mt-0.5 line-clamp-1">{qb.desc}</div>
+                                </button>
+                              ))}
+                            </div>
+                          </div>
+
+                          {/* Store-wide Brand Directory Link */}
+                          <button
+                            type="button"
+                            onClick={() => handleQuadItemClick({ folderId: 'all' })}
+                            className="w-full text-left p-3 rounded-xl bg-slate-900 hover:bg-slate-850 border border-slate-800 flex items-center justify-between text-xs text-slate-300 hover:text-white transition-all cursor-pointer"
+                          >
+                            <div>
+                              <div className="font-bold text-slate-200">View All 11 Brands Directory</div>
+                              <div className="text-[10px] text-slate-400 mt-0.5">Sur-Ron, Talaria, Stark Varg, Segway, KTM & more</div>
+                            </div>
+                            <ArrowRight className="w-3.5 h-3.5 text-slate-500 shrink-0 ml-2" />
+                          </button>
+
+                          {/* Trust guarantees bar */}
+                          <div className="pt-2 border-t border-slate-800/80 space-y-1.5 text-[11px] text-slate-400">
+                            <div className="flex items-center gap-2 text-slate-300">
+                              <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
+                              <span>Next-Day UK Dispatch on In-Stock Quads</span>
+                            </div>
+                            <div className="flex items-center gap-2 text-slate-300">
+                              <Zap className="w-3.5 h-3.5 text-amber-400 shrink-0" />
+                              <span>0% Finance with Klarna & Clearpay</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>,
+                    document.body
                   )}
                 </div>
               </React.Fragment>
