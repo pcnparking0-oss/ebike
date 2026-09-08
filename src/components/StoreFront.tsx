@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { Product, EbikeCategory, MotorLocation, WaterResistance } from '../types';
 import { 
   Zap, 
@@ -30,7 +30,10 @@ import {
   StoreFolder, 
   getProductsForFolder,
   BATTERY_PRODUCTS,
-  KIDS_PRODUCTS
+  KIDS_PRODUCTS,
+  ALL_QUAD_PRODUCTS,
+  ADULT_UTILITY_QUAD_PRODUCTS,
+  KIDS_QUAD_PRODUCTS
 } from '../data/products/index';
 
 interface StoreFrontProps {
@@ -41,6 +44,9 @@ interface StoreFrontProps {
   onAddToCart: (product: Product) => void;
   onOpenSchemaModal: (product: Product) => void;
   onNavigateToView: (view: any) => void;
+  initialCategory?: string;
+  initialBrand?: string;
+  initialFolderId?: string;
 }
 
 export const StoreFront: React.FC<StoreFrontProps> = ({
@@ -51,15 +57,60 @@ export const StoreFront: React.FC<StoreFrontProps> = ({
   onAddToCart,
   onOpenSchemaModal,
   onNavigateToView,
+  initialCategory,
+  initialBrand,
+  initialFolderId,
 }) => {
-  const [selectedCategory, setSelectedCategory] = useState<string>('All');
-  const [selectedBrand, setSelectedBrand] = useState<string>('All');
-  const [activeFolderId, setActiveFolderId] = useState<string>('all');
-  const [folderViewTab, setFolderViewTab] = useState<'all' | 'brands' | 'battery' | 'kids'>('all');
+  const [selectedCategory, setSelectedCategory] = useState<string>(initialCategory || 'All');
+  const [selectedBrand, setSelectedBrand] = useState<string>(initialBrand || 'All');
+  const [activeFolderId, setActiveFolderId] = useState<string>(initialFolderId || 'all');
+  const [folderViewTab, setFolderViewTab] = useState<'all' | 'brands' | 'battery' | 'kids' | 'quads'>('all');
   const [showFolderDirectory, setShowFolderDirectory] = useState<boolean>(false);
+
+  // Handler for selecting folder that safely resets conflicting filters
+  const handleSelectFolder = (folderId: string) => {
+    setActiveFolderId(folderId);
+    setSelectedCategory('All');
+    setSelectedBrand('All');
+    setSelectedMotorType('All');
+    setCycleToWorkOnly(false);
+    setWaterproofOnly(false);
+    setMinTorque(0);
+    setMaxWeight(150);
+  };
+
+  const handleResetAllFilters = () => {
+    setActiveFolderId('all');
+    setSelectedCategory('All');
+    setSelectedBrand('All');
+    setSelectedMotorType('All');
+    setCycleToWorkOnly(false);
+    setWaterproofOnly(false);
+    setMinTorque(0);
+    setMaxWeight(150);
+  };
+
+  // Sync props when updated from Header navigation
+  useEffect(() => {
+    if (initialFolderId) {
+      setActiveFolderId(initialFolderId);
+    }
+  }, [initialFolderId]);
+
+  useEffect(() => {
+    if (initialCategory !== undefined) {
+      setSelectedCategory(initialCategory);
+    }
+  }, [initialCategory]);
+
+  useEffect(() => {
+    if (initialBrand !== undefined) {
+      setSelectedBrand(initialBrand);
+    }
+  }, [initialBrand]);
   const [sortBy, setSortBy] = useState<string>('featured');
   const [selectedMotorType, setSelectedMotorType] = useState<string>('All');
-  const [maxWeight, setMaxWeight] = useState<number>(130);
+  const [maxWeight, setMaxWeight] = useState<number>(150);
   const [minTorque, setMinTorque] = useState<number>(0);
   const [cycleToWorkOnly, setCycleToWorkOnly] = useState<boolean>(false);
   const [waterproofOnly, setWaterproofOnly] = useState<boolean>(false);
@@ -68,9 +119,14 @@ export const StoreFront: React.FC<StoreFrontProps> = ({
   const categories = [
     'All',
     'Electric Dirt Bikes',
-    'Road-Legal Electric Dirt Bikes',
     'Kids & Youth Electric Dirt Bikes',
+    'Road-Legal Electric Dirt Bikes',
     'Electric Quads & UTVs',
+    'Batteries & Chargers',
+    'Helmets & Protection',
+    'Riding Gear & Clothing',
+    'Parts & Upgrades',
+    'Tyres & Wheels',
     'Accessories & Gear'
   ];
 
@@ -86,14 +142,15 @@ export const StoreFront: React.FC<StoreFrontProps> = ({
     'FunBikes',
     'Razor',
     'Segway',
-    'Eco Rider'
+    'Eco Rider',
+    'GasGas',
+    'STACYC',
+    'Zero'
   ];
 
-  // Folder-scoped product IDs
-  const currentFolderProductIds = useMemo(() => {
-    if (activeFolderId === 'all') return null;
-    const folderProducts = getProductsForFolder(activeFolderId, products);
-    return new Set(folderProducts.map((p) => p.id));
+  // Base products provided by currently active folder
+  const baseFolderProducts = useMemo(() => {
+    return getProductsForFolder(activeFolderId, products);
   }, [activeFolderId, products]);
 
   const currentFolderMeta = useMemo(() => {
@@ -102,24 +159,38 @@ export const StoreFront: React.FC<StoreFrontProps> = ({
 
   // Filtering logic
   const filteredProducts = useMemo(() => {
-    const list = products.filter((item) => {
-      // Respective Folder filter
-      if (currentFolderProductIds && !currentFolderProductIds.has(item.id)) {
-        return false;
-      }
-
+    const list = baseFolderProducts.filter((item) => {
       // Category filter
-      if (selectedCategory !== 'All' && item.category !== selectedCategory) {
-        return false;
+      if (selectedCategory !== 'All') {
+        const cat = selectedCategory;
+        const matchesCat =
+          item.category === cat ||
+          (cat === 'Electric Dirt Bikes' && item.type === 'bike' && (!item.tags || !item.tags.includes('kids'))) ||
+          (cat === 'Kids & Youth Electric Dirt Bikes' && item.tags && item.tags.includes('kids')) ||
+          (cat === 'Road-Legal Electric Dirt Bikes' && item.tags && item.tags.includes('road')) ||
+          (cat === 'Electric Quads & UTVs' && (item.type === 'quad' || (item.tags && item.tags.includes('quad')))) ||
+          (cat === 'Batteries & Chargers' && (item.tags && (item.tags.includes('batteries') || item.tags.includes('chargers')))) ||
+          (cat === 'Helmets & Protection' && (item.tags && (item.tags.includes('protection') || item.tags.includes('helmets')))) ||
+          (cat === 'Riding Gear & Clothing' && (item.tags && (item.tags.includes('gear') || item.tags.includes('clothing')))) ||
+          (cat === 'Parts & Upgrades' && (item.tags && item.tags.includes('parts-upgrades'))) ||
+          (cat === 'Tyres & Wheels' && (item.tags && item.tags.includes('tyres'))) ||
+          (cat === 'Accessories & Gear' && item.type === 'part');
+        if (!matchesCat) return false;
       }
 
       // Brand filter
       if (selectedBrand !== 'All') {
-        const itemLower = item.name.toLowerCase();
-        const brandLower = selectedBrand.toLowerCase();
-        if (!itemLower.includes(brandLower) && !item.sku.toLowerCase().includes(brandLower.slice(0, 3))) {
-          return false;
-        }
+        const brandLower = selectedBrand.toLowerCase().trim();
+        const itemBrandLower = (item.brand || '').toLowerCase().trim();
+        const itemNameLower = item.name.toLowerCase();
+        const brandTag = brandLower.replace(/[^a-z0-9]/g, '');
+        const matchesBrand =
+          itemBrandLower === brandLower ||
+          itemBrandLower.includes(brandLower) ||
+          brandLower.includes(itemBrandLower) ||
+          itemNameLower.includes(brandLower) ||
+          (item.tags && item.tags.some((t) => t.toLowerCase() === brandTag || t.toLowerCase() === brandLower));
+        if (!matchesBrand) return false;
       }
 
       // City filter
@@ -134,7 +205,8 @@ export const StoreFront: React.FC<StoreFrontProps> = ({
         const matchesTagline = item.tagline.toLowerCase().includes(q);
         const matchesCategory = item.category.toLowerCase().includes(q);
         const matchesDesc = item.description.toLowerCase().includes(q);
-        if (!matchesName && !matchesTagline && !matchesCategory && !matchesDesc) {
+        const matchesBrand = (item.brand || '').toLowerCase().includes(q);
+        if (!matchesName && !matchesTagline && !matchesCategory && !matchesDesc && !matchesBrand) {
           return false;
         }
       }
@@ -177,7 +249,7 @@ export const StoreFront: React.FC<StoreFrontProps> = ({
       return (b.featured ? 1 : 0) - (a.featured ? 1 : 0);
     });
   }, [
-    products, 
+    baseFolderProducts, 
     selectedCategory, 
     selectedBrand,
     sortBy,
@@ -217,18 +289,14 @@ export const StoreFront: React.FC<StoreFrontProps> = ({
             className="flex items-center gap-1.5 text-xs font-bold text-blue-600 hover:text-blue-700 bg-blue-50 hover:bg-blue-100/80 px-3 py-1.5 rounded-lg transition-colors cursor-pointer"
           >
             <Grid className="w-3.5 h-3.5" />
-            <span>{showFolderDirectory ? 'Hide Folders Overview' : 'View All 14 Folders'}</span>
+            <span>{showFolderDirectory ? 'Hide Folders Overview' : 'View All Folders Overview'}</span>
           </button>
         </div>
 
         {/* Primary Respective Folders Tabs */}
         <div className="flex items-center gap-2 overflow-x-auto no-scrollbar py-1">
           <button
-            onClick={() => {
-              setActiveFolderId('all');
-              setSelectedBrand('All');
-              setSelectedCategory('All');
-            }}
+            onClick={() => handleSelectFolder('all')}
             className={`flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all cursor-pointer ${
               activeFolderId === 'all'
                 ? 'bg-slate-950 text-white shadow-sm ring-1 ring-slate-800'
@@ -237,45 +305,188 @@ export const StoreFront: React.FC<StoreFrontProps> = ({
           >
             <Layers className="w-3.5 h-3.5 text-blue-400" />
             <span>All Products Folder</span>
-            <span className="text-[10px] bg-white/20 px-1.5 py-0.5 rounded-full font-mono">57</span>
+            <span className="text-[10px] bg-white/20 px-1.5 py-0.5 rounded-full font-mono">{products.length}</span>
           </button>
 
-          {/* Battery Folder */}
+          {/* Adult Bikes Folder */}
           <button
-            onClick={() => {
-              setActiveFolderId('battery-folder');
-              setSelectedBrand('All');
-              setSelectedCategory('All');
-            }}
+            onClick={() => handleSelectFolder('adult-bikes')}
             className={`flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all cursor-pointer ${
-              activeFolderId === 'battery-folder'
-                ? 'bg-emerald-600 text-white shadow-sm ring-2 ring-emerald-500/30'
-                : 'bg-emerald-50 text-emerald-800 hover:bg-emerald-100 border border-emerald-200/80'
+              activeFolderId === 'adult-bikes'
+                ? 'bg-blue-600 text-white shadow-sm ring-2 ring-blue-500/30'
+                : 'bg-blue-50 text-blue-900 hover:bg-blue-100 border border-blue-200/80'
             }`}
           >
-            <Battery className="w-3.5 h-3.5 text-emerald-400" />
-            <span>📁 Battery & Chargers Folder</span>
-            <span className="text-[10px] bg-emerald-700/20 text-emerald-950 px-1.5 py-0.5 rounded-full font-mono font-bold">15</span>
+            <Zap className="w-3.5 h-3.5 text-blue-500" />
+            <span>📁 Adult Dirt Bikes</span>
+            <span className="text-[10px] bg-blue-700/20 text-blue-950 px-1.5 py-0.5 rounded-full font-mono font-bold">
+              {getProductsForFolder('adult-bikes', products).length}
+            </span>
+          </button>
+
+          {/* Electric Quads Folder */}
+          <button
+            onClick={() => handleSelectFolder('quads-folder')}
+            className={`flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all cursor-pointer ${
+              activeFolderId === 'quads-folder' || activeFolderId === 'quads-adult' || activeFolderId === 'quads-kids'
+                ? 'bg-amber-600 text-white shadow-sm ring-2 ring-amber-500/30'
+                : 'bg-amber-50 text-amber-900 hover:bg-amber-100 border border-amber-300/80'
+            }`}
+          >
+            <span className="text-sm">🚜</span>
+            <span>📁 Electric Quads</span>
+            <span className="text-[10px] bg-amber-700/20 text-amber-950 px-1.5 py-0.5 rounded-full font-mono font-bold">
+              {getProductsForFolder('quads-folder', products).length}
+            </span>
+          </button>
+
+          {/* Road Legal Folder */}
+          <button
+            onClick={() => handleSelectFolder('road-legal')}
+            className={`flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all cursor-pointer ${
+              activeFolderId === 'road-legal'
+                ? 'bg-emerald-600 text-white shadow-sm ring-2 ring-emerald-500/30'
+                : 'bg-emerald-50 text-emerald-900 hover:bg-emerald-100 border border-emerald-200/80'
+            }`}
+          >
+            <ShieldCheck className="w-3.5 h-3.5 text-emerald-500" />
+            <span>📁 Road-Legal Bikes</span>
+            <span className="text-[10px] bg-emerald-700/20 text-emerald-950 px-1.5 py-0.5 rounded-full font-mono font-bold">
+              {getProductsForFolder('road-legal', products).length}
+            </span>
           </button>
 
           {/* Kids Folder */}
           <button
-            onClick={() => {
-              setActiveFolderId('kids-folder');
-              setSelectedBrand('All');
-              setSelectedCategory('All');
-            }}
+            onClick={() => handleSelectFolder('kids-folder')}
             className={`flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all cursor-pointer ${
-              activeFolderId === 'kids-folder'
-                ? 'bg-amber-600 text-white shadow-sm ring-2 ring-amber-500/30'
-                : 'bg-amber-50 text-amber-800 hover:bg-amber-100 border border-amber-200/80'
+              activeFolderId === 'kids-folder' || activeFolderId === 'kids-bikes'
+                ? 'bg-orange-600 text-white shadow-sm ring-2 ring-orange-500/30'
+                : 'bg-orange-50 text-orange-900 hover:bg-orange-100 border border-orange-200/80'
             }`}
           >
-            <Sparkles className="w-3.5 h-3.5 text-amber-500" />
+            <Sparkles className="w-3.5 h-3.5 text-orange-500" />
             <span>📁 Kids & Youth Folder</span>
-            <span className="text-[10px] bg-amber-700/20 text-amber-950 px-1.5 py-0.5 rounded-full font-mono font-bold">22</span>
+            <span className="text-[10px] bg-orange-700/20 text-orange-950 px-1.5 py-0.5 rounded-full font-mono font-bold">
+              {getProductsForFolder('kids-folder', products).length}
+            </span>
+          </button>
+
+          {/* Battery Folder */}
+          <button
+            onClick={() => handleSelectFolder('battery-folder')}
+            className={`flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all cursor-pointer ${
+              activeFolderId === 'battery-folder'
+                ? 'bg-teal-600 text-white shadow-sm ring-2 ring-teal-500/30'
+                : 'bg-teal-50 text-teal-800 hover:bg-teal-100 border border-teal-200/80'
+            }`}
+          >
+            <Battery className="w-3.5 h-3.5 text-teal-600" />
+            <span>📁 Batteries & Chargers</span>
+            <span className="text-[10px] bg-teal-700/20 text-teal-950 px-1.5 py-0.5 rounded-full font-mono font-bold">
+              {getProductsForFolder('battery-folder', products).length}
+            </span>
+          </button>
+
+          {/* Parts Folder */}
+          <button
+            onClick={() => handleSelectFolder('parts-folder')}
+            className={`flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all cursor-pointer ${
+              activeFolderId === 'parts-folder'
+                ? 'bg-purple-600 text-white shadow-sm ring-2 ring-purple-500/30'
+                : 'bg-purple-50 text-purple-800 hover:bg-purple-100 border border-purple-200/80'
+            }`}
+          >
+            <Tag className="w-3.5 h-3.5 text-purple-600" />
+            <span>📁 Parts & Accessories</span>
+            <span className="text-[10px] bg-purple-700/20 text-purple-950 px-1.5 py-0.5 rounded-full font-mono font-bold">
+              {getProductsForFolder('parts-folder', products).length}
+            </span>
           </button>
         </div>
+
+        {/* Dedicated Quads Sub-Types Quick Filter (volttrail.org Spec) */}
+        {(activeFolderId.startsWith('quads') || selectedCategory === 'Electric Quads & UTVs') && (
+          <div className="mt-3 p-3 bg-amber-500/10 border border-amber-400/30 rounded-xl flex flex-wrap items-center justify-between gap-2.5 animate-in fade-in">
+            <div className="flex items-center gap-2 flex-wrap text-xs">
+              <span className="font-extrabold uppercase tracking-wider text-amber-900 text-[10px] flex items-center gap-1">
+                ⚡ Quads Sub-Types:
+              </span>
+              <button
+                onClick={() => {
+                  setActiveFolderId('quads-folder');
+                  setSelectedBrand('All');
+                  setSelectedCategory('All');
+                }}
+                className={`px-2.5 py-1 rounded-lg text-xs font-bold transition-all cursor-pointer ${
+                  activeFolderId === 'quads-folder' && selectedBrand === 'All'
+                    ? 'bg-amber-600 text-white shadow-xs'
+                    : 'bg-white text-slate-700 hover:bg-amber-100/50'
+                }`}
+              >
+                All Quads ({getProductsForFolder('quads-folder', products).length})
+              </button>
+              <button
+                onClick={() => {
+                  setActiveFolderId('quads-adult');
+                  setSelectedBrand('All');
+                  setSelectedCategory('All');
+                }}
+                className={`px-2.5 py-1 rounded-lg text-xs font-bold transition-all cursor-pointer ${
+                  activeFolderId === 'quads-adult'
+                    ? 'bg-amber-600 text-white shadow-xs'
+                    : 'bg-white text-slate-700 hover:bg-amber-100/50'
+                }`}
+              >
+                Adult & Utility Quads ({getProductsForFolder('quads-adult', products).length})
+              </button>
+              <button
+                onClick={() => {
+                  setActiveFolderId('quads-kids');
+                  setSelectedBrand('All');
+                  setSelectedCategory('All');
+                }}
+                className={`px-2.5 py-1 rounded-lg text-xs font-bold transition-all cursor-pointer ${
+                  activeFolderId === 'quads-kids'
+                    ? 'bg-amber-600 text-white shadow-xs'
+                    : 'bg-white text-slate-700 hover:bg-amber-100/50'
+                }`}
+              >
+                Kids Electric Quads ({getProductsForFolder('quads-kids', products).length})
+              </button>
+            </div>
+
+            <div className="flex items-center gap-1.5 text-xs">
+              <span className="text-[10px] text-amber-800 font-bold uppercase tracking-wider mr-1">Quad Brands:</span>
+              {[
+                { brand: 'Segway', label: 'Segway' },
+                { brand: 'Eco Rider', label: 'Eco Rider' },
+                { brand: 'FunBikes', label: 'FunBikes' },
+                { brand: 'Razor', label: 'Razor' },
+              ].map((qb) => {
+                const quadBrandCount = getProductsForFolder('quads-folder', products).filter((p) => (p.brand || '').toLowerCase() === qb.brand.toLowerCase() || p.name.toLowerCase().includes(qb.brand.toLowerCase())).length;
+                return (
+                  <button
+                    key={qb.brand}
+                    onClick={() => {
+                      setSelectedBrand(qb.brand);
+                      if (!activeFolderId.startsWith('quads')) {
+                        setActiveFolderId('quads-folder');
+                      }
+                    }}
+                    className={`px-2 py-0.5 rounded-md text-[11px] font-semibold transition-all cursor-pointer ${
+                      selectedBrand === qb.brand
+                        ? 'bg-slate-900 text-amber-300'
+                        : 'bg-white/80 text-slate-700 hover:bg-white'
+                    }`}
+                  >
+                    {qb.label} ({quadBrandCount})
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        )}
 
         {/* Brand Folders Strip */}
         <div className="mt-3 pt-3 border-t border-slate-100 flex items-center gap-1.5 overflow-x-auto no-scrollbar py-1">
@@ -284,26 +495,29 @@ export const StoreFront: React.FC<StoreFrontProps> = ({
             Brand Folders:
           </span>
           {[
-            { id: 'brand-surron', name: 'Sur-Ron', count: 13 },
-            { id: 'brand-talaria', name: 'Talaria', count: 10 },
-            { id: 'brand-stark', name: 'Stark Varg', count: 4 },
-            { id: 'brand-eridepro', name: 'E-Ride Pro', count: 2 },
-            { id: 'brand-rfn', name: 'RFN', count: 5 },
-            { id: 'brand-ktm', name: 'KTM', count: 3 },
-            { id: 'brand-revvi', name: 'Revvi', count: 5 },
-            { id: 'brand-funbikes', name: 'FunBikes', count: 7 },
-            { id: 'brand-razor', name: 'Razor', count: 3 },
-            { id: 'brand-segway', name: 'Segway', count: 2 },
-            { id: 'brand-ecorider', name: 'Eco Rider', count: 3 }
+            { id: 'brand-surron', name: 'Sur-Ron' },
+            { id: 'brand-talaria', name: 'Talaria' },
+            { id: 'brand-stark', name: 'Stark Varg' },
+            { id: 'brand-eridepro', name: 'E-Ride Pro' },
+            { id: 'brand-rfn', name: 'RFN' },
+            { id: 'brand-ktm', name: 'KTM' },
+            { id: 'brand-revvi', name: 'Revvi' },
+            { id: 'brand-funbikes', name: 'FunBikes' },
+            { id: 'brand-razor', name: 'Razor' },
+            { id: 'brand-segway', name: 'Segway' },
+            { id: 'brand-ecorider', name: 'Eco Rider' },
+            { id: 'brand-gasgas', name: 'GasGas' },
+            { id: 'brand-stacyc', name: 'STACYC' },
+            { id: 'brand-zero', name: 'Zero' },
           ].map((b) => {
             const isSelected = activeFolderId === b.id;
+            const brandCount = getProductsForFolder(b.id, products).length;
+            if (brandCount === 0) return null;
             return (
               <button
                 key={b.id}
                 onClick={() => {
-                  setActiveFolderId(isSelected ? 'all' : b.id);
-                  setSelectedBrand('All');
-                  setSelectedCategory('All');
+                  handleSelectFolder(isSelected ? 'all' : b.id);
                 }}
                 className={`px-2.5 py-1 rounded-lg text-xs font-semibold whitespace-nowrap transition-all cursor-pointer flex items-center gap-1.5 ${
                   isSelected
@@ -313,7 +527,7 @@ export const StoreFront: React.FC<StoreFrontProps> = ({
               >
                 <span>{b.name}</span>
                 <span className={`text-[10px] px-1 rounded-full font-mono ${isSelected ? 'bg-blue-700 text-white' : 'bg-slate-200 text-slate-600'}`}>
-                  {b.count}
+                  {brandCount}
                 </span>
               </button>
             );
@@ -349,7 +563,7 @@ export const StoreFront: React.FC<StoreFrontProps> = ({
                 <div
                   key={folder.id}
                   onClick={() => {
-                    setActiveFolderId(folder.id);
+                    handleSelectFolder(folder.id);
                     setShowFolderDirectory(false);
                   }}
                   className={`bg-white rounded-xl p-4 border transition-all cursor-pointer hover:shadow-md hover:-translate-y-0.5 group ${
@@ -365,6 +579,8 @@ export const StoreFront: React.FC<StoreFrontProps> = ({
                           <Battery className="w-4 h-4 text-emerald-600" />
                         ) : folder.categoryType === 'kids' ? (
                           <Sparkles className="w-4 h-4 text-amber-600" />
+                        ) : folder.categoryType === 'quads' ? (
+                          <span className="text-base leading-none">🚜</span>
                         ) : (
                           <Folder className="w-4 h-4" />
                         )}
@@ -417,7 +633,7 @@ export const StoreFront: React.FC<StoreFrontProps> = ({
           </div>
 
           <button
-            onClick={() => setActiveFolderId('all')}
+            onClick={handleResetAllFilters}
             className="flex items-center gap-1.5 bg-white/10 hover:bg-white/20 text-white px-3.5 py-2 rounded-xl text-xs font-bold transition-all shrink-0 cursor-pointer border border-white/15"
           >
             <X className="w-3.5 h-3.5" />
@@ -633,11 +849,38 @@ export const StoreFront: React.FC<StoreFrontProps> = ({
 
           {filteredProducts.length === 0 ? (
             <div className="bg-white border border-slate-200 rounded-2xl p-12 text-center shadow-sm">
-              <Info className="w-8 h-8 text-slate-400 mx-auto mb-3" />
-              <h3 className="text-base font-bold text-slate-900 font-heading">No products match your filter criteria</h3>
-              <p className="text-xs text-slate-500 mt-1 max-w-sm mx-auto">
-                Try widening your weight, torque, or brand filters to browse our full lineup.
+              <div className="w-12 h-12 rounded-2xl bg-amber-50 border border-amber-200/80 flex items-center justify-center text-amber-600 mx-auto mb-4">
+                <Info className="w-6 h-6" />
+              </div>
+              <h3 className="text-base font-bold text-slate-900 font-heading">No products match your current filters</h3>
+              <p className="text-xs text-slate-500 mt-1.5 max-w-md mx-auto leading-relaxed">
+                {activeFolderId !== 'all' 
+                  ? `There are ${baseFolderProducts.length} items in the "${currentFolderMeta?.name || 'current'}" folder, but none matched the active brand/category or spec filters.`
+                  : 'Try widening your category, brand, weight, or torque filters to view our full electric lineup.'
+                }
               </p>
+              <div className="flex items-center justify-center gap-3 mt-5 flex-wrap">
+                {activeFolderId !== 'all' && (
+                  <button
+                    onClick={() => {
+                      setSelectedCategory('All');
+                      setSelectedBrand('All');
+                      setSelectedMotorType('All');
+                      setMinTorque(0);
+                      setMaxWeight(150);
+                    }}
+                    className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold rounded-xl shadow-xs transition-colors cursor-pointer"
+                  >
+                    Clear Sub-Filters in this Folder ({baseFolderProducts.length} models)
+                  </button>
+                )}
+                <button
+                  onClick={handleResetAllFilters}
+                  className="px-4 py-2 bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs font-bold rounded-xl transition-colors cursor-pointer"
+                >
+                  View All Products ({products.length})
+                </button>
+              </div>
             </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">

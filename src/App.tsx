@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ViewMode, Product, CartItem } from './types';
 import { UK_PRODUCTS } from './data/productsData';
-import { Header } from './components/Header';
+import { Header, QuadNavFilter } from './components/Header';
 import { Footer } from './components/Footer';
 import { StoreFront } from './components/StoreFront';
 import { ProductDetailModal } from './components/ProductDetailModal';
@@ -21,6 +21,18 @@ export default function App() {
   const [currentView, setCurrentView] = useState<ViewMode>('home');
   const [selectedCity, setSelectedCity] = useState<string>('All UK');
   const [searchQuery, setSearchQuery] = useState<string>('');
+  
+  // Store front folder & filtering state from global navigation
+  const [storeInitialFolder, setStoreInitialFolder] = useState<string>('all');
+  const [storeInitialCategory, setStoreInitialCategory] = useState<string>('All');
+  const [storeInitialBrand, setStoreInitialBrand] = useState<string>('All');
+
+  const handleSelectQuadFilter = (filter: QuadNavFilter) => {
+    setStoreInitialFolder(filter.folderId || 'all');
+    setStoreInitialCategory(filter.category || 'All');
+    setStoreInitialBrand(filter.brand || 'All');
+    setCurrentView('shop');
+  };
   
   // Modals & Drawers
   const [selectedProductDetail, setSelectedProductDetail] = useState<Product | null>(null);
@@ -76,6 +88,7 @@ export default function App() {
       <Header
         currentView={currentView}
         onSelectView={setCurrentView}
+        onSelectQuadFilter={handleSelectQuadFilter}
         cartCount={cartTotalCount}
         onOpenCart={() => setIsCartOpen(true)}
         selectedCity={selectedCity}
@@ -104,6 +117,9 @@ export default function App() {
             onAddToCart={handleAddToCart}
             onOpenSchemaModal={setSelectedSchemaProduct}
             onNavigateToView={setCurrentView}
+            initialFolderId={storeInitialFolder}
+            initialCategory={storeInitialCategory}
+            initialBrand={storeInitialBrand}
           />
         )}
 

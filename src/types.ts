@@ -4,6 +4,11 @@ export type EbikeCategory =
   | 'Electric Mountain Bikes'
   | 'Kids & Youth Electric Dirt Bikes'
   | 'Electric Quads & UTVs'
+  | 'Batteries & Chargers'
+  | 'Helmets & Protection'
+  | 'Riding Gear & Clothing'
+  | 'Parts & Upgrades'
+  | 'Tyres & Wheels'
   | 'Accessories & Gear'
   | 'Commuter E-Bikes'
   | 'Folding E-Bikes'
@@ -50,6 +55,7 @@ export interface Product {
   id: string;
   slug: string;
   name: string;
+  brand?: string;
   subtitle: string;
   tagline: string;
   category: EbikeCategory;
@@ -72,6 +78,13 @@ export interface Product {
   paaFaqs: { question: string; answer: string }[];
   idealForCities: string[];
   featured?: boolean;
+  tags?: string[];
+  badges?: string[];
+  specs?: string[];
+  colours?: { hex: string; name: string }[];
+  finance?: string | null;
+  type?: 'bike' | 'quad' | 'part';
+  age?: string;
 }
 
 export interface KeywordEntry {

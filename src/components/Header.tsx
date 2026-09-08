@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { ViewMode } from '../types';
 import { 
   Home,
@@ -12,12 +12,26 @@ import {
   MapPin, 
   Zap, 
   CheckCircle2,
-  BookOpen
+  BookOpen,
+  ChevronDown,
+  Folder,
+  ArrowRight,
+  Sparkles,
+  Shield,
+  Layers
 } from 'lucide-react';
+
+export interface QuadNavFilter {
+  folderId?: string;
+  category?: string;
+  brand?: string;
+  search?: string;
+}
 
 interface HeaderProps {
   currentView: ViewMode;
   onSelectView: (view: ViewMode) => void;
+  onSelectQuadFilter?: (filter: QuadNavFilter) => void;
   cartCount: number;
   onOpenCart: () => void;
   selectedCity: string;
@@ -29,6 +43,7 @@ interface HeaderProps {
 export const Header: React.FC<HeaderProps> = ({
   currentView,
   onSelectView,
+  onSelectQuadFilter,
   cartCount,
   onOpenCart,
   selectedCity,
@@ -36,6 +51,28 @@ export const Header: React.FC<HeaderProps> = ({
   searchQuery,
   onSearchChange,
 }) => {
+  const [isQuadsOpen, setIsQuadsOpen] = useState(false);
+  const quadsDropdownRef = useRef<HTMLDivElement>(null);
+
+  // Close dropdown on click outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (quadsDropdownRef.current && !quadsDropdownRef.current.contains(event.target as Node)) {
+        setIsQuadsOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  const handleQuadItemClick = (filter: QuadNavFilter) => {
+    setIsQuadsOpen(false);
+    if (onSelectQuadFilter) {
+      onSelectQuadFilter(filter);
+    } else {
+      onSelectView('shop');
+    }
+  };
   const UK_CITIES = [
     'All UK',
     'London',
@@ -172,10 +209,214 @@ export const Header: React.FC<HeaderProps> = ({
       </div>
 
       {/* Navigation Switcher Tabs */}
-      <nav aria-label="Main Navigation" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-slate-100 flex items-center overflow-x-auto no-scrollbar gap-1 sm:gap-1.5 py-2 bg-white">
+      <nav aria-label="Main Navigation" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-slate-100 flex items-center overflow-x-auto sm:overflow-visible no-scrollbar gap-1 sm:gap-1.5 py-2 bg-white relative">
         {NAV_ITEMS.map((item) => {
           const Icon = item.icon;
           const isActive = currentView === item.id;
+
+          if (item.id === 'shop') {
+            return (
+              <React.Fragment key="shop-and-quads">
+                <button
+                  id={`nav-tab-${item.id}`}
+                  onClick={() => onSelectView(item.id)}
+                  className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-xs font-bold whitespace-nowrap transition-all cursor-pointer ${
+                    isActive && !isQuadsOpen
+                      ? 'bg-blue-600 text-white shadow-xs'
+                      : 'text-slate-600 hover:text-slate-950 hover:bg-slate-100'
+                  }`}
+                >
+                  <Icon className="w-3.5 h-3.5" />
+                  <span>{item.label}</span>
+                </button>
+
+                {/* Electric Quads Menu Folder with Dropdown */}
+                <div 
+                  ref={quadsDropdownRef}
+                  className="relative shrink-0"
+                  onMouseEnter={() => setIsQuadsOpen(true)}
+                >
+                  <button
+                    id="nav-tab-quads-menu"
+                    type="button"
+                    aria-expanded={isQuadsOpen}
+                    aria-haspopup="true"
+                    onClick={() => setIsQuadsOpen(!isQuadsOpen)}
+                    className={`flex items-center gap-1.5 px-3 sm:px-3.5 py-1.5 rounded-lg text-xs font-bold whitespace-nowrap transition-all cursor-pointer ${
+                      isQuadsOpen
+                        ? 'bg-slate-950 text-amber-400 shadow-sm ring-1 ring-slate-800'
+                        : 'text-amber-900 bg-amber-50 hover:bg-amber-100/80 border border-amber-300/80'
+                    }`}
+                  >
+                    <span className="text-sm">🚜</span>
+                    <span>Electric Quads</span>
+                    <span className="bg-amber-200 text-amber-900 text-[10px] px-1.5 py-0.2 rounded font-mono font-bold">9</span>
+                    <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${isQuadsOpen ? 'rotate-180 text-amber-400' : 'text-amber-700'}`} />
+                  </button>
+
+                  {/* Mega Menu Dropdown exactly structured like https://volttrail.org/ */}
+                  {isQuadsOpen && (
+                    <div 
+                      className="absolute top-full left-0 sm:left-auto sm:right-auto mt-2 w-[310px] sm:w-[600px] md:w-[680px] bg-slate-950 text-slate-100 border border-slate-800 border-t-2 border-t-amber-500 rounded-2xl shadow-2xl p-4 sm:p-6 z-50"
+                      onMouseLeave={() => setIsQuadsOpen(false)}
+                    >
+                      {/* Top Bar Label / Reference indicator */}
+                      <div className="flex items-center justify-between pb-3 mb-4 border-b border-slate-800/80">
+                        <div className="flex items-center gap-2">
+                          <span className="text-amber-400 font-bold text-xs tracking-wider uppercase flex items-center gap-1">
+                            ⚡ Electric Quads
+                          </span>
+                          <span className="hidden sm:inline-block text-[10px] bg-amber-500/20 text-amber-300 border border-amber-500/30 px-2 py-0.5 rounded-full font-mono">
+                            volttrail.org Dropdown Menu Spec
+                          </span>
+                        </div>
+                        <button
+                          type="button"
+                          onClick={() => handleQuadItemClick({ folderId: 'quads-folder', category: 'Electric Quads & UTVs' })}
+                          className="text-[11px] text-slate-400 hover:text-white flex items-center gap-1 cursor-pointer transition-colors"
+                        >
+                          <span>All 9 Quads</span>
+                          <ArrowRight className="w-3 h-3 text-amber-400" />
+                        </button>
+                      </div>
+
+                      {/* 3 Columns exact layout from volttrail.org */}
+                      <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 sm:gap-6">
+                        {/* Col 1: By Rider */}
+                        <div className="space-y-3">
+                          <h4 className="text-[11px] font-extrabold uppercase tracking-widest text-amber-400 pb-2 border-b border-slate-800">
+                            By Rider
+                          </h4>
+                          <div className="space-y-1.5">
+                            <button
+                              type="button"
+                              onClick={() => handleQuadItemClick({ folderId: 'quads-adult', category: 'Electric Quads & UTVs' })}
+                              className="w-full text-left p-2 rounded-lg hover:bg-slate-900 group transition-all cursor-pointer block"
+                            >
+                              <div className="text-xs font-semibold text-slate-200 group-hover:text-amber-300 group-hover:translate-x-1 transition-all flex items-center justify-between">
+                                <span>Adult & Utility Quads</span>
+                                <span className="text-[10px] font-mono text-slate-400 bg-slate-800 px-1.5 py-0.5 rounded">4 Models</span>
+                              </div>
+                              <p className="text-[11px] text-slate-400 mt-0.5 line-clamp-1">
+                                High-torque farm, estate & off-road 4x4
+                              </p>
+                            </button>
+
+                            <button
+                              type="button"
+                              onClick={() => handleQuadItemClick({ folderId: 'quads-kids', category: 'Electric Quads & UTVs' })}
+                              className="w-full text-left p-2 rounded-lg hover:bg-slate-900 group transition-all cursor-pointer block"
+                            >
+                              <div className="text-xs font-semibold text-slate-200 group-hover:text-amber-300 group-hover:translate-x-1 transition-all flex items-center justify-between">
+                                <span>Kids Electric Quads</span>
+                                <span className="text-[10px] font-mono text-slate-400 bg-slate-800 px-1.5 py-0.5 rounded">5 Models</span>
+                              </div>
+                              <p className="text-[11px] text-slate-400 mt-0.5 line-clamp-1">
+                                Parental speed limiters & disc brakes
+                              </p>
+                            </button>
+                          </div>
+                        </div>
+
+                        {/* Col 2: Quad Brands */}
+                        <div className="space-y-3">
+                          <h4 className="text-[11px] font-extrabold uppercase tracking-widest text-amber-400 pb-2 border-b border-slate-800">
+                            Quad Brands
+                          </h4>
+                          <div className="space-y-1">
+                            <button
+                              type="button"
+                              onClick={() => handleQuadItemClick({ folderId: 'quads-folder', brand: 'Segway' })}
+                              className="w-full text-left px-2 py-1.5 rounded-lg hover:bg-slate-900 group transition-all cursor-pointer flex items-center justify-between text-xs text-slate-300 hover:text-white"
+                            >
+                              <span className="group-hover:translate-x-1 transition-transform group-hover:text-amber-300">Segway Powersports</span>
+                              <span className="text-[10px] font-mono text-slate-500">2 Models</span>
+                            </button>
+
+                            <button
+                              type="button"
+                              onClick={() => handleQuadItemClick({ folderId: 'brand-ecorider', brand: 'Eco Rider' })}
+                              className="w-full text-left px-2 py-1.5 rounded-lg hover:bg-slate-900 group transition-all cursor-pointer flex items-center justify-between text-xs text-slate-300 hover:text-white"
+                            >
+                              <span className="group-hover:translate-x-1 transition-transform group-hover:text-amber-300">Eco Rider</span>
+                              <span className="text-[10px] font-mono text-slate-500">3 Models</span>
+                            </button>
+
+                            <button
+                              type="button"
+                              onClick={() => handleQuadItemClick({ folderId: 'quads-folder', brand: 'FunBikes' })}
+                              className="w-full text-left px-2 py-1.5 rounded-lg hover:bg-slate-900 group transition-all cursor-pointer flex items-center justify-between text-xs text-slate-300 hover:text-white"
+                            >
+                              <span className="group-hover:translate-x-1 transition-transform group-hover:text-amber-300">FunBikes</span>
+                              <span className="text-[10px] font-mono text-slate-500">3 Models</span>
+                            </button>
+
+                            <button
+                              type="button"
+                              onClick={() => handleQuadItemClick({ folderId: 'quads-folder', brand: 'Razor' })}
+                              className="w-full text-left px-2 py-1.5 rounded-lg hover:bg-slate-900 group transition-all cursor-pointer flex items-center justify-between text-xs text-slate-300 hover:text-white"
+                            >
+                              <span className="group-hover:translate-x-1 transition-transform group-hover:text-amber-300">Razor</span>
+                              <span className="text-[10px] font-mono text-slate-500">1 Model</span>
+                            </button>
+                          </div>
+                        </div>
+
+                        {/* Col 3: Browse */}
+                        <div className="space-y-3">
+                          <h4 className="text-[11px] font-extrabold uppercase tracking-widest text-amber-400 pb-2 border-b border-slate-800">
+                            Browse
+                          </h4>
+                          <div className="space-y-2">
+                            <button
+                              type="button"
+                              onClick={() => handleQuadItemClick({ folderId: 'quads-folder', category: 'Electric Quads & UTVs' })}
+                              className="w-full text-left p-2.5 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 group transition-all cursor-pointer block"
+                            >
+                              <div className="text-xs font-bold text-amber-300 flex items-center justify-between">
+                                <span>All Electric Quads →</span>
+                                <span className="text-[10px] bg-amber-400 text-slate-950 px-1.5 py-0.2 rounded-full font-extrabold">9</span>
+                              </div>
+                              <p className="text-[10px] text-amber-200/70 mt-1">
+                                Complete electric quad collection & specs
+                              </p>
+                            </button>
+
+                            <button
+                              type="button"
+                              onClick={() => handleQuadItemClick({ folderId: 'all' })}
+                              className="w-full text-left p-2.5 rounded-xl bg-slate-900 hover:bg-slate-850 border border-slate-800 group transition-all cursor-pointer block"
+                            >
+                              <div className="text-xs font-bold text-slate-200 group-hover:text-white flex items-center justify-between">
+                                <span>All Brands Directory →</span>
+                                <span className="text-[10px] text-slate-400">11 Brands</span>
+                              </div>
+                              <p className="text-[10px] text-slate-400 mt-1">
+                                Sur-Ron, Talaria, Stark Varg & more
+                              </p>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* Footer guarantee bar matching UK stock guarantees */}
+                      <div className="mt-4 pt-3 border-t border-slate-800/80 flex flex-wrap items-center justify-between text-[11px] text-slate-400 gap-2">
+                        <span className="flex items-center gap-1.5 text-slate-300">
+                          <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
+                          Next-Day UK Dispatch Available on In-Stock Quads
+                        </span>
+                        <span className="flex items-center gap-1.5 text-slate-300">
+                          <Zap className="w-3.5 h-3.5 text-amber-400" />
+                          0% Interest-Free Finance via Klarna & Clearpay
+                        </span>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </React.Fragment>
+            );
+          }
+
           return (
             <button
               key={item.id}
