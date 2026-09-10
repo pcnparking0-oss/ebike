@@ -49,6 +49,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
   const [voucherCode, setVoucherCode] = useState('');
   const [appliedVoucher, setAppliedVoucher] = useState<string | null>(null);
   const [voucherDiscount, setVoucherDiscount] = useState<number>(0);
+  const [voucherError, setVoucherError] = useState<string | null>(null);
   const [isCheckingOut, setIsCheckingOut] = useState(false);
   const [checkoutComplete, setCheckoutComplete] = useState(false);
 
@@ -66,6 +67,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
 
   const handleApplyVoucher = (e: React.FormEvent) => {
     e.preventDefault();
+    setVoucherError(null);
     const code = voucherCode.trim().toUpperCase();
     if (code.includes('C2W') || code.includes('SCHEME') || code.includes('CYCLE')) {
       const discount = Math.round(subtotal * 0.35);
@@ -78,7 +80,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
       setAppliedVoucher('DirtVolt 10% Welcome Discount');
       setVoucherCode('');
     } else {
-      alert('Voucher not recognised. Try entering "DIRT10" for 10% off, or "CYCLESCHEME-2026" for Cycle to Work voucher redemption.');
+      setVoucherError('Voucher code not recognised. Try "DIRT10" for 10% off or "CYCLESCHEME-2026" for Cycle to Work voucher.');
     }
   };
 
@@ -528,7 +530,10 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                     type="text"
                     placeholder="e.g. VOLT10 or CYCLESCHEME"
                     value={voucherCode}
-                    onChange={(e) => setVoucherCode(e.target.value)}
+                    onChange={(e) => {
+                      setVoucherCode(e.target.value);
+                      if (voucherError) setVoucherError(null);
+                    }}
                     className="flex-1 bg-white border border-slate-200 text-xs rounded-lg px-2.5 py-1.5 text-slate-900 uppercase placeholder:normal-case focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600 font-medium"
                   />
                   <button
@@ -538,6 +543,9 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                     Apply
                   </button>
                 </form>
+                {voucherError && (
+                  <p className="text-[11px] text-rose-600 font-medium">{voucherError}</p>
+                )}
                 {appliedVoucher && (
                   <div className="flex items-center justify-between bg-emerald-50 border border-emerald-200 rounded-lg p-1.5 text-[11px] text-emerald-800 font-medium">
                     <span>✓ {appliedVoucher}</span>
