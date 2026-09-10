@@ -897,7 +897,15 @@ export const StoreFront: React.FC<StoreFrontProps> = ({
                     className="bg-white border border-slate-200/90 hover:border-blue-500/40 rounded-2xl overflow-hidden transition-all duration-300 flex flex-col group shadow-sm hover:shadow-xl hover:-translate-y-1"
                   >
                     {/* Product Image Box */}
-                    <div className="relative aspect-4/3 bg-slate-950 overflow-hidden cursor-pointer" onClick={() => onOpenProductDetail(product)}>
+                    <a
+                      href={`/shop?product=${product.id}`}
+                      onClick={(e) => {
+                        e.preventDefault();
+                        onOpenProductDetail(product);
+                      }}
+                      className="relative aspect-4/3 bg-slate-950 overflow-hidden cursor-pointer block"
+                      aria-label={`View full technical specifications for ${product.name}`}
+                    >
                       <img
                         src={product.images[0]}
                         alt={product.name}
@@ -935,7 +943,7 @@ export const StoreFront: React.FC<StoreFrontProps> = ({
                           </span>
                         )}
                       </div>
-                    </div>
+                    </a>
 
                     {/* Card Content */}
                     <div className="p-4 sm:p-5 flex-1 flex flex-col justify-between space-y-3">
@@ -945,12 +953,16 @@ export const StoreFront: React.FC<StoreFrontProps> = ({
                           <span className="font-bold text-amber-500 flex items-center gap-1">★ {product.rating} <span className="text-slate-400 font-normal">({product.reviewCount})</span></span>
                         </div>
 
-                        <h3 
-                          onClick={() => onOpenProductDetail(product)}
-                          className="font-extrabold text-slate-950 text-base group-hover:text-blue-600 cursor-pointer transition-colors line-clamp-1 font-heading"
+                        <a 
+                          href={`/shop?product=${product.id}`}
+                          onClick={(e) => {
+                            e.preventDefault();
+                            onOpenProductDetail(product);
+                          }}
+                          className="font-extrabold text-slate-950 text-base group-hover:text-blue-600 transition-colors line-clamp-1 font-heading block"
                         >
                           {product.name}
-                        </h3>
+                        </a>
 
                         <p className="text-xs text-slate-500 line-clamp-2 mt-1 leading-relaxed">
                           {product.tagline}
@@ -984,12 +996,16 @@ export const StoreFront: React.FC<StoreFrontProps> = ({
 
                         {/* Action Buttons */}
                         <div className="grid grid-cols-2 gap-2 pt-1">
-                          <button
-                            onClick={() => onOpenProductDetail(product)}
-                            className="w-full bg-slate-100 hover:bg-slate-200 text-slate-900 text-xs font-bold py-2.5 px-2.5 rounded-xl transition-colors text-center cursor-pointer active:scale-95"
+                          <a
+                            href={`/shop?product=${product.id}`}
+                            onClick={(e) => {
+                              e.preventDefault();
+                              onOpenProductDetail(product);
+                            }}
+                            className="w-full bg-slate-100 hover:bg-slate-200 text-slate-900 text-xs font-bold py-2.5 px-2.5 rounded-xl transition-colors text-center cursor-pointer active:scale-95 block"
                           >
                             Tech Specs
-                          </button>
+                          </a>
                           <button
                             onClick={() => onAddToCart(product)}
                             className="w-full bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold py-2.5 px-2.5 rounded-xl transition-all text-center flex items-center justify-center gap-1.5 shadow-xs hover:shadow-blue-600/30 cursor-pointer active:scale-95"

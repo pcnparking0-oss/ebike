@@ -88,8 +88,9 @@ export const Header: React.FC<HeaderProps> = ({
     }
   }, [isQuadsOpen]);
 
-  const handleQuadItemClick = (filter: QuadNavFilter) => {
+  const handleQuadItemClick = (filter: QuadNavFilter, targetUrl: string = '/shop?folder=quads-folder') => {
     setIsQuadsOpen(false);
+    window.history.pushState(null, '', targetUrl);
     if (onSelectQuadFilter) {
       onSelectQuadFilter(filter);
     } else {
@@ -113,14 +114,14 @@ export const Header: React.FC<HeaderProps> = ({
     'Nottingham'
   ];
 
-  const NAV_ITEMS: { id: ViewMode; label: string; icon: React.ComponentType<{ className?: string }> }[] = [
-    { id: 'home', label: 'Home page', icon: Home },
-    { id: 'about-us', label: 'About Us', icon: Users },
-    { id: 'shop', label: 'Shop', icon: ShoppingBag },
-    { id: 'blog', label: 'Blog', icon: BookOpen },
-    { id: 'terms-and-conditions', label: 'Terms and Condition', icon: FileText },
-    { id: 'privacy-policy', label: 'Privacy Policy', icon: ShieldCheck },
-    { id: 'contact-us', label: 'Contact Us', icon: Phone },
+  const NAV_ITEMS: { id: ViewMode; label: string; href: string; icon: React.ComponentType<{ className?: string }> }[] = [
+    { id: 'home', label: 'Home page', href: '/', icon: Home },
+    { id: 'about-us', label: 'About Us', href: '/about-us', icon: Users },
+    { id: 'shop', label: 'Shop', href: '/shop', icon: ShoppingBag },
+    { id: 'blog', label: 'Blog', href: '/blog', icon: BookOpen },
+    { id: 'terms-and-conditions', label: 'Terms and Condition', href: '/terms-and-conditions', icon: FileText },
+    { id: 'privacy-policy', label: 'Privacy Policy', href: '/privacy-policy', icon: ShieldCheck },
+    { id: 'contact-us', label: 'Contact Us', href: '/contact-us', icon: Phone },
   ];
 
   return (
@@ -171,7 +172,15 @@ export const Header: React.FC<HeaderProps> = ({
       {/* Main Brand Bar */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5 sm:py-3.5 flex items-center justify-between gap-3 sm:gap-4">
         {/* Brand Logo */}
-        <div className="flex items-center gap-2.5 sm:gap-3 cursor-pointer group min-w-0" onClick={() => onSelectView('home')}>
+        <a 
+          href="/" 
+          className="flex items-center gap-2.5 sm:gap-3 cursor-pointer group min-w-0" 
+          onClick={(e) => {
+            e.preventDefault();
+            onSelectView('home');
+            window.history.pushState(null, '', '/');
+          }}
+        >
           <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl overflow-hidden shadow-sm bg-slate-950 border border-slate-800 flex items-center justify-center group-hover:scale-105 group-hover:border-blue-500/50 transition-all duration-300 shrink-0">
             <img
               src="/images/site-icon.png"
@@ -190,7 +199,7 @@ export const Header: React.FC<HeaderProps> = ({
               Official Electric Dirt Bikes, Motocross & High-Performance e-MTB Store
             </p>
           </div>
-        </div>
+        </a>
 
         {/* Search Bar */}
         <div className="hidden md:flex flex-1 max-w-md relative">
@@ -240,9 +249,14 @@ export const Header: React.FC<HeaderProps> = ({
           if (item.id === 'shop') {
             return (
               <React.Fragment key="shop-and-quads">
-                <button
+                <a
+                  href="/shop"
                   id={`nav-tab-${item.id}`}
-                  onClick={() => onSelectView(item.id)}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    onSelectView(item.id);
+                    window.history.pushState(null, '', '/shop');
+                  }}
                   className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-xs font-bold whitespace-nowrap transition-all cursor-pointer ${
                     isActive && !isQuadsOpen
                       ? 'bg-blue-600 text-white shadow-xs'
@@ -251,7 +265,7 @@ export const Header: React.FC<HeaderProps> = ({
                 >
                   <Icon className="w-3.5 h-3.5" />
                   <span>{item.label}</span>
-                </button>
+                </a>
 
                 {/* Electric Quads Menu Folder with Dropdown */}
                 <div 
@@ -304,14 +318,17 @@ export const Header: React.FC<HeaderProps> = ({
                             volttrail.org Dropdown Menu Spec
                           </span>
                         </div>
-                        <button
-                          type="button"
-                          onClick={() => handleQuadItemClick({ folderId: 'quads-folder', category: 'Electric Quads & UTVs' })}
+                        <a
+                          href="/shop?folder=quads-folder"
+                          onClick={(e) => {
+                            e.preventDefault();
+                            handleQuadItemClick({ folderId: 'quads-folder', category: 'Electric Quads & UTVs' }, '/shop?folder=quads-folder');
+                          }}
                           className="text-[11px] text-slate-400 hover:text-white flex items-center gap-1 cursor-pointer transition-colors"
                         >
                           <span>All 9 Quads</span>
                           <ArrowRight className="w-3 h-3 text-amber-400" />
-                        </button>
+                        </a>
                       </div>
 
                       {/* 3 Columns exact layout from volttrail.org */}
@@ -322,9 +339,12 @@ export const Header: React.FC<HeaderProps> = ({
                             By Rider
                           </h4>
                           <div className="space-y-1.5">
-                            <button
-                              type="button"
-                              onClick={() => handleQuadItemClick({ folderId: 'quads-adult', category: 'Electric Quads & UTVs' })}
+                            <a
+                              href="/shop?folder=quads-adult"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                handleQuadItemClick({ folderId: 'quads-adult', category: 'Electric Quads & UTVs' }, '/shop?folder=quads-adult');
+                              }}
                               className="w-full text-left p-2 rounded-lg hover:bg-slate-900 group transition-all cursor-pointer block"
                             >
                               <div className="text-xs font-semibold text-slate-200 group-hover:text-amber-300 group-hover:translate-x-1 transition-all flex items-center justify-between">
@@ -334,11 +354,14 @@ export const Header: React.FC<HeaderProps> = ({
                               <p className="text-[11px] text-slate-400 mt-0.5 line-clamp-1">
                                 High-torque farm, estate & off-road 4x4
                               </p>
-                            </button>
+                            </a>
 
-                            <button
-                              type="button"
-                              onClick={() => handleQuadItemClick({ folderId: 'quads-kids', category: 'Electric Quads & UTVs' })}
+                            <a
+                              href="/shop?folder=quads-kids"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                handleQuadItemClick({ folderId: 'quads-kids', category: 'Electric Quads & UTVs' }, '/shop?folder=quads-kids');
+                              }}
                               className="w-full text-left p-2 rounded-lg hover:bg-slate-900 group transition-all cursor-pointer block"
                             >
                               <div className="text-xs font-semibold text-slate-200 group-hover:text-amber-300 group-hover:translate-x-1 transition-all flex items-center justify-between">
@@ -348,7 +371,7 @@ export const Header: React.FC<HeaderProps> = ({
                               <p className="text-[11px] text-slate-400 mt-0.5 line-clamp-1">
                                 Parental speed limiters & disc brakes
                               </p>
-                            </button>
+                            </a>
                           </div>
                         </div>
 
@@ -358,41 +381,53 @@ export const Header: React.FC<HeaderProps> = ({
                             Quad Brands
                           </h4>
                           <div className="space-y-1">
-                            <button
-                              type="button"
-                              onClick={() => handleQuadItemClick({ folderId: 'quads-folder', brand: 'Segway' })}
+                            <a
+                              href="/shop?brand=Segway"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                handleQuadItemClick({ folderId: 'quads-folder', brand: 'Segway' }, '/shop?brand=Segway');
+                              }}
                               className="w-full text-left px-2 py-1.5 rounded-lg hover:bg-slate-900 group transition-all cursor-pointer flex items-center justify-between text-xs text-slate-300 hover:text-white"
                             >
                               <span className="group-hover:translate-x-1 transition-transform group-hover:text-amber-300">Segway Powersports</span>
                               <span className="text-[10px] font-mono text-slate-500">2 Models</span>
-                            </button>
+                            </a>
 
-                            <button
-                              type="button"
-                              onClick={() => handleQuadItemClick({ folderId: 'brand-ecorider', brand: 'Eco Rider' })}
+                            <a
+                              href="/shop?brand=Eco+Rider"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                handleQuadItemClick({ folderId: 'brand-ecorider', brand: 'Eco Rider' }, '/shop?brand=Eco+Rider');
+                              }}
                               className="w-full text-left px-2 py-1.5 rounded-lg hover:bg-slate-900 group transition-all cursor-pointer flex items-center justify-between text-xs text-slate-300 hover:text-white"
                             >
                               <span className="group-hover:translate-x-1 transition-transform group-hover:text-amber-300">Eco Rider</span>
                               <span className="text-[10px] font-mono text-slate-500">3 Models</span>
-                            </button>
+                            </a>
 
-                            <button
-                              type="button"
-                              onClick={() => handleQuadItemClick({ folderId: 'quads-folder', brand: 'FunBikes' })}
+                            <a
+                              href="/shop?brand=FunBikes"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                handleQuadItemClick({ folderId: 'quads-folder', brand: 'FunBikes' }, '/shop?brand=FunBikes');
+                              }}
                               className="w-full text-left px-2 py-1.5 rounded-lg hover:bg-slate-900 group transition-all cursor-pointer flex items-center justify-between text-xs text-slate-300 hover:text-white"
                             >
                               <span className="group-hover:translate-x-1 transition-transform group-hover:text-amber-300">FunBikes</span>
                               <span className="text-[10px] font-mono text-slate-500">3 Models</span>
-                            </button>
+                            </a>
 
-                            <button
-                              type="button"
-                              onClick={() => handleQuadItemClick({ folderId: 'quads-folder', brand: 'Razor' })}
+                            <a
+                              href="/shop?brand=Razor"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                handleQuadItemClick({ folderId: 'quads-folder', brand: 'Razor' }, '/shop?brand=Razor');
+                              }}
                               className="w-full text-left px-2 py-1.5 rounded-lg hover:bg-slate-900 group transition-all cursor-pointer flex items-center justify-between text-xs text-slate-300 hover:text-white"
                             >
                               <span className="group-hover:translate-x-1 transition-transform group-hover:text-amber-300">Razor</span>
                               <span className="text-[10px] font-mono text-slate-500">1 Model</span>
-                            </button>
+                            </a>
                           </div>
                         </div>
 
@@ -402,9 +437,12 @@ export const Header: React.FC<HeaderProps> = ({
                             Browse
                           </h4>
                           <div className="space-y-2">
-                            <button
-                              type="button"
-                              onClick={() => handleQuadItemClick({ folderId: 'quads-folder', category: 'Electric Quads & UTVs' })}
+                            <a
+                              href="/shop?folder=quads-folder"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                handleQuadItemClick({ folderId: 'quads-folder', category: 'Electric Quads & UTVs' }, '/shop?folder=quads-folder');
+                              }}
                               className="w-full text-left p-2.5 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 group transition-all cursor-pointer block"
                             >
                               <div className="text-xs font-bold text-amber-300 flex items-center justify-between">
@@ -414,11 +452,14 @@ export const Header: React.FC<HeaderProps> = ({
                               <p className="text-[10px] text-amber-200/70 mt-1">
                                 Complete electric quad collection & specs
                               </p>
-                            </button>
+                            </a>
 
-                            <button
-                              type="button"
-                              onClick={() => handleQuadItemClick({ folderId: 'all' })}
+                            <a
+                              href="/shop?folder=all"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                handleQuadItemClick({ folderId: 'all' }, '/shop?folder=all');
+                              }}
                               className="w-full text-left p-2.5 rounded-xl bg-slate-900 hover:bg-slate-850 border border-slate-800 group transition-all cursor-pointer block"
                             >
                               <div className="text-xs font-bold text-slate-200 group-hover:text-white flex items-center justify-between">
@@ -428,7 +469,7 @@ export const Header: React.FC<HeaderProps> = ({
                               <p className="text-[10px] text-slate-400 mt-1">
                                 Sur-Ron, Talaria, Stark Varg & more
                               </p>
-                            </button>
+                            </a>
                           </div>
                         </div>
                       </div>
@@ -498,9 +539,12 @@ export const Header: React.FC<HeaderProps> = ({
                         {/* Scrollable Body Content */}
                         <div className="px-5 py-4 overflow-y-auto space-y-4 flex-1 overscroll-contain">
                           {/* View All Quads Quick Action Card */}
-                          <button
-                            type="button"
-                            onClick={() => handleQuadItemClick({ folderId: 'quads-folder', category: 'Electric Quads & UTVs' })}
+                          <a
+                            href="/shop?folder=quads-folder"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              handleQuadItemClick({ folderId: 'quads-folder', category: 'Electric Quads & UTVs' }, '/shop?folder=quads-folder');
+                            }}
                             className="w-full flex items-center justify-between p-3.5 rounded-2xl bg-gradient-to-r from-amber-500/20 via-amber-500/10 to-amber-600/20 border border-amber-500/40 hover:border-amber-400 text-amber-300 font-bold text-xs transition-all cursor-pointer group shadow-xs active:scale-[0.99]"
                           >
                             <div className="flex items-center gap-2.5">
@@ -513,7 +557,7 @@ export const Header: React.FC<HeaderProps> = ({
                               </div>
                             </div>
                             <ArrowRight className="w-4 h-4 text-amber-400 group-hover:translate-x-1 transition-transform shrink-0 ml-2" />
-                          </button>
+                          </a>
 
                           {/* By Rider Sub-categories */}
                           <div>
@@ -521,9 +565,12 @@ export const Header: React.FC<HeaderProps> = ({
                               By Rider Type
                             </h4>
                             <div className="grid grid-cols-1 gap-2">
-                              <button
-                                type="button"
-                                onClick={() => handleQuadItemClick({ folderId: 'quads-adult', category: 'Electric Quads & UTVs' })}
+                              <a
+                                href="/shop?folder=quads-adult"
+                                onClick={(e) => {
+                                  e.preventDefault();
+                                  handleQuadItemClick({ folderId: 'quads-adult', category: 'Electric Quads & UTVs' }, '/shop?folder=quads-adult');
+                                }}
                                 className="w-full text-left p-3 rounded-xl bg-slate-900 hover:bg-slate-850 border border-slate-800 transition-all cursor-pointer flex items-center justify-between active:scale-[0.99]"
                               >
                                 <div>
@@ -534,11 +581,14 @@ export const Header: React.FC<HeaderProps> = ({
                                   <p className="text-[11px] text-slate-400 mt-0.5">High-torque estate, farm & 4x4 off-roaders with winches</p>
                                 </div>
                                 <ArrowRight className="w-3.5 h-3.5 text-slate-500 shrink-0 ml-2" />
-                              </button>
+                              </a>
 
-                              <button
-                                type="button"
-                                onClick={() => handleQuadItemClick({ folderId: 'quads-kids', category: 'Electric Quads & UTVs' })}
+                              <a
+                                href="/shop?folder=quads-kids"
+                                onClick={(e) => {
+                                  e.preventDefault();
+                                  handleQuadItemClick({ folderId: 'quads-kids', category: 'Electric Quads & UTVs' }, '/shop?folder=quads-kids');
+                                }}
                                 className="w-full text-left p-3 rounded-xl bg-slate-900 hover:bg-slate-850 border border-slate-800 transition-all cursor-pointer flex items-center justify-between active:scale-[0.99]"
                               >
                                 <div>
@@ -549,7 +599,7 @@ export const Header: React.FC<HeaderProps> = ({
                                   <p className="text-[11px] text-slate-400 mt-0.5">Key parental speed limiters, enclosed footwells & safety brakes</p>
                                 </div>
                                 <ArrowRight className="w-3.5 h-3.5 text-slate-500 shrink-0 ml-2" />
-                              </button>
+                              </a>
                             </div>
                           </div>
 
@@ -560,40 +610,46 @@ export const Header: React.FC<HeaderProps> = ({
                             </h4>
                             <div className="grid grid-cols-2 gap-2">
                               {[
-                                { name: 'Segway', brand: 'Segway', count: '2 Models', desc: 'Snarler & Junior' },
-                                { name: 'Eco Rider', brand: 'Eco Rider', count: '3 Models', desc: 'Explorer GT 4x4' },
-                                { name: 'FunBikes', brand: 'FunBikes', count: '3 Models', desc: '500W-1500W Beast' },
-                                { name: 'Razor', brand: 'Razor', count: '1 Model', desc: 'Dirt Quad 4-Wheeler' },
+                                { name: 'Segway', brand: 'Segway', count: '2 Models', desc: 'Snarler & Junior', href: '/shop?brand=Segway' },
+                                { name: 'Eco Rider', brand: 'Eco Rider', count: '3 Models', desc: 'Explorer GT 4x4', href: '/shop?brand=Eco+Rider' },
+                                { name: 'FunBikes', brand: 'FunBikes', count: '3 Models', desc: '500W-1500W Beast', href: '/shop?brand=FunBikes' },
+                                { name: 'Razor', brand: 'Razor', count: '1 Model', desc: 'Dirt Quad 4-Wheeler', href: '/shop?brand=Razor' },
                               ].map((qb) => (
-                                <button
+                                <a
                                   key={qb.brand}
-                                  type="button"
-                                  onClick={() => handleQuadItemClick({ 
-                                    folderId: qb.brand === 'Eco Rider' ? 'brand-ecorider' : 'quads-folder', 
-                                    brand: qb.brand 
-                                  })}
-                                  className="text-left p-2.5 rounded-xl bg-slate-900 hover:bg-slate-850 border border-slate-800 transition-all cursor-pointer active:scale-[0.98]"
+                                  href={qb.href}
+                                  onClick={(e) => {
+                                    e.preventDefault();
+                                    handleQuadItemClick({ 
+                                      folderId: qb.brand === 'Eco Rider' ? 'brand-ecorider' : 'quads-folder', 
+                                      brand: qb.brand 
+                                    }, qb.href);
+                                  }}
+                                  className="text-left p-2.5 rounded-xl bg-slate-900 hover:bg-slate-850 border border-slate-800 transition-all cursor-pointer active:scale-[0.98] block"
                                 >
                                   <div className="text-xs font-bold text-slate-200">{qb.name}</div>
                                   <div className="text-[10px] font-mono text-amber-400 mt-0.5">{qb.count}</div>
                                   <div className="text-[9.5px] text-slate-400 mt-0.5 line-clamp-1">{qb.desc}</div>
-                                </button>
+                                </a>
                               ))}
                             </div>
                           </div>
 
                           {/* Store-wide Brand Directory Link */}
-                          <button
-                            type="button"
-                            onClick={() => handleQuadItemClick({ folderId: 'all' })}
-                            className="w-full text-left p-3 rounded-xl bg-slate-900 hover:bg-slate-850 border border-slate-800 flex items-center justify-between text-xs text-slate-300 hover:text-white transition-all cursor-pointer"
+                          <a
+                            href="/shop?folder=all"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              handleQuadItemClick({ folderId: 'all' }, '/shop?folder=all');
+                            }}
+                            className="w-full text-left p-3 rounded-xl bg-slate-900 hover:bg-slate-850 border border-slate-800 flex items-center justify-between text-xs text-slate-300 hover:text-white transition-all cursor-pointer block"
                           >
                             <div>
                               <div className="font-bold text-slate-200">View All 11 Brands Directory</div>
                               <div className="text-[10px] text-slate-400 mt-0.5">Sur-Ron, Talaria, Stark Varg, Segway, KTM & more</div>
                             </div>
                             <ArrowRight className="w-3.5 h-3.5 text-slate-500 shrink-0 ml-2" />
-                          </button>
+                          </a>
 
                           {/* Trust guarantees bar */}
                           <div className="pt-2 border-t border-slate-800/80 space-y-1.5 text-[11px] text-slate-400">
@@ -617,10 +673,15 @@ export const Header: React.FC<HeaderProps> = ({
           }
 
           return (
-            <button
+            <a
               key={item.id}
+              href={item.href}
               id={`nav-tab-${item.id}`}
-              onClick={() => onSelectView(item.id)}
+              onClick={(e) => {
+                e.preventDefault();
+                onSelectView(item.id);
+                window.history.pushState(null, '', item.href);
+              }}
               className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-xs font-bold whitespace-nowrap transition-all cursor-pointer ${
                 isActive
                   ? 'bg-blue-600 text-white shadow-xs'
@@ -629,7 +690,7 @@ export const Header: React.FC<HeaderProps> = ({
             >
               <Icon className="w-3.5 h-3.5" />
               <span>{item.label}</span>
-            </button>
+            </a>
           );
         })}
       </nav>

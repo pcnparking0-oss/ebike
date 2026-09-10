@@ -166,9 +166,14 @@ export const HomePage: React.FC<HomePageProps> = ({
                 className="bg-white border border-slate-200/90 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:border-blue-500/40 hover:-translate-y-1 transition-all duration-300 flex flex-col group relative"
               >
                 {/* Product Image */}
-                <div 
-                  className="relative aspect-4/3 bg-slate-950 overflow-hidden cursor-pointer"
-                  onClick={() => onOpenProductDetail(product)}
+                <a 
+                  href={`/shop?product=${product.id}`}
+                  className="relative aspect-4/3 bg-slate-950 overflow-hidden cursor-pointer block"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    onOpenProductDetail(product);
+                  }}
+                  aria-label={`View full technical specifications for ${product.name}`}
                 >
                   <img
                     src={product.images[0]}
@@ -193,7 +198,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                     <span className="text-slate-400">•</span>
                     <span className="font-semibold">{powerDisplay}</span>
                   </div>
-                </div>
+                </a>
 
                 {/* Product Info */}
                 <div className="p-4 sm:p-5 flex-1 flex flex-col justify-between space-y-4">
@@ -206,12 +211,16 @@ export const HomePage: React.FC<HomePageProps> = ({
                       </div>
                     </div>
 
-                    <h3 
-                      onClick={() => onOpenProductDetail(product)}
-                      className="font-extrabold text-slate-950 text-base font-heading line-clamp-1 hover:text-blue-600 transition-colors cursor-pointer"
+                    <a 
+                      href={`/shop?product=${product.id}`}
+                      onClick={(e) => {
+                        e.preventDefault();
+                        onOpenProductDetail(product);
+                      }}
+                      className="font-extrabold text-slate-950 text-base font-heading line-clamp-1 hover:text-blue-600 transition-colors cursor-pointer block"
                     >
                       {product.name}
-                    </h3>
+                    </a>
                     <p className="text-xs text-slate-500 line-clamp-2 leading-relaxed">
                       {product.tagline}
                     </p>
@@ -242,12 +251,16 @@ export const HomePage: React.FC<HomePageProps> = ({
 
                   {/* Actions */}
                   <div className="pt-1 grid grid-cols-2 gap-2">
-                    <button
-                      onClick={() => onOpenProductDetail(product)}
-                      className="bg-slate-100 hover:bg-slate-200 text-slate-900 text-xs font-bold py-2.5 rounded-xl transition-all text-center cursor-pointer active:scale-95"
+                    <a
+                      href={`/shop?product=${product.id}`}
+                      onClick={(e) => {
+                        e.preventDefault();
+                        onOpenProductDetail(product);
+                      }}
+                      className="bg-slate-100 hover:bg-slate-200 text-slate-900 text-xs font-bold py-2.5 rounded-xl transition-all text-center cursor-pointer active:scale-95 block"
                     >
                       Tech Specs
-                    </button>
+                    </a>
                     <button
                       onClick={() => onAddToCart(product)}
                       className="bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold py-2.5 rounded-xl transition-all text-center shadow-xs hover:shadow-blue-600/30 cursor-pointer active:scale-95 flex items-center justify-center gap-1.5"

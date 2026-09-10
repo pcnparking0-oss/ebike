@@ -16,6 +16,7 @@ import { PrivacyPolicy } from './components/PrivacyPolicy';
 import { ContactUs } from './components/ContactUs';
 import { HomePage } from './components/HomePage';
 import { Blog } from './components/Blog';
+import { DynamicSeo } from './components/DynamicSeo';
 
 export default function App() {
   const [currentView, setCurrentView] = useState<ViewMode>('home');
@@ -82,8 +83,51 @@ export default function App() {
 
   const cartTotalCount = cartItems.reduce((sum, item) => sum + item.quantity, 0);
 
+  // Sync state with URL params for crawlability and deep-linking
+  React.useEffect(() => {
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const viewParam = params.get('view') as ViewMode | null;
+      const productParam = params.get('product');
+      const pathname = window.location.pathname.replace(/^\/+|\/+$/g, '');
+
+      if (viewParam) {
+        setCurrentView(viewParam);
+      } else if (pathname === 'shop' || pathname === 'products') {
+        setCurrentView('shop');
+      } else if (pathname === 'blog' || pathname === 'guides') {
+        setCurrentView('blog');
+      } else if (pathname === 'cycle-to-work' || pathname === 'cyclescheme') {
+        setCurrentView('cycle-to-work');
+      } else if (pathname === 'contact' || pathname === 'contact-us') {
+        setCurrentView('contact-us');
+      } else if (pathname === 'about' || pathname === 'about-us') {
+        setCurrentView('about-us');
+      } else if (pathname === 'eapc-compliance' || pathname === 'eapc-law') {
+        setCurrentView('eapc-compliance');
+      }
+
+      if (productParam) {
+        const matched = UK_PRODUCTS.find((p) => p.id === productParam);
+        if (matched) {
+          setSelectedProductDetail(matched);
+        }
+      }
+    } catch {
+      // ignore
+    }
+  }, []);
+
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 flex flex-col font-sans selection:bg-blue-600 selection:text-white">
+      {/* Dynamic SEO Meta Tags & Google Structured Data Injection */}
+      <DynamicSeo
+        currentView={currentView}
+        selectedProduct={selectedProductDetail}
+        selectedCity={selectedCity}
+        categoryFilter={storeInitialCategory}
+      />
+
       {/* Header */}
       <Header
         currentView={currentView}

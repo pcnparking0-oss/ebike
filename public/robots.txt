@@ -1,0 +1,15 @@
+# DirtVolt Robots.txt - High-Performance Electric Dirt Bikes UK
+User-agent: *
+Allow: /
+
+# Disallow transient search filters without content
+Disallow: /api/
+Disallow: /checkout/
+Disallow: /basket/
+
+# Canonical Sitemaps
+Sitemap: https://dirtvolt.co.uk/sitemap.xml
+Sitemap: https://dirtvolt.co.uk/sitemap-pages.xml
+Sitemap: https://dirtvolt.co.uk/sitemap-categories.xml
+Sitemap: https://dirtvolt.co.uk/sitemap-products.xml
+Sitemap: https://dirtvolt.co.uk/sitemap-blog.xml

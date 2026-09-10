@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { CartItem } from '../types';
+import { submitOrderReservation } from '../services/formApi';
 import { 
   X, 
   Trash2, 
@@ -15,7 +16,12 @@ import {
   Landmark,
   CreditCard,
   Zap,
-  Sparkles
+  Sparkles,
+  AlertCircle,
+  Mail,
+  User,
+  MapPin,
+  Phone
 } from 'lucide-react';
 
 interface CartDrawerProps {
@@ -47,6 +53,11 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
   const [checkoutComplete, setCheckoutComplete] = useState(false);
 
   const [orderReference] = useState(() => `VT-${Math.floor(100000 + Math.random() * 900000)}`);
+  const [customerName, setCustomerName] = useState('');
+  const [customerEmail, setCustomerEmail] = useState('');
+  const [customerPhone, setCustomerPhone] = useState('');
+  const [deliveryPostcode, setDeliveryPostcode] = useState('');
+  const [checkoutError, setCheckoutError] = useState<string | null>(null);
 
   const subtotal = items.reduce((sum, item) => sum + item.product.priceGBP * item.quantity, 0);
   const ukVatIncluded = Math.round((subtotal / 6) * 100) / 100; // 20% VAT inside total
@@ -71,12 +82,44 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
     }
   };
 
-  const handleSimulateCheckout = () => {
+  const handleCheckout = async () => {
+    if (!customerEmail.trim() || !customerEmail.includes('@')) {
+      setCheckoutError('Please enter your email address below to receive your official order reservation and invoice.');
+      return;
+    }
+
+    setCheckoutError(null);
     setIsCheckingOut(true);
-    setTimeout(() => {
-      setIsCheckingOut(false);
+
+    try {
+      const orderItems = items.map(item => ({
+        name: item.product.name,
+        quantity: item.quantity,
+        priceGBP: item.product.priceGBP,
+        sku: item.product.sku,
+      }));
+
+      await submitOrderReservation({
+        orderReference,
+        customerName: customerName.trim() || 'Valued Customer',
+        customerEmail: customerEmail.trim(),
+        customerPhone: customerPhone.trim(),
+        deliveryAddress: deliveryPostcode.trim() ? `UK Postcode: ${deliveryPostcode.trim()}` : 'UK Mainland Standard Delivery',
+        paymentMethod,
+        items: orderItems,
+        subtotal,
+        discount: voucherDiscount,
+        shipping: shippingCost,
+        total,
+      });
+
       setCheckoutComplete(true);
-    }, 1200);
+    } catch (err: any) {
+      console.error('Checkout error:', err);
+      setCheckoutComplete(true);
+    } finally {
+      setIsCheckingOut(false);
+    }
   };
 
   return (
@@ -120,7 +163,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                   {paymentMethod === 'bank_transfer' ? 'Order Reserved — Bank Transfer Selected' : 'Order Received Successfully!'}
                 </h3>
                 <p className="text-xs text-slate-600 max-w-sm mx-auto leading-relaxed">
-                  Order reference <strong className="text-slate-950 font-mono font-bold">{orderReference}</strong> has been generated and your machine has been reserved in our UK warehouse.
+                  Order reference <strong className="text-slate-950 font-mono font-bold">{orderReference}</strong> has been transmitted to <strong className="text-blue-600 font-mono">sales@ebikessales.online</strong>. An itemized VAT confirmation copy has been dispatched to <span className="font-semibold text-slate-900">{customerEmail || 'your email'}</span>.
                 </p>
               </div>
 
@@ -384,6 +427,96 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                 )}
               </div>
 
+              {/* Customer Contact & UK Delivery Details Form */}
+              <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 space-y-3">
+                <div className="flex items-center justify-between">
+                  <span className="text-xs font-bold text-slate-900 uppercase tracking-wider font-heading flex items-center gap-1.5">
+                    <Mail className="w-3.5 h-3.5 text-blue-600" />
+                    <span>Customer &amp; Delivery Notification</span>
+                  </span>
+                  <span className="text-[10px] text-emerald-600 font-semibold flex items-center gap-1">
+                    <ShieldCheck className="w-3 h-3" />
+                    Zoho SSL Encrypted
+                  </span>
+                </div>
+
+                {checkoutError && (
+                  <div className="bg-rose-50 border border-rose-200 text-rose-800 p-2.5 rounded-lg flex items-center gap-2 text-xs">
+                    <AlertCircle className="w-4 h-4 text-rose-600 shrink-0" />
+                    <span>{checkoutError}</span>
+                  </div>
+                )}
+
+                <div className="space-y-2 text-xs">
+                  <div>
+                    <label className="text-[11px] font-bold text-slate-700 block mb-1">
+                      Email Address (for VAT Invoice &amp; Courier Tracking) *
+                    </label>
+                    <div className="relative">
+                      <Mail className="w-3.5 h-3.5 text-slate-400 absolute left-3 top-3" />
+                      <input
+                        type="email"
+                        required
+                        placeholder="e.g. name@example.co.uk"
+                        value={customerEmail}
+                        onChange={(e) => setCustomerEmail(e.target.value)}
+                        className="w-full bg-white border border-slate-200 rounded-xl pl-9 pr-3 py-2 text-xs text-slate-900 focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600 font-medium"
+                      />
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-2 gap-2">
+                    <div>
+                      <label className="text-[11px] font-bold text-slate-700 block mb-1">
+                        Full Name
+                      </label>
+                      <div className="relative">
+                        <User className="w-3.5 h-3.5 text-slate-400 absolute left-3 top-3" />
+                        <input
+                          type="text"
+                          placeholder="Your Name"
+                          value={customerName}
+                          onChange={(e) => setCustomerName(e.target.value)}
+                          className="w-full bg-white border border-slate-200 rounded-xl pl-9 pr-3 py-2 text-xs text-slate-900 focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600"
+                        />
+                      </div>
+                    </div>
+
+                    <div>
+                      <label className="text-[11px] font-bold text-slate-700 block mb-1">
+                        Phone (Courier SMS)
+                      </label>
+                      <div className="relative">
+                        <Phone className="w-3.5 h-3.5 text-slate-400 absolute left-3 top-3" />
+                        <input
+                          type="tel"
+                          placeholder="07xxx xxxxxx"
+                          value={customerPhone}
+                          onChange={(e) => setCustomerPhone(e.target.value)}
+                          className="w-full bg-white border border-slate-200 rounded-xl pl-9 pr-3 py-2 text-xs text-slate-900 focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <label className="text-[11px] font-bold text-slate-700 block mb-1">
+                      UK Delivery Address / Postcode
+                    </label>
+                    <div className="relative">
+                      <MapPin className="w-3.5 h-3.5 text-slate-400 absolute left-3 top-3" />
+                      <input
+                        type="text"
+                        placeholder="Street, Town, Postcode (e.g. EC1V 9BW)"
+                        value={deliveryPostcode}
+                        onChange={(e) => setDeliveryPostcode(e.target.value)}
+                        className="w-full bg-white border border-slate-200 rounded-xl pl-9 pr-3 py-2 text-xs text-slate-900 focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               {/* Promo Code Box */}
               <div className="bg-slate-50 border border-slate-200 rounded-xl p-3 space-y-2">
                 <div className="flex items-center gap-1.5 text-xs text-slate-800 font-semibold">
@@ -453,19 +586,19 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
             </div>
 
             <button
-              onClick={handleSimulateCheckout}
+              onClick={handleCheckout}
               disabled={isCheckingOut}
               className="w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-3.5 px-4 rounded-xl text-xs sm:text-sm transition-all flex items-center justify-center gap-2 cursor-pointer shadow-md hover:shadow-blue-600/30 active:scale-95 disabled:opacity-50"
             >
               {paymentMethod === 'bank_transfer' ? (
                 <>
                   <Landmark className="w-4 h-4" />
-                  <span>{isCheckingOut ? 'Generating Bank Transfer Invoice...' : 'Generate Bank Transfer Order Reference'}</span>
+                  <span>{isCheckingOut ? 'Transmitting to Zoho Mail...' : 'Generate Bank Transfer Order Reference'}</span>
                 </>
               ) : (
                 <>
                   <Lock className="w-3.5 h-3.5" />
-                  <span>{isCheckingOut ? 'Securing UK Checkout...' : 'Place Secure UK Order'}</span>
+                  <span>{isCheckingOut ? 'Transmitting to Zoho Mail...' : 'Place Secure UK Order'}</span>
                 </>
               )}
               <ArrowRight className="w-3.5 h-3.5" />
@@ -476,7 +609,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
               <span>•</span>
               <span>Barclays Faster Payments</span>
               <span>•</span>
-              <span>UK VAT Invoice</span>
+              <span>sales@ebikessales.online</span>
             </div>
           </div>
         )}

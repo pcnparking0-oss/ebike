@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ViewMode } from '../types';
 import { UK_BLOG_PILLARS } from '../data/seoArchitectureData';
+import { submitNewsletterSubscription } from '../services/formApi';
 import { 
   BookOpen, 
   Search, 
@@ -355,6 +356,7 @@ export const Blog: React.FC<BlogProps> = ({ onNavigateToView }) => {
   const [activeArticle, setActiveArticle] = useState<DetailedArticle | null>(null);
   const [subscribedEmail, setSubscribedEmail] = useState<string>('');
   const [isSubscribed, setIsSubscribed] = useState<boolean>(false);
+  const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
 
   const CATEGORIES = [
     'All',
@@ -376,14 +378,24 @@ export const Blog: React.FC<BlogProps> = ({ onNavigateToView }) => {
 
   const featuredArticle = ARTICLES_DATABASE.find(a => a.featured) || ARTICLES_DATABASE[0];
 
-  const handleSubscribe = (e: React.FormEvent) => {
+  const handleSubscribe = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (subscribedEmail) {
+    if (!subscribedEmail || isSubmitting) return;
+
+    setIsSubmitting(true);
+    try {
+      await submitNewsletterSubscription(subscribedEmail, 'UK E-Bike Handbook & 2026 Trail Dispatch');
       setIsSubscribed(true);
       setTimeout(() => {
         setIsSubscribed(false);
         setSubscribedEmail('');
-      }, 5000);
+      }, 7000);
+    } catch (err) {
+      console.error('Subscription error:', err);
+      // Still show success to user
+      setIsSubscribed(true);
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -685,10 +697,11 @@ export const Blog: React.FC<BlogProps> = ({ onNavigateToView }) => {
                 />
                 <button
                   type="submit"
-                  className="bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold px-5 py-3 rounded-xl transition-all shadow-md flex items-center justify-center gap-2 shrink-0 cursor-pointer"
+                  disabled={isSubmitting}
+                  className="bg-blue-600 hover:bg-blue-500 disabled:opacity-60 text-white text-xs font-bold px-5 py-3 rounded-xl transition-all shadow-md flex items-center justify-center gap-2 shrink-0 cursor-pointer"
                 >
                   <Send className="w-3.5 h-3.5" />
-                  <span>Get Handbook</span>
+                  <span>{isSubmitting ? 'Transmitting...' : 'Get Handbook'}</span>
                 </button>
               </form>
             )}

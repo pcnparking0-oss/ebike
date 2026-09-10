@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ViewMode } from '../types';
+import { submitContactForm } from '../services/formApi';
 import { 
   Phone, 
   Mail, 
@@ -11,7 +12,8 @@ import {
   MessageSquare, 
   Calendar,
   Sparkles,
-  Bike
+  Bike,
+  AlertCircle
 } from 'lucide-react';
 
 interface ContactUsProps {
@@ -30,14 +32,29 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
 
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isSending, setIsSending] = useState(false);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  const [ticketId, setTicketId] = useState<string>('VT-UK-2849');
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSending(true);
-    setTimeout(() => {
+    setErrorMessage(null);
+
+    try {
+      const response = await submitContactForm(formData);
+      if (response.success) {
+        if (response.ticketId) {
+          setTicketId(response.ticketId);
+        }
+        setIsSubmitted(true);
+      } else {
+        setErrorMessage(response.error || 'Unable to deliver your enquiry. Please try again or call 0800 892 4410.');
+      }
+    } catch (err: any) {
+      setErrorMessage(err?.message || 'A network error occurred while submitting.');
+    } finally {
       setIsSending(false);
-      setIsSubmitted(true);
-    }, 600);
+    }
   };
 
   return (
@@ -117,7 +134,7 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
                 Thank You, Message Dispatched!
               </h3>
               <p className="text-xs text-slate-600 max-w-md mx-auto leading-relaxed">
-                Your enquiry regarding <strong className="text-slate-900 font-medium">"{formData.subject}"</strong> has been assigned ticket <strong className="text-blue-600 font-mono font-bold">#VT-UK-2849</strong>. A Dirt Bike technical advisor will reply to <span className="font-semibold text-slate-800">{formData.email || 'your email'}</span> within 2 business hours.
+                Your enquiry regarding <strong className="text-slate-900 font-medium">"{formData.subject}"</strong> has been transmitted to <strong className="text-blue-600 font-mono">sales@ebikessales.online</strong> and assigned ticket <strong className="text-blue-600 font-mono font-bold">#{ticketId}</strong>. A confirmation copy has been sent to <span className="font-semibold text-slate-800">{formData.email || 'your email'}</span>.
               </p>
               <button
                 onClick={() => {
@@ -138,6 +155,12 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-4 text-xs">
+              {errorMessage && (
+                <div className="bg-rose-50 border border-rose-200 text-rose-800 p-3.5 rounded-xl flex items-center gap-2.5 text-xs animate-fade-in">
+                  <AlertCircle className="w-4 h-4 text-rose-600 shrink-0" />
+                  <span>{errorMessage}</span>
+                </div>
+              )}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="space-y-1.5">
                   <label className="font-bold text-slate-700 block">Full Name *</label>

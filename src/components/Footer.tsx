@@ -87,100 +87,164 @@ export const Footer: React.FC<FooterProps> = ({ onSelectView }) => {
           </h4>
           <ul className="space-y-2 text-xs">
             <li>
-              <button onClick={() => onSelectView('shop')} className="hover:text-blue-600 transition-colors text-slate-600 text-left cursor-pointer">
-                Electric Dirt Bikes (Sur-Ron & Talaria)
-              </button>
+              <a 
+                href="/shop?folder=dirt-bikes" 
+                onClick={(e) => { e.preventDefault(); onSelectView('shop'); window.history.pushState(null, '', '/shop?folder=dirt-bikes'); }} 
+                className="hover:text-blue-600 transition-colors text-slate-600 block"
+              >
+                Electric Dirt Bikes (Sur-Ron &amp; Talaria)
+              </a>
             </li>
             <li>
-              <button onClick={() => onSelectView('shop')} className="hover:text-blue-600 transition-colors text-slate-600 text-left cursor-pointer">
+              <a 
+                href="/shop?folder=road-legal" 
+                onClick={(e) => { e.preventDefault(); onSelectView('shop'); window.history.pushState(null, '', '/shop?folder=road-legal'); }} 
+                className="hover:text-blue-600 transition-colors text-slate-600 block"
+              >
                 Road-Legal Electric Dirt Bikes (L1e-B)
-              </button>
+              </a>
             </li>
             <li>
-              <button onClick={() => onSelectView('shop')} className="hover:text-blue-600 transition-colors text-slate-600 text-left cursor-pointer">
+              <a 
+                href="/shop?folder=dirt-bikes" 
+                onClick={(e) => { e.preventDefault(); onSelectView('shop'); window.history.pushState(null, '', '/shop?folder=dirt-bikes'); }} 
+                className="hover:text-blue-600 transition-colors text-slate-600 block"
+              >
                 Electric Mountain Bikes (e-MTB)
-              </button>
+              </a>
             </li>
             <li>
-              <button onClick={() => onSelectView('shop')} className="hover:text-blue-600 transition-colors text-slate-600 text-left cursor-pointer">
-                Kids & Youth Electric Dirt Bikes
-              </button>
+              <a 
+                href="/shop?folder=kids-folder" 
+                onClick={(e) => { e.preventDefault(); onSelectView('shop'); window.history.pushState(null, '', '/shop?folder=kids-folder'); }} 
+                className="hover:text-blue-600 transition-colors text-slate-600 block"
+              >
+                Kids &amp; Youth Electric Dirt Bikes
+              </a>
             </li>
             <li>
-              <button onClick={() => onSelectView('shop')} className="hover:text-blue-600 transition-colors text-slate-600 text-left cursor-pointer">
-                Electric Quads & Buggies
-              </button>
+              <a 
+                href="/shop?folder=quads-folder" 
+                onClick={(e) => { e.preventDefault(); onSelectView('shop'); window.history.pushState(null, '', '/shop?folder=quads-folder'); }} 
+                className="hover:text-blue-600 transition-colors text-slate-600 block"
+              >
+                Electric Quads &amp; Buggies
+              </a>
             </li>
             <li>
-              <button onClick={() => onSelectView('shop')} className="hover:text-blue-600 transition-colors text-slate-600 text-left cursor-pointer">
-                Accessories, Batteries & Fast Chargers
-              </button>
+              <a 
+                href="/shop?folder=battery-folder" 
+                onClick={(e) => { e.preventDefault(); onSelectView('shop'); window.history.pushState(null, '', '/shop?folder=battery-folder'); }} 
+                className="hover:text-blue-600 transition-colors text-slate-600 block"
+              >
+                Accessories, Batteries &amp; Fast Chargers
+              </a>
             </li>
           </ul>
         </div>
 
         <div>
           <h4 className="text-slate-900 font-bold text-xs uppercase tracking-wider mb-3">
-            Finance & Support
+            Finance &amp; Support
           </h4>
           <ul className="space-y-2 text-xs">
             <li>
-              <button onClick={() => onSelectView('contact-us')} className="hover:text-blue-600 transition-colors text-slate-600 text-left cursor-pointer">
+              <a 
+                href="/contact-us" 
+                onClick={(e) => { e.preventDefault(); onSelectView('contact-us'); window.history.pushState(null, '', '/contact-us'); }} 
+                className="hover:text-blue-600 transition-colors text-slate-600 block"
+              >
                 0% Interest-Free Finance
-              </button>
+              </a>
             </li>
             <li>
-              <button onClick={() => onSelectView('contact-us')} className="hover:text-blue-600 transition-colors text-slate-600 text-left cursor-pointer">
-                Klarna Pay in 3 & Pay Later
-              </button>
+              <a 
+                href="/contact-us" 
+                onClick={(e) => { e.preventDefault(); onSelectView('contact-us'); window.history.pushState(null, '', '/contact-us'); }} 
+                className="hover:text-blue-600 transition-colors text-slate-600 block"
+              >
+                Klarna Pay in 3 &amp; Pay Later
+              </a>
             </li>
             <li>
-              <button onClick={() => onSelectView('contact-us')} className="hover:text-blue-600 transition-colors text-slate-600 text-left cursor-pointer">
+              <a 
+                href="/contact-us" 
+                onClick={(e) => { e.preventDefault(); onSelectView('contact-us'); window.history.pushState(null, '', '/contact-us'); }} 
+                className="hover:text-blue-600 transition-colors text-slate-600 block"
+              >
                 Book a Test Ride Consultation
-              </button>
+              </a>
             </li>
             <li>
-              <button onClick={() => onSelectView('contact-us')} className="hover:text-blue-600 transition-colors text-slate-600 text-left cursor-pointer">
-                Battery Maintenance & Care Guide
-              </button>
+              <a 
+                href="/blog/best-electric-bikes-british-weather-winter-rain" 
+                onClick={(e) => { e.preventDefault(); onSelectView('blog'); window.history.pushState(null, '', '/blog/best-electric-bikes-british-weather-winter-rain'); }} 
+                className="hover:text-blue-600 transition-colors text-slate-600 block"
+              >
+                Battery Maintenance &amp; Care Guide
+              </a>
             </li>
             <li>
-              <button onClick={() => onSelectView('contact-us')} className="hover:text-blue-600 transition-colors text-slate-600 text-left cursor-pointer">
+              <a 
+                href="/contact-us" 
+                onClick={(e) => { e.preventDefault(); onSelectView('contact-us'); window.history.pushState(null, '', '/contact-us'); }} 
+                className="hover:text-blue-600 transition-colors text-slate-600 block"
+              >
                 Track Your UK Delivery
-              </button>
+              </a>
             </li>
           </ul>
         </div>
 
         <div>
           <h4 className="text-slate-900 font-bold text-xs uppercase tracking-wider mb-3">
-            Company & Guides
+            Company &amp; Guides
           </h4>
           <ul className="space-y-2 text-xs">
             <li>
-              <button onClick={() => onSelectView('about-us')} className="hover:text-blue-600 transition-colors text-slate-600 text-left cursor-pointer">
-                About Us & UK Workshop
-              </button>
+              <a 
+                href="/about-us" 
+                onClick={(e) => { e.preventDefault(); onSelectView('about-us'); window.history.pushState(null, '', '/about-us'); }} 
+                className="hover:text-blue-600 transition-colors text-slate-600 block"
+              >
+                About Us &amp; UK Workshop
+              </a>
             </li>
             <li>
-              <button onClick={() => onSelectView('blog')} className="hover:text-blue-600 transition-colors text-slate-600 text-left cursor-pointer">
-                Blog & UK Electric Dirt Bike Guides
-              </button>
+              <a 
+                href="/blog" 
+                onClick={(e) => { e.preventDefault(); onSelectView('blog'); window.history.pushState(null, '', '/blog'); }} 
+                className="hover:text-blue-600 transition-colors text-slate-600 block"
+              >
+                Blog &amp; UK Electric Dirt Bike Guides
+              </a>
             </li>
             <li>
-              <button onClick={() => onSelectView('contact-us')} className="hover:text-blue-600 transition-colors text-slate-600 text-left cursor-pointer">
-                Contact Specialists & Hotline
-              </button>
+              <a 
+                href="/contact-us" 
+                onClick={(e) => { e.preventDefault(); onSelectView('contact-us'); window.history.pushState(null, '', '/contact-us'); }} 
+                className="hover:text-blue-600 transition-colors text-slate-600 block"
+              >
+                Contact Specialists &amp; Hotline
+              </a>
             </li>
             <li>
-              <button onClick={() => onSelectView('terms-and-conditions')} className="hover:text-blue-600 transition-colors text-slate-600 text-left cursor-pointer">
-                Terms & Conditions
-              </button>
+              <a 
+                href="/terms-and-conditions" 
+                onClick={(e) => { e.preventDefault(); onSelectView('terms-and-conditions'); window.history.pushState(null, '', '/terms-and-conditions'); }} 
+                className="hover:text-blue-600 transition-colors text-slate-600 block"
+              >
+                Terms &amp; Conditions
+              </a>
             </li>
             <li>
-              <button onClick={() => onSelectView('privacy-policy')} className="hover:text-blue-600 transition-colors text-slate-600 text-left cursor-pointer">
-                Privacy & UK GDPR Policy
-              </button>
+              <a 
+                href="/privacy-policy" 
+                onClick={(e) => { e.preventDefault(); onSelectView('privacy-policy'); window.history.pushState(null, '', '/privacy-policy'); }} 
+                className="hover:text-blue-600 transition-colors text-slate-600 block"
+              >
+                Privacy &amp; UK GDPR Policy
+              </a>
             </li>
           </ul>
         </div>
