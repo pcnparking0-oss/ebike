@@ -21,28 +21,35 @@ export interface SendResult {
  * Accommodates various common naming schemes added in the Vercel dashboard.
  */
 export function getZohoConfig() {
-  const user =
+  const user = (
     process.env.ZOHO_MAIL_USER ||
     process.env.ZOHO_USER ||
     process.env.SMTP_USER ||
     process.env.MAIL_USER ||
     process.env.EMAIL_USER ||
-    'sales@ebikessales.online';
+    'sales@ebikessales.online'
+  ).trim();
 
-  const pass =
+  const pass = (
     process.env.ZOHO_MAIL_PASSWORD ||
     process.env.ZOHO_PASSWORD ||
     process.env.SMTP_PASSWORD ||
     process.env.SMTP_PASS ||
     process.env.MAIL_PASSWORD ||
     process.env.EMAIL_PASSWORD ||
-    '';
+    ''
+  ).trim();
 
-  const host =
+  let host =
     process.env.ZOHO_HOST ||
     process.env.SMTP_HOST ||
     process.env.MAIL_HOST ||
     'smtp.zoho.eu';
+
+  // Force EU host to bypass stuck Vercel variables
+  if (host === 'smtp.zoho.com' || host === 'smtppro.zoho.com') {
+    host = 'smtp.zoho.eu';
+  }
 
   const port = Number(
     process.env.ZOHO_PORT ||
@@ -52,12 +59,12 @@ export function getZohoConfig() {
   );
 
   const salesEmail =
-    process.env.SALES_EMAIL ||
+    (process.env.SALES_EMAIL ||
     process.env.TO_EMAIL ||
     process.env.RECIPIENT_EMAIL ||
-    'sales@ebikessales.online';
+    'sales@ebikessales.online').trim();
 
-  const isConfigured = Boolean(pass && pass.trim().length > 0);
+  const isConfigured = Boolean(pass && pass.length > 0);
 
   return {
     user,
