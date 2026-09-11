@@ -94,11 +94,9 @@ async function postJson<T = any>(endpoint: string, payload: any): Promise<ApiRes
     };
   } catch (err: any) {
     console.warn(`Error connecting to endpoint ${endpoint}:`, err);
-    // In local dev/fallback, return a clean simulated response so UI flows never crash
     return {
-      success: true,
-      message: 'Submission received and dispatched via Zoho Mail.',
-      simulated: true,
+      success: false,
+      error: err?.message || 'A network error occurred while submitting.',
     };
   }
 }

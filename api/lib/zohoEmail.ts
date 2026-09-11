@@ -42,7 +42,7 @@ export function getZohoConfig() {
     process.env.ZOHO_HOST ||
     process.env.SMTP_HOST ||
     process.env.MAIL_HOST ||
-    'smtppro.zoho.com';
+    'smtp.zoho.eu';
 
   const port = Number(
     process.env.ZOHO_PORT ||
@@ -148,7 +148,7 @@ export async function sendZohoMail(options: EmailOptions): Promise<SendResult> {
     console.error('Failed to dispatch Zoho email via SMTP:', error);
     return {
       success: false,
-      error: error?.message || 'Failed to dispatch email via Zoho SMTP',
+      error: `Failed to dispatch email via Zoho SMTP (${config.host}:${config.port}). Error: ${error?.message || 'Unknown network error'}. If you are in the UK, try setting ZOHO_HOST to smtp.zoho.eu.`,
     };
   }
 }
