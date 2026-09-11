@@ -598,24 +598,34 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
               </div>
             </div>
 
-            <button
-              onClick={handleCheckout}
-              disabled={isCheckingOut}
-              className="w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-3.5 px-4 rounded-xl text-xs sm:text-sm transition-all flex items-center justify-center gap-2 cursor-pointer shadow-md hover:shadow-blue-600/30 active:scale-95 disabled:opacity-50"
-            >
-              {paymentMethod === 'bank_transfer' ? (
-                <>
-                  <Landmark className="w-4 h-4" />
-                  <span>{isCheckingOut ? 'Transmitting to Zoho Mail...' : 'Generate Bank Transfer Order Reference'}</span>
-                </>
-              ) : (
-                <>
-                  <Lock className="w-3.5 h-3.5" />
-                  <span>{isCheckingOut ? 'Transmitting to Zoho Mail...' : 'Place Secure UK Order'}</span>
-                </>
-              )}
-              <ArrowRight className="w-3.5 h-3.5" />
-            </button>
+            <div className="flex flex-col gap-2">
+              <button
+                onClick={handleCheckout}
+                disabled={isCheckingOut}
+                className="w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-3.5 px-4 rounded-xl text-xs sm:text-sm transition-all flex items-center justify-center gap-2 cursor-pointer shadow-md hover:shadow-blue-600/30 active:scale-95 disabled:opacity-50"
+              >
+                {paymentMethod === 'bank_transfer' ? (
+                  <>
+                    <Landmark className="w-4 h-4" />
+                    <span>{isCheckingOut ? 'Transmitting to Zoho Mail...' : 'Generate Bank Transfer Order Reference'}</span>
+                  </>
+                ) : (
+                  <>
+                    <Lock className="w-3.5 h-3.5" />
+                    <span>{isCheckingOut ? 'Transmitting to Zoho Mail...' : 'Place Secure UK Order'}</span>
+                  </>
+                )}
+                <ArrowRight className="w-3.5 h-3.5" />
+              </button>
+              
+              <button
+                onClick={onClose}
+                disabled={isCheckingOut}
+                className="w-full bg-white hover:bg-slate-100 border border-slate-200 text-slate-700 font-bold py-3 px-4 rounded-xl text-xs sm:text-sm transition-all flex items-center justify-center cursor-pointer shadow-sm active:scale-95 disabled:opacity-50"
+              >
+                Continue Shopping
+              </button>
+            </div>
 
             <div className="flex items-center justify-center gap-3 text-[10px] text-slate-500 pt-1">
               <span>🔒 256-Bit SSL Encryption</span>
