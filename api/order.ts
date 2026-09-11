@@ -199,13 +199,19 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
       </div>
     `, `New Order #${orderReference} from ${customerName}`);
 
-    await sendZohoMail({
+    const result = await sendZohoMail({
       to: config.salesEmail,
       replyTo: customerEmail,
       subject: `[New Order Reservation #${orderReference}] ${paymentLabel} - £${total.toLocaleString()}`,
       text: `Order #${orderReference}\nCustomer: ${customerName} (${customerEmail})\nTotal: £${total}\nPayment Method: ${paymentLabel}`,
       html: salesNotificationHtml,
     });
+
+    if (!result.success) {
+      setStatus(500);
+      sendJson({ error: result.error || 'Failed to dispatch order notification via Zoho Mail.' });
+      return;
+    }
 
     // 2. Order Confirmation Copy to Customer
     if (config.isConfigured) {

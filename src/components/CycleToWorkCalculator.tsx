@@ -82,7 +82,7 @@ export const CycleToWorkCalculator: React.FC = () => {
       }
     } catch (err: any) {
       console.error('Quote error:', err);
-      setQuoteSubmittedRef(`C2W-UK-${Math.floor(10000 + Math.random() * 90000)}`);
+      setQuoteError(err?.message || 'An unexpected error occurred.');
     } finally {
       setIsSubmittingQuote(false);
     }

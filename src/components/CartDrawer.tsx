@@ -101,7 +101,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
         sku: item.product.sku,
       }));
 
-      await submitOrderReservation({
+      const response = await submitOrderReservation({
         orderReference,
         customerName: customerName.trim() || 'Valued Customer',
         customerEmail: customerEmail.trim(),
@@ -115,10 +115,15 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
         total,
       });
 
+      if (!response.success) {
+        setCheckoutError(response.error || 'Failed to submit order. Please try again.');
+        return;
+      }
+
       setCheckoutComplete(true);
     } catch (err: any) {
       console.error('Checkout error:', err);
-      setCheckoutComplete(true);
+      setCheckoutError(err?.message || 'An unexpected error occurred.');
     } finally {
       setIsCheckingOut(false);
     }

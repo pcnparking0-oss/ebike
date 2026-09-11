@@ -86,7 +86,7 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
     const quoteRef = `C2W-UK-${Math.floor(10000 + Math.random() * 90000)}`;
 
     // 1. Email notification to Sales
-    await sendZohoMail({
+    const result = await sendZohoMail({
       to: config.salesEmail,
       replyTo: email,
       subject: `[Cycle to Work Quote #${quoteRef}] £${totalPrice.toLocaleString()} - ${fullName} (${employerName})`,
@@ -151,6 +151,12 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
         </div>
       `, `Cycle to Work Quote #${quoteRef} for ${fullName}`),
     });
+
+    if (!result.success) {
+      setStatus(500);
+      sendJson({ error: result.error || 'Failed to dispatch quote via Zoho Mail.' });
+      return;
+    }
 
     // 2. Email Quote to Customer
     if (config.isConfigured) {

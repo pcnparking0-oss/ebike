@@ -113,6 +113,13 @@ export async function sendZohoMail(options: EmailOptions): Promise<SendResult> {
   };
 
   if (!transporter) {
+    if (process.env.VERCEL || process.env.NODE_ENV === 'production') {
+      return {
+        success: false,
+        error: 'Zoho Mail is not configured. Missing ZOHO_PASSWORD or ZOHO_MAIL_PASSWORD environment variables. Please check your Vercel settings.',
+      };
+    }
+
     console.log('--- [ZOHO MAIL SIMULATION / DEV MODE] ---');
     console.log(`To: ${mailOptions.to}`);
     console.log(`From: ${mailOptions.from}`);

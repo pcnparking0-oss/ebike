@@ -357,6 +357,7 @@ export const Blog: React.FC<BlogProps> = ({ onNavigateToView }) => {
   const [subscribedEmail, setSubscribedEmail] = useState<string>('');
   const [isSubscribed, setIsSubscribed] = useState<boolean>(false);
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
+  const [subscribeError, setSubscribeError] = useState<string | null>(null);
 
   const CATEGORIES = [
     'All',
@@ -383,17 +384,23 @@ export const Blog: React.FC<BlogProps> = ({ onNavigateToView }) => {
     if (!subscribedEmail || isSubmitting) return;
 
     setIsSubmitting(true);
+    setSubscribeError(null);
     try {
-      await submitNewsletterSubscription(subscribedEmail, 'UK E-Bike Handbook & 2026 Trail Dispatch');
+      const response = await submitNewsletterSubscription(subscribedEmail, 'UK E-Bike Handbook & 2026 Trail Dispatch');
+      
+      if (!response.success) {
+        setSubscribeError(response.error || 'Failed to subscribe. Please try again.');
+        return;
+      }
+      
       setIsSubscribed(true);
       setTimeout(() => {
         setIsSubscribed(false);
         setSubscribedEmail('');
       }, 7000);
-    } catch (err) {
+    } catch (err: any) {
       console.error('Subscription error:', err);
-      // Still show success to user
-      setIsSubscribed(true);
+      setSubscribeError(err?.message || 'An unexpected error occurred.');
     } finally {
       setIsSubmitting(false);
     }
@@ -686,23 +693,30 @@ export const Blog: React.FC<BlogProps> = ({ onNavigateToView }) => {
                 </div>
               </div>
             ) : (
-              <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-2 max-w-md w-full">
-                <input
-                  type="email"
-                  required
-                  placeholder="Enter your work or personal email..."
-                  value={subscribedEmail}
-                  onChange={(e) => setSubscribedEmail(e.target.value)}
-                  className="bg-slate-800/90 border border-slate-700 text-white text-xs px-4 py-3 rounded-xl focus:outline-none focus:border-blue-400 focus:ring-1 focus:ring-blue-400"
-                />
-                <button
-                  type="submit"
-                  disabled={isSubmitting}
-                  className="bg-blue-600 hover:bg-blue-500 disabled:opacity-60 text-white text-xs font-bold px-5 py-3 rounded-xl transition-all shadow-md flex items-center justify-center gap-2 shrink-0 cursor-pointer"
-                >
-                  <Send className="w-3.5 h-3.5" />
-                  <span>{isSubmitting ? 'Transmitting...' : 'Get Handbook'}</span>
-                </button>
+              <form onSubmit={handleSubscribe} className="flex flex-col gap-2 max-w-md w-full">
+                <div className="flex flex-col sm:flex-row gap-2">
+                  <input
+                    type="email"
+                    required
+                    placeholder="Enter your work or personal email..."
+                    value={subscribedEmail}
+                    onChange={(e) => setSubscribedEmail(e.target.value)}
+                    className="flex-1 bg-slate-800/90 border border-slate-700 text-white text-xs px-4 py-3 rounded-xl focus:outline-none focus:border-blue-400 focus:ring-1 focus:ring-blue-400"
+                  />
+                  <button
+                    type="submit"
+                    disabled={isSubmitting}
+                    className="bg-blue-600 hover:bg-blue-500 disabled:opacity-60 text-white text-xs font-bold px-5 py-3 rounded-xl transition-all shadow-md flex items-center justify-center gap-2 shrink-0 cursor-pointer"
+                  >
+                    <Send className="w-3.5 h-3.5" />
+                    <span>{isSubmitting ? 'Transmitting...' : 'Get Handbook'}</span>
+                  </button>
+                </div>
+                {subscribeError && (
+                  <div className="text-xs text-rose-400 bg-rose-500/10 border border-rose-500/20 px-3 py-2 rounded-lg">
+                    {subscribeError}
+                  </div>
+                )}
               </form>
             )}
           </div>

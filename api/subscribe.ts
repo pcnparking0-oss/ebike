@@ -76,7 +76,7 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
     const timestamp = new Date().toUTCString();
 
     // 1. Notification to Sales Inbox
-    await sendZohoMail({
+    const result = await sendZohoMail({
       to: config.salesEmail,
       replyTo: email,
       subject: `[New Newsletter Subscriber] ${email} - ${source}`,
@@ -103,6 +103,12 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
         </table>
       `, `New subscriber: ${email}`),
     });
+
+    if (!result.success) {
+      setStatus(500);
+      sendJson({ error: result.error || 'Failed to dispatch subscription via Zoho Mail.' });
+      return;
+    }
 
     // 2. Deliver Handbook & Welcome Message to Subscriber
     if (config.isConfigured) {
