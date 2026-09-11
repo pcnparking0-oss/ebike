@@ -17,6 +17,7 @@ import { ContactUs } from './components/ContactUs';
 import { HomePage } from './components/HomePage';
 import { Blog } from './components/Blog';
 import { DynamicSeo } from './components/DynamicSeo';
+import { CheckoutPage } from './components/CheckoutPage';
 
 export default function App() {
   const [currentView, setCurrentView] = useState<ViewMode>('home');
@@ -237,6 +238,13 @@ export default function App() {
             </div>
           </div>
         )}
+        {currentView === 'checkout' && (
+          <CheckoutPage 
+            items={cartItems} 
+            onClearCart={handleClearCart} 
+            onNavigateToView={setCurrentView} 
+          />
+        )}
       </main>
 
       {/* Footer */}
@@ -257,6 +265,10 @@ export default function App() {
         onUpdateQuantity={handleUpdateQuantity}
         onRemoveItem={handleRemoveFromCart}
         onClearCart={handleClearCart}
+        onNavigateToCheckout={() => {
+          setIsCartOpen(false);
+          setCurrentView('checkout');
+        }}
       />
 
       <SchemaGeneratorModal

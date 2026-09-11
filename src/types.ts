@@ -133,4 +133,5 @@ export type ViewMode =
   | 'seo-architecture' 
   | 'cycle-to-work' 
   | 'eapc-compliance' 
-  | 'schema-hub';
+  | 'schema-hub'
+  | 'checkout';
