@@ -204,7 +204,7 @@ export const DynamicSeo: React.FC<DynamicSeoProps> = ({
       case 'contact-us':
         return {
           title: `Contact DirtVolt UK — Technical Support & Order Enquiries | sales@ebikessales.online`,
-          description: `Get in touch with DirtVolt UK electric bike specialists. Email sales@ebikessales.online or call 020 7946 0888 for expert advice, test ride bookings, or order enquiries.`,
+          description: `Get in touch with DirtVolt UK electric bike specialists. Email sales@ebikessales.online or call +44 7462 268683 for expert advice, test ride bookings, or order enquiries.`,
           canonical: `${BASE_URL}/contact`,
           ogType: 'website',
           structuredData: {
@@ -216,7 +216,7 @@ export const DynamicSeo: React.FC<DynamicSeoProps> = ({
               '@type': 'LocalBusiness',
               name: 'DirtVolt UK Electric Bikes',
               email: 'sales@ebikessales.online',
-              telephone: '+44-20-7946-0888',
+              telephone: '+44 7462 268683',
               address: {
                 '@type': 'PostalAddress',
                 streetAddress: '14-18 Great Eastern Street',
@@ -310,7 +310,7 @@ export const DynamicSeo: React.FC<DynamicSeoProps> = ({
                 name: 'DirtVolt UK E-Bikes',
                 image: `${BASE_URL}/icon.svg`,
                 url: BASE_URL,
-                telephone: '+44-20-7946-0888',
+                telephone: '+44 7462 268683',
                 email: 'sales@ebikessales.online',
                 priceRange: '££-£££',
                 address: {
