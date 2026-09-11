@@ -13,8 +13,7 @@ import {
   Calendar,
   Sparkles,
   Bike,
-  AlertCircle,
-  MessageCircle
+  AlertCircle
 } from 'lucide-react';
 
 interface ContactUsProps {
@@ -49,7 +48,7 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
         }
         setIsSubmitted(true);
       } else {
-        setErrorMessage(response.error || 'Unable to deliver your enquiry. Please try again or call +44 7462 268683.');
+        setErrorMessage(response.error || 'Unable to deliver your enquiry. Please try again or call 0800 892 4410.');
       }
     } catch (err: any) {
       setErrorMessage(err?.message || 'A network error occurred while submitting.');
@@ -75,56 +74,23 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
           </p>
         </div>
 
-        {/* 5 Direct Contact Cards including WhatsApp */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3.5 mt-8 pt-8 border-t border-slate-100">
-          {/* WhatsApp Direct Line */}
-          <div className="bg-emerald-50/80 border border-emerald-300/90 hover:border-emerald-500 rounded-2xl p-4 space-y-1.5 transition-all shadow-xs group">
-            <div className="flex items-center justify-between mb-2">
-              <div className="w-8 h-8 rounded-lg bg-emerald-600 text-white flex items-center justify-center shadow-xs">
-                <MessageCircle className="w-4 h-4" />
-              </div>
-              <span className="bg-emerald-200/80 text-emerald-900 text-[10px] font-bold px-1.5 py-0.5 rounded font-mono">Online</span>
-            </div>
-            <span className="text-xs text-emerald-800 font-semibold uppercase font-mono block">WhatsApp Chat</span>
-            <a 
-              href="https://wa.me/447462268683?text=Hi%20DirtVolt,%20I'd%20like%20more%20information%20about%20your%20electric%20dirt%20bikes." 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm font-bold text-slate-900 hover:text-emerald-700 transition-colors block font-heading"
-            >
-              +44 7462 268683
-            </a>
-            <a
-              href="https://wa.me/447462268683?text=Hi%20DirtVolt,%20I'd%20like%20more%20information%20about%20your%20electric%20dirt%20bikes." 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[11px] text-emerald-700 font-semibold group-hover:underline block"
-            >
-              Instant messaging →
-            </a>
-          </div>
-
-          {/* Direct Phone Line */}
+        {/* 4 Direct Contact Cards */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-8 pt-8 border-t border-slate-100">
           <div className="bg-slate-50 border border-slate-200/80 rounded-2xl p-4 space-y-1.5">
             <div className="w-8 h-8 rounded-lg bg-blue-100 text-blue-700 flex items-center justify-center mb-2">
               <Phone className="w-4 h-4" />
             </div>
-            <span className="text-xs text-slate-500 font-semibold uppercase font-mono block">Direct UK Line</span>
-            <a 
-              href="tel:+447462268683" 
-              className="text-sm font-bold text-slate-900 hover:text-blue-600 transition-colors block font-heading"
-            >
-              +44 7462 268683
-            </a>
+            <span className="text-xs text-slate-500 font-semibold uppercase font-mono block">Freephone UK</span>
+            <span className="text-sm font-bold text-slate-900 block font-heading">0800 892 4410</span>
             <span className="text-[11px] text-slate-500 block">Mon–Fri: 8:30am – 6:00pm</span>
           </div>
 
           <div className="bg-slate-50 border border-slate-200/80 rounded-2xl p-4 space-y-1.5">
-            <div className="w-8 h-8 rounded-lg bg-slate-100 text-slate-700 flex items-center justify-center mb-2">
+            <div className="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center mb-2">
               <Mail className="w-4 h-4" />
             </div>
             <span className="text-xs text-slate-500 font-semibold uppercase font-mono block">Email Support & Sales</span>
-            <span className="text-sm font-bold text-slate-900 block font-heading truncate">sales@ebikessales.online</span>
+            <span className="text-sm font-bold text-slate-900 block font-heading">sales@ebikessales.online</span>
             <span className="text-[11px] text-emerald-700 font-medium block">Avg. response under 2 hours</span>
           </div>
 
@@ -133,7 +99,7 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
               <Wrench className="w-4 h-4" />
             </div>
             <span className="text-xs text-slate-500 font-semibold uppercase font-mono block">Technical Workshop</span>
-            <span className="text-sm font-bold text-slate-900 block font-heading truncate">workshop@ebikessales.online</span>
+            <span className="text-sm font-bold text-slate-900 block font-heading">workshop@ebikessales.online</span>
             <span className="text-[11px] text-slate-500 block">Spares, tuning & warranty</span>
           </div>
 
@@ -152,27 +118,6 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
         {/* Contact Form (7 Cols) */}
         <div className="lg:col-span-7 bg-white border border-slate-200/90 rounded-3xl p-6 sm:p-8 shadow-xs">
-          {/* Quick WhatsApp Help Banner */}
-          <div className="mb-6 p-4 rounded-2xl bg-emerald-50 border border-emerald-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
-            <div className="flex items-center gap-2.5">
-              <div className="w-8 h-8 rounded-lg bg-emerald-600 text-white flex items-center justify-center shrink-0">
-                <MessageCircle className="w-4 h-4" />
-              </div>
-              <div>
-                <p className="text-xs font-bold text-emerald-950">Need a Quick Answer?</p>
-                <p className="text-[11px] text-emerald-800">Chat with a UK technician on WhatsApp at +44 7462 268683</p>
-              </div>
-            </div>
-            <a
-              href="https://wa.me/447462268683?text=Hi%20DirtVolt,%20I'd%20like%20more%20information%20about%20your%20electric%20dirt%20bikes."
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold px-3.5 py-2 rounded-xl transition-all shadow-xs shrink-0 flex items-center gap-1.5"
-            >
-              <span>Chat on WhatsApp</span>
-              <span>→</span>
-            </a>
-          </div>
           <h2 className="text-xl font-bold text-slate-900 font-heading mb-2">
             Send an Enquiry to Our UK Team
           </h2>

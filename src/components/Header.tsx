@@ -20,8 +20,7 @@ import {
   Sparkles,
   Shield,
   Layers,
-  X,
-  MessageCircle
+  X
 } from 'lucide-react';
 
 export interface QuadNavFilter {
@@ -224,19 +223,7 @@ export const Header: React.FC<HeaderProps> = ({
         </div>
 
         {/* Actions & Basket */}
-        <div className="flex items-center gap-2 sm:gap-2.5 shrink-0">
-          <a
-            id="header-whatsapp-btn"
-            href="https://wa.me/447462268683"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Chat on WhatsApp (+44 7462 268683)"
-            aria-label="Chat on WhatsApp (+44 7462 268683)"
-            className="inline-flex items-center justify-center w-9 h-9 rounded-xl bg-[#25D366] hover:bg-[#20ba59] text-white transition-all shadow-xs shrink-0 active:scale-95"
-          >
-            <MessageCircle className="w-5 h-5 fill-white text-[#25D366]" />
-          </a>
-
+        <div className="flex items-center gap-2.5 shrink-0">
           <button
             id="open-basket-btn"
             onClick={onOpenCart}

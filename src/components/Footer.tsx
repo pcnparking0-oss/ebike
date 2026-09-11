@@ -230,16 +230,6 @@ export const Footer: React.FC<FooterProps> = ({ onSelectView }) => {
             </li>
             <li>
               <a 
-                href="https://wa.me/447462268683"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-emerald-600 transition-colors text-emerald-700 font-semibold block"
-              >
-                WhatsApp: +44 7462 268683
-              </a>
-            </li>
-            <li>
-              <a 
                 href="/terms-and-conditions" 
                 onClick={(e) => { e.preventDefault(); onSelectView('terms-and-conditions'); window.history.pushState(null, '', '/terms-and-conditions'); }} 
                 className="hover:text-blue-600 transition-colors text-slate-600 block"

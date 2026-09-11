@@ -16,8 +16,7 @@ import {
   ShoppingBag,
   MapPin,
   Calculator,
-  ChevronRight,
-  MessageCircle
+  ChevronRight
 } from 'lucide-react';
 
 interface HomePageProps {
@@ -117,31 +116,17 @@ export const HomePage: React.FC<HomePageProps> = ({
               </p>
             </div>
 
-            <div className="flex items-center gap-2 sm:gap-3">
-              <a
-                href="https://wa.me/447462268683"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Chat on WhatsApp (+44 7462 268683)"
-                aria-label="Chat on WhatsApp (+44 7462 268683)"
-                onClick={(e) => e.stopPropagation()}
-                className="w-12 h-12 rounded-xl bg-[#25D366] hover:bg-[#20ba59] text-white shadow-xl hover:shadow-[#25D366]/40 transition-all flex items-center justify-center cursor-pointer backdrop-blur-xs active:scale-95 shrink-0"
-              >
-                <MessageCircle className="w-6 h-6 fill-white text-[#25D366]" />
-              </a>
-
-              <button
-                onClick={(e) => {
-                  e.stopPropagation();
-                  onNavigateToView('shop');
-                }}
-                className="bg-blue-600 hover:bg-blue-500 text-white text-xs sm:text-sm font-bold px-6 py-3 rounded-xl shadow-xl hover:shadow-blue-600/50 transition-all flex items-center justify-center gap-2.5 cursor-pointer backdrop-blur-xs active:scale-95 shrink-0 group/btn"
-              >
-                <ShoppingBag className="w-4 h-4" />
-                <span>Shop All Bikes</span>
-                <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-0.5 transition-transform" />
-              </button>
-            </div>
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                onNavigateToView('shop');
+              }}
+              className="bg-blue-600 hover:bg-blue-500 text-white text-xs sm:text-sm font-bold px-6 py-3 rounded-xl shadow-xl hover:shadow-blue-600/50 transition-all flex items-center justify-center gap-2.5 cursor-pointer backdrop-blur-xs active:scale-95 shrink-0 group/btn"
+            >
+              <ShoppingBag className="w-4 h-4" />
+              <span>Shop All Bikes</span>
+              <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-0.5 transition-transform" />
+            </button>
           </div>
         </div>
       </section>
@@ -602,26 +587,16 @@ export const HomePage: React.FC<HomePageProps> = ({
             </div>
           </div>
 
-          <div className="shrink-0 flex flex-col sm:flex-row gap-3 w-full lg:w-auto relative z-10 items-center">
-            <a
-              href="https://wa.me/447462268683"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Chat on WhatsApp (+44 7462 268683)"
-              aria-label="Chat on WhatsApp (+44 7462 268683)"
-              className="w-12 h-12 rounded-xl bg-[#25D366] hover:bg-[#20ba59] text-white shadow-lg flex items-center justify-center cursor-pointer active:scale-95 shrink-0"
-            >
-              <MessageCircle className="w-6 h-6 fill-white text-[#25D366]" />
-            </a>
+          <div className="shrink-0 flex flex-col sm:flex-row gap-3 w-full lg:w-auto relative z-10">
             <button
               onClick={() => onNavigateToView('shop')}
-              className="bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs sm:text-sm px-5 py-3.5 rounded-xl transition-all shadow-lg hover:shadow-blue-600/40 text-center cursor-pointer active:scale-95 w-full sm:w-auto"
+              className="bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs sm:text-sm px-6 py-3.5 rounded-xl transition-all shadow-lg hover:shadow-blue-600/40 text-center cursor-pointer active:scale-95"
             >
-              Browse Catalog
+              Browse Complete Catalog
             </button>
             <button
               onClick={() => onNavigateToView('contact-us')}
-              className="bg-slate-800/90 hover:bg-slate-800 text-white font-semibold text-xs sm:text-sm px-5 py-3.5 rounded-xl transition-all border border-slate-700 text-center cursor-pointer active:scale-95 w-full sm:w-auto"
+              className="bg-slate-800/90 hover:bg-slate-800 text-white font-semibold text-xs sm:text-sm px-6 py-3.5 rounded-xl transition-all border border-slate-700 text-center cursor-pointer active:scale-95"
             >
               Contact Specialists
             </button>
@@ -710,17 +685,7 @@ export const HomePage: React.FC<HomePageProps> = ({
               Order today with free express delivery, 2-year warranty protection, and full technical workshop support from DirtVolt.
             </p>
           </div>
-          <div className="shrink-0 flex items-center flex-wrap gap-3 relative z-10">
-            <a
-              href="https://wa.me/447462268683"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Chat on WhatsApp (+44 7462 268683)"
-              aria-label="Chat on WhatsApp (+44 7462 268683)"
-              className="w-12 h-12 rounded-xl bg-[#25D366] hover:bg-[#20ba59] text-white shadow-md flex items-center justify-center cursor-pointer active:scale-95 shrink-0"
-            >
-              <MessageCircle className="w-6 h-6 fill-white text-[#25D366]" />
-            </a>
+          <div className="shrink-0 flex flex-wrap gap-3 relative z-10">
             <button
               onClick={() => onNavigateToView('shop')}
               className="bg-slate-950 hover:bg-slate-900 text-white font-bold text-xs sm:text-sm px-6 py-3.5 rounded-xl transition-all shadow-md cursor-pointer active:scale-95 flex items-center gap-2"

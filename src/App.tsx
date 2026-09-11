@@ -17,7 +17,6 @@ import { ContactUs } from './components/ContactUs';
 import { HomePage } from './components/HomePage';
 import { Blog } from './components/Blog';
 import { DynamicSeo } from './components/DynamicSeo';
-import { WhatsAppFloatingButton } from './components/WhatsAppFloatingButton';
 
 export default function App() {
   const [currentView, setCurrentView] = useState<ViewMode>('home');
@@ -242,9 +241,6 @@ export default function App() {
 
       {/* Footer */}
       <Footer onSelectView={setCurrentView} />
-
-      {/* WhatsApp Floating Contact Action */}
-      <WhatsAppFloatingButton />
 
       {/* Modals & Slide-overs */}
       <ProductDetailModal
