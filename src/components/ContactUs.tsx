@@ -32,6 +32,7 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
 
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isSending, setIsSending] = useState(false);
+  const [isSimulated, setIsSimulated] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [ticketId, setTicketId] = useState<string>('VT-UK-2849');
 
@@ -46,6 +47,7 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
         if (response.ticketId) {
           setTicketId(response.ticketId);
         }
+        setIsSimulated(!!response.simulated);
         setIsSubmitted(true);
       } else {
         setErrorMessage(response.error || 'Unable to deliver your enquiry. Please try again or call 0800 892 4410.');
@@ -136,6 +138,23 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
               <p className="text-xs text-slate-600 max-w-md mx-auto leading-relaxed">
                 Your enquiry regarding <strong className="text-slate-900 font-medium">"{formData.subject}"</strong> has been transmitted to <strong className="text-blue-600 font-mono">sales@ebikessale.online</strong> and assigned ticket <strong className="text-blue-600 font-mono font-bold">#{ticketId}</strong>. A confirmation copy has been sent to <span className="font-semibold text-slate-800">{formData.email || 'your email'}</span>.
               </p>
+
+              {isSimulated && (
+                <div className="bg-amber-50 border border-amber-200 text-amber-900 p-4 rounded-xl max-w-lg mx-auto text-sm text-left shadow-sm mt-4">
+                  <h3 className="font-bold flex items-center gap-2 mb-2">
+                    <AlertCircle className="w-5 h-5 text-amber-600" />
+                    Developer Notice: Zoho Authentication Failed
+                  </h3>
+                  <p className="mb-2">Your enquiry was submitted in the system, but the actual email failed to send because Zoho rejected the password <code>Mafiamusic10</code> (Error: 535).</p>
+                  <p className="font-semibold">How to fix this in Vercel:</p>
+                  <ul className="list-disc pl-5 space-y-1 mt-1 text-xs">
+                    <li>If you have Two-Factor Authentication (2FA) turned on, your normal password <strong>will not work</strong> for SMTP. You must generate an <strong>App Password</strong> in your Zoho Security settings.</li>
+                    <li>Ensure you have checked the box to <strong>Enable SMTP Access</strong> inside your Zoho Mail settings.</li>
+                    <li>Make sure you update the <code>EMAIL_SERVER_PASSWORD</code> in Vercel and Redeploy.</li>
+                  </ul>
+                </div>
+              )}
+
               <button
                 onClick={() => {
                   setIsSubmitted(false);
