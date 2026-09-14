@@ -18,6 +18,7 @@ export function CheckoutPage({ items, onClearCart, onNavigateToView }: CheckoutP
   
   const [isCheckingOut, setIsCheckingOut] = useState(false);
   const [checkoutComplete, setCheckoutComplete] = useState(false);
+  const [isSimulated, setIsSimulated] = useState(false);
   const [orderReference] = useState(() => `VT-${Math.floor(100000 + Math.random() * 900000)}`);
   
   const [customerName, setCustomerName] = useState('');
@@ -86,6 +87,7 @@ export function CheckoutPage({ items, onClearCart, onNavigateToView }: CheckoutP
         return;
       }
 
+      setIsSimulated(!!response.simulated);
       setCheckoutComplete(true);
       onClearCart();
     } catch (err: any) {
@@ -106,6 +108,25 @@ export function CheckoutPage({ items, onClearCart, onNavigateToView }: CheckoutP
         <p className="text-slate-600 max-w-lg mx-auto leading-relaxed">
           Your order reference <span className="font-mono font-bold text-slate-900 bg-slate-100 px-2 py-0.5 rounded">#{orderReference}</span> has been securely logged.
         </p>
+
+        {isSimulated && (
+          <div className="bg-amber-50 border border-amber-200 text-amber-900 p-4 rounded-xl max-w-lg mx-auto text-sm text-left shadow-sm">
+            <h3 className="font-bold flex items-center gap-2 mb-2">
+              <AlertCircle className="w-5 h-5 text-amber-600" />
+              Developer Notice: Email Delivery Failed
+            </h3>
+            <p className="mb-2">Your order was successfully placed in the system, but the confirmation email could not be sent. This means Zoho rejected the connection.</p>
+            <p className="font-semibold">How to fix this in Vercel:</p>
+            <ul className="list-disc pl-5 space-y-1 mt-1">
+              <li>Your Zoho account likely requires an <strong>App-Specific Password</strong>. Standard login passwords do not work for SMTP.</li>
+              <li>Go to <a href="https://accounts.zoho.eu" target="_blank" rel="noreferrer" className="underline text-amber-700">Zoho Accounts (Security)</a> and generate an App Password.</li>
+              <li>Update the <code>ZOHO_MAIL_PASSWORD</code> environment variable in Vercel.</li>
+              <li>Make sure <strong>SMTP Access</strong> is enabled in your Zoho Mail mailbox settings.</li>
+              <li><strong>Datacenter Mismatch:</strong> If your Zoho account was created on the Global (.com) site instead of the European (.eu) site, you MUST set <code>ZOHO_HOST</code> to <code>smtp.zoho.com</code> (or <code>smtppro.zoho.com</code>) in Vercel.</li>
+            </ul>
+          </div>
+        )}
+
         <div className="bg-white border border-slate-200 shadow-xs p-6 rounded-2xl max-w-lg mx-auto text-sm space-y-4 text-left">
           <p className="font-semibold text-slate-900 border-b border-slate-100 pb-2">Next Steps for UK Delivery:</p>
           <ul className="space-y-3 text-slate-600">

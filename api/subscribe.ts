@@ -80,7 +80,7 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
       to: config.salesEmail,
       replyTo: email,
       subject: `[New Newsletter Subscriber] ${email} - ${source}`,
-      text: `New subscriber registered on ebikessales.online:\n\nEmail: ${email}\nSource: ${source}\nDate: ${timestamp}`,
+      text: `New subscriber registered on ebikessale.online:\n\nEmail: ${email}\nSource: ${source}\nDate: ${timestamp}`,
       html: wrapHtmlTemplate(`
         <h2 style="font-size: 18px; font-weight: 800; color: #0f172a; margin: 0 0 12px 0;">
           New Newsletter &amp; Handbook Subscriber
@@ -116,7 +116,7 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
         await sendZohoMail({
           to: email,
           subject: 'Your 2026 UK E-Bike Tax & Buying Handbook Download - DirtVolt',
-          text: `Welcome to DirtVolt UK!\n\nThank you for requesting our 42-page UK E-Bike Tax & Buying Handbook.\n\nKey Highlights Inside:\n- Complete HMRC Salary Sacrifice 2026 guidelines (Cyclescheme, GCI, Vivup)\n- EAPC 250W vs Off-road electric dirt bike legal boundaries\n- British climate weatherproofing & Cytech winter battery checklists\n\nIf you have any questions regarding electric dirt bikes, utility quads, or 0% finance options, simply reply to this email or call 0800 892 4410.\n\nDirtVolt UK Customer Team\nsales@ebikessales.online`,
+          text: `Welcome to DirtVolt UK!\n\nThank you for requesting our 42-page UK E-Bike Tax & Buying Handbook.\n\nKey Highlights Inside:\n- Complete HMRC Salary Sacrifice 2026 guidelines (Cyclescheme, GCI, Vivup)\n- EAPC 250W vs Off-road electric dirt bike legal boundaries\n- British climate weatherproofing & Cytech winter battery checklists\n\nIf you have any questions regarding electric dirt bikes, utility quads, or 0% finance options, simply reply to this email or call 0800 892 4410.\n\nDirtVolt UK Customer Team\nsales@ebikessale.online`,
           html: wrapHtmlTemplate(`
             <h2 style="font-size: 20px; font-weight: 800; color: #0f172a; margin: 0 0 12px 0;">
               Welcome to DirtVolt UK
@@ -138,8 +138,8 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
             </div>
 
             <div style="text-align: center; margin: 24px 0;">
-              <a href="https://ebikessales.online/blog" style="background-color: #2563eb; color: #ffffff; text-decoration: none; padding: 12px 24px; border-radius: 8px; font-size: 13px; font-weight: 700; display: inline-block;">
-                Read Our Latest Guides on ebikessales.online &rarr;
+              <a href="https://ebikessale.online/blog" style="background-color: #2563eb; color: #ffffff; text-decoration: none; padding: 12px 24px; border-radius: 8px; font-size: 13px; font-weight: 700; display: inline-block;">
+                Read Our Latest Guides on ebikessale.online &rarr;
               </a>
             </div>
 

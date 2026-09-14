@@ -164,7 +164,7 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
         await sendZohoMail({
           to: email,
           subject: `Your Official Cycle to Work Quote #${quoteRef} - DirtVolt UK`,
-          text: `Dear ${fullName},\n\nThank you for requesting an official Cycle to Work quote with DirtVolt UK.\n\nQuote Reference: #${quoteRef}\nPackage Value: £${totalPrice.toLocaleString()}\nEmployer: ${employerName}\nScheme Provider: ${schemeName}\nYour Estimated Net Monthly Deduction: £${monthlyNetCost.toFixed(2)}/month (${termMonths} months)\nTotal Tax & NI Saved: £${totalSaved.toLocaleString()}\n\nNext Steps:\n1. Submit this quote reference to your employer's HR or benefits portal (Cyclescheme, Green Commute Initiative, Vivup, Halfords Cycle2Work).\n2. Once approved, your employer will issue your digital redemption certificate.\n3. Forward your voucher code to sales@ebikessales.online or call 0800 892 4410 and we will release your bike for immediate tracked UK delivery.\n\nDirtVolt UK Customer Operations\nsales@ebikessales.online`,
+          text: `Dear ${fullName},\n\nThank you for requesting an official Cycle to Work quote with DirtVolt UK.\n\nQuote Reference: #${quoteRef}\nPackage Value: £${totalPrice.toLocaleString()}\nEmployer: ${employerName}\nScheme Provider: ${schemeName}\nYour Estimated Net Monthly Deduction: £${monthlyNetCost.toFixed(2)}/month (${termMonths} months)\nTotal Tax & NI Saved: £${totalSaved.toLocaleString()}\n\nNext Steps:\n1. Submit this quote reference to your employer's HR or benefits portal (Cyclescheme, Green Commute Initiative, Vivup, Halfords Cycle2Work).\n2. Once approved, your employer will issue your digital redemption certificate.\n3. Forward your voucher code to sales@ebikessale.online or call 0800 892 4410 and we will release your bike for immediate tracked UK delivery.\n\nDirtVolt UK Customer Operations\nsales@ebikessale.online`,
           html: wrapHtmlTemplate(`
             <h2 style="font-size: 20px; font-weight: 800; color: #0f172a; margin: 0 0 8px 0;">
               Your Official Cycle to Work Employer Quote
@@ -202,7 +202,7 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
               <h4 style="margin: 0 0 6px 0; font-size: 13px; font-weight: 700; color: #1e40af;">How to Finalise Your Voucher:</h4>
               <ol style="margin: 0; padding-left: 18px; font-size: 12px; line-height: 18px; color: #1e3a8a;">
                 <li>Provide Quote <strong>#${quoteRef}</strong> to your HR / Payroll department.</li>
-                <li>When your employer issues the digital voucher, email it to <strong>sales@ebikessales.online</strong>.</li>
+                <li>When your employer issues the digital voucher, email it to <strong>sales@ebikessale.online</strong>.</li>
                 <li>We immediately dispatch your electric machine via tracked 24-48h courier.</li>
               </ol>
             </div>

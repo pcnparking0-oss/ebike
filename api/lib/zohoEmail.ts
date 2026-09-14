@@ -22,15 +22,17 @@ export interface SendResult {
  */
 export function getZohoConfig() {
   const user = (
+    process.env.EMAIL_SERVER_USER ||
     process.env.ZOHO_MAIL_USER ||
     process.env.ZOHO_USER ||
     process.env.SMTP_USER ||
     process.env.MAIL_USER ||
     process.env.EMAIL_USER ||
-    'sales@ebikessales.online'
+    'sales@ebikessale.online'
   ).trim();
 
   const pass = (
+    process.env.EMAIL_SERVER_PASSWORD ||
     process.env.ZOHO_MAIL_PASSWORD ||
     process.env.ZOHO_PASSWORD ||
     process.env.SMTP_PASSWORD ||
@@ -41,17 +43,14 @@ export function getZohoConfig() {
   ).trim();
 
   let host =
+    process.env.EMAIL_SERVER_HOST ||
     process.env.ZOHO_HOST ||
     process.env.SMTP_HOST ||
     process.env.MAIL_HOST ||
     'smtp.zoho.eu';
 
-  // Force EU host to bypass stuck Vercel variables
-  if (host === 'smtp.zoho.com' || host === 'smtppro.zoho.com') {
-    host = 'smtp.zoho.eu';
-  }
-
   const port = Number(
+    process.env.EMAIL_SERVER_PORT ||
     process.env.ZOHO_PORT ||
     process.env.SMTP_PORT ||
     process.env.MAIL_PORT ||
@@ -59,10 +58,11 @@ export function getZohoConfig() {
   );
 
   const salesEmail =
-    (process.env.SALES_EMAIL ||
+    (process.env.EMAIL_FROM ||
+    process.env.SALES_EMAIL ||
     process.env.TO_EMAIL ||
     process.env.RECIPIENT_EMAIL ||
-    'sales@ebikessales.online').trim();
+    'sales@ebikessale.online').trim();
 
   const isConfigured = Boolean(pass && pass.length > 0);
 
@@ -209,7 +209,7 @@ export function wrapHtmlTemplate(contentHtml: string, previewText: string = ''):
                   </td>
                   <td align="right">
                     <span style="background-color: #1e293b; color: #38bdf8; font-size: 11px; font-weight: 700; padding: 5px 10px; border-radius: 6px; border: 1px solid #334155; font-family: monospace;">
-                      sales@ebikessales.online
+                      sales@ebikessale.online
                     </span>
                   </td>
                 </tr>
@@ -234,7 +234,7 @@ export function wrapHtmlTemplate(contentHtml: string, previewText: string = ''):
                 142-144 Old Street, Shoreditch, London EC1V 9BW • Freephone: 0800 892 4410
               </p>
               <p style="margin: 0; font-size: 11px; color: #94a3b8;">
-                Controlled via Vercel Serverless Infrastructure &amp; Zoho Mail SMTP • <a href="https://ebikessales.online" style="color: #2563eb; text-decoration: none;">ebikessales.online</a>
+                Controlled via Vercel Serverless Infrastructure &amp; Zoho Mail SMTP • <a href="https://ebikessale.online" style="color: #2563eb; text-decoration: none;">ebikessale.online</a>
               </p>
             </td>
           </tr>

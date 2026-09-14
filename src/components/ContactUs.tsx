@@ -90,7 +90,7 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
               <Mail className="w-4 h-4" />
             </div>
             <span className="text-xs text-slate-500 font-semibold uppercase font-mono block">Email Support & Sales</span>
-            <span className="text-sm font-bold text-slate-900 block font-heading">sales@ebikessales.online</span>
+            <span className="text-sm font-bold text-slate-900 block font-heading">sales@ebikessale.online</span>
             <span className="text-[11px] text-emerald-700 font-medium block">Avg. response under 2 hours</span>
           </div>
 
@@ -99,7 +99,7 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
               <Wrench className="w-4 h-4" />
             </div>
             <span className="text-xs text-slate-500 font-semibold uppercase font-mono block">Technical Workshop</span>
-            <span className="text-sm font-bold text-slate-900 block font-heading">workshop@ebikessales.online</span>
+            <span className="text-sm font-bold text-slate-900 block font-heading">workshop@ebikessale.online</span>
             <span className="text-[11px] text-slate-500 block">Spares, tuning & warranty</span>
           </div>
 
@@ -134,7 +134,7 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
                 Thank You, Message Dispatched!
               </h3>
               <p className="text-xs text-slate-600 max-w-md mx-auto leading-relaxed">
-                Your enquiry regarding <strong className="text-slate-900 font-medium">"{formData.subject}"</strong> has been transmitted to <strong className="text-blue-600 font-mono">sales@ebikessales.online</strong> and assigned ticket <strong className="text-blue-600 font-mono font-bold">#{ticketId}</strong>. A confirmation copy has been sent to <span className="font-semibold text-slate-800">{formData.email || 'your email'}</span>.
+                Your enquiry regarding <strong className="text-slate-900 font-medium">"{formData.subject}"</strong> has been transmitted to <strong className="text-blue-600 font-mono">sales@ebikessale.online</strong> and assigned ticket <strong className="text-blue-600 font-mono font-bold">#{ticketId}</strong>. A confirmation copy has been sent to <span className="font-semibold text-slate-800">{formData.email || 'your email'}</span>.
               </p>
               <button
                 onClick={() => {

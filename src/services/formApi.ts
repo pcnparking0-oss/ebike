@@ -1,7 +1,7 @@
 /**
  * Client-side Form Submission API
  * Communicates with Vercel Serverless Functions (/api/*)
- * and dispatches emails through Zoho Mail SMTP (sales@ebikessales.online).
+ * and dispatches emails through Zoho Mail SMTP (sales@ebikessale.online).
  */
 
 export interface ContactFormData {

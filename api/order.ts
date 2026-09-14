@@ -111,7 +111,7 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
       </tr>
     `).join('');
 
-    // 1. Email to sales@ebikessales.online
+    // 1. Email to sales@ebikessale.online
     const salesNotificationHtml = wrapHtmlTemplate(`
       <div style="margin-bottom: 20px;">
         <span style="background-color: #dcfce7; color: #15803d; font-size: 11px; font-weight: 700; padding: 4px 8px; border-radius: 4px; font-family: monospace; text-transform: uppercase;">
@@ -219,7 +219,7 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
         await sendZohoMail({
           to: customerEmail,
           subject: `Order Confirmation #${orderReference} - DirtVolt UK`,
-          text: `Dear ${customerName},\n\nThank you for ordering with DirtVolt UK. Your machine has been reserved in our UK warehouse under reference #${orderReference}.\n\nTotal Amount: £${total.toLocaleString()}\nPayment Method: ${paymentLabel}\n\nOur UK dispatch team is preparing your official invoice and tracking details.\n\nDirtVolt UK Customer Operations\nFreephone: 0800 892 4410\nsales@ebikessales.online`,
+          text: `Dear ${customerName},\n\nThank you for ordering with DirtVolt UK. Your machine has been reserved in our UK warehouse under reference #${orderReference}.\n\nTotal Amount: £${total.toLocaleString()}\nPayment Method: ${paymentLabel}\n\nOur UK dispatch team is preparing your official invoice and tracking details.\n\nDirtVolt UK Customer Operations\nFreephone: 0800 892 4410\nsales@ebikessale.online`,
           html: wrapHtmlTemplate(`
             <h2 style="font-size: 20px; font-weight: 800; color: #0f172a; margin: 0 0 8px 0;">
               Your Order Has Been Reserved
@@ -260,6 +260,8 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
       success: true,
       orderReference,
       message: 'Order reservation processed and confirmed via Zoho Mail.',
+      simulated: result.simulated,
+      error: result.error
     });
   } catch (error: any) {
     console.error('Order handler error:', error);

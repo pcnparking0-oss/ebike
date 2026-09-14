@@ -75,7 +75,7 @@ export const TermsAndConditions: React.FC<TermsAndConditionsProps> = ({ onNaviga
       summary: 'Information on Cytech Level 3 master assembly and DPD / DX Freight tracked shipping throughout Great Britain and Northern Ireland.',
       content: `• Cytech Level 3 Certified PDI: Prior to dispatch from our UK central facility, every bike undergoes an extensive 32-point safety check including brake hydraulic bleeding, spoke tension verification, suspension calibration, and battery diagnostic testing.
 • Delivery Timeframes: Mainland England, Wales, and Scottish Lowlands receive complimentary 24-48 hour delivery. Scottish Highlands, Islands, and Northern Ireland may require 3-5 working days.
-• Delivery Inspection: Please inspect the outer protective packaging upon arrival. In the rare event of transit damage, note this with the courier and notify sales@ebikessales.online within 48 hours.`
+• Delivery Inspection: Please inspect the outer protective packaging upon arrival. In the rare event of transit damage, note this with the courier and notify sales@ebikessale.online within 48 hours.`
     },
     {
       id: 'jurisdiction',
@@ -160,7 +160,7 @@ export const TermsAndConditions: React.FC<TermsAndConditionsProps> = ({ onNaviga
           <br />
           Registered Office: 42 Innovation Way, Digbeth, Birmingham, B5 5TH, United Kingdom.
           <br />
-          VAT Registration: GB 894 1209 44 • Enquiries: sales@ebikessales.online
+          VAT Registration: GB 894 1209 44 • Enquiries: sales@ebikessale.online
         </p>
       </div>
     </div>

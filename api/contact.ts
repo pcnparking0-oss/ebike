@@ -112,7 +112,7 @@ Customer Message:
 ${message}
 
 ----------------------------------------
-DirtVolt UK • sales@ebikessales.online
+DirtVolt UK • sales@ebikessale.online
     `.trim();
 
     const htmlContent = wrapHtmlTemplate(`
@@ -124,7 +124,7 @@ DirtVolt UK • sales@ebikessales.online
           New Website Enquiry: ${subject}
         </h2>
         <p style="font-size: 13px; color: #64748b; margin: 0;">
-          Received from ebikessales.online contact form on ${timestamp}
+          Received from ebikessale.online contact form on ${timestamp}
         </p>
       </div>
 
@@ -195,7 +195,7 @@ DirtVolt UK • sales@ebikessales.online
         await sendZohoMail({
           to: email,
           subject: `Enquiry Received [#${ticketId}] - DirtVolt UK Specialist Team`,
-          text: `Hi ${fullName || 'there'},\n\nThank you for reaching out to DirtVolt UK. We have received your enquiry regarding "${subject}" (Ticket #${ticketId}). Our UK customer team will review your message and reply shortly.\n\nDirtVolt UK Customer Support\nFreephone: 0800 892 4410\nsales@ebikessales.online`,
+          text: `Hi ${fullName || 'there'},\n\nThank you for reaching out to DirtVolt UK. We have received your enquiry regarding "${subject}" (Ticket #${ticketId}). Our UK customer team will review your message and reply shortly.\n\nDirtVolt UK Customer Support\nFreephone: 0800 892 4410\nsales@ebikessale.online`,
           html: wrapHtmlTemplate(`
             <h2 style="font-size: 20px; font-weight: 800; color: #0f172a; margin: 0 0 12px 0;">
               Thank You for Contacting DirtVolt UK

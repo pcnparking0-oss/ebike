@@ -362,7 +362,7 @@ export const CycleToWorkCalculator: React.FC = () => {
                 <span>Generate Official Scheme Employer Quote</span>
               </button>
               <p className="text-[10px] text-slate-500 text-center">
-                Dispatched directly to your inbox and registered with our UK fleet desk at sales@ebikessales.online.
+                Dispatched directly to your inbox and registered with our UK fleet desk at sales@ebikessale.online.
               </p>
             </div>
           </div>
@@ -430,7 +430,7 @@ export const CycleToWorkCalculator: React.FC = () => {
                     </div>
                     <div className="flex justify-between text-slate-600 border-t border-slate-200 pt-2">
                       <span>Fleet Desk Notification:</span>
-                      <span className="font-mono text-blue-600">sales@ebikessales.online</span>
+                      <span className="font-mono text-blue-600">sales@ebikessale.online</span>
                     </div>
                   </div>
 
@@ -547,7 +547,7 @@ export const CycleToWorkCalculator: React.FC = () => {
                   </button>
 
                   <p className="text-[10px] text-slate-400 text-center">
-                    Automated quote routed via Vercel &amp; Zoho Mail to sales@ebikessales.online and your inbox.
+                    Automated quote routed via Vercel &amp; Zoho Mail to sales@ebikessale.online and your inbox.
                   </p>
                 </form>
               )}
