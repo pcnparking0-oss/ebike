@@ -83,7 +83,7 @@ export function CheckoutPage({ items, onClearCart, onNavigateToView }: CheckoutP
       });
 
       if (!response.success) {
-        setCheckoutError(response.error || 'Failed to submit order. Please try again.');
+        setCheckoutError(typeof response.error === 'string' ? response.error : JSON.stringify(response.error) || 'Failed to submit order. Please try again.');
         return;
       }
 
@@ -92,7 +92,7 @@ export function CheckoutPage({ items, onClearCart, onNavigateToView }: CheckoutP
       onClearCart();
     } catch (err: any) {
       console.error('Checkout error:', err);
-      setCheckoutError(err?.message || 'An unexpected error occurred.');
+      setCheckoutError(typeof err?.message === 'string' ? err.message : JSON.stringify(err) || 'An unexpected error occurred.');
     } finally {
       setIsCheckingOut(false);
     }
