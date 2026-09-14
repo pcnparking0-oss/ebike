@@ -1,3 +1,4 @@
+import { ErrorBoundary } from "./components/ErrorBoundary";
 import React, { useState } from 'react';
 import { ViewMode, Product, CartItem } from './types';
 import { UK_PRODUCTS } from './data/productsData';
@@ -120,6 +121,7 @@ export default function App() {
   }, []);
 
   return (
+    <ErrorBoundary>
     <div className="min-h-screen bg-slate-50 text-slate-900 flex flex-col font-sans selection:bg-blue-600 selection:text-white">
       {/* Dynamic SEO Meta Tags & Google Structured Data Injection */}
       <DynamicSeo
@@ -277,5 +279,6 @@ export default function App() {
         product={selectedSchemaProduct}
       />
     </div>
+    </ErrorBoundary>
   );
 }
