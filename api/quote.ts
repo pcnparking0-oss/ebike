@@ -1,5 +1,5 @@
 import type { IncomingMessage, ServerResponse } from 'http';
-import { sendEmail, wrapHtmlTemplate, getEmailConfig } from './lib/email';
+import { sendEmail, wrapHtmlTemplate, getEmailConfig } from './lib/email.js';
 
 interface ExtendedRequest extends IncomingMessage {
   body?: any;
