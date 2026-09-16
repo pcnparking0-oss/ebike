@@ -1,5 +1,5 @@
 import type { IncomingMessage, ServerResponse } from 'http';
-import { sendZohoMail, wrapHtmlTemplate, getZohoConfig } from './lib/zohoEmail';
+import { sendEmail, wrapHtmlTemplate, getEmailConfig } from './lib/email';
 
 interface ExtendedRequest extends IncomingMessage {
   body?: any;
@@ -72,12 +72,12 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
       return;
     }
 
-    const config = getZohoConfig();
+    const config = getEmailConfig();
     const timestamp = new Date().toUTCString();
 
     // 1. Notification to Sales Inbox
-    const result = await sendZohoMail({
-      to: config.salesEmail,
+    const result = await sendEmail({
+      to: config.from,
       replyTo: email,
       subject: `[New Newsletter Subscriber] ${email} - ${source}`,
       text: `New subscriber registered on ebikessale.online:\n\nEmail: ${email}\nSource: ${source}\nDate: ${timestamp}`,
@@ -113,7 +113,7 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
     // 2. Deliver Handbook & Welcome Message to Subscriber
     if (config.isConfigured) {
       try {
-        await sendZohoMail({
+        await sendEmail({
           to: email,
           subject: 'Your 2026 UK E-Bike Tax & Buying Handbook Download - DirtVolt',
           text: `Welcome to DirtVolt UK!\n\nThank you for requesting our 42-page UK E-Bike Tax & Buying Handbook.\n\nKey Highlights Inside:\n- Complete HMRC Salary Sacrifice 2026 guidelines (Cyclescheme, GCI, Vivup)\n- EAPC 250W vs Off-road electric dirt bike legal boundaries\n- British climate weatherproofing & Cytech winter battery checklists\n\nIf you have any questions regarding electric dirt bikes, utility quads, or 0% finance options, simply reply to this email or call 0800 892 4410.\n\nDirtVolt UK Customer Team\nsales@ebikessale.online`,

@@ -1,5 +1,5 @@
 import type { IncomingMessage, ServerResponse } from 'http';
-import { sendZohoMail, wrapHtmlTemplate, getZohoConfig } from './lib/zohoEmail';
+import { sendEmail, wrapHtmlTemplate, getEmailConfig } from './lib/email';
 
 interface ExtendedRequest extends IncomingMessage {
   body?: any;
@@ -94,7 +94,7 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
       return;
     }
 
-    const config = getZohoConfig();
+    const config = getEmailConfig();
     const timestamp = new Date().toUTCString();
     const ticketId = `VT-UK-${Math.floor(1000 + Math.random() * 9000)}`;
 
@@ -172,8 +172,8 @@ DirtVolt UK • sales@ebikessale.online
     `, `New enquiry from ${fullName || email}: ${subject}`);
 
     // Dispatch email to sales inbox with reply-to customer
-    const result = await sendZohoMail({
-      to: config.salesEmail,
+    const result = await sendEmail({
+      to: config.from,
       replyTo: email,
       subject: `[DirtVolt UK Enquiry #${ticketId}] ${subject} - ${fullName || city}`,
       text: textContent,
@@ -192,7 +192,7 @@ DirtVolt UK • sales@ebikessale.online
     // Optional confirmation copy to customer
     if (config.isConfigured) {
       try {
-        await sendZohoMail({
+        await sendEmail({
           to: email,
           subject: `Enquiry Received [#${ticketId}] - DirtVolt UK Specialist Team`,
           text: `Hi ${fullName || 'there'},\n\nThank you for reaching out to DirtVolt UK. We have received your enquiry regarding "${subject}" (Ticket #${ticketId}). Our UK customer team will review your message and reply shortly.\n\nDirtVolt UK Customer Support\nFreephone: 0800 892 4410\nsales@ebikessale.online`,

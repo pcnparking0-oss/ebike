@@ -1,5 +1,5 @@
 import type { IncomingMessage, ServerResponse } from 'http';
-import { sendZohoMail, wrapHtmlTemplate, getZohoConfig } from './lib/zohoEmail';
+import { sendEmail, wrapHtmlTemplate, getEmailConfig } from './lib/email';
 
 interface ExtendedRequest extends IncomingMessage {
   body?: any;
@@ -83,7 +83,7 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
       return;
     }
 
-    const config = getZohoConfig();
+    const config = getEmailConfig();
     const timestamp = new Date().toUTCString();
 
     const paymentMethodLabels: Record<string, string> = {
@@ -199,8 +199,8 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
       </div>
     `, `New Order #${orderReference} from ${customerName}`);
 
-    const result = await sendZohoMail({
-      to: config.salesEmail,
+    const result = await sendEmail({
+      to: config.from,
       replyTo: customerEmail,
       subject: `[New Order Reservation #${orderReference}] ${paymentLabel} - £${total.toLocaleString()}`,
       text: `Order #${orderReference}\nCustomer: ${customerName} (${customerEmail})\nTotal: £${total}\nPayment Method: ${paymentLabel}`,
@@ -216,7 +216,7 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
     // 2. Order Confirmation Copy to Customer
     if (config.isConfigured) {
       try {
-        await sendZohoMail({
+        await sendEmail({
           to: customerEmail,
           subject: `Order Confirmation #${orderReference} - DirtVolt UK`,
           text: `Dear ${customerName},\n\nThank you for ordering with DirtVolt UK. Your machine has been reserved in our UK warehouse under reference #${orderReference}.\n\nTotal Amount: £${total.toLocaleString()}\nPayment Method: ${paymentLabel}\n\nOur UK dispatch team is preparing your official invoice and tracking details.\n\nDirtVolt UK Customer Operations\nFreephone: 0800 892 4410\nsales@ebikessale.online`,
@@ -259,7 +259,7 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
     sendJson({
       success: true,
       orderReference,
-      message: 'Order reservation processed and confirmed via Zoho Mail.',
+      message: 'Order reservation processed and confirmed via SMTP.',
       simulated: result.simulated,
       error: result.error
     });
