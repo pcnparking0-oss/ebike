@@ -19,10 +19,11 @@ import { HomePage } from './components/HomePage';
 import { Blog } from './components/Blog';
 import { DynamicSeo } from './components/DynamicSeo';
 import { CheckoutPage } from './components/CheckoutPage';
+import { TranslationBar } from './components/TranslationBar';
 
 export default function App() {
   const [currentView, setCurrentView] = useState<ViewMode>('home');
-  const [selectedCity, setSelectedCity] = useState<string>('All UK');
+  const [selectedCity, setSelectedCity] = useState<string>('All Netherlands');
   const [searchQuery, setSearchQuery] = useState<string>('');
   
   // Store front folder & filtering state from global navigation
@@ -131,6 +132,9 @@ export default function App() {
         categoryFilter={storeInitialCategory}
       />
 
+      {/* Site-wide Language Translation Bar */}
+      <TranslationBar />
+
       {/* Header */}
       <Header
         currentView={currentView}
@@ -206,10 +210,10 @@ export default function App() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6 animate-fade-in">
             <div className="bg-white border border-slate-200/90 shadow-sm rounded-2xl p-6 sm:p-8">
               <h1 className="text-2xl font-bold text-slate-900 font-heading mb-2">
-                UK Schema.org JSON-LD Structured Data Inspector
+                Netherlands Schema.org JSON-LD Structured Data Inspector
               </h1>
               <p className="text-xs text-slate-600 mb-6">
-                Select any UK e-bike model below to view and copy Google-compliant Product and LocalBusiness schemas with GBP pricing, UK shipping details, and EAPC compliance properties.
+                Select any electric dirt bike or e-bike model below to view and copy Google-compliant Product and BicycleStore schemas with EUR pricing, Netherlands PostNL/DHL shipping details, and EU compliance properties.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -231,7 +235,7 @@ export default function App() {
                       {prod.name}
                     </h3>
                     <div className="flex justify-between text-[11px]">
-                      <span className="text-slate-600 font-mono">£{prod.priceGBP} GBP</span>
+                      <span className="text-slate-600 font-mono">€{prod.priceGBP} EUR</span>
                       <span className="text-blue-600 font-semibold group-hover:underline">View JSON-LD →</span>
                     </div>
                   </div>

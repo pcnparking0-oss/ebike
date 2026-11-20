@@ -194,7 +194,7 @@ export const StoreFront: React.FC<StoreFrontProps> = ({
       }
 
       // City filter
-      if (selectedCity !== 'All UK' && !item.idealForCities.includes(selectedCity) && !item.idealForCities.includes('All UK')) {
+      if (selectedCity && !selectedCity.startsWith('All') && !item.idealForCities.includes(selectedCity) && !item.idealForCities.includes('All UK') && !item.idealForCities.includes('All Lithuania') && !item.idealForCities.includes('All Netherlands')) {
         return false;
       }
 
@@ -405,7 +405,7 @@ export const StoreFront: React.FC<StoreFrontProps> = ({
           </button>
         </div>
 
-        {/* Dedicated Quads Sub-Types Quick Filter (volttrail.org Spec) */}
+        {/* Dedicated Quads Sub-Types Quick Filter */}
         {(activeFolderId.startsWith('quads') || selectedCategory === 'Electric Quads & UTVs') && (
           <div className="mt-3 p-3 bg-amber-500/10 border border-amber-400/30 rounded-xl flex flex-wrap items-center justify-between gap-2.5 animate-in fade-in">
             <div className="flex items-center gap-2 flex-wrap text-xs">
@@ -756,7 +756,7 @@ export const StoreFront: React.FC<StoreFrontProps> = ({
                   onChange={(e) => setCycleToWorkOnly(e.target.checked)}
                   className="rounded border-slate-300 text-blue-600 focus:ring-blue-500 w-4 h-4 cursor-pointer"
                 />
-                <span className="font-bold text-emerald-700">Cycle to Work (Save up to 47%)</span>
+                <span className="font-bold text-emerald-700">Dutch Fietsplan (WKR) Eligible</span>
               </label>
             </div>
 
@@ -825,13 +825,13 @@ export const StoreFront: React.FC<StoreFrontProps> = ({
               </div>
             </div>
 
-            {/* UK Authorized Dealer Trust Box */}
+            {/* Netherlands Authorized Dealer Trust Box */}
             <div className="bg-slate-50 border border-slate-200 rounded-xl p-3 text-[11px] text-slate-600 space-y-1.5">
               <div className="flex items-center gap-1.5 text-blue-700 font-bold">
                 <ShieldCheck className="w-4 h-4 text-blue-600" />
-                <span>Authorized UK Distributor</span>
+                <span>Authorized Netherlands Distributor</span>
               </div>
-              <p>Official UK stock with 2-year manufacturer warranty, genuine spares, and 24-48h tracked courier delivery.</p>
+              <p>Official Dutch stock with 2-year manufacturer warranty, genuine spares, and 24-48h tracked PostNL / DHL delivery.</p>
             </div>
           </div>
         </div>
@@ -843,7 +843,7 @@ export const StoreFront: React.FC<StoreFrontProps> = ({
               Showing <strong className="text-slate-950 font-extrabold">{filteredProducts.length}</strong> electric models
             </span>
             <span className="text-xs text-emerald-700 font-bold bg-emerald-50 border border-emerald-200 px-2 py-0.5 rounded-md hidden sm:inline">
-              ✓ Free Tracked UK Delivery • 2-Year Warranty
+              ✓ Free Tracked Netherlands Delivery • 2-Year Warranty
             </span>
           </div>
 
@@ -917,7 +917,7 @@ export const StoreFront: React.FC<StoreFrontProps> = ({
                       <div className="absolute top-2.5 left-2.5 right-2.5 flex items-center justify-between gap-1.5">
                         <span className="bg-slate-900/85 backdrop-blur-md border border-white/10 text-white text-[10px] font-bold px-2 py-0.5 rounded-md flex items-center gap-1 shadow-xs">
                           <ShieldCheck className="w-3 h-3 text-blue-400" />
-                          {product.eapcCompliance.ukRoadLegalStatus.includes('Road-Legal') ? 'Road-Legal' : product.eapcCompliance.ukRoadLegalStatus.includes('100%') ? 'EAPC 250W' : 'Off-Road MX'}
+                          {product.eapcCompliance.ukRoadLegalStatus.includes('Road-Legal') ? 'Road-Legal' : product.eapcCompliance.ukRoadLegalStatus.includes('100%') ? 'EN 15194 250W' : 'Off-Road MX'}
                         </span>
                         <span className="bg-slate-900/85 backdrop-blur-md border border-emerald-500/30 text-emerald-400 text-[10px] font-bold px-2 py-0.5 rounded-md flex items-center gap-1 shadow-xs">
                           <CloudRain className="w-3 h-3 text-emerald-400" />
@@ -939,7 +939,7 @@ export const StoreFront: React.FC<StoreFrontProps> = ({
                         )}
                         {product.technicalSpecs.maxRangeMiles > 0 && (
                           <span className="bg-slate-950/80 backdrop-blur-md border border-white/10 text-white text-[10px] px-2 py-0.5 rounded-md font-mono font-semibold shadow-xs">
-                            🔋 {product.technicalSpecs.maxRangeMiles} mi
+                            🔋 {Math.round(product.technicalSpecs.maxRangeMiles * 1.609)} km
                           </span>
                         )}
                       </div>
@@ -974,23 +974,23 @@ export const StoreFront: React.FC<StoreFrontProps> = ({
                         <div className="flex items-baseline justify-between">
                           <div className="flex items-baseline gap-2">
                             <span className="text-lg sm:text-xl font-extrabold text-slate-950 font-heading">
-                              £{product.priceGBP.toLocaleString()}
+                              €{product.priceGBP.toLocaleString()}
                             </span>
                             {product.rrpGBP > product.priceGBP && (
                               <span className="text-xs text-slate-400 line-through">
-                                £{product.rrpGBP.toLocaleString()}
+                                €{product.rrpGBP.toLocaleString()}
                               </span>
                             )}
                           </div>
                           <span className="text-[10px] font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 px-1.5 py-0.5 rounded">
-                            In Stock UK
+                            In Stock NL
                           </span>
                         </div>
 
                         <div className="bg-slate-50 border border-slate-200/90 rounded-xl p-2 flex items-center justify-between text-[11px]">
                           <span className="text-slate-600 font-medium">0% Finance:</span>
                           <span className="text-blue-600 font-bold">
-                            From £{monthlyEstimate}/mo
+                            From €{monthlyEstimate}/mo
                           </span>
                         </div>
 

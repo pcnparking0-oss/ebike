@@ -80,7 +80,7 @@ export const SchemaGeneratorModal: React.FC<SchemaGeneratorModalProps> = ({
               }`}
             >
               <Sparkles className="w-3.5 h-3.5 text-blue-600" />
-              Product (GBP + Shipping + EAPC)
+              Product (EUR + Shipping + EU EN 15194)
             </button>
             <button
               onClick={() => setActiveSchemaTab('store')}
@@ -89,7 +89,7 @@ export const SchemaGeneratorModal: React.FC<SchemaGeneratorModalProps> = ({
               }`}
             >
               <Store className="w-3.5 h-3.5 text-emerald-600" />
-              BicycleStore (London Geo)
+              BicycleStore (Amsterdam Hub)
             </button>
             <button
               onClick={() => setActiveSchemaTab('faq')}
@@ -132,7 +132,7 @@ export const SchemaGeneratorModal: React.FC<SchemaGeneratorModalProps> = ({
         <div className="p-4 border-t border-slate-200 bg-slate-50 text-xs text-slate-600 flex items-center justify-between flex-wrap gap-2">
           <div className="flex items-center gap-2">
             <ShieldCheck className="w-4 h-4 text-emerald-600" />
-            <span>Includes UK GBP currency, DPD mainland shipping time, and 30-day return policy required by Google Search Console.</span>
+            <span>Includes Netherlands EUR currency, PostNL / DHL Parcel Nederland shipping time, and 30-day return policy required by Google Search Console.</span>
           </div>
           <span className="text-slate-500 text-[11px] font-mono font-medium">Schema.org v28.0 Compliant</span>
         </div>

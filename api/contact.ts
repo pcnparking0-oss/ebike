@@ -84,7 +84,7 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
       email = '',
       phone = '',
       subject = 'General Enquiry',
-      city = 'UK',
+      city = 'Amsterdam',
       message = '',
     } = body || {};
 
@@ -96,23 +96,23 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
 
     const config = getEmailConfig();
     const timestamp = new Date().toUTCString();
-    const ticketId = `VT-UK-${Math.floor(1000 + Math.random() * 9000)}`;
+    const ticketId = `VT-NL-${Math.floor(1000 + Math.random() * 9000)}`;
 
     const textContent = `
-NEW UK CUSTOMER ENQUIRY [${ticketId}]
+NEW NETHERLANDS CUSTOMER ENQUIRY [${ticketId}]
 ----------------------------------------
 Subject: ${subject}
 Full Name: ${fullName || 'Not specified'}
 Email: ${email}
 Phone: ${phone || 'Not provided'}
-City/Region: ${city || 'UK'}
+City/Region: ${city || 'Netherlands'}
 Date: ${timestamp}
 
 Customer Message:
 ${message}
 
 ----------------------------------------
-DirtVolt UK • sales@ebikessale.online
+DirtVolt Netherlands • sales@ebikessale.online • +31 20 808 4410
     `.trim();
 
     const htmlContent = wrapHtmlTemplate(`
@@ -165,7 +165,7 @@ DirtVolt UK • sales@ebikessale.online
       </div>
 
       <div style="text-align: center; margin-top: 28px;">
-        <a href="mailto:${email}?subject=Re: [DirtVolt UK ${ticketId}] ${encodeURIComponent(subject)}" style="background-color: #2563eb; color: #ffffff; text-decoration: none; padding: 12px 24px; border-radius: 8px; font-size: 13px; font-weight: 700; display: inline-block;">
+        <a href="mailto:${email}?subject=Re: [DirtVolt Netherlands ${ticketId}] ${encodeURIComponent(subject)}" style="background-color: #2563eb; color: #ffffff; text-decoration: none; padding: 12px 24px; border-radius: 8px; font-size: 13px; font-weight: 700; display: inline-block;">
           Reply to Customer Directly &rarr;
         </a>
       </div>
@@ -175,7 +175,7 @@ DirtVolt UK • sales@ebikessale.online
     const result = await sendEmail({
       to: config.from,
       replyTo: email,
-      subject: `[DirtVolt UK Enquiry #${ticketId}] ${subject} - ${fullName || city}`,
+      subject: `[DirtVolt Netherlands Enquiry #${ticketId}] ${subject} - ${fullName || city}`,
       text: textContent,
       html: htmlContent,
     });
@@ -194,20 +194,20 @@ DirtVolt UK • sales@ebikessale.online
       try {
         await sendEmail({
           to: email,
-          subject: `Enquiry Received [#${ticketId}] - DirtVolt UK Specialist Team`,
-          text: `Hi ${fullName || 'there'},\n\nThank you for reaching out to DirtVolt UK. We have received your enquiry regarding "${subject}" (Ticket #${ticketId}). Our UK customer team will review your message and reply shortly.\n\nDirtVolt UK Customer Support\nFreephone: 0800 892 4410\nsales@ebikessale.online`,
+          subject: `Enquiry Received [#${ticketId}] - DirtVolt Netherlands Team`,
+          text: `Hi ${fullName || 'there'},\n\nThank you for reaching out to DirtVolt Netherlands. We have received your enquiry regarding "${subject}" (Ticket #${ticketId}). Our customer care team will review your message and reply shortly.\n\nDirtVolt Netherlands Customer Support\nDirect Hotline: +31 20 808 4410\nsales@ebikessale.online\nKeizersgracht 482, 1017 EG Amsterdam`,
           html: wrapHtmlTemplate(`
             <h2 style="font-size: 20px; font-weight: 800; color: #0f172a; margin: 0 0 12px 0;">
-              Thank You for Contacting DirtVolt UK
+              Thank You for Contacting DirtVolt Netherlands
             </h2>
             <p style="font-size: 14px; line-height: 22px; color: #475569; margin: 0 0 16px 0;">
               Hi <strong>${fullName || 'there'}</strong>, your enquiry has been assigned reference <strong style="color: #2563eb; font-family: monospace;">#${ticketId}</strong>.
             </p>
             <p style="font-size: 14px; line-height: 22px; color: #475569; margin: 0 0 20px 0;">
-              Our specialist team is reviewing your message regarding <em>"${subject}"</em>. A certified UK advisor will respond directly to this email within 2 business hours.
+              Our specialist team is reviewing your message regarding <em>"${subject}"</em>. An advisor will respond directly to this email within 2 business hours.
             </p>
             <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px; font-size: 12px; color: #64748b;">
-              <strong>Need urgent assistance?</strong> Call our UK hotline on <strong>0800 892 4410</strong> (Mon-Sat, 8:30am - 6:00pm).
+              <strong>Need urgent assistance?</strong> Call our Dutch customer hotline on <strong>+31 20 808 4410</strong> (Mon-Sat, 9:00 - 18:00) or visit our Amsterdam Showroom at Keizersgracht 482.
             </div>
           `, `Your DirtVolt enquiry #${ticketId} has been received.`),
         });

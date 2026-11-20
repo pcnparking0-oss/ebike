@@ -9,7 +9,7 @@ interface FooterProps {
 export const Footer: React.FC<FooterProps> = ({ onSelectView }) => {
   return (
     <footer className="bg-white border-t border-slate-200 text-slate-600 text-xs">
-      {/* 4 Core UK Trust Signals */}
+      {/* 4 Core Netherlands Trust Signals */}
       <div className="bg-slate-50/80 border-b border-slate-200/80 py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="flex items-start gap-3.5">
@@ -17,8 +17,8 @@ export const Footer: React.FC<FooterProps> = ({ onSelectView }) => {
               <Truck className="w-5 h-5 text-blue-600" />
             </div>
             <div>
-              <h4 className="font-bold text-slate-900 text-sm">Free UK Mainland Delivery</h4>
-              <p className="text-slate-600 text-xs mt-0.5">Tracked 24-48h courier dispatch directly from our UK warehouse.</p>
+              <h4 className="font-bold text-slate-900 text-sm">Free Netherlands Delivery</h4>
+              <p className="text-slate-600 text-xs mt-0.5">Tracked 24-48h PostNL & DHL dispatch directly from our Amsterdam warehouse.</p>
             </div>
           </div>
 
@@ -27,7 +27,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectView }) => {
               <ShieldCheck className="w-5 h-5 text-emerald-600" />
             </div>
             <div>
-              <h4 className="font-bold text-slate-900 text-sm">Official Authorized UK Dealer</h4>
+              <h4 className="font-bold text-slate-900 text-sm">Official Authorized NL Dealer</h4>
               <p className="text-slate-600 text-xs mt-0.5">Genuine Sur-Ron, Talaria, Stark Future & E-Ride Pro distributor.</p>
             </div>
           </div>
@@ -47,8 +47,8 @@ export const Footer: React.FC<FooterProps> = ({ onSelectView }) => {
               <Wrench className="w-5 h-5 text-indigo-600" />
             </div>
             <div>
-              <h4 className="font-bold text-slate-900 text-sm">2-Year UK Warranty & Spares</h4>
-              <p className="text-slate-600 text-xs mt-0.5">Full UK spare parts inventory, technical support, and workshop backup.</p>
+              <h4 className="font-bold text-slate-900 text-sm">2-Year NL & EU Warranty</h4>
+              <p className="text-slate-600 text-xs mt-0.5">Full spare parts inventory, technical support, and workshop backup in Amsterdam.</p>
             </div>
           </div>
         </div>
@@ -66,7 +66,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectView }) => {
                 referrerPolicy="no-referrer"
               />
             </div>
-            <span className="text-base font-extrabold text-slate-900 font-heading tracking-tight">DIRTVOLT</span>
+            <span data-no-translate="true" className="text-base font-extrabold text-slate-900 font-heading tracking-tight">DIRTVOLT</span>
           </div>
           <p className="text-[11px] font-semibold text-blue-600 mb-2 tracking-tight">
             Official Electric Dirt Bikes, Motocross & High-Performance e-MTB Store
@@ -75,8 +75,8 @@ export const Footer: React.FC<FooterProps> = ({ onSelectView }) => {
             The premier official dealer for electric dirt bikes, motocross, road-legal mopeds, e-MTB, and youth quads. Providing unparalleled performance, manufacturer warranties, and dedicated servicing.
           </p>
           <div className="space-y-1 text-[11px] text-slate-400">
-            <p>DirtVolt Ltd • Registered in England & Wales #14289012</p>
-            <p>UK VAT Registration Number: GB 894 1209 44</p>
+            <p>DirtVolt B.V. • KvK Amsterdam #84920315</p>
+            <p>BTW-nummer (Netherlands VAT): NL863412098B01</p>
             <p>Official Distributor: Sur-Ron | Talaria | Stark Future | E-Ride Pro | RFN</p>
           </div>
         </div>
@@ -163,7 +163,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectView }) => {
                 onClick={(e) => { e.preventDefault(); onSelectView('contact-us'); window.history.pushState(null, '', '/contact-us'); }} 
                 className="hover:text-blue-600 transition-colors text-slate-600 block"
               >
-                Klarna Pay in 3 &amp; Pay Later
+                Klarna Pay in 3 &amp; In3 Payments
               </a>
             </li>
             <li>
@@ -177,8 +177,8 @@ export const Footer: React.FC<FooterProps> = ({ onSelectView }) => {
             </li>
             <li>
               <a 
-                href="/blog/best-electric-bikes-british-weather-winter-rain" 
-                onClick={(e) => { e.preventDefault(); onSelectView('blog'); window.history.pushState(null, '', '/blog/best-electric-bikes-british-weather-winter-rain'); }} 
+                href="/blog/best-electric-bikes-dutch-rain-coastal-wind" 
+                onClick={(e) => { e.preventDefault(); onSelectView('blog'); window.history.pushState(null, '', '/blog/best-electric-bikes-dutch-rain-coastal-wind'); }} 
                 className="hover:text-blue-600 transition-colors text-slate-600 block"
               >
                 Battery Maintenance &amp; Care Guide
@@ -190,7 +190,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectView }) => {
                 onClick={(e) => { e.preventDefault(); onSelectView('contact-us'); window.history.pushState(null, '', '/contact-us'); }} 
                 className="hover:text-blue-600 transition-colors text-slate-600 block"
               >
-                Track Your UK Delivery
+                Track Your Delivery in Netherlands
               </a>
             </li>
           </ul>
@@ -207,7 +207,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectView }) => {
                 onClick={(e) => { e.preventDefault(); onSelectView('about-us'); window.history.pushState(null, '', '/about-us'); }} 
                 className="hover:text-blue-600 transition-colors text-slate-600 block"
               >
-                About Us &amp; UK Workshop
+                About Us &amp; Amsterdam Workshop
               </a>
             </li>
             <li>
@@ -216,7 +216,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectView }) => {
                 onClick={(e) => { e.preventDefault(); onSelectView('blog'); window.history.pushState(null, '', '/blog'); }} 
                 className="hover:text-blue-600 transition-colors text-slate-600 block"
               >
-                Blog &amp; UK Electric Dirt Bike Guides
+                Blog &amp; Electric Dirt Bike Guides
               </a>
             </li>
             <li>
@@ -243,7 +243,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectView }) => {
                 onClick={(e) => { e.preventDefault(); onSelectView('privacy-policy'); window.history.pushState(null, '', '/privacy-policy'); }} 
                 className="hover:text-blue-600 transition-colors text-slate-600 block"
               >
-                Privacy &amp; UK GDPR Policy
+                Privacy &amp; EU GDPR Policy
               </a>
             </li>
           </ul>
@@ -254,13 +254,13 @@ export const Footer: React.FC<FooterProps> = ({ onSelectView }) => {
       <div className="border-t border-slate-100 py-4 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2 text-[11px] text-slate-500 flex-wrap">
-            <span>© 2026 DirtVolt Ltd. All rights reserved.</span>
+            <span>© 2026 DirtVolt B.V. All rights reserved.</span>
             <span>•</span>
-            <span>Official UK Distributor for Sur-Ron, Talaria, Stark Future & E-Ride Pro</span>
+            <span>Official Netherlands Distributor for Sur-Ron, Talaria, Stark Future & E-Ride Pro</span>
           </div>
           <div className="flex items-center gap-1.5 flex-wrap">
             <span className="text-[10px] uppercase font-bold text-slate-400 tracking-wider mr-1">Accepted:</span>
-            {['Klarna', 'Visa', 'Mastercard', 'Apple Pay', 'Google Pay', 'Bank Transfer'].map(badge => (
+            {['iDEAL', 'Klarna', 'Visa', 'Mastercard', 'Apple Pay', 'SEPA Transfer'].map(badge => (
               <span key={badge} className="bg-white border border-slate-200 text-slate-700 text-[10px] px-2 py-0.5 rounded font-mono shadow-2xs">
                 {badge}
               </span>

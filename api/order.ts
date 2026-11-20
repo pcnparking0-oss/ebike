@@ -61,7 +61,7 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
     }
 
     const {
-      orderReference = `VT-${Math.floor(100000 + Math.random() * 900000)}`,
+      orderReference = `VT-NL-${Math.floor(100000 + Math.random() * 900000)}`,
       customerName = 'Valued Customer',
       customerEmail = '',
       customerPhone = '',
@@ -87,11 +87,11 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
     const timestamp = new Date().toUTCString();
 
     const paymentMethodLabels: Record<string, string> = {
-      bank_transfer: 'Direct Bank Transfer (BACS / Proforma)',
-      c2w: 'Cycle to Work Scheme Voucher',
-      novuna: 'Novuna 0% APR Finance',
-      klarna: 'Klarna Pay in 3',
-      card: 'Debit / Credit Card',
+      bank_transfer: 'iDEAL / Direct Bank Transfer (SEPA)',
+      c2w: 'Dutch Fietsplan (WKR / Lease a Bike)',
+      novuna: 'Consumer Installment Credit (0% APR)',
+      klarna: 'Klarna / In3 Split Payment',
+      card: 'Debit / Credit Card (3D Secure 2.0)',
     };
 
     const paymentLabel = paymentMethodLabels[paymentMethod] || paymentMethod;
@@ -106,7 +106,7 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
           ${item.quantity || 1}
         </td>
         <td align="right" style="padding: 10px 0; font-size: 13px; font-weight: 700; color: #0f172a;">
-          £${((item.priceGBP || item.product?.priceGBP || 0) * (item.quantity || 1)).toLocaleString()}
+          €${((item.priceGBP || item.product?.priceGBP || 0) * (item.quantity || 1)).toLocaleString()}
         </td>
       </tr>
     `).join('');
@@ -118,7 +118,7 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
           Order #${orderReference}
         </span>
         <h2 style="font-size: 20px; font-weight: 800; color: #0f172a; margin: 8px 0 4px 0;">
-          New Order Reservation Received
+          New Order Reservation Received (Netherlands)
         </h2>
         <p style="font-size: 13px; color: #64748b; margin: 0;">
           Payment Method: <strong>${paymentLabel}</strong> • ${timestamp}
@@ -143,7 +143,7 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
         </tr>
         <tr>
           <td style="font-size: 13px; color: #64748b; padding: 3px 0;">Delivery Address:</td>
-          <td style="font-size: 13px; color: #0f172a;">${deliveryAddress || 'Standard UK Courier Dispatch'} ${city ? `• ${city}` : ''} ${postcode ? `• ${postcode}` : ''}</td>
+          <td style="font-size: 13px; color: #0f172a;">${deliveryAddress || 'PostNL / DHL Parcel Nederland Courier Dispatch'} ${city ? `• ${city}` : ''} ${postcode ? `• ${postcode}` : ''}</td>
         </tr>
         ${notes ? `
         <tr>
@@ -174,26 +174,26 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
       <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #f1f5f9; border-radius: 8px; padding: 12px 16px; margin-bottom: 20px;">
         <tr>
           <td style="font-size: 13px; color: #64748b; padding: 3px 0;">Subtotal:</td>
-          <td align="right" style="font-size: 13px; color: #0f172a; font-weight: 600;">£${subtotal.toLocaleString()}</td>
+          <td align="right" style="font-size: 13px; color: #0f172a; font-weight: 600;">€${subtotal.toLocaleString()}</td>
         </tr>
         ${discount > 0 ? `
         <tr>
           <td style="font-size: 13px; color: #16a34a; padding: 3px 0;">Discount Applied:</td>
-          <td align="right" style="font-size: 13px; color: #16a34a; font-weight: 600;">-£${discount.toLocaleString()}</td>
+          <td align="right" style="font-size: 13px; color: #16a34a; font-weight: 600;">-€${discount.toLocaleString()}</td>
         </tr>
         ` : ''}
         <tr>
-          <td style="font-size: 13px; color: #64748b; padding: 3px 0;">UK Tracked Shipping:</td>
-          <td align="right" style="font-size: 13px; color: #16a34a; font-weight: 700;">${shipping === 0 ? 'FREE' : `£${shipping}`}</td>
+          <td style="font-size: 13px; color: #64748b; padding: 3px 0;">Netherlands Tracked Shipping (PostNL / DHL):</td>
+          <td align="right" style="font-size: 13px; color: #16a34a; font-weight: 700;">${shipping === 0 ? 'FREE' : `€${shipping}`}</td>
         </tr>
         <tr style="border-top: 1px solid #cbd5e1;">
-          <td style="font-size: 15px; font-weight: 800; color: #0f172a; padding: 8px 0 0 0;">Total Amount:</td>
-          <td align="right" style="font-size: 18px; font-weight: 900; color: #2563eb; padding: 8px 0 0 0;">£${total.toLocaleString()}</td>
+          <td style="font-size: 15px; font-weight: 800; color: #0f172a; padding: 8px 0 0 0;">Total Amount (incl. 21% BTW):</td>
+          <td align="right" style="font-size: 18px; font-weight: 900; color: #2563eb; padding: 8px 0 0 0;">€${total.toLocaleString()}</td>
         </tr>
       </table>
 
       <div style="text-align: center; margin-top: 24px;">
-        <a href="mailto:${customerEmail}?subject=Order%20Reservation%20%23${orderReference}%20-%20DirtVolt%20UK" style="background-color: #2563eb; color: #ffffff; text-decoration: none; padding: 12px 24px; border-radius: 8px; font-size: 13px; font-weight: 700; display: inline-block;">
+        <a href="mailto:${customerEmail}?subject=Order%20Reservation%20%23${orderReference}%20-%20DirtVolt%20Netherlands" style="background-color: #2563eb; color: #ffffff; text-decoration: none; padding: 12px 24px; border-radius: 8px; font-size: 13px; font-weight: 700; display: inline-block;">
           Contact Customer Directly &rarr;
         </a>
       </div>
@@ -202,8 +202,8 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
     const result = await sendEmail({
       to: config.from,
       replyTo: customerEmail,
-      subject: `[New Order Reservation #${orderReference}] ${paymentLabel} - £${total.toLocaleString()}`,
-      text: `Order #${orderReference}\nCustomer: ${customerName} (${customerEmail})\nTotal: £${total}\nPayment Method: ${paymentLabel}`,
+      subject: `[New Netherlands Order Reservation #${orderReference}] ${paymentLabel} - €${total.toLocaleString()}`,
+      text: `Order #${orderReference}\nCustomer: ${customerName} (${customerEmail})\nTotal: €${total}\nPayment Method: ${paymentLabel}`,
       html: salesNotificationHtml,
     });
 
@@ -218,35 +218,35 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
       try {
         await sendEmail({
           to: customerEmail,
-          subject: `Order Confirmation #${orderReference} - DirtVolt UK`,
-          text: `Dear ${customerName},\n\nThank you for ordering with DirtVolt UK. Your machine has been reserved in our UK warehouse under reference #${orderReference}.\n\nTotal Amount: £${total.toLocaleString()}\nPayment Method: ${paymentLabel}\n\nOur UK dispatch team is preparing your official invoice and tracking details.\n\nDirtVolt UK Customer Operations\nFreephone: 0800 892 4410\nsales@ebikessale.online`,
+          subject: `Order Confirmation #${orderReference} - DirtVolt Netherlands`,
+          text: `Dear ${customerName},\n\nThank you for ordering with DirtVolt Netherlands. Your machine has been reserved in our Amsterdam warehouse under reference #${orderReference}.\n\nTotal Amount: €${total.toLocaleString()} (incl. 21% BTW)\nPayment Method: ${paymentLabel}\n\nOur Netherlands dispatch team is preparing your official invoice and tracking details.\n\nDirtVolt Netherlands Customer Operations\nDirect Hotline: +31 20 808 4410\nsales@ebikessale.online\nKeizersgracht 482, 1017 EG Amsterdam`,
           html: wrapHtmlTemplate(`
             <h2 style="font-size: 20px; font-weight: 800; color: #0f172a; margin: 0 0 8px 0;">
               Your Order Has Been Reserved
             </h2>
             <p style="font-size: 14px; line-height: 22px; color: #475569; margin: 0 0 16px 0;">
-              Dear <strong>${customerName}</strong>, thank you for your order with DirtVolt UK. Your order reference is <strong style="color: #2563eb; font-family: monospace;">#${orderReference}</strong>.
+              Dear <strong>${customerName}</strong>, thank you for your order with DirtVolt Netherlands. Your order reference is <strong style="color: #2563eb; font-family: monospace;">#${orderReference}</strong>.
             </p>
 
             <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px; margin-bottom: 20px;">
               <table border="0" cellpadding="0" cellspacing="0" width="100%">
                 <tr>
                   <td style="font-size: 13px; color: #64748b; padding: 3px 0;">Total Amount:</td>
-                  <td style="font-size: 14px; font-weight: 800; color: #0f172a;">£${total.toLocaleString()}</td>
+                  <td style="font-size: 14px; font-weight: 800; color: #0f172a;">€${total.toLocaleString()} EUR</td>
                 </tr>
                 <tr>
                   <td style="font-size: 13px; color: #64748b; padding: 3px 0;">Payment Method:</td>
                   <td style="font-size: 13px; font-weight: 600; color: #0f172a;">${paymentLabel}</td>
                 </tr>
                 <tr>
-                  <td style="font-size: 13px; color: #64748b; padding: 3px 0;">UK Delivery:</td>
-                  <td style="font-size: 13px; font-weight: 600; color: #16a34a;">Free 24-48h Tracked Courier</td>
+                  <td style="font-size: 13px; color: #64748b; padding: 3px 0;">Netherlands Delivery:</td>
+                  <td style="font-size: 13px; font-weight: 600; color: #16a34a;">Free 24-48h PostNL / DHL Tracked Courier</td>
                 </tr>
               </table>
             </div>
 
             <p style="font-size: 13px; line-height: 20px; color: #475569;">
-              Our London headquarters will review your reservation and issue your courier tracking link or payment instructions shortly. If you need any assistance, simply reply directly to this email or call <strong>0800 892 4410</strong>.
+              Our Amsterdam headquarters will review your reservation and issue your courier tracking link or iDEAL / SEPA payment instructions shortly. If you need any assistance, simply reply directly to this email or call <strong>+31 20 808 4410</strong>.
             </p>
           `, `Your DirtVolt order #${orderReference} is confirmed.`),
         });

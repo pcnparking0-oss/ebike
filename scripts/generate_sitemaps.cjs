@@ -1,22 +1,22 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://dirtvolt.co.uk';
+const DOMAIN = 'https://ebikessale.online';
 const PUBLIC_DIR = path.join(__dirname, '../public');
 
 // 1. Pages
 const PAGES = [
-  { path: '/', priority: '1.0', changefreq: 'daily', title: 'DirtVolt | Electric Dirt Bikes, Talaria & Sur-Ron Official Store' },
-  { path: '/shop', priority: '0.9', changefreq: 'daily', title: 'Electric Dirt Bikes & Motocross Showroom' },
-  { path: '/about-us', priority: '0.7', changefreq: 'monthly', title: 'About DirtVolt UK Workshop & Distribution' },
-  { path: '/blog', priority: '0.8', changefreq: 'weekly', title: 'UK Electric Dirt Bike & EAPC Authority Blog' },
-  { path: '/contact-us', priority: '0.7', changefreq: 'monthly', title: 'Contact DirtVolt UK Technical Support' },
+  { path: '/', priority: '1.0', changefreq: 'daily', title: 'DirtVolt Netherlands | Electric Dirt Bikes, Talaria & Sur-Ron Official Store' },
+  { path: '/shop', priority: '0.9', changefreq: 'daily', title: 'Electric Dirt Bikes & Motocross Showroom Netherlands' },
+  { path: '/about-us', priority: '0.7', changefreq: 'monthly', title: 'About DirtVolt Netherlands Workshop & Distribution' },
+  { path: '/blog', priority: '0.8', changefreq: 'weekly', title: 'Netherlands Electric Dirt Bike & RDW Authority Blog' },
+  { path: '/contact-us', priority: '0.7', changefreq: 'monthly', title: 'Contact DirtVolt Netherlands Technical Support' },
   { path: '/terms-and-conditions', priority: '0.5', changefreq: 'monthly', title: 'Terms & Conditions of Sale' },
-  { path: '/privacy-policy', priority: '0.5', changefreq: 'monthly', title: 'Privacy & UK GDPR Policy' },
-  { path: '/cycle-to-work', priority: '0.7', changefreq: 'monthly', title: 'UK Cycle to Work Scheme Tax Calculator' },
-  { path: '/eapc-compliance', priority: '0.7', changefreq: 'monthly', title: 'UK EAPC Law Compliance Validator' },
+  { path: '/privacy-policy', priority: '0.5', changefreq: 'monthly', title: 'Privacy & EU GDPR (AVG) Policy' },
+  { path: '/cycle-to-work', priority: '0.7', changefreq: 'monthly', title: 'Dutch Fietsplan (WKR) Tax Savings Calculator' },
+  { path: '/eapc-compliance', priority: '0.7', changefreq: 'monthly', title: 'Netherlands RDW & EU EN 15194 Compliance Validator' },
   { path: '/schema-hub', priority: '0.6', changefreq: 'monthly', title: 'Schema.org JSON-LD Inspector' },
-  { path: '/seo-architecture', priority: '0.6', changefreq: 'monthly', title: 'UK Technical SEO Architecture' }
+  { path: '/seo-architecture', priority: '0.6', changefreq: 'monthly', title: 'Netherlands Technical SEO Architecture' }
 ];
 
 // 2. Categories and Folders
@@ -45,11 +45,11 @@ const CATEGORIES = [
 
 // 3. Blog articles
 const BLOG_ARTICLES = [
-  { slug: 'uk-ebike-laws-explained-eapc-regulations', title: 'UK E-Bike Laws 2026: 250W Limits, Throttle Legality & EAPC Regulations', date: '2026-02-14' },
-  { slug: 'cycle-to-work-scheme-guide-ebike-tax-savings', title: 'Cycle to Work Scheme Guide 2026: Save 32% to 47% on a Tax-Free E-Bike', date: '2026-02-10' },
-  { slug: 'best-electric-bikes-british-weather-winter-rain', title: 'Best Electric Bikes for British Rain & Winter: IPX6 Ratings, Road Salt & Battery Care', date: '2026-02-02' },
-  { slug: 'london-commuting-ebike-tube-train-rules-ulez', title: 'London Commuting by E-Bike: Tube Rules, Train Restrictions & ULEZ Zone Savings', date: '2026-01-26' },
-  { slug: 'hub-motor-vs-mid-drive-ebike-torque-uk-hills', title: 'Hub Motor vs Mid-Drive on UK Hills: Torque (Nm) Comparison for Bristol & Edinburgh', date: '2026-01-18' }
+  { slug: 'netherlands-ebike-laws-rdw-regulations-explained', title: 'Netherlands E-Bike Laws 2026: 250W Limits, L1e-B Kenteken & RDW Regulations', date: '2026-02-14' },
+  { slug: 'dutch-fietsplan-wkr-ebike-tax-savings-guide', title: 'Dutch Fietsplan (WKR) Guide 2026: Save up to 49.5% on a Tax-Efficient E-Bike', date: '2026-02-10' },
+  { slug: 'best-electric-bikes-dutch-rain-coastal-wind', title: 'Best Electric Bikes for Dutch Rain & Coastal Wind: IPX6 Ratings & Battery Care', date: '2026-02-02' },
+  { slug: 'amsterdam-rotterdam-ns-train-ebike-commuting', title: 'Amsterdam & Rotterdam E-Bike Commuting: NS Train Rules & Milieuzone Savings', date: '2026-01-26' },
+  { slug: 'hub-motor-vs-mid-drive-torque-veluwe-headwinds', title: 'Hub Motor vs Mid-Drive in Dutch Headwinds & Veluwe Trails: Torque (Nm) Guide', date: '2026-01-18' }
 ];
 
 // Load products from volttrailProducts.ts
@@ -166,7 +166,7 @@ const sitemapIndexXml = `<?xml version="1.0" encoding="UTF-8"?>
 </sitemapindex>`;
 
 // ROBOTS.TXT
-const robotsTxt = `# DirtVolt Robots.txt - High-Performance Electric Dirt Bikes UK
+const robotsTxt = `# DirtVolt Netherlands Robots.txt - High-Performance Electric Dirt Bikes Netherlands
 User-agent: *
 Allow: /
 

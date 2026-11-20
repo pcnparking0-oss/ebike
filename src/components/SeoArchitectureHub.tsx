@@ -37,7 +37,7 @@ export const SeoArchitectureHub: React.FC = () => {
   const [copiedSection, setCopiedSection] = useState<string | null>(null);
   const [keywordFilter, setKeywordFilter] = useState<string>('All');
   const [selectedCityKeyword, setSelectedCityKeyword] = useState<string>('All');
-  const [brandName, setBrandName] = useState<string>('Apex Ebikes UK');
+  const [brandName, setBrandName] = useState<string>('DirtVolt Netherlands');
 
   const copyToClipboard = (text: string, sectionId: string) => {
     navigator.clipboard.writeText(text);
@@ -58,18 +58,18 @@ export const SeoArchitectureHub: React.FC = () => {
   const faqSchemaJson = generateFaqJsonLd(sampleProduct.paaFaqs);
 
   // Master Prompt for copying
-  const masterPromptText = `Act as an elite E-commerce System Architect and Senior Technical SEO Specialist based in the UK. Your task is to design a comprehensive build plan, site structure, and content framework for a premium online UK e-bike store named ${brandName}.
+  const masterPromptText = `Act as an elite E-commerce System Architect and Senior Technical SEO Specialist based in the Netherlands. Your task is to design a comprehensive build plan, site structure, and content framework for a premium online Dutch e-bike & electric dirt bike store named ${brandName}.
 
 Target Audience & Market Focus:
-* Geography: United Kingdom (focusing on major urban centers like London, Manchester, Bristol, Edinburgh, and Birmingham).
-* Audience: UK daily commuters, leisure cyclists, and eco-conscious buyers.
-* Key UK Selling Points: Cycle to Work Schemes (Green Commute Initiative, Cyclescheme), UK EAPC (Electrically Assisted Pedal Cycles) legal compliance (250W max, 15.5 mph limit), free UK delivery, and localized warranty/aftercare.
+* Geography: Netherlands (focusing on major urban centers like Amsterdam, Rotterdam, The Hague, Utrecht, and Eindhoven).
+* Audience: Dutch daily commuters, off-road riders, and eco-conscious buyers.
+* Key Netherlands Selling Points: Dutch Fietsplan / WKR (Werkkostenregeling & Lease a Bike Nederland), EU EN 15194 & RDW legal compliance (250W max, 25 km/h fietspad cutoff; L1e-B yellow plate for mopeds), free 24-48h PostNL & DHL Netherlands delivery, and localized Amsterdam workshop warranty/aftercare.
 
 Deliverables:
 1. Architecture & Site Structure (Flat URL hierarchy, Intent categorization: Commuter, Folding, e-MTB, Cargo, Accessories, Faceted filter structures).
-2. Technical & Local SEO Strategy (High-intent commercial/transactional UK keyword map, Exact JSON-LD Product & LocalBusiness schema in GBP with UK shipping and stock status, UK compliance & trust badges).
-3. Content Strategy & Topical Authority (SEO Product Page template under 60 char title & 155 char meta desc, British weather IP ratings, 80Nm hill torque, removable battery, PAA FAQs, and 5 strategic blog pillars with internal linking).
-4. Conversion Rate Optimization (CRO) & Trust Triggers (Above-the-fold PDP layout, Novuna 0% / Klarna / Cycle-to-Work finance calculator placements).`;
+2. Technical & Local SEO Strategy (High-intent commercial/transactional NL keyword map, Exact JSON-LD Product & LocalBusiness schema in EUR with Netherlands shipping and stock status, Dutch compliance & trust badges).
+3. Content Strategy & Topical Authority (SEO Product Page template under 60 char title & 155 char meta desc, Dutch coastal rain IP ratings, 80Nm hill/wind torque, removable battery, PAA FAQs, and 5 strategic blog pillars with internal linking).
+4. Conversion Rate Optimization (CRO) & Trust Triggers (Above-the-fold PDP layout, iDEAL / In3 / Klarna / WKR Fietsplan finance calculator placements).`;
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
@@ -83,7 +83,7 @@ Deliverables:
             </span>
             <span className="bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 text-xs font-semibold px-2.5 py-1 rounded-full flex items-center gap-1.5">
               <ShieldCheck className="w-3.5 h-3.5" />
-              UK EAPC & HMRC Aligned
+              NL RDW, EN 15194 & WKR Aligned
             </span>
           </div>
 
@@ -106,21 +106,21 @@ Deliverables:
         </div>
 
         <h1 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight font-heading mb-2">
-          UK E-Bike E-Commerce & Technical SEO Architecture Blueprint
+          Netherlands E-Bike E-Commerce & Technical SEO Architecture Blueprint
         </h1>
         <p className="text-sm text-slate-300 max-w-4xl leading-relaxed">
-          Comprehensive production-ready specification for building high-ranking UK e-bike stores. Covers Shopify/WooCommerce flat taxonomy, commercial keyword matrices, exact GBP JSON-LD schema markup, above-the-fold CRO wireframes, and Cycle to Work scheme calculators.
+          Comprehensive production-ready specification for building high-ranking Netherlands e-bike stores. Covers flat taxonomy, commercial Dutch keyword matrices, exact EUR JSON-LD schema markup, above-the-fold CRO wireframes, and Fietsplan WKR tax calculators.
         </p>
 
         {/* Dynamic Brand Customizer */}
         <div className="mt-4 pt-4 border-t border-slate-800/80 flex items-center gap-3 text-xs flex-wrap">
-          <span className="text-slate-400 font-medium">Target UK Brand:</span>
+          <span className="text-slate-400 font-medium">Target NL Brand:</span>
           <input
             type="text"
             value={brandName}
             onChange={(e) => setBrandName(e.target.value)}
             className="bg-slate-950 border border-slate-700 text-slate-200 px-2.5 py-1 rounded text-xs font-medium focus:outline-none focus:border-indigo-500"
-            placeholder="e.g. Apex Ebikes UK"
+            placeholder="e.g. DirtVolt Netherlands"
           />
           <span className="text-slate-500 text-[11px]">
             (Updates dynamically throughout templates and schema code)
@@ -132,7 +132,7 @@ Deliverables:
       <div className="flex items-center gap-1 border-b border-slate-800 overflow-x-auto no-scrollbar pb-1">
         {[
           { id: 'architecture', label: '1. Architecture & URL Structure', icon: Layers },
-          { id: 'keywords', label: '2. UK Keyword Matrix', icon: Search },
+          { id: 'keywords', label: '2. NL Keyword Matrix', icon: Search },
           { id: 'schema', label: '3. JSON-LD Schema Lab', icon: Code2 },
           { id: 'content', label: '4. Content & Topical Authority', icon: FileText },
           { id: 'cro', label: '5. PDP CRO & Trust Triggers', icon: Layout },
@@ -185,7 +185,7 @@ Deliverables:
               <div className="text-emerald-400 font-bold flex items-center gap-2">
                 <span>/ (Homepage)</span>
                 <span className="bg-emerald-500/10 text-emerald-300 text-[10px] px-1.5 py-0.2 rounded font-sans">
-                  Domain Root • UK Commercial Hub
+                  Domain Root • Netherlands Commercial Hub
                 </span>
               </div>
 
@@ -200,11 +200,11 @@ Deliverables:
                   </div>
                   <div className="pl-6 space-y-1 text-slate-400 border-l border-slate-800/80">
                     <div className="flex items-center gap-2">
-                      <span className="text-slate-300">├── /products/apex-metro-urban-pro-commuter-ebike</span>
+                      <span className="text-slate-300">├── /products/dirtvolt-metro-urban-pro-commuter-ebike</span>
                       <span className="bg-teal-500/20 text-teal-300 text-[9px] px-1 rounded font-sans">PDP • Transactional</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <span className="text-slate-300">└── /products/apex-citylite-step-through-urban-ebike</span>
+                      <span className="text-slate-300">└── /products/dirtvolt-citylite-step-through-urban-ebike</span>
                       <span className="bg-teal-500/20 text-teal-300 text-[9px] px-1 rounded font-sans">PDP • Transactional</span>
                     </div>
                   </div>
@@ -215,13 +215,13 @@ Deliverables:
                   <div className="flex items-center gap-2 text-indigo-300 font-semibold">
                     <span>├── /collections/folding-ebikes</span>
                     <span className="bg-indigo-500/20 text-indigo-300 text-[10px] px-1.5 py-0.2 rounded font-sans">
-                      London & Multi-Modal Commuters
+                      Amsterdam & NS Rail Commuters
                     </span>
                   </div>
                   <div className="pl-6 space-y-1 text-slate-400 border-l border-slate-800/80">
                     <div className="flex items-center gap-2">
-                      <span className="text-slate-300">└── /products/apex-foldway-ultra-folding-commuter-ebike</span>
-                      <span className="bg-teal-500/20 text-teal-300 text-[9px] px-1 rounded font-sans">PDP • TfL Tube Certified</span>
+                      <span className="text-slate-300">└── /products/dirtvolt-foldway-ultra-folding-commuter-ebike</span>
+                      <span className="bg-teal-500/20 text-teal-300 text-[9px] px-1 rounded font-sans">PDP • NS Rail Approved</span>
                     </div>
                   </div>
                 </div>
@@ -236,7 +236,7 @@ Deliverables:
                   </div>
                   <div className="pl-6 space-y-1 text-slate-400 border-l border-slate-800/80">
                     <div className="flex items-center gap-2">
-                      <span className="text-slate-300">└── /products/apex-summit-x-electric-mountain-bike-emtb</span>
+                      <span className="text-slate-300">└── /products/dirtvolt-summit-x-electric-mountain-bike-emtb</span>
                       <span className="bg-teal-500/20 text-teal-300 text-[9px] px-1 rounded font-sans">PDP • 85Nm Shimano</span>
                     </div>
                   </div>
@@ -252,7 +252,7 @@ Deliverables:
                   </div>
                   <div className="pl-6 space-y-1 text-slate-400 border-l border-slate-800/80">
                     <div className="flex items-center gap-2">
-                      <span className="text-slate-300">└── /products/apex-hauler-longtail-electric-cargo-bike</span>
+                      <span className="text-slate-300">└── /products/dirtvolt-hauler-longtail-electric-cargo-bike</span>
                       <span className="bg-teal-500/20 text-teal-300 text-[9px] px-1 rounded font-sans">PDP • 200kg Payload</span>
                     </div>
                   </div>
@@ -262,22 +262,22 @@ Deliverables:
                 <div className="flex items-center gap-2 text-indigo-300 font-semibold">
                   <span>├── /collections/accessories-parts</span>
                   <span className="bg-indigo-500/20 text-indigo-300 text-[10px] px-1.5 py-0.2 rounded font-sans">
-                    Waterproof Panniers & High-Lumen Lights
+                    Waterproof Panniers & StVZO Lights
                   </span>
                 </div>
 
                 {/* Institutional & Scheme Hubs */}
                 <div className="flex items-center gap-2 text-amber-300 font-semibold">
-                  <span>├── /pages/cycle-to-work-scheme</span>
+                  <span>├── /pages/fietsplan-wkr-scheme</span>
                   <span className="bg-amber-500/20 text-amber-300 text-[10px] px-1.5 py-0.2 rounded font-sans">
-                    HMRC Salary Sacrifice Hub & Voucher Redemption
+                    Dutch WKR Fietsplan Hub & Employer Lease
                   </span>
                 </div>
 
                 <div className="flex items-center gap-2 text-emerald-300 font-semibold">
-                  <span>├── /pages/uk-eapc-regulations-legal-guide</span>
+                  <span>├── /pages/nl-rdw-ebike-regulations-guide</span>
                   <span className="bg-emerald-500/20 text-emerald-300 text-[10px] px-1.5 py-0.2 rounded font-sans">
-                    UK EAPC 250W Statutory Compliance Certification
+                    NL RDW & EN 15194 250W Compliance Certification
                   </span>
                 </div>
 
@@ -298,11 +298,11 @@ Deliverables:
                   Key Faceted Filter Taxonomy
                 </h3>
                 <ul className="space-y-1.5 text-slate-300">
-                  <li><strong>• Battery Range:</strong> &lt;35 miles, 35-55 miles, 55-80 miles+</li>
+                  <li><strong>• Battery Range:</strong> &lt;55 km, 55-90 km, 90-130 km+</li>
                   <li><strong>• Motor Architecture:</strong> Mid-Drive (80-85Nm) vs. Hub Motor (45-50Nm)</li>
                   <li><strong>• Total Weight:</strong> Ultra-light (&lt;16kg), Standard (17-22kg), Cargo (30kg+)</li>
-                  <li><strong>• British Weather Rating:</strong> IPX6 (Heavy Jetproof), IPX7 (Submersible)</li>
-                  <li><strong>• Scheme Eligibility:</strong> Cyclescheme, GCI, Vivup, Halfords Cycle2Work</li>
+                  <li><strong>• Dutch Coastal Rain Rating:</strong> IPX6 (Heavy Jetproof), IPX7 / IP67 (Submersible)</li>
+                  <li><strong>• Scheme Eligibility:</strong> WKR Fietsplan, Lease a Bike NL, FiscFree, Hellorider</li>
                 </ul>
               </div>
 
@@ -320,17 +320,17 @@ Deliverables:
         </div>
       )}
 
-      {/* SECTION 2: UK Keyword Matrix */}
+      {/* SECTION 2: NL Keyword Matrix */}
       {activeTab === 'keywords' && (
         <div className="space-y-6 animate-fade-in">
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 space-y-6">
             <div className="flex items-center justify-between flex-wrap gap-4">
               <div>
                 <h2 className="text-lg font-bold text-white font-heading">
-                  2. High-Intent UK Keyword Map & Commercial Architecture
+                  2. High-Intent Netherlands Keyword Map & Commercial Architecture
                 </h2>
                 <p className="text-xs text-slate-400 mt-0.5">
-                  Commercial, transactional, and local search queries targeting UK buyers with search volumes and exact conversion angles.
+                  Commercial, transactional, and local search queries targeting Dutch buyers with search volumes and exact conversion angles.
                 </p>
               </div>
 
@@ -347,8 +347,8 @@ Deliverables:
                   <option value="Folding E-Bikes">Folding E-Bikes</option>
                   <option value="Cargo E-Bikes">Cargo E-Bikes</option>
                   <option value="Electric Mountain Bikes (e-MTB)">e-MTB</option>
-                  <option value="Legal / Trust">Legal / EAPC</option>
-                  <option value="Finance / Savings">Cycle to Work / Finance</option>
+                  <option value="Legal / Trust">Legal / RDW & EN 15194</option>
+                  <option value="Finance / Savings">Fietsplan WKR / Finance</option>
                 </select>
 
                 <button
@@ -366,13 +366,13 @@ Deliverables:
               <table className="w-full text-left text-xs text-slate-300">
                 <thead className="bg-slate-950 text-slate-400 font-mono uppercase text-[11px] border-b border-slate-800">
                   <tr>
-                    <th className="py-3 px-4">Primary UK Keyword</th>
+                    <th className="py-3 px-4">Primary NL Keyword</th>
                     <th className="py-3 px-4">Category</th>
                     <th className="py-3 px-4">Intent</th>
-                    <th className="py-3 px-4 text-right">UK Vol/mo</th>
+                    <th className="py-3 px-4 text-right">NL Vol/mo</th>
                     <th className="py-3 px-4 text-center">KD</th>
                     <th className="py-3 px-4">Target URL</th>
-                    <th className="py-3 px-4">UK Selling Hook</th>
+                    <th className="py-3 px-4">NL Selling Hook</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-slate-800 bg-slate-900/50 font-sans">
@@ -426,10 +426,10 @@ Deliverables:
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 space-y-6">
             <div>
               <h2 className="text-lg font-bold text-white font-heading">
-                3. Exact JSON-LD Code Templates (UK Currency GBP, Shipping & LocalBusiness)
+                3. Exact JSON-LD Code Templates (Netherlands Currency EUR, Shipping & LocalBusiness)
               </h2>
               <p className="text-xs text-slate-400 mt-0.5">
-                Copy-ready Google Rich Snippet JSON-LD code blocks implementing Google's latest Merchant Return, Free UK Shipping, and LocalBusiness specifications.
+                Copy-ready Google Rich Snippet JSON-LD code blocks implementing Google's latest Merchant Return, Free Netherlands Shipping, and LocalBusiness specifications.
               </p>
             </div>
 
@@ -439,7 +439,7 @@ Deliverables:
                 <div className="flex items-center gap-2">
                   <Code2 className="w-4 h-4 text-cyan-400" />
                   <span className="text-xs font-semibold text-white font-mono">
-                    Template A: Schema.org / Product (with GBP, DPD Next-Day & EAPC)
+                    Template A: Schema.org / Product (with EUR, PostNL/DHL & EN 15194)
                   </span>
                 </div>
                 <button
@@ -461,7 +461,7 @@ Deliverables:
                 <div className="flex items-center gap-2">
                   <MapPin className="w-4 h-4 text-emerald-400" />
                   <span className="text-xs font-semibold text-white font-mono">
-                    Template B: Schema.org / BicycleStore (London & Regional UK Hubs)
+                    Template B: Schema.org / BicycleStore (Amsterdam & Regional NL Hubs)
                   </span>
                 </div>
                 <button
@@ -511,7 +511,7 @@ Deliverables:
                 4. Content Strategy & 5 Strategic Topical Authority Pillars
               </h2>
               <p className="text-xs text-slate-400 mt-0.5">
-                Targeting high-volume informational search queries in the UK to build topical dominance and channel equity back to core commercial category pages.
+                Targeting high-volume informational search queries in the Netherlands to build topical dominance and channel equity back to core commercial category pages.
               </p>
             </div>
 
@@ -579,7 +579,7 @@ Deliverables:
                 5. Product Detail Page (PDP) Above-the-Fold CRO Blueprint
               </h2>
               <p className="text-xs text-slate-400 mt-0.5">
-                Conversion-engineered anatomy designed to overcome UK buyer skepticism, clarify legal EAPC compliance, and eliminate price friction.
+                Conversion-engineered anatomy designed to overcome Dutch buyer skepticism, clarify legal EN 15194 / RDW compliance, and eliminate price friction.
               </p>
             </div>
 
@@ -595,28 +595,28 @@ Deliverables:
                   <div className="border-l-2 border-emerald-500 pl-3 space-y-1">
                     <span className="font-bold text-emerald-400 font-mono text-[11px]">1. Trust & Urgency Ribbon (Top)</span>
                     <p className="text-slate-400">
-                      "Order by 2pm for Free UK Next-Day Delivery" + 100% EAPC Legal Badge. Immediately validates road legality before the customer even asks.
+                      "Order by 14:00 for Free Netherlands Next-Day Delivery" + 100% EN 15194 / RDW Legal Badge. Immediately validates road legality before the customer even asks.
                     </p>
                   </div>
 
                   <div className="border-l-2 border-emerald-500 pl-3 space-y-1">
                     <span className="font-bold text-emerald-400 font-mono text-[11px]">2. Dual Price Perception Architecture</span>
                     <p className="text-slate-400">
-                      Displays the £1,899 RRP alongside the <strong>£68.36/mo Cycle to Work</strong> net salary sacrifice. Reframes a £2k investment into a monthly saving cheaper than a London monthly train travelcard.
+                      Displays the €1,899 RRP alongside the <strong>€68.36/mo Fietsplan WKR</strong> net salary sacrifice. Reframes a €2k investment into a monthly saving cheaper than an NS Traject Vrij rail pass.
                     </p>
                   </div>
 
                   <div className="border-l-2 border-emerald-500 pl-3 space-y-1">
                     <span className="font-bold text-emerald-400 font-mono text-[11px]">3. Embedded Interactive Finance Widget</span>
                     <p className="text-slate-400">
-                      Seamless tabs for Cyclescheme / GCI salary sacrifice, Novuna 0% APR, and Klarna Pay in 3 right adjacent to the Primary CTA.
+                      Seamless tabs for WKR Fietsplan / Lease a Bike Nederland, iDEAL / SEPA instant transfer, 0% APR In3, and Klarna Pay in 3 right adjacent to the Primary CTA.
                     </p>
                   </div>
 
                   <div className="border-l-2 border-emerald-500 pl-3 space-y-1">
                     <span className="font-bold text-emerald-400 font-mono text-[11px]">4. 4-Pillar Climate Specification Matrix</span>
                     <p className="text-slate-400">
-                      Explicitly lists IPX6 waterproof rating, 80Nm hill climbing torque, removable battery, and weight kg in clear iconography.
+                      Explicitly lists IPX6 waterproof rating, 80Nm coastal headwind torque, removable battery, and weight kg in clear iconography.
                     </p>
                   </div>
                 </div>
@@ -625,25 +625,25 @@ Deliverables:
               <div className="bg-slate-950 border border-slate-800 rounded-xl p-5 space-y-4">
                 <h3 className="font-bold text-white text-sm uppercase tracking-wider flex items-center gap-2">
                   <ShieldCheck className="w-4 h-4 text-teal-400" />
-                  Key UK Trust & Compliance Badges
+                  Key Netherlands Trust & Compliance Badges
                 </h3>
 
                 <div className="grid grid-cols-2 gap-3 text-[11px]">
                   <div className="bg-slate-900 p-3 rounded-lg border border-slate-800 space-y-1">
-                    <span className="font-bold text-emerald-400 block">🇬🇧 100% EAPC Compliant</span>
-                    <span className="text-slate-400">250W continuous limit certified to GB SI 1983/1168.</span>
+                    <span className="font-bold text-emerald-400 block">🇳🇱 100% EN 15194 Compliant</span>
+                    <span className="text-slate-400">250W continuous limit & 25 km/h cutoff under Dutch Wegenverkeerswet 1994.</span>
                   </div>
                   <div className="bg-slate-900 p-3 rounded-lg border border-slate-800 space-y-1">
-                    <span className="font-bold text-amber-300 block">🚴 Cycle to Work Approved</span>
-                    <span className="text-slate-400">Redeem vouchers instantly from all major UK providers.</span>
+                    <span className="font-bold text-amber-300 block">🚴 Fietsplan WKR Approved</span>
+                    <span className="text-slate-400">Redeem employer WKR vouchers & Lease a Bike NL contracts instantly.</span>
                   </div>
                   <div className="bg-slate-900 p-3 rounded-lg border border-slate-800 space-y-1">
-                    <span className="font-bold text-cyan-300 block">🌧️ British Weather IPX6</span>
-                    <span className="text-slate-400">Protected against torrential rain and road spray.</span>
+                    <span className="font-bold text-cyan-300 block">🌧️ Dutch Rain & Wind IPX6</span>
+                    <span className="text-slate-400">Protected against heavy coastal rain, puddles, and polder spray.</span>
                   </div>
                   <div className="bg-slate-900 p-3 rounded-lg border border-slate-800 space-y-1">
                     <span className="font-bold text-indigo-300 block">🛡️ 30-Day Test Ride</span>
-                    <span className="text-slate-400">Exceeds UK 14-day statutory distance selling regulations.</span>
+                    <span className="text-slate-400">Exceeds Dutch Civil Code 14-day statutory distance selling regulations.</span>
                   </div>
                 </div>
               </div>
@@ -663,7 +663,7 @@ Deliverables:
                   Master AI Prompt (Copy & Paste Ready)
                 </h2>
                 <p className="text-xs text-slate-400 mt-0.5">
-                  Paste this master prompt into ChatGPT, Claude, or DeepSeek to recreate this exact UK e-bike e-commerce architecture.
+                  Paste this master prompt into ChatGPT, Claude, or DeepSeek to recreate this exact Netherlands e-bike e-commerce architecture.
                 </p>
               </div>
 

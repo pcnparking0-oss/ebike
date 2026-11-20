@@ -19,7 +19,7 @@ export function CheckoutPage({ items, onClearCart, onNavigateToView }: CheckoutP
   const [isCheckingOut, setIsCheckingOut] = useState(false);
   const [checkoutComplete, setCheckoutComplete] = useState(false);
   const [isSimulated, setIsSimulated] = useState(false);
-  const [orderReference] = useState(() => `VT-${Math.floor(100000 + Math.random() * 900000)}`);
+  const [orderReference] = useState(() => `VT-NL-${Math.floor(100000 + Math.random() * 900000)}`);
   
   const [customerName, setCustomerName] = useState('');
   const [customerEmail, setCustomerEmail] = useState('');
@@ -28,7 +28,7 @@ export function CheckoutPage({ items, onClearCart, onNavigateToView }: CheckoutP
   const [checkoutError, setCheckoutError] = useState<string | null>(null);
 
   const subtotal = items.reduce((sum, item) => sum + item.product.priceGBP * item.quantity, 0);
-  const ukVatIncluded = Math.round((subtotal / 6) * 100) / 100; // 20% VAT inside total
+  const dutchVatIncluded = Math.round((subtotal * 21 / 121) * 100) / 100; // 21% Dutch BTW inside total
   const shippingCost = subtotal >= 50 ? 0 : 4.95;
   const total = Math.max(0, subtotal - voucherDiscount + shippingCost);
 
@@ -39,7 +39,7 @@ export function CheckoutPage({ items, onClearCart, onNavigateToView }: CheckoutP
     if (code.includes('C2W') || code.includes('SCHEME') || code.includes('CYCLE')) {
       const discount = Math.round(subtotal * 0.35);
       setVoucherDiscount(discount);
-      setAppliedVoucher(`Cycle to Work Certificate (${code})`);
+      setAppliedVoucher(`Cycle Scheme Certificate (${code})`);
       setVoucherCode('');
     } else if (code === 'VOLT10' || code === 'APEX10' || code === 'DIRT10') {
       const discount = Math.round(subtotal * 0.10);
@@ -47,7 +47,7 @@ export function CheckoutPage({ items, onClearCart, onNavigateToView }: CheckoutP
       setAppliedVoucher('DirtVolt 10% Welcome Discount');
       setVoucherCode('');
     } else {
-      setVoucherError('Voucher code not recognised. Try "DIRT10" for 10% off or "CYCLESCHEME-2026" for Cycle to Work voucher.');
+      setVoucherError('Voucher code not recognised. Try "DIRT10" for 10% off.');
     }
   };
 
@@ -73,7 +73,7 @@ export function CheckoutPage({ items, onClearCart, onNavigateToView }: CheckoutP
         customerName: customerName.trim() || 'Valued Customer',
         customerEmail: customerEmail.trim(),
         customerPhone: customerPhone.trim(),
-        deliveryAddress: deliveryPostcode.trim() ? `UK Postcode: ${deliveryPostcode.trim()}` : 'UK Mainland Standard Delivery',
+        deliveryAddress: deliveryPostcode.trim() ? `Netherlands Address: ${deliveryPostcode.trim()}` : 'Netherlands Nationwide Courier Delivery',
         paymentMethod,
         items: orderItems,
         subtotal,
@@ -119,16 +119,16 @@ export function CheckoutPage({ items, onClearCart, onNavigateToView }: CheckoutP
             <p className="font-semibold">How to fix this in Vercel:</p>
             <ul className="list-disc pl-5 space-y-1 mt-1">
               <li>Your Zoho account likely requires an <strong>App-Specific Password</strong>. Standard login passwords do not work for SMTP.</li>
-              <li>Go to <a href="https://accounts.zoho.eu" target="_blank" rel="noreferrer" className="underline text-amber-700">Zoho Accounts (Security)</a> and generate an App Password.</li>
-              <li>Update the <code>ZOHO_MAIL_PASSWORD</code> environment variable in Vercel.</li>
+              <li>Go to <a href="https://accounts.zoho.com" target="_blank" rel="noreferrer" className="underline text-amber-700">Zoho Accounts (Security)</a> and generate an App Password.</li>
+              <li>Ensure <code>SMTP_HOST</code>, <code>SMTP_PORT</code>, <code>SMTP_USER</code>, and <code>SMTP_PASSWORD</code> are set in Vercel and redeploy.</li>
               <li>Make sure <strong>SMTP Access</strong> is enabled in your Zoho Mail mailbox settings.</li>
-              <li><strong>Datacenter Mismatch:</strong> If your Zoho account was created on the Global (.com) site instead of the European (.eu) site, you MUST set <code>ZOHO_HOST</code> to <code>smtp.zoho.com</code> (or <code>smtppro.zoho.com</code>) in Vercel.</li>
+              <li><strong>Datacenter Mismatch:</strong> If your Zoho account is on the Global (.com) datacenter instead of EU (.eu), set <code>SMTP_HOST</code> to <code>smtp.zoho.com</code> (or <code>smtppro.zoho.com</code>) in Vercel.</li>
             </ul>
           </div>
         )}
 
         <div className="bg-white border border-slate-200 shadow-xs p-6 rounded-2xl max-w-lg mx-auto text-sm space-y-4 text-left">
-          <p className="font-semibold text-slate-900 border-b border-slate-100 pb-2">Next Steps for UK Delivery:</p>
+          <p className="font-semibold text-slate-900 border-b border-slate-100 pb-2">Next Steps for Netherlands Delivery:</p>
           <ul className="space-y-3 text-slate-600">
             <li className="flex gap-3">
               <span className="text-blue-600">1.</span>
@@ -137,12 +137,12 @@ export function CheckoutPage({ items, onClearCart, onNavigateToView }: CheckoutP
             <li className="flex gap-3">
               <span className="text-blue-600">2.</span>
               {paymentMethod === 'bank_transfer' 
-                ? 'Our UK sales team will email you a VAT proforma invoice with bank details within 1-2 hours.'
+                ? 'Our sales team will email you an official 21% BTW proforma invoice with iDEAL / SEPA bank details within 1-2 hours.'
                 : 'A secure payment link / finance application will follow shortly to complete your order.'}
             </li>
             <li className="flex gap-3">
               <span className="text-blue-600">3.</span>
-              Once cleared, your machine will be dispatched via secure UK courier (24-48h).
+              Once cleared, your machine will be dispatched via secure Netherlands courier (PostNL / DHL Parcel Nederland 24-48h).
             </li>
           </ul>
         </div>
@@ -222,9 +222,9 @@ export function CheckoutPage({ items, onClearCart, onNavigateToView }: CheckoutP
               >
                 <div className="flex items-center gap-2">
                   <Landmark className={`w-5 h-5 ${paymentMethod === 'bank_transfer' ? 'text-blue-600' : 'text-slate-500'}`} />
-                  <span className="font-bold">Bank Transfer (BACS)</span>
+                  <span className="font-bold">iDEAL / Bank Transfer (SEPA)</span>
                 </div>
-                <span className="text-xs text-slate-500">Invoice sent instantly</span>
+                <span className="text-xs text-slate-500">Invoice & payment link sent instantly</span>
               </button>
 
               <button
@@ -240,7 +240,7 @@ export function CheckoutPage({ items, onClearCart, onNavigateToView }: CheckoutP
                   <Zap className={`w-5 h-5 ${paymentMethod === 'finance' ? 'text-blue-600' : 'text-slate-500'}`} />
                   <span className="font-bold">0% APR Finance</span>
                 </div>
-                <span className="text-xs text-slate-500">Klarna (12-36 months)</span>
+                <span className="text-xs text-slate-500">Klarna / In3 (12-36 months)</span>
               </button>
 
               <button
@@ -255,11 +255,11 @@ export function CheckoutPage({ items, onClearCart, onNavigateToView }: CheckoutP
                 <div className="flex items-center justify-between w-full">
                   <div className="flex items-center gap-2">
                     <Ticket className={`w-5 h-5 ${paymentMethod === 'c2w' ? 'text-blue-600' : 'text-slate-500'}`} />
-                    <span className="font-bold">Cycle to Work</span>
+                    <span className="font-bold">Fietsplan (WKR)</span>
                   </div>
-                  <span className="text-[10px] bg-purple-100 text-purple-800 px-2 py-0.5 rounded font-mono font-bold">Save 47%</span>
+                  <span className="text-[10px] bg-purple-100 text-purple-800 px-2 py-0.5 rounded font-mono font-bold">Save 49.5%</span>
                 </div>
-                <span className="text-xs text-slate-500">Employer scheme voucher</span>
+                <span className="text-xs text-slate-500">Employer WKR / Lease a Bike</span>
               </button>
             </div>
           </section>
@@ -285,7 +285,7 @@ export function CheckoutPage({ items, onClearCart, onNavigateToView }: CheckoutP
                   <input
                     type="email"
                     required
-                    placeholder="e.g. name@example.co.uk"
+                    placeholder="e.g. naam@voorbeeld.nl"
                     value={customerEmail}
                     onChange={(e) => setCustomerEmail(e.target.value)}
                     className="w-full bg-slate-50 border border-slate-200 rounded-xl pl-10 pr-4 py-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600 font-medium"
@@ -298,7 +298,7 @@ export function CheckoutPage({ items, onClearCart, onNavigateToView }: CheckoutP
                   <label className="text-sm font-bold text-slate-700 block mb-1">Full Name</label>
                   <input
                     type="text"
-                    placeholder="John Doe"
+                    placeholder="Jan de Vries"
                     value={customerName}
                     onChange={(e) => setCustomerName(e.target.value)}
                     className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600"
@@ -308,7 +308,7 @@ export function CheckoutPage({ items, onClearCart, onNavigateToView }: CheckoutP
                   <label className="text-sm font-bold text-slate-700 block mb-1">Phone Number</label>
                   <input
                     type="tel"
-                    placeholder="07xxx xxxxxx"
+                    placeholder="+31 6 1234 5678"
                     value={customerPhone}
                     onChange={(e) => setCustomerPhone(e.target.value)}
                     className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600"
@@ -317,12 +317,12 @@ export function CheckoutPage({ items, onClearCart, onNavigateToView }: CheckoutP
               </div>
 
               <div>
-                <label className="text-sm font-bold text-slate-700 block mb-1">UK Delivery Address / Postcode</label>
+                <label className="text-sm font-bold text-slate-700 block mb-1">Netherlands Delivery Address / Postcode</label>
                 <div className="relative">
                   <MapPin className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
                   <input
                     type="text"
-                    placeholder="Street, Town, Postcode (e.g. EC1V 9BW)"
+                    placeholder="Street, City, Postcode (e.g. Keizersgracht 482, Amsterdam, 1017 EG)"
                     value={deliveryPostcode}
                     onChange={(e) => setDeliveryPostcode(e.target.value)}
                     className="w-full bg-slate-50 border border-slate-200 rounded-xl pl-10 pr-4 py-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600"
@@ -356,7 +356,7 @@ export function CheckoutPage({ items, onClearCart, onNavigateToView }: CheckoutP
                     <h4 className="font-bold text-slate-900 text-sm truncate">{item.product.name}</h4>
                     <p className="text-slate-500 text-xs">Qty: {item.quantity}</p>
                     <div className="font-mono text-sm font-semibold text-slate-700 mt-1">
-                      £{(item.product.priceGBP * item.quantity).toLocaleString()}
+                      €{(item.product.priceGBP * item.quantity).toLocaleString()}
                     </div>
                   </div>
                 </div>
@@ -408,25 +408,25 @@ export function CheckoutPage({ items, onClearCart, onNavigateToView }: CheckoutP
             <div className="space-y-3 text-sm border-t border-slate-100 pt-4 mb-6">
               <div className="flex justify-between text-slate-600">
                 <span>Subtotal:</span>
-                <span className="text-slate-950 font-semibold">£{subtotal.toLocaleString()}</span>
+                <span className="text-slate-950 font-semibold">€{subtotal.toLocaleString()}</span>
               </div>
               {voucherDiscount > 0 && (
                 <div className="flex justify-between text-emerald-700 font-medium">
                   <span>Discount Applied:</span>
-                  <span>-£{voucherDiscount.toLocaleString()}</span>
+                  <span>-€{voucherDiscount.toLocaleString()}</span>
                 </div>
               )}
               <div className="flex justify-between text-slate-600">
-                <span>UK Mainland Shipping:</span>
+                <span>Netherlands Nationwide Shipping:</span>
                 <span className="text-emerald-700 font-bold">FREE (24-48h Tracked)</span>
               </div>
               <div className="flex justify-between text-slate-500 text-xs">
-                <span>Estimated UK VAT (20% Included):</span>
-                <span>£{ukVatIncluded.toFixed(2)}</span>
+                <span>Estimated Dutch BTW / VAT (21% Included):</span>
+                <span>€{dutchVatIncluded.toFixed(2)}</span>
               </div>
               <div className="flex justify-between font-bold text-slate-950 pt-3 border-t border-slate-200">
                 <span>Total Due:</span>
-                <span className="text-slate-950 font-extrabold text-2xl font-heading">£{total.toLocaleString()}</span>
+                <span className="text-slate-950 font-extrabold text-2xl font-heading">€{total.toLocaleString()}</span>
               </div>
             </div>
 

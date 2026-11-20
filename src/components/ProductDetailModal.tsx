@@ -103,7 +103,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                 <div className="absolute top-2.5 left-2.5">
                   <span className="bg-white/95 backdrop-blur-md border border-emerald-200 text-emerald-800 text-[10px] font-bold px-2 py-0.5 rounded flex items-center gap-1 shadow-2xs">
                     <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
-                    250W EAPC UK Legal
+                    250W EN 15194 / NL Legal
                   </span>
                 </div>
               </div>
@@ -129,7 +129,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
               <div className="bg-slate-50 border border-slate-200 rounded-xl p-3.5 grid grid-cols-2 gap-3 text-xs">
                 <div>
                   <span className="text-slate-500 text-[10px] block uppercase font-mono font-semibold">Motor Power</span>
-                  <span className="font-bold text-slate-800">{product.eapcCompliance.continuousRatedPowerW}W Continuous (UK Capped)</span>
+                  <span className="font-bold text-slate-800">{product.eapcCompliance.continuousRatedPowerW}W Continuous (EU / NL Limit)</span>
                 </div>
                 <div>
                   <span className="text-slate-500 text-[10px] block uppercase font-mono font-semibold">Hill Torque</span>
@@ -152,7 +152,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
               <div>
                 <div className="flex items-center gap-2 mb-1.5 flex-wrap">
                   <span className="bg-amber-50 text-amber-800 border border-amber-200 text-[11px] font-bold px-2 py-0.5 rounded shadow-2xs">
-                    ★ {product.rating} / 5.0 ({product.reviewCount} verified UK reviews)
+                    ★ {product.rating} / 5.0 ({product.reviewCount} verified reviews)
                   </span>
                   <span className="text-slate-400 text-xs font-mono font-medium">SKU: {product.sku}</span>
                 </div>
@@ -169,7 +169,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
               <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-2.5 flex items-center gap-2.5 text-xs text-slate-800 shadow-2xs">
                 <Clock className="w-4 h-4 text-emerald-600 shrink-0" />
                 <span>
-                  <strong className="text-emerald-700 font-bold">Order within 2h 45m</strong> for Free UK Mainland Delivery Tomorrow via DPD
+                  <strong className="text-emerald-700 font-bold">Order within 2h 45m</strong> for Free Netherlands Delivery Tomorrow via PostNL / DHL
                 </span>
               </div>
 
@@ -179,15 +179,15 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                   <div>
                     <div className="flex items-baseline gap-3">
                       <span className="text-2xl sm:text-3xl font-extrabold text-slate-900 font-heading">
-                        £{product.priceGBP.toLocaleString()}
+                        €{product.priceGBP.toLocaleString()}
                       </span>
                       {product.rrpGBP > product.priceGBP && (
                         <span className="text-sm text-slate-400 line-through">
-                          RRP £{product.rrpGBP.toLocaleString()}
+                          RRP €{product.rrpGBP.toLocaleString()}
                         </span>
                       )}
                     </div>
-                    <span className="text-[11px] text-slate-500 font-medium">Includes 20% UK VAT • Free Mainland Shipping</span>
+                    <span className="text-[11px] text-slate-500 font-medium">Includes 21% Dutch BTW / VAT • Free Netherlands Shipping</span>
                   </div>
 
                   <span className="bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-bold px-2.5 py-1 rounded shadow-2xs">
@@ -195,7 +195,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                   </span>
                 </div>
 
-                {/* Interactive UK Finance & Scheme Calculator Switcher */}
+                {/* Interactive Dutch Finance & Fietsplan WKR Switcher */}
                 <div className="border-t border-slate-200 pt-3">
                   <div className="flex items-center gap-1 p-1 bg-slate-200/70 rounded-lg text-xs font-medium mb-3 overflow-x-auto no-scrollbar">
                     <button
@@ -206,7 +206,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                           : 'text-slate-600 hover:text-slate-900'
                       }`}
                     >
-                      Cycle to Work (-47%)
+                      Fietsplan WKR (-49.5%)
                     </button>
                     <button
                       onClick={() => setSelectedFinanceTab('bank_transfer')}
@@ -217,7 +217,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                       }`}
                     >
                       <Landmark className="w-3 h-3 text-blue-600" />
-                      <span>Bank Transfer</span>
+                      <span>iDEAL / SEPA</span>
                     </button>
                     <button
                       onClick={() => setSelectedFinanceTab('novuna')}
@@ -227,7 +227,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                           : 'text-slate-600 hover:text-slate-900'
                       }`}
                     >
-                      Novuna 0% APR
+                      0% APR Finance
                     </button>
                     <button
                       onClick={() => setSelectedFinanceTab('klarna')}
@@ -241,11 +241,11 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                     </button>
                   </div>
 
-                  {/* Tab 1: Cycle to Work Live Calculation */}
+                  {/* Tab 1: Dutch Fietsplan WKR Live Calculation */}
                   {selectedFinanceTab === 'c2w' && (
                     <div className="bg-white border border-slate-200 rounded-lg p-3 space-y-2.5 shadow-2xs">
                       <div className="flex items-center justify-between flex-wrap gap-2 text-xs">
-                        <span className="text-slate-700 font-medium">Select UK Income Tax Band:</span>
+                        <span className="text-slate-700 font-medium">Select Dutch Income Tax Band (Box 1):</span>
                         <div className="flex items-center gap-1">
                           <button
                             onClick={() => setSelectedTaxBand('basic')}
@@ -253,7 +253,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                               selectedTaxBand === 'basic' ? 'bg-blue-600 text-white' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
                             }`}
                           >
-                            Basic (20%)
+                            Schijf 1 (36.97%)
                           </button>
                           <button
                             onClick={() => setSelectedTaxBand('higher')}
@@ -261,7 +261,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                               selectedTaxBand === 'higher' ? 'bg-blue-600 text-white' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
                             }`}
                           >
-                            Higher (40%)
+                            WKR Flex (42%)
                           </button>
                           <button
                             onClick={() => setSelectedTaxBand('additional')}
@@ -269,7 +269,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                               selectedTaxBand === 'additional' ? 'bg-blue-600 text-white' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
                             }`}
                           >
-                            Additional (45%)
+                            Schijf 2 (49.5%)
                           </button>
                         </div>
                       </div>
@@ -278,41 +278,41 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                         <div className="bg-slate-50 rounded p-2 border border-slate-200">
                           <span className="text-[10px] text-slate-500 font-medium block">Monthly Net Cost</span>
                           <span className="font-bold text-emerald-700 text-sm">
-                            £{c2wSavings.monthlyNetCostGBP.toFixed(2)}/mo
+                            €{c2wSavings.monthlyNetCostGBP.toFixed(2)}/mo
                           </span>
                         </div>
                         <div className="bg-slate-50 rounded p-2 border border-slate-200">
-                          <span className="text-[10px] text-slate-500 font-medium block">Total Tax & NI Saved</span>
+                          <span className="text-[10px] text-slate-500 font-medium block">Total Tax Saved</span>
                           <span className="font-bold text-emerald-700 text-sm">
-                            £{c2wSavings.totalCashSavedGBP.toFixed(2)} ({c2wSavings.totalSavingPercentage}%)
+                            €{c2wSavings.totalCashSavedGBP.toFixed(2)} ({c2wSavings.totalSavingPercentage}%)
                           </span>
                         </div>
                         <div className="bg-slate-50 rounded p-2 border border-slate-200 col-span-2 sm:col-span-1">
                           <span className="text-[10px] text-slate-500 font-medium block">Effective Cost</span>
                           <span className="font-bold text-slate-900 text-sm">
-                            £{c2wSavings.effectiveCostGBP.toFixed(2)}
+                            €{c2wSavings.effectiveCostGBP.toFixed(2)}
                           </span>
                         </div>
                       </div>
 
                       <p className="text-[10px] text-slate-500 italic">
-                        *Deducted from gross salary before income tax & NI via Cyclescheme, Green Commute Initiative or Vivup.
+                        *Via employer Werkkostenregeling (WKR), Lease a Bike Nederland, Hellorider or FiscFree gross-net exchange.
                       </p>
                     </div>
                   )}
 
-                  {/* Tab 1b: Direct Bank Transfer (BACS / Faster Payments) */}
+                  {/* Tab 1b: iDEAL / SEPA Bank Transfer */}
                   {selectedFinanceTab === 'bank_transfer' && (
                     <div className="bg-white border border-blue-200 rounded-lg p-3 space-y-2 text-xs shadow-2xs">
                       <div className="flex items-center justify-between">
                         <span className="text-blue-950 font-bold flex items-center gap-1.5">
                           <Landmark className="w-3.5 h-3.5 text-blue-600" />
-                          <span>Direct Bank Transfer (BACS / Faster Payments)</span>
+                          <span>iDEAL / Direct Bank Transfer (SEPA)</span>
                         </span>
                         <span className="font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded text-[10px] font-mono">0% Fee</span>
                       </div>
                       <p className="text-[11px] text-slate-600 leading-relaxed">
-                        Pay directly via BACS or UK Faster Payments. An official HMRC-compliant VAT proforma invoice and payment reference will be issued upon placing your order.
+                        Pay directly via Dutch iDEAL or SEPA Bank Transfer. An official Netherlands 21% BTW invoice and payment reference will be issued immediately upon placing your order.
                       </p>
                     </div>
                   )}
@@ -322,10 +322,10 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                     <div className="bg-white border border-slate-200 rounded-lg p-3 space-y-2 text-xs shadow-2xs">
                       <div className="flex items-center justify-between">
                         <span className="text-slate-700 font-medium">12 Months Interest-Free (0% APR)</span>
-                        <span className="font-bold text-indigo-700 text-sm">£{novunaMonthly.toFixed(2)}/month</span>
+                        <span className="font-bold text-indigo-700 text-sm">€{novunaMonthly.toFixed(2)}/month</span>
                       </div>
                       <p className="text-[11px] text-slate-600">
-                        Spread the cost with £0 deposit. Instant online approval decision during checkout.
+                        Spread the cost with €0 deposit. Instant online approval decision during checkout.
                       </p>
                     </div>
                   )}
@@ -335,7 +335,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                     <div className="bg-white border border-slate-200 rounded-lg p-3 space-y-2 text-xs shadow-2xs">
                       <div className="flex items-center justify-between">
                         <span className="text-slate-700 font-medium">Pay in 3 Interest-Free Payments</span>
-                        <span className="font-bold text-pink-700 text-sm">£{klarnaMonthly.toFixed(2)}/mo</span>
+                        <span className="font-bold text-pink-700 text-sm">€{klarnaMonthly.toFixed(2)}/mo</span>
                       </div>
                       <p className="text-[11px] text-slate-600">
                         First payment today, remaining 2 payments every 30 days automatically. No fees when paid on time.
@@ -354,17 +354,17 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                     className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-xl text-sm transition-all flex items-center justify-center gap-2 shadow-xs cursor-pointer"
                   >
                     <ShoppingBag className="w-4 h-4" />
-                    <span>Add to Basket • Free UK Delivery</span>
+                    <span>Add to Basket • Free Netherlands Delivery</span>
                   </button>
 
                   <div className="grid grid-cols-2 gap-2 text-center text-[11px] text-slate-500 pt-1">
                     <span className="flex items-center justify-center gap-1 font-medium">
                       <RotateCcw className="w-3.5 h-3.5 text-slate-400" />
-                      30-Day UK Test Ride
+                      30-Day Guarantee
                     </span>
                     <span className="flex items-center justify-center gap-1 font-medium">
                       <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
-                      2-Year UK Warranty
+                      2-Year Warranty
                     </span>
                   </div>
                 </div>
@@ -372,11 +372,11 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
             </div>
           </div>
 
-          {/* British Weather & Hill Climbing Specifications Section */}
+          {/* All-Weather & Hill Climbing Specifications Section */}
           <div className="bg-white border border-slate-200/90 rounded-xl p-5 space-y-4 shadow-xs">
             <h3 className="text-base font-bold text-slate-900 font-heading flex items-center gap-2">
               <CloudRain className="w-5 h-5 text-sky-600" />
-              British Climate Engineering & UK Hill Capability
+              All-Weather Engineering & Coastal Trail Capability
             </h3>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
@@ -385,7 +385,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                   🌧️ {product.technicalSpecs.waterResistanceRating} Water Ingress Protection
                 </span>
                 <p className="text-slate-600 leading-relaxed">
-                  Conformal silicone-coated electronics and double-sealed O-ring wiring harnesses built to withstand relentless British rain, deep puddles, and winter road salt spray.
+                  Conformal silicone-coated electronics and double-sealed O-ring wiring harnesses built to withstand heavy rain, deep puddles, snow, and trail spray.
                 </p>
               </div>
 
@@ -394,7 +394,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                   ⛰️ {product.technicalSpecs.torqueNm} Nm Hill Torque
                 </span>
                 <p className="text-slate-600 leading-relaxed">
-                  Engineered to flatten tough UK gradients (Bristol's 15% Park Street, Edinburgh's Old Town, and Sheffield hills) without breaking a sweat or losing cadence.
+                  Engineered to tackle steep gradients, forest tracks, and rough terrain without breaking a sweat or losing cadence.
                 </p>
               </div>
 
@@ -403,15 +403,15 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                   🔋 Removable Battery Fast-Charge
                 </span>
                 <p className="text-slate-600 leading-relaxed">
-                  Unlock the lithium pack with one key turn and charge directly at your office desk or apartment in {product.technicalSpecs.chargingTimeHours} hours via a standard UK 3-pin plug.
+                  Unlock the lithium pack with one key turn and charge directly at your office or apartment in {product.technicalSpecs.chargingTimeHours} hours via a standard European plug.
                 </p>
               </div>
             </div>
 
-            {/* UK Highlights Checklist */}
+            {/* Specification Highlights Checklist */}
             <div className="pt-2">
               <h4 className="text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
-                UK Specification Highlights:
+                Technical Specification Highlights:
               </h4>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
                 {product.ukHighlights.map((highlight, idx) => (
@@ -440,7 +440,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                 </div>
                 <div className="flex justify-between py-1 border-b border-slate-100">
                   <span className="text-slate-500">Max Motor Assistance:</span>
-                  <span className="text-emerald-700 font-semibold">15.5 mph (25 km/h) UK EAPC Limit</span>
+                  <span className="text-emerald-700 font-semibold">25 km/h (EU / NL Fietspad Limit)</span>
                 </div>
                 <div className="flex justify-between py-1 border-b border-slate-100">
                   <span className="text-slate-500">Motor Torque:</span>
@@ -474,19 +474,19 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                   <span className="text-slate-800 font-semibold">{product.technicalSpecs.tyres}</span>
                 </div>
                 <div className="flex justify-between py-1 border-b border-slate-100">
-                  <span className="text-slate-500">UK Road Legal:</span>
-                  <span className="text-emerald-700 font-semibold">100% Yes (No Tax or Reg Needed)</span>
+                  <span className="text-slate-500">Road Legal Status:</span>
+                  <span className="text-emerald-700 font-semibold">Compliant with Dutch RDW / EN 15194</span>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* People Also Ask (PAA) UK SEO FAQ Section */}
+          {/* People Also Ask (PAA) SEO FAQ Section */}
           <div className="space-y-3">
             <div className="flex items-center justify-between">
               <h3 className="text-base font-bold text-slate-900 font-heading flex items-center gap-2">
                 <HelpCircle className="w-5 h-5 text-indigo-600" />
-                Frequently Asked Questions (UK Legal & Commuting)
+                Frequently Asked Questions (Netherlands Legal &amp; Riding)
               </h3>
               <span className="text-[11px] text-slate-500 font-medium">Google PAA Structured Q&A</span>
             </div>

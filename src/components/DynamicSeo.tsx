@@ -22,7 +22,7 @@ const BASE_URL = 'https://ebikessale.online';
 export const DynamicSeo: React.FC<DynamicSeoProps> = ({
   currentView,
   selectedProduct,
-  selectedCity = 'All UK',
+  selectedCity = 'All Netherlands',
   categoryFilter = 'All',
 }) => {
   const getSeoData = (): MetaInfo => {
@@ -30,8 +30,8 @@ export const DynamicSeo: React.FC<DynamicSeoProps> = ({
     if (selectedProduct) {
       const productUrl = `${BASE_URL}/?view=shop&product=${selectedProduct.id}`;
       return {
-        title: `${selectedProduct.name} | UK EAPC Legal Electric Bike | DirtVolt`,
-        description: `Buy ${selectedProduct.name} in the UK for £${selectedProduct.priceGBP.toLocaleString()} GBP. ${selectedProduct.technicalSpecs.motorPowerW}W motor, ${selectedProduct.technicalSpecs.rangeMiles} miles range, 100% UK road legal with Free 24-48h Delivery & Cycle to Work savings.`,
+        title: `${selectedProduct.name} | Official Netherlands Electric Dirt Bike | DirtVolt`,
+        description: `Buy ${selectedProduct.name} in the Netherlands for €${selectedProduct.priceGBP.toLocaleString()} EUR. ${selectedProduct.technicalSpecs.motorPowerW}W motor, ${selectedProduct.technicalSpecs.rangeMiles} km range, official warranty with Free 24-48h Netherlands Delivery via PostNL & DHL.`,
         canonical: productUrl,
         ogType: 'product',
         structuredData: {
@@ -50,17 +50,17 @@ export const DynamicSeo: React.FC<DynamicSeoProps> = ({
           offers: {
             '@type': 'Offer',
             url: productUrl,
-            priceCurrency: 'GBP',
+            priceCurrency: 'EUR',
             price: selectedProduct.priceGBP.toFixed(2),
             priceValidUntil: '2026-12-31',
             itemCondition: 'https://schema.org/NewCondition',
             availability:
-              selectedProduct.stockStatus === 'in_stock'
+              selectedProduct.inStock
                 ? 'https://schema.org/InStock'
                 : 'https://schema.org/PreOrder',
             seller: {
               '@type': 'Organization',
-              name: 'DirtVolt UK E-Bikes',
+              name: 'DirtVolt Netherlands',
               email: 'sales@ebikessale.online',
             },
             shippingDetails: {
@@ -68,12 +68,12 @@ export const DynamicSeo: React.FC<DynamicSeoProps> = ({
               shippingRate: {
                 '@type': 'MonetaryAmount',
                 value: '0.00',
-                currency: 'GBP',
+                currency: 'EUR',
               },
               shippingDestination: [
                 {
                   '@type': 'DefinedRegion',
-                  addressCountry: 'GB',
+                  addressCountry: 'NL',
                 },
               ],
               deliveryTime: {
@@ -94,7 +94,7 @@ export const DynamicSeo: React.FC<DynamicSeoProps> = ({
             },
             hasMerchantReturnPolicy: {
               '@type': 'MerchantReturnPolicy',
-              applicableCountry: 'GB',
+              applicableCountry: 'NL',
               returnPolicyCategory:
                 'https://schema.org/MerchantReturnFiniteReturnWindow',
               merchantReturnDays: 30,
@@ -116,20 +116,20 @@ export const DynamicSeo: React.FC<DynamicSeoProps> = ({
     switch (currentView) {
       case 'shop':
         return {
-          title: `Buy Electric Bikes UK — Road Legal EAPCs & Off-Road E-Bikes | DirtVolt`,
-          description: `Browse premium UK road-legal electric bikes, folding commuters, e-gravel, and high-performance e-MTBs. Cytech inspected, 2-year warranty, Free UK delivery & Cycle to Work schemes accepted.`,
+          title: `Buy Electric Dirt Bikes Netherlands — Official Sur-Ron, Talaria & Stark Varg | DirtVolt`,
+          description: `Browse premium electric dirt bikes, EU EN 15194 / RDW road-legal e-bikes, and off-road motocross models in the Netherlands. 2-year warranty, Amsterdam showroom, Free Netherlands 24-48h delivery via PostNL & DHL.`,
           canonical: `${BASE_URL}/shop`,
           ogType: 'website',
           structuredData: {
             '@context': 'https://schema.org',
             '@type': 'CollectionPage',
-            name: 'DirtVolt UK Electric Bikes Catalog',
+            name: 'DirtVolt Netherlands Electric Dirt Bikes Catalog',
             description:
-              'Complete range of UK road-legal electric bicycles with Cycle to Work scheme support and nationwide 24-48h delivery.',
+              'Complete range of electric dirt bikes and road-legal e-bikes in the Netherlands with nationwide 24-48h courier delivery.',
             url: `${BASE_URL}/shop`,
             isPartOf: {
               '@type': 'WebSite',
-              name: 'DirtVolt UK E-Bikes',
+              name: 'DirtVolt Netherlands',
               url: BASE_URL,
             },
           },
@@ -137,41 +137,41 @@ export const DynamicSeo: React.FC<DynamicSeoProps> = ({
 
       case 'cycle-to-work':
         return {
-          title: `Cycle to Work Scheme Calculator UK (Save up to 47%) | DirtVolt`,
-          description: `Calculate your salary sacrifice tax and National Insurance savings on UK road legal e-bikes. Compatible with Cyclescheme, Green Commute Initiative, Vivup & Halfords Cycle2Work.`,
+          title: `Dutch Fietsplan (WKR) & Corporate E-Mobility Savings | DirtVolt Netherlands`,
+          description: `Calculate your Dutch Werkkostenregeling (WKR) Fietsplan and Lease a Bike Nederland tax savings up to 49.5%, plus business 21% BTW deductions on electric bikes.`,
           canonical: `${BASE_URL}/cycle-to-work`,
           ogType: 'website',
           structuredData: {
             '@context': 'https://schema.org',
             '@type': 'FinancialProduct',
-            name: 'UK Cycle to Work Scheme E-Bike Salary Sacrifice',
+            name: 'Dutch Fietsplan (WKR) & Corporate Lease Savings',
             description:
-              'Save 33% to 47% on electric bikes and commuting gear through UK government tax-free salary deduction schemes.',
+              'Werkkostenregeling (WKR) tax relief and corporate lease schemes on electric bikes and lightweight e-mobility in the Netherlands.',
             provider: {
               '@type': 'Organization',
-              name: 'DirtVolt UK E-Bikes',
+              name: 'DirtVolt Netherlands',
               url: BASE_URL,
               email: 'sales@ebikessale.online',
             },
             annualPercentageRate: 0,
-            feesAndCommissionsSpecification: '0% Interest Salary Sacrifice Scheme',
+            feesAndCommissionsSpecification: 'Dutch WKR Fietsplan Support',
           },
         };
 
       case 'eapc-compliance':
         return {
-          title: `UK EAPC E-Bike Law & Road Legal Regulations Guide (2026) | DirtVolt`,
-          description: `Official UK Electrically Assisted Pedal Cycles (EAPC) regulations guide. Learn motor power (250W), 15.5mph speed cutoff, pedal-assist rules, and throttle laws under GB legislation.`,
+          title: `Netherlands & EU E-Bike Law & RDW Regulations Guide (2026) | DirtVolt`,
+          description: `Official Dutch Wegenverkeerswet 1994, RDW & EU EN 15194 e-bike guide. Motor limits (250W), 25 km/h assistance cutoff, L1e-B kenteken rules, and off-road dirt bike classifications in the Netherlands.`,
           canonical: `${BASE_URL}/eapc-compliance`,
           ogType: 'article',
           structuredData: {
             '@context': 'https://schema.org',
             '@type': 'GovernmentService',
-            name: 'UK Electrically Assisted Pedal Cycles (EAPC) Compliance Guide',
-            serviceType: 'E-Bike Road Legal Advisory',
+            name: 'Netherlands RDW & EU EN 15194 E-Bike Compliance Guide',
+            serviceType: 'Electric Bike Road Legal Advisory',
             provider: {
               '@type': 'Organization',
-              name: 'DirtVolt UK Technical Authority',
+              name: 'DirtVolt Netherlands Technical Center',
               url: BASE_URL,
             },
           },
@@ -179,20 +179,20 @@ export const DynamicSeo: React.FC<DynamicSeoProps> = ({
 
       case 'blog':
         return {
-          title: `UK E-Bike Guides, Battery Care & Route Reviews | DirtVolt Blog`,
-          description: `In-depth expert articles on UK e-bike winter battery maintenance, hill climbing in Sheffield & Bristol, London clean air commuting, and Cycle to Work scheme tips.`,
+          title: `Netherlands E-Dirt Bike Guides, Veluwe Trails & Coastal Rain Care | DirtVolt Blog`,
+          description: `In-depth expert articles on Dutch rain & coastal headwind durability, off-road MTB & enduro routes around Utrechtse Heuvelrug, Veluwe, and Eindhoven, plus RDW legal compliance.`,
           canonical: `${BASE_URL}/blog`,
           ogType: 'blog',
           structuredData: {
             '@context': 'https://schema.org',
             '@type': 'Blog',
-            name: 'DirtVolt UK Electric Bike Knowledge Hub',
+            name: 'DirtVolt Netherlands Electric Knowledge Hub',
             description:
-              'Expert guides, route reviews, and maintenance tips for British e-bike riders and daily commuters.',
+              'Expert guides, Dutch trail reviews, and maintenance tips for Netherlands electric motocross riders and commuters.',
             url: `${BASE_URL}/blog`,
             publisher: {
               '@type': 'Organization',
-              name: 'DirtVolt UK E-Bikes',
+              name: 'DirtVolt Netherlands',
               logo: {
                 '@type': 'ImageObject',
                 url: `${BASE_URL}/icon.svg`,
@@ -203,26 +203,26 @@ export const DynamicSeo: React.FC<DynamicSeoProps> = ({
 
       case 'contact-us':
         return {
-          title: `Contact DirtVolt UK — Technical Support & Order Enquiries | sales@ebikessale.online`,
-          description: `Get in touch with DirtVolt UK electric bike specialists. Email sales@ebikessale.online or call 020 7946 0888 for expert advice, test ride bookings, or order enquiries.`,
+          title: `Contact DirtVolt Netherlands — Amsterdam Showroom & Customer Care | +31 20 808 4410`,
+          description: `Get in touch with DirtVolt Netherlands specialists. Email sales@ebikessale.online or call +31 20 808 4410. Showrooms and service hubs in Amsterdam, Rotterdam, and Eindhoven.`,
           canonical: `${BASE_URL}/contact`,
           ogType: 'website',
           structuredData: {
             '@context': 'https://schema.org',
             '@type': 'ContactPage',
-            name: 'Contact DirtVolt UK',
+            name: 'Contact DirtVolt Netherlands',
             url: `${BASE_URL}/contact`,
             mainEntity: {
               '@type': 'LocalBusiness',
-              name: 'DirtVolt UK Electric Bikes',
+              name: 'DirtVolt Netherlands Showroom & Hub',
               email: 'sales@ebikessale.online',
-              telephone: '+44-20-7946-0888',
+              telephone: '+31-20-808-4410',
               address: {
                 '@type': 'PostalAddress',
-                streetAddress: '14-18 Great Eastern Street',
-                addressLocality: 'London',
-                postalCode: 'EC2A 3NT',
-                addressCountry: 'GB',
+                streetAddress: 'Keizersgracht 482',
+                addressLocality: 'Amsterdam',
+                postalCode: '1017 EG',
+                addressCountry: 'NL',
               },
             },
           },
@@ -230,18 +230,18 @@ export const DynamicSeo: React.FC<DynamicSeoProps> = ({
 
       case 'about-us':
         return {
-          title: `About DirtVolt UK — Premium Electric Bikes Engineered for Britain`,
-          description: `Discover DirtVolt: UK-based electric bicycle specialists committed to Cytech-certified quality, weather-sealed British engineering, and transparent pricing.`,
+          title: `About DirtVolt Netherlands — Official Electric Dirt Bikes & Motocross Distributor`,
+          description: `Discover DirtVolt Netherlands: Authorized distributor of Sur-Ron, Talaria, and Stark Future. Amsterdam technical workshop, Dutch weather-proofed bikes, and full 21% BTW invoicing.`,
           canonical: `${BASE_URL}/about`,
           ogType: 'website',
           structuredData: {
             '@context': 'https://schema.org',
             '@type': 'AboutPage',
-            name: 'About DirtVolt UK',
+            name: 'About DirtVolt Netherlands',
             url: `${BASE_URL}/about`,
             mainEntity: {
               '@type': 'Organization',
-              name: 'DirtVolt UK E-Bikes',
+              name: 'DirtVolt Netherlands',
               url: BASE_URL,
               email: 'sales@ebikessale.online',
             },
@@ -250,28 +250,27 @@ export const DynamicSeo: React.FC<DynamicSeoProps> = ({
 
       case 'terms-and-conditions':
         return {
-          title: `Terms & Conditions of Sale | DirtVolt UK Electric Bikes`,
-          description: `UK Consumer Rights Act 2015 compliant terms of sale, distance selling regulations, 30-day returns policy, and warranty conditions.`,
+          title: `Terms & Conditions of Sale | DirtVolt Netherlands`,
+          description: `Dutch Civil Code and Consumer Rights compliant terms of sale, 30-day money-back guarantee, 2-year warranty, and PostNL / DHL Parcel Nederland shipping policies.`,
           canonical: `${BASE_URL}/terms-and-conditions`,
           ogType: 'website',
           structuredData: {
             '@context': 'https://schema.org',
             '@type': 'WebPage',
-            name: 'DirtVolt Terms & Conditions',
+            name: 'DirtVolt Netherlands Terms & Conditions',
             url: `${BASE_URL}/terms-and-conditions`,
           },
         };
 
       case 'privacy-policy':
         return {
-          title: `UK GDPR & Privacy Policy | DirtVolt Electric Bikes`,
-          description: `How DirtVolt processes and protects your personal data in strict compliance with the UK Data Protection Act 2018 and UK GDPR.`,
+          title: `EU GDPR & Dutch AVG Privacy Policy | DirtVolt Netherlands`,
+          description: `How DirtVolt B.V. processes and protects your personal data in strict compliance with the EU GDPR (AVG) and the Autoriteit Persoonsgegevens (AP) guidelines.`,
           canonical: `${BASE_URL}/privacy-policy`,
           ogType: 'website',
           structuredData: {
-            '@context': 'https://schema.org',
             '@type': 'WebPage',
-            name: 'DirtVolt Privacy Policy',
+            name: 'DirtVolt Netherlands Privacy Policy',
             url: `${BASE_URL}/privacy-policy`,
           },
         };
@@ -279,8 +278,8 @@ export const DynamicSeo: React.FC<DynamicSeoProps> = ({
       case 'home':
       default:
         return {
-          title: `DirtVolt — UK Road Legal Electric Bikes, Commuters & E-MTBs`,
-          description: `Explore premium UK road legal electric bikes (EAPC 250W / 15.5mph). Cytech certified, 30-day test ride, Cycle to Work scheme approved, Free UK Delivery.`,
+          title: `DirtVolt Netherlands | Electric Dirt Bikes, Talaria & Sur-Ron Official Store`,
+          description: `The Netherlands' premier distributor for Sur-Ron, Talaria, and Stark Future electric dirt bikes. 2-year warranty, Amsterdam central workshop, Free 24-48h Netherlands Delivery via PostNL & DHL.`,
           canonical: BASE_URL,
           ogType: 'website',
           structuredData: {
@@ -290,12 +289,12 @@ export const DynamicSeo: React.FC<DynamicSeoProps> = ({
                 '@type': 'WebSite',
                 '@id': `${BASE_URL}/#website`,
                 url: BASE_URL,
-                name: 'DirtVolt UK Electric Bikes',
+                name: 'DirtVolt Netherlands',
                 description:
-                  'Premium UK Road Legal Electric Bikes and Accessories with Cycle to Work scheme integration.',
+                  'Official Electric Dirt Bikes and Motocross Distributor in the Netherlands with nationwide delivery.',
                 publisher: {
                   '@type': 'Organization',
-                  name: 'DirtVolt UK E-Bikes',
+                  name: 'DirtVolt Netherlands',
                   email: 'sales@ebikessale.online',
                 },
                 potentialAction: {
@@ -305,25 +304,25 @@ export const DynamicSeo: React.FC<DynamicSeoProps> = ({
                 },
               },
               {
-                '@type': 'LocalBusiness',
+                '@type': 'BicycleStore',
                 '@id': `${BASE_URL}/#localbusiness`,
-                name: 'DirtVolt UK E-Bikes',
+                name: 'DirtVolt Netherlands Showroom & Hub',
                 image: `${BASE_URL}/icon.svg`,
                 url: BASE_URL,
-                telephone: '+44-20-7946-0888',
+                telephone: '+31-20-808-4410',
                 email: 'sales@ebikessale.online',
-                priceRange: '££-£££',
+                priceRange: '€€-€€€',
                 address: {
                   '@type': 'PostalAddress',
-                  streetAddress: '14-18 Great Eastern Street',
-                  addressLocality: 'London',
-                  postalCode: 'EC2A 3NT',
-                  addressCountry: 'GB',
+                  streetAddress: 'Keizersgracht 482',
+                  addressLocality: 'Amsterdam',
+                  postalCode: '1017 EG',
+                  addressCountry: 'NL',
                 },
                 geo: {
                   '@type': 'GeoCoordinates',
-                  latitude: 51.5237,
-                  longitude: -0.0818,
+                  latitude: 52.3649,
+                  longitude: 4.8878,
                 },
                 openingHoursSpecification: [
                   {
@@ -352,26 +351,26 @@ export const DynamicSeo: React.FC<DynamicSeoProps> = ({
                 mainEntity: [
                   {
                     '@type': 'Question',
-                    name: 'Are DirtVolt electric bikes road legal in the UK?',
+                    name: 'Are electric dirt bikes road legal in the Netherlands?',
                     acceptedAnswer: {
                       '@type': 'Answer',
-                      text: 'Yes. All DirtVolt street models strictly adhere to UK Electrically Assisted Pedal Cycle (EAPC) regulations: max 250W continuous rated motor output, 15.5 mph (25 km/h) speed assistance cutoff, and functioning pedals. No driving licence, road tax, or DVLA registration required.',
+                      text: 'Pedal-assist models with up to 250W power and 25 km/h assistance cutoff comply with EU standard EN 15194 and Dutch Wegenverkeerswet 1994 rules for public fietspaden. Homologated L1e-B electric dirt bikes (such as Sur-Ron Light Bee L1e) can be registered for an RDW kenteken moped plate with WA insurance and an approved helmet, while high-powered MX models (3kW-60kW) are designated for private land and closed circuits.',
                     },
                   },
                   {
                     '@type': 'Question',
-                    name: 'Can I purchase an e-bike using the Cycle to Work scheme?',
+                    name: 'How does nationwide delivery work across the Netherlands?',
                     acceptedAnswer: {
                       '@type': 'Answer',
-                      text: 'Yes! We accept all major UK schemes including Cyclescheme, Green Commute Initiative, Vivup, and Halfords Cycle2Work. You can save between 33% and 47% through tax-free salary sacrifice.',
+                      text: 'Every bike undergoes a comprehensive 40-point technical inspection at our Amsterdam headquarters and is dispatched via PostNL / DHL Parcel Nederland with 24 to 48 hour tracked delivery anywhere in the Netherlands (Amsterdam, Rotterdam, The Hague, Utrecht, Eindhoven, Groningen, etc.).',
                     },
                   },
                   {
                     '@type': 'Question',
-                    name: 'How fast is UK delivery and how does the bike arrive?',
+                    name: 'Can business customers get a 21% BTW invoice or use Fietsplan WKR?',
                     acceptedAnswer: {
                       '@type': 'Answer',
-                      text: 'Every e-bike undergoes a full Cytech Level 3 pre-delivery inspection (PDI) in our UK workshop and is dispatched via tracked courier (DPD / DX Freight) with 24 to 48 hour delivery to UK mainland addresses.',
+                      text: 'Yes. DirtVolt B.V. issues official Dutch 21% BTW invoices with full KvK and BTW details, plus proforma quotes compatible with Dutch Fietsplan (WKR) and Lease a Bike Nederland schemes.',
                     },
                   },
                 ],
@@ -397,8 +396,8 @@ export const DynamicSeo: React.FC<DynamicSeoProps> = ({
       <meta property="og:url" content={seo.canonical} />
       <meta property="og:title" content={seo.title} />
       <meta property="og:description" content={seo.description} />
-      <meta property="og:site_name" content="DirtVolt UK E-Bikes" />
-      <meta property="og:locale" content="en_GB" />
+      <meta property="og:site_name" content="DirtVolt Netherlands" />
+      <meta property="og:locale" content="en_NL" />
 
       {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />

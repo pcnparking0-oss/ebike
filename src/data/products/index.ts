@@ -1,7 +1,7 @@
 import { Product } from '../../types';
 import { VOLTTRAIL_ALL_PRODUCTS } from './volttrailProducts';
 
-// Derived product arrays matching volttrail.org
+// Derived product arrays for DirtVolt Netherlands
 export const ALL_QUAD_PRODUCTS: Product[] = VOLTTRAIL_ALL_PRODUCTS.filter(
   (p) => p.type === 'quad' || (p.tags && p.tags.includes('quad'))
 );
@@ -132,8 +132,8 @@ export const STORE_FOLDERS: StoreFolder[] = [
     categoryType: 'bikes',
     folderColor: 'from-emerald-700 to-teal-800',
     badge: 'L1e Road Approved',
-    tagline: '8 DVLA Moped Spec',
-    description: '100% UK road-legal electric dirt bikes with mirrors, indicators, lights, and registration readiness for daily commuting and trail riding.',
+    tagline: '8 RDW Moped Spec',
+    description: '100% Netherlands road-legal electric dirt bikes with mirrors, indicators, lights, and RDW registration readiness for daily commuting and trail riding.',
     productCount: ROAD_LEGAL_PRODUCTS.length,
     featuredProductIds: ['lbx-road', 'talaria-sting-road', 'stark-ex', 'rfn-ares-rs']
   },
@@ -208,7 +208,7 @@ export const STORE_FOLDERS: StoreFolder[] = [
     name: 'Sur-Ron',
     categoryType: 'brand',
     folderColor: 'from-slate-800 to-slate-950',
-    badge: 'Official UK Dealer',
+    badge: 'Official NL Dealer',
     tagline: 'Sur-Ron Bikes & Spares',
     description: 'World-renowned electric enduro icons including the Light Bee X, Ultra Bee MX, Storm Bee, Hyper Bee, and genuine OEM parts.',
     productCount: SURRON_PRODUCTS.length,
@@ -243,7 +243,7 @@ export const STORE_FOLDERS: StoreFolder[] = [
     folderColor: 'from-cyan-600 to-blue-700',
     badge: '72V Hyper Powertrain',
     tagline: 'SS 2.0 & SR Series',
-    description: 'Ultra-high-output 72V electric off-road bikes pushing up to 12kW peak power and 60mph top speed straight out of the crate.',
+    description: 'Ultra-high-output 72V electric off-road bikes pushing up to 12kW peak power and 96 km/h top speed straight out of the crate.',
     productCount: ERIDEPRO_PRODUCTS.length,
     featuredProductIds: ['eride-ss', 'eride-s', 'eride-sr']
   },
@@ -276,7 +276,7 @@ export const STORE_FOLDERS: StoreFolder[] = [
     folderColor: 'from-emerald-500 to-teal-700',
     badge: 'First Ride Masters',
     tagline: 'Revvi Balance Bikes',
-    description: 'The UK benchmark for balance and throttle control training for toddlers to juniors (12in, 16in, 16in Plus, 18in, and 20in).',
+    description: 'The Netherlands benchmark for balance and throttle control training for toddlers to juniors (12in, 16in, 16in Plus, 18in, and 20in).',
     productCount: REVVI_PRODUCTS.length,
     featuredProductIds: ['revvi-12', 'revvi-16', 'revvi-16-plus', 'revvi-18']
   },

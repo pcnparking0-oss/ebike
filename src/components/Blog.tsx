@@ -34,7 +34,7 @@ export interface DetailedArticle {
   id: string;
   title: string;
   slug: string;
-  category: 'UK EAPC & Laws' | 'Cycle to Work & Tax' | 'British Weather & Care' | 'London & City Commutes' | 'Motor & Tech Guides';
+  category: 'NL Laws & RDW' | 'Fietsplan & Tax' | 'Dutch Weather & Care' | 'Randstad & NS Rail' | 'Motor & Tech Guides';
   author: {
     name: string;
     role: string;
@@ -73,279 +73,279 @@ export interface DetailedArticle {
 const ARTICLES_DATABASE: DetailedArticle[] = [
   {
     id: 'pillar-1-eapc-laws',
-    title: 'UK E-Bike Laws 2026: 250W Limits, Throttle Legality & EAPC Regulations',
-    slug: 'uk-ebike-laws-explained-eapc-regulations',
-    category: 'UK EAPC & Laws',
+    title: 'Netherlands E-Bike Laws 2026: 250W Limits, RDW L1e-B Plates & Fietspad Rules',
+    slug: 'netherlands-ebike-laws-rdw-regulations-explained',
+    category: 'NL Laws & RDW',
     author: {
-      name: 'James Thornton',
-      role: 'Head of UK Regulatory Compliance & Cytech Master Tech',
+      name: 'Pieter van Dijk',
+      role: 'Head of NL Regulatory Compliance & Master Technician',
       avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80',
       verified: true
     },
     publishedDate: '14 February 2026',
     readTime: '8 min read',
-    targetQuery: 'are electric bikes legal in uk 250w rules',
+    targetQuery: 'are electric dirt bikes street legal in netherlands rdw rules',
     searchVolume: 9900,
     featured: true,
     heroImage: 'https://images.unsplash.com/photo-1571068316344-75bc76f77890?auto=format&fit=crop&w=1000&q=80',
-    summary: 'The definitive legal breakdown of UK Electrically Assisted Pedal Cycle (EAPC) legislation under the Electrically Assisted Pedal Cycles Regulations 1983 (SI 1983/1168) and 2015 amendments. Understand motor continuous rating, 15.5 mph assistance limits, throttle rules, and why non-compliant bikes risk driving licence points.',
+    summary: 'The definitive legal breakdown of Dutch Wegenverkeerswet 1994 & EU Standard EN 15194 electric bicycle regulations. Understand 250W fietspad pedelecs, 25 km/h assistance limits, RDW L1e-B speed pedelec/moped kenteken plates, and why non-homologated throttled dirt bikes belong on private land.',
     keyTakeaways: [
-      'Motor continuous rated power must not exceed 250 Watts under UK law.',
-      'Electrical assistance must automatically cease when road speed reaches 15.5 mph (25 km/h).',
-      'Pedals must be in forward motion for motor assistance (twist-throttles over 3.7mph are classified as motorbikes).',
-      'No road tax, DVLA registration, MOT, or compulsory insurance required in England, Scotland, or Wales.',
-      'The rider must be at least 14 years of age.'
+      'Standard fietspad pedelecs must not exceed 250 Watts continuous rated motor power.',
+      'Electrical assistance must automatically cease when road speed reaches 25 km/h.',
+      'Pedals must be in forward motion for motor assistance (walk-assist is capped at 6 km/h).',
+      'Homologated L1e-B models (up to 45 km/h) require an RDW kenteken plate, WA insurance, AM/B licence, and helmet.',
+      'High-power electric motocross dirt bikes (3kW–60kW) are for closed MX tracks and private terrain.'
     ],
     sections: [
       {
-        heading: '1. What Qualifies as a Legal Electrically Assisted Pedal Cycle (EAPC)?',
+        heading: '1. What Qualifies as a Legal Fietspad E-Bike (Pedelec) in the Netherlands?',
         content: [
-          'In the United Kingdom, electric bicycles are legally categorized as Electrically Assisted Pedal Cycles (EAPCs). If an e-bike satisfies the strict statutory criteria set out under the Electrically Assisted Pedal Cycles Regulations 1983 (as amended in 2015) and European Standard EN 15194, it is treated under UK law exactly like a conventional pedal cycle.',
-          'This means riders are legally permitted on all UK public roads, designated cycle lanes, bus lanes where cycling is permitted, and bridleways—all without needing a driving licence, road tax, V5C logbook registration, or compulsory motor insurance.'
+          'In the Netherlands, electric bicycles regulated under European Standard EN 15194 and the Dutch Wegenverkeerswet 1994 are legally treated identically to regular bicycles (fietsen) when they satisfy strict output thresholds.',
+          'This means riders are legally permitted on all Dutch fietspaden and public roads without needing an RDW kenteken number plate, driving licence, road tax, or compulsory WA motor insurance.'
         ],
         callout: {
-          title: 'Official UK Statutory Reference',
-          text: 'Electrically Assisted Pedal Cycles Regulations 1983 (SI 1983/1168), as amended by SI 2015/54. All Apex Ebikes are pre-certified with CE/UKCA and EN 15194 laser-etched frame plates.',
+          title: 'Official Netherlands Statutory Reference',
+          text: 'Dutch Wegenverkeerswet 1994 (Regeling voertuigen) & EU Standard EN 15194. Every DirtVolt Netherlands street model carries authentic CE and manufacturer serial/COC documentation.',
           type: 'info'
         }
       },
       {
-        heading: '2. The Three Cardinal Technical Constraints',
+        heading: '2. The Three Cardinal Fietspad Constraints',
         content: [
-          'First, the electric motor must have a maximum continuous rated power of 250 Watts. Peak burst output during initial acceleration or hill climbing can momentarily exceed this, provided the certified continuous steady-state output remains at 250W.',
-          'Second, electrical motor assistance must automatically cut off when the bicycle reaches 15.5 mph (25 km/h). You may pedal faster using your own leg strength, but the motor will not contribute assistance above this threshold.',
-          'Third, the bicycle must have operable pedals that require progressive forward rotation to engage the motor assist sensor (torque or cadence).'
+          'First, the electric motor must have a maximum continuous rated output of 250 Watts. Peak hill or headwind torque bursts can momentarily assist riders, provided continuous rated steady-state output complies at 250W.',
+          'Second, electrical motor assistance must cut off smoothly when the bicycle reaches 25 km/h. You can pedal faster under your own leg power, but the motor stops assisting beyond 25 km/h.',
+          'Third, motor propulsion must require forward pedal rotation (torque or cadence sensor).'
         ]
       },
       {
-        heading: '3. The "Twist Throttle" Trap & Police Enforcement',
+        heading: '3. RDW L1e-B Moped Plates vs Off-Road MX Terrain Rules',
         content: [
-          'One of the most frequent misconceptions among UK cyclists concerns full-speed twist throttles. Under UK rules, "walk-assist" throttles that propel the bike without pedalling up to 3.7 mph (6 km/h) are legal for pushing heavy bikes up ramps.',
-          'However, any throttle that propels the bike over 3.7 mph without pedalling classifies the vehicle as an L1e-A / L1e-B motorized vehicle. Riding an unregistered throttle bike on UK roads or pavements risks 6 penalty points on your driving licence, a £300 fixed penalty notice, and vehicle confiscation under Section 165A of the Road Traffic Act.'
+          'Models equipped with twist throttles above 6 km/h or continuous power up to 4,000W (45 km/h) can be ridden on Dutch public roads if factory-homologated under EU L1e-B type approval—such as the Sur-Ron Light Bee L1e.',
+          'Riding an unregistered, non-homologated electric dirt bike on Dutch public roads or fietspaden risks a €310+ Politie fine, liability claims in an accident, and vehicle confiscation.'
         ],
         callout: {
           title: 'Legal Warning',
-          text: 'Never purchase unregulated kits or off-road throttles claiming to be road-legal without type approval. Apex Ebikes are 100% road-legal right out of the box.',
+          text: 'Always ride non-homologated MX machines strictly on licensed Dutch motocross tracks or private terrain, or choose our COC-ready L1e-B models for official RDW plate registration.',
           type: 'warning'
         }
       }
     ],
     faqs: [
       {
-        question: 'Do I need insurance or a driving licence to ride an e-bike in the UK?',
-        answer: 'No. Provided the e-bike meets UK EAPC rules (250W continuous rated motor, 15.5mph cutoff, pedal-assist), no driving licence, CBT test, road tax, or compulsory insurance is required.'
+        question: 'Do I need insurance or a driving licence for a 250W e-bike in the Netherlands?',
+        answer: 'No. A standard 250W / 25 km/h pedal-assist e-bike requires no RDW kenteken, WA insurance, or driving licence in the Netherlands. Only L1e-B mopeds/speed pedelecs (45 km/h) require RDW registration, WA insurance, AM/B licence, and an approved helmet.'
       },
       {
-        question: 'Can a 13-year-old legally ride an electric bike on UK public roads?',
-        answer: 'No. The UK legal minimum age to ride an EAPC on public roads and cycle paths is strictly 14 years old under the Road Traffic Act.'
+        question: 'Which helmet is required for L1e-B electric mopeds and speed pedelecs?',
+        answer: 'Since 1 January 2023, all bromfiets and L1e-B speed pedelec riders in the Netherlands must wear an approved helmet (ECE 22.05/22.06 motorcycle/moped helmet or NTA 8776 speed pedelec helmet).'
       },
       {
-        question: 'Can I ride my 250W e-bike on UK canal towpaths and bridleways?',
-        answer: 'Yes! EAPCs are permitted on all UK public bridleways and Canal & River Trust towpaths, subject to the pedestrian priority code.'
+        question: 'Can I ride L1e-B electric dirt bikes on city cycle paths in Amsterdam or Rotterdam?',
+        answer: 'Road-registered L1e-B vehicles follow Dutch bromfiets rules: they use the main carriageway (rijbaan) where speed limits are 50 km/h unless signs indicate a mandatory fiets/bromfietspad.'
       }
     ],
     relatedProducts: [
-      { name: 'Apex Metro Urban Pro Commuter', price: '£1,899', tag: 'Top Road Legal Commuter', slug: 'apex-metro-urban-pro-commuter-ebike' },
-      { name: 'Apex Citylite Step-Through', price: '£1,649', tag: 'Lightweight Comfort', slug: 'apex-citylite-step-through-urban-ebike' }
+      { name: 'Sur-Ron Light Bee X L1e Road-Legal', price: '€4,699', tag: 'RDW L1e-B Homologated', slug: 'sur-ron-light-bee-l1e' },
+      { name: 'DirtVolt Metro Pro Commuter', price: '€1,899', tag: '250W Fietspad Legal', slug: 'apex-metro-urban-pro-commuter-ebike' }
     ]
   },
   {
     id: 'pillar-2-cycle-to-work',
-    title: 'Cycle to Work Scheme Guide 2026: Save 32% to 47% on a Tax-Free E-Bike',
-    slug: 'cycle-to-work-scheme-guide-ebike-tax-savings',
-    category: 'Cycle to Work & Tax',
+    title: 'Dutch Fietsplan & WKR Guide 2026: Save up to 49.5% Tax on Your E-Bike',
+    slug: 'dutch-fietsplan-wkr-ebike-tax-savings-guide',
+    category: 'Fietsplan & Tax',
     author: {
-      name: 'Eleanor Vance',
-      role: 'UK Employee Benefits & Sustainable Transit Advisor',
+      name: 'Sanne Vermeer',
+      role: 'NL Employee Benefits & WKR Mobility Advisor',
       avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=120&q=80',
       verified: true
     },
     publishedDate: '10 February 2026',
     readTime: '7 min read',
-    targetQuery: 'how does cycle to work scheme work for ebikes uk',
+    targetQuery: 'how does fietsplan wkr work for ebikes netherlands',
     searchVolume: 7800,
     featured: false,
     heroImage: 'https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=1000&q=80',
-    summary: 'Everything you need to know about HMRC salary sacrifice for e-bikes. Discover how basic and higher-rate UK taxpayers save hundreds of pounds with no £1,000 cap, interest-free monthly repayments, and instant certificate redemption with Cyclescheme, GCI, and Vivup.',
+    summary: 'Everything you need to know about the Dutch Werkkostenregeling (WKR) Fietsplan and corporate bicycle leasing. Discover how Box 1 taxpayers save up to 49.5%, how 7% fiscal bijtelling works with Lease a Bike Nederland, and how ZZP / B.V. business owners deduct 21% Dutch BTW.',
     keyTakeaways: [
-      'Basic rate taxpayers save ~32% on Income Tax and National Insurance.',
-      'Higher rate (40%) and additional rate (45%) taxpayers save up to 42% - 47%.',
-      'The previous £1,000 price ceiling has been removed under FCA-authorised schemes.',
-      'Deductions are taken directly from gross salary before tax over 12, 18, 24, or 36 months.',
-      'Safety equipment, locks, waterproof panniers, and helmets are 100% tax-deductible.'
+      'Box 1 bracket taxpayers save 36.97% up to 49.50% through gross salary exchange or employer WKR budget.',
+      'There is no statutory €749 cap anymore under the modern Dutch Werkkostenregeling (WKR).',
+      'Corporate lease riders pay just 7% annual fiscal bijtelling on the recommended retail price.',
+      'Registered ZZP / B.V. businesses can reclaim 21% Dutch BTW and claim KIA investment deductions.',
+      'ART-2+ locks, waterproof Ortlieb panniers, and helmets can be included on the same Fietsplan quote.'
     ],
     sections: [
       {
-        heading: '1. How the HMRC Salary Sacrifice Mechanism Operates',
+        heading: '1. How the Dutch WKR Fietsplan & Lease Mechanism Operates',
         content: [
-          'The UK Government introduced the Cycle to Work initiative under the Finance Act to encourage greener, healthier commutes. It works through a gross salary sacrifice arrangement between you and your employer.',
-          'Your employer pays for the e-bike and equipment upfront. You then hire the equipment from them over an agreed hire period (typically 12, 18, or 24 months), with monthly hire fees deducted from your gross pay before Income Tax and National Insurance Contributions (NIC) are calculated.'
+          'Under the Dutch Werkkostenregeling (WKR), employers can allocate tax-free discretionary space (vrije ruimte) or apply gross salary / IKC exchanges toward commuting bicycles and e-bikes of any price.',
+          'Alternatively, corporate lease schemes such as Lease a Bike Nederland, Hellorider, and FiscFree bundle the e-bike, ART-2 theft insurance, and Amsterdam workshop servicing into one pre-tax monthly payroll benefit subject to only 7% annual bijtelling.'
         ],
         callout: {
-          title: 'Key Benefit for Employees',
-          text: 'Because your taxable salary is reduced by the cost of the bike, you pay significantly less PAYE Income Tax and Class 1 National Insurance every single month.',
+          title: 'Key Benefit for Dutch Employees',
+          text: 'Because deductions occur before Box 1 income tax (36.97% or 49.50%), an e-bike typically costs less per month than an NS Traject Vrij rail subscription.',
           type: 'tip'
         }
       },
       {
-        heading: '2. Real-World Savings Comparison Matrix',
+        heading: '2. Real-World Euro (€) Savings Comparison Matrix',
         content: [
-          'For a £2,000 electric commuter bike over a 12-month hire period:',
-          '• Basic Rate (20% Tax + 8% NI): You save £560 overall, paying only £120.00 net per month.',
-          '• Higher Rate (40% Tax + 2% NI): You save £840 overall, paying only £96.67 net per month.',
-          '• Top Rate (45% Tax + 2% NI): You save £940 overall, paying only £88.33 net per month.'
+          'For a €2,000 electric bike package reimbursed via WKR / gross-net salary arrangement:',
+          '• Box 1 Standard Bracket (36.97%): You save €739.40 overall, reducing effective cost to €1,260.60.',
+          '• Effective WKR / IKC Bracket (42.00%): You save €840.00 overall, paying an effective net of €1,160.00.',
+          '• Box 1 Top Bracket (49.50%): You save €990.00 overall, cutting the net cost nearly in half to €1,010.00.'
         ]
       }
     ],
     faqs: [
       {
-        question: 'Is there a £1,000 price limit on electric bikes through Cycle to Work?',
-        answer: 'No. Following government updates, employers working with FCA-regulated scheme providers (such as Green Commute Initiative, Cyclescheme, and Vivup) can approve e-bikes of any value.'
+        question: 'Is there still a €749 price cap on Dutch Fietsplan e-bikes?',
+        answer: 'No! The old €749 statutory cap was replaced by the Werkkostenregeling (WKR). Modern employers working with Lease a Bike, FiscFree, or Hellorider routinely approve €2,000–€6,000+ e-bikes.'
       },
       {
-        question: 'Can I include accessories like helmets, panniers, and locks in my voucher?',
-        answer: 'Yes! Safety accessories, Gold-rated locks, high-visibility clothing, and waterproof pannier bags can all be bundled into your tax-free salary sacrifice certificate.'
+        question: 'Can I include an ART-2 lock, helmet, and waterproof bags in my Fietsplan quote?',
+        answer: 'Yes! Dutch insurers require an ART-2 or ART-3 certified lock, and it can be bundled directly into our official 21% BTW employer proforma quote.'
       }
     ],
     relatedProducts: [
-      { name: 'Apex Hauler Longtail Cargo', price: '£2,699', tag: 'C2W Favourite (£62/mo)', slug: 'apex-hauler-longtail-electric-cargo-bike' },
-      { name: 'Apex Foldway Ultra 20"', price: '£1,499', tag: 'TfL Commuter (£38/mo)', slug: 'apex-foldway-ultra-folding-commuter-ebike' }
+      { name: 'DirtVolt Hauler Longtail Cargo', price: '€2,699', tag: 'WKR Family Favourite', slug: 'apex-hauler-longtail-electric-cargo-bike' },
+      { name: 'DirtVolt Foldway Ultra 20"', price: '€1,499', tag: 'NS Train Commuter', slug: 'apex-foldway-ultra-folding-commuter-ebike' }
     ]
   },
   {
     id: 'pillar-3-british-weather',
-    title: 'Best Electric Bikes for British Rain & Winter: IPX6 Ratings, Road Salt & Battery Care',
-    slug: 'best-electric-bikes-british-weather-winter-rain',
-    category: 'British Weather & Care',
+    title: 'Best Electric Bikes for Dutch Rain & Coastal Headwinds: IP67 Protection & Winter Care',
+    slug: 'best-electric-bikes-dutch-rain-coastal-wind',
+    category: 'Dutch Weather & Care',
     author: {
-      name: 'Marcus Bell',
-      role: 'Master Workshop Lead & Cytech Level 3 Assessor',
+      name: 'Bram Hendriks',
+      role: 'Amsterdam Master Workshop Lead & E-Mobility Engineer',
       avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80',
       verified: true
     },
     publishedDate: '02 February 2026',
     readTime: '6 min read',
-    targetQuery: 'can you ride an electric bike in heavy rain uk',
+    targetQuery: 'waterproof electric bike dutch rain wind ip67',
     searchVolume: 4200,
     featured: false,
     heroImage: 'https://images.unsplash.com/photo-1517649763962-0c623266ddc0?auto=format&fit=crop&w=1000&q=80',
-    summary: 'A technical guide to surviving UK downpours, salted winter tarmac, and freezing temperatures. Understand IPX5 vs IPX6 ingress ratings, cold-weather lithium battery chemistry, and essential weekly winter maintenance routines.',
+    summary: 'A technical guide to surviving Dutch coastal rain squalls, salted winter bike paths (pekel), and Force 6 Randstad headwinds. Understand IPX5 vs IPX6/IP67 ingress ratings, cold-weather lithium battery chemistry, and essential winter maintenance routines.',
     keyTakeaways: [
-      'Look for IPX6 water ingress ratings on motors and battery housings for torrential UK downpours.',
-      'Lithium-ion cells temporarily lose 10% - 15% range below 0°C—always charge batteries at room temperature.',
-      'Never pressure-wash bottom brackets or motor hubs—use low-pressure water and soft bike brushes.',
-      'Full-length 360° mudguards prevent salty spray from corroding drivetrain components and wiring looms.'
+      'Choose IPX6 or IP67 water-sealed motors, connectors, and battery housings for year-round Dutch rain.',
+      'Lithium-ion cells temporarily lose 10% - 15% range below 0°C—always charge packs indoors at room temperature.',
+      'Never blast bottom brackets, wheel bearings, or displays with a pressure washer—use low-pressure water.',
+      'Rinse winter road salt (pekel) from brake calipers and chainrings every week to prevent corrosion.'
     ],
     sections: [
       {
-        heading: '1. Ingress Protection (IP) Ratings Explained for Wet British Roads',
+        heading: '1. Ingress Protection (IP) Ratings Explained for Wet Dutch Fietspaden',
         content: [
-          'The British climate is notorious for sudden rainfall, surface puddles, and heavily salted winter roads. Standard bicycles may rust, but on an e-bike, moisture ingress into motor controllers or battery pins can cause fatal shorts.',
-          'An IPX5 rating protects against low-pressure water spray, but IPX6 testing guarantees protection against high-pressure water jets and heavy deluge conditions. All Apex Ebikes feature IPX6 internal wire harnesses, silicone-sealed battery ports, and conformal-coated printed circuit boards.'
+          'Dutch riders face relentless sideways rain, coastal wind spray across Zuid-Holland and Noord-Holland, and winter road salt (pekel). While ordinary chains rust, water intrusion into unsealed controllers can shut down electronics.',
+          'An IPX5 rating protects against light jets, whereas IPX6 and IP67 hardware—standard across our DirtVolt Sur-Ron, Talaria, and urban commuter lines—features waterproof Higo connectors, silicone-sealed battery ports, and conformal-coated PCBs.'
         ],
         callout: {
-          title: 'Workshop Golden Rule',
-          text: 'Never charge a freezing cold battery immediately after a winter commute. Bring it inside and allow it to reach room temperature (18°C) before plugging into the charger to protect internal cell longevity.',
+          title: 'Amsterdam Workshop Golden Rule',
+          text: 'Never charge a freezing cold lithium battery immediately after a winter ride. Bring the removable pack indoors and let it reach 18°C before connecting the fast charger.',
           type: 'warning'
         }
       }
     ],
     faqs: [
       {
-        question: 'Can I leave my electric bike parked outside in continuous UK rain?',
-        answer: 'While quality e-bikes with IPX6 ratings handle riding in torrential rain, prolonged outdoor storage without a breathable waterproof cover can allow trapped condensation to affect electrical contacts. We recommend bringing the battery inside.'
+        question: 'Can I ride my Sur-Ron or electric commuter in heavy Dutch rain?',
+        answer: 'Yes. Models rated IPX5/IP65+ handle heavy rain and wet trails effortlessly. When parking outdoors overnight in Amsterdam or Rotterdam, we recommend using a breathable cover and storing the removable battery indoors.'
       }
     ],
     relatedProducts: [
-      { name: 'Apex Weatherproof Pannier & Light Bundle', price: '£149', tag: 'All-Weather Kit', slug: 'apex-british-weatherproof-pannier-light-bundle' },
-      { name: 'Apex Metro Urban Pro Commuter', price: '£1,899', tag: 'IPX6 Rated', slug: 'apex-metro-urban-pro-commuter-ebike' }
+      { name: 'Waterproof Pannier & StVZO Light Bundle', price: '€149', tag: 'All-Weather Kit', slug: 'apex-british-weatherproof-pannier-light-bundle' },
+      { name: 'DirtVolt Metro Pro Commuter', price: '€1,899', tag: 'IPX6 Rated', slug: 'apex-metro-urban-pro-commuter-ebike' }
     ]
   },
   {
     id: 'pillar-4-london-commute',
-    title: 'London Commuting by E-Bike: Tube Rules, Train Restrictions & ULEZ Zone Savings',
-    slug: 'london-commuting-ebike-tube-train-rules-ulez',
-    category: 'London & City Commutes',
+    title: 'Amsterdam, Rotterdam & NS Rail Commuting: Multi-Modal E-Bike & Fietspad Survival Guide',
+    slug: 'amsterdam-rotterdam-ns-train-ebike-commuting',
+    category: 'Randstad & NS Rail',
     author: {
-      name: 'James Thornton',
-      role: 'Head of UK Regulatory Compliance',
+      name: 'Pieter van Dijk',
+      role: 'Head of NL Regulatory Compliance',
       avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80',
       verified: true
     },
     publishedDate: '26 January 2026',
     readTime: '9 min read',
-    targetQuery: 'can i take electric bike on london underground',
+    targetQuery: 'can i take folding electric bike on ns train netherlands',
     searchVolume: 5100,
     featured: false,
     heroImage: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1000&q=80',
-    summary: 'The comprehensive urban navigator guide for London commuters. Learn Transport for London (TfL) policies for the Tube, Elizabeth Line, Overground, and National Rail, plus how e-bikes bypass £12.50 daily ULEZ charges.',
+    summary: 'The complete multi-modal guide for Randstad commuters. Learn Nederlandse Spoorwegen (NS) bike carriage rules for Sprinter & Intercity trains, why folding e-bikes travel free even in rush hour, and how ART-2 locks keep your ANWB / ENRA insurance valid.',
     keyTakeaways: [
-      'Full-size e-bikes are prohibited on deep Tube lines and restricted during peak hours (07:30-09:30 & 16:00-19:00).',
-      'Compact folding e-bikes (under 20" wheels) are classified as folded luggage and permitted on ALL TfL services at ALL times.',
-      'Saves £12.50 daily ULEZ fees, £15 Congestion Charge, and up to £2,800 annually on Zone 1-4 travelcards.',
-      'Superhighway corridors (CS3, C1, C6) provide protected, uninterrupted cycle transit across Central London.'
+      'Full-size e-bikes require a €7.50 NS Dagkaart Fiets and are banned during weekday peak hours (06:30–09:00 & 16:00–18:30).',
+      'Compact folding e-bikes travel 100% FREE as hand luggage on ALL NS, GVB Amsterdam, RET Rotterdam, and HTM trains at ALL hours.',
+      'Skip Amsterdam €7.50+/hr city parking fees and ring-road traffic jams every day.',
+      'Pair your e-bike with a certified ART-2 or ART-3 chain lock required by Dutch bike insurers.'
     ],
     sections: [
       {
-        heading: '1. Transport for London (TfL) Bike Carriage Rules',
+        heading: '1. Nederlandse Spoorwegen (NS) & Metro Bike Rules',
         content: [
-          'Navigating multi-modal journeys in London requires understanding TfL carriage rules. Non-folding bicycles cannot be taken on sub-surface lines (Circle, District, Hammersmith & City, Metropolitan) during morning or evening peak rush hours.',
-          'In contrast, folding electric bikes that fold completely in half with pedals tucked away are legally defined as personal luggage. You can carry an Apex Foldway Ultra onto the Central, Northern, Piccadilly, or Elizabeth lines at 08:30 AM without hesitation.'
+          'Combining rail and electric cycling across Amsterdam Centraal, Utrecht Centraal, and Rotterdam Centraal requires knowing NS peak restrictions. Non-folding bicycles cannot board NS trains between 06:30–09:00 and 16:00–18:30.',
+          'In contrast, a compact folding e-bike like the Foldway Ultra folds in under 10 seconds and counts as normal luggage—riding free with you onto every Intercity Direct and Sprinter during rush hour.'
         ]
       }
     ],
     faqs: [
       {
-        question: 'Are folding e-bikes allowed on London buses?',
-        answer: 'Yes, at the driver\'s discretion, provided the bike is folded and placed in the designated luggage storage area without obstructing the wheelchair space.'
+        question: 'Are folding e-bikes allowed on Amsterdam GVB Metro and trams?',
+        answer: 'Yes! When folded cleanly, compact folding electric bikes travel free of charge on GVB Amsterdam Metro, RET Rotterdam Metro, and NS trains without peak-hour restrictions.'
       }
     ],
     relatedProducts: [
-      { name: 'Apex Foldway Ultra 20"', price: '£1,499', tag: 'TfL Approved Fold', slug: 'apex-foldway-ultra-folding-commuter-ebike' }
+      { name: 'DirtVolt Foldway Ultra 20"', price: '€1,499', tag: 'NS Train Approved Fold', slug: 'apex-foldway-ultra-folding-commuter-ebike' }
     ]
   },
   {
     id: 'pillar-5-torque-hills',
-    title: 'Hub Motor vs Mid-Drive on UK Hills: Torque (Nm) Comparison for Bristol & Edinburgh',
-    slug: 'hub-motor-vs-mid-drive-ebike-torque-uk-hills',
+    title: 'Hub Motor vs Mid-Drive in the Netherlands: Torque for Headwinds, Viaducts & Veluwe Trails',
+    slug: 'hub-motor-vs-mid-drive-torque-veluwe-headwinds',
     category: 'Motor & Tech Guides',
     author: {
-      name: 'Marcus Bell',
-      role: 'Master Workshop Lead',
+      name: 'Bram Hendriks',
+      role: 'Amsterdam Master Workshop Lead',
       avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80',
       verified: true
     },
     publishedDate: '18 January 2026',
     readTime: '7 min read',
-    targetQuery: 'hub motor vs mid drive for steep hills uk',
+    targetQuery: 'hub motor vs mid drive netherlands wind trails',
     searchVolume: 3900,
     featured: false,
     heroImage: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=1000&q=80',
-    summary: 'An engineering breakdown comparing Newton Metres (Nm) torque curves between rear hub motors and crank mid-drive systems on steep UK gradients like Park Street Bristol, Highgate Hill London, and Dundas Street Edinburgh.',
+    summary: 'An engineering breakdown comparing Newton Metres (Nm) torque curves between rear hub motors, 85Nm crank mid-drives, and direct-gearbox electric dirt drivetrains against Dutch coastal headwinds, steep viaducts, and sandy Veluwe / Utrechtse Heuvelrug climbs.',
     keyTakeaways: [
-      'Mid-drive motors deliver power through the bike chain, multiplying mechanical torque through your gears.',
-      'Hub motors spin independently at wheel speed, making them ideal and quiet for flatter cities like Cambridge.',
-      'For gradients steeper than 10%, an 80Nm-85Nm mid-drive delivers 3x higher hill climbing efficiency.',
-      'Torque sensors measure leg pressure to provide instant, natural electric assistance compared to laggy cadence sensors.'
+      'Mid-drive and gearbox drivetrains deliver massive wheel torque without bogging down in deep Veluwe sand or steep Limburg hills.',
+      'Rear hub motors spin silently and need minimal drivetrain maintenance across flat Amsterdam and Utrecht city streets.',
+      'Against Windkracht 6 coastal headwinds, 75Nm–85Nm torque sensors feel three times stronger than basic 40Nm hub motors.',
+      '72V high-voltage packs on Talaria and Stark Varg prevent voltage sag under heavy throttle on closed MX circuits.'
     ],
     sections: [
       {
-        heading: '1. Why Torque (Nm) Matters More Than Wattage for UK Hills',
+        heading: '1. Why Torque (Nm) Matters More Than Top Speed in Dutch Conditions',
         content: [
-          'Because all UK-legal e-bikes are capped at 250 Watts continuous power, the true differentiator for climbing steep British hills is torque output measured in Newton Metres (Nm).',
-          'A mid-drive motor positioned at the bottom bracket drives the front chainring directly. When you shift into a low climbing gear on your rear cassette, the motor benefits from the exact same mechanical gearing advantage as your legs, keeping motor RPM high and preventing overheating.'
+          'The Netherlands may lack Alpine peaks, yet riders face a constant invisible hill: Windkracht 5 to 7 coastal headwinds across open polders, dikes, and long river bridges.',
+          'A high-torque mid-drive or central gearbox motor keeps efficiency high at lower cadence—powering cleanly over loose Utrechtse Heuvelrug roots, Zuid-Limburg slopes, and bridge ramps without overheating.'
         ]
       }
     ],
     faqs: [
       {
-        question: 'Which is better for Sheffield or Bristol: hub motor or mid-drive?',
-        answer: 'For hilly topography like Bristol, Sheffield, or Bath, a mid-drive motor with 75Nm to 85Nm torque is strongly recommended over a rear hub motor.'
+        question: 'Which motor is best for sandy Veluwe trails or coastal headwinds?',
+        answer: 'For loose forest sand, Zuid-Limburg hills, or heavy cargo carrying against strong coastal winds, a 75Nm–85Nm mid-drive (or central gearbox dirt bike like Talaria/Sur-Ron) is strongly recommended.'
       }
     ],
     relatedProducts: [
-      { name: 'Apex Summit-X e-MTB', price: '£3,499', tag: '85Nm Shimano EP801', slug: 'apex-summit-x-electric-mountain-bike-emtb' },
-      { name: 'Apex Metro Urban Pro Commuter', price: '£1,899', tag: '80Nm Mid-Drive', slug: 'apex-metro-urban-pro-commuter-ebike' }
+      { name: 'Talaria Sting R MX4 Pro', price: '€4,399', tag: 'Direct Gearbox Torque', slug: 'talaria-sting-r-mx4' },
+      { name: 'DirtVolt Summit-X e-MTB', price: '€3,499', tag: '85Nm Mid-Drive', slug: 'apex-summit-x-electric-mountain-bike-emtb' }
     ]
   }
 ];
@@ -361,10 +361,10 @@ export const Blog: React.FC<BlogProps> = ({ onNavigateToView }) => {
 
   const CATEGORIES = [
     'All',
-    'UK EAPC & Laws',
-    'Cycle to Work & Tax',
-    'British Weather & Care',
-    'London & City Commutes',
+    'NL Laws & RDW',
+    'Fietsplan & Tax',
+    'Dutch Weather & Care',
+    'Randstad & NS Rail',
     'Motor & Tech Guides'
   ];
 
@@ -386,7 +386,7 @@ export const Blog: React.FC<BlogProps> = ({ onNavigateToView }) => {
     setIsSubmitting(true);
     setSubscribeError(null);
     try {
-      const response = await submitNewsletterSubscription(subscribedEmail, 'UK E-Bike Handbook & 2026 Trail Dispatch');
+      const response = await submitNewsletterSubscription(subscribedEmail, 'Netherlands E-Bike Handbook & 2026 Trail Dispatch');
       
       if (!response.success) {
         setSubscribeError(response.error || 'Failed to subscribe. Please try again.');
@@ -415,16 +415,16 @@ export const Blog: React.FC<BlogProps> = ({ onNavigateToView }) => {
         <div className="max-w-7xl mx-auto relative z-10 space-y-6">
           <div className="inline-flex items-center gap-2 bg-blue-500/10 border border-blue-400/20 text-blue-300 text-xs font-bold px-3 py-1.5 rounded-full">
             <BookOpen className="w-3.5 h-3.5" />
-            <span>Apex UK Knowledge Base & Commuter Journal</span>
+            <span>DirtVolt Netherlands Knowledge Base &amp; Rider Journal</span>
           </div>
 
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
             <div className="space-y-3 max-w-2xl">
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black font-heading tracking-tight text-white">
-                The UK Electric Bike Authority
+                The Netherlands Electric Bike Authority
               </h1>
               <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
-                Expert technical guides, UK EAPC road regulations, HMRC Cycle to Work tax strategies, and winter commuting wisdom verified by Cytech Level 3 mechanics.
+                Expert technical guides, Dutch RDW &amp; EN 15194 regulations, Fietsplan WKR tax strategies, and coastal rain &amp; trail maintenance checklists verified by Amsterdam workshop engineers.
               </p>
             </div>
 
@@ -434,7 +434,7 @@ export const Blog: React.FC<BlogProps> = ({ onNavigateToView }) => {
                 type="text"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="Search legal guides, weather, C2W..."
+                placeholder="Search RDW rules, rain care, Fietsplan..."
                 className="w-full bg-slate-800/90 border border-slate-700 rounded-xl pl-10 pr-4 py-2.5 text-xs sm:text-sm text-white placeholder-slate-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all shadow-inner"
               />
               <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-3" />
@@ -483,7 +483,7 @@ export const Blog: React.FC<BlogProps> = ({ onNavigateToView }) => {
                 Featured Authority Guide
               </div>
               <div className="absolute bottom-4 left-4 right-4 bg-slate-950/80 backdrop-blur-xs text-white p-3 rounded-xl border border-slate-800 flex items-center justify-between text-xs">
-                <span className="font-mono text-emerald-400">Target Volume: {featuredArticle.searchVolume.toLocaleString()} monthly UK searches</span>
+                <span className="font-mono text-emerald-400">Target Volume: {featuredArticle.searchVolume.toLocaleString()} monthly NL searches</span>
                 <span className="text-slate-300">{featuredArticle.readTime}</span>
               </div>
             </div>
@@ -676,10 +676,10 @@ export const Blog: React.FC<BlogProps> = ({ onNavigateToView }) => {
               <span>Free 2026 Commuter Whitepaper</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-black font-heading text-white">
-              Get the UK E-Bike Tax & Buying Handbook
+              Get the Netherlands E-Bike &amp; Fietsplan Handbook
             </h2>
             <p className="text-xs sm:text-sm text-blue-100 leading-relaxed">
-              Download our 42-page PDF guide covering HMRC salary sacrifice rules, London Tube travel diagrams, IP water testing results, and Cytech winter maintenance checklists.
+              Download our 42-page PDF guide covering Dutch WKR Fietsplan tax rules, NS Rail folding bike diagrams, IP67 water testing results, and winter maintenance checklists.
             </p>
           </div>
 
@@ -689,7 +689,7 @@ export const Blog: React.FC<BlogProps> = ({ onNavigateToView }) => {
                 <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0" />
                 <div className="text-xs">
                   <span className="font-bold block text-white">Handbook dispatched!</span>
-                  <span>Check your inbox for your free UK download link.</span>
+                  <span>Check your inbox for your free Netherlands download link.</span>
                 </div>
               </div>
             ) : (
@@ -864,8 +864,8 @@ export const Blog: React.FC<BlogProps> = ({ onNavigateToView }) => {
               <div className="bg-slate-900 text-white rounded-2xl p-6 space-y-4">
                 <div className="flex items-center justify-between">
                   <div className="space-y-1">
-                    <h3 className="font-bold text-sm font-heading">Recommended Road-Legal Models</h3>
-                    <p className="text-xs text-slate-300">All Apex Ebikes are pre-configured to comply 100% with these standards.</p>
+                    <h3 className="font-bold text-sm font-heading">Recommended Netherlands Models</h3>
+                    <p className="text-xs text-slate-300">All DirtVolt Netherlands bikes meet full EU &amp; Dutch technical standards.</p>
                   </div>
                   <button
                     onClick={() => {

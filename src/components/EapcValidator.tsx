@@ -14,17 +14,16 @@ import {
 
 export const EapcValidator: React.FC = () => {
   const [motorWatts, setMotorWatts] = useState<number>(250);
-  const [cutoffSpeedMph, setCutoffSpeedMph] = useState<number>(15.5);
+  const [cutoffSpeedKmh, setCutoffSpeedKmh] = useState<number>(25);
   const [throttleMode, setThrottleMode] = useState<'pedal-only' | 'walk-assist' | 'full-throttle'>('walk-assist');
   const [riderAge, setRiderAge] = useState<number>(28);
 
-  // UK EAPC Validation Logic
+  // Netherlands EN 15194 & Wegenverkeerswet 1994 Validation Logic
   const isPowerLegal = motorWatts <= 250;
-  const isSpeedLegal = cutoffSpeedMph <= 15.5;
+  const isSpeedLegal = cutoffSpeedKmh <= 25;
   const isThrottleLegal = throttleMode !== 'full-throttle';
-  const isAgeLegal = riderAge >= 14;
-
-  const is100PercentLegalEapc = isPowerLegal && isSpeedLegal && isThrottleLegal && isAgeLegal;
+  const is100PercentLegalEapc = isPowerLegal && isSpeedLegal && isThrottleLegal;
+  const isAgeL1eEligible = riderAge >= 16;
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8 animate-fade-in">
@@ -33,18 +32,18 @@ export const EapcValidator: React.FC = () => {
         <div className="flex items-center gap-2 mb-3">
           <span className="bg-teal-500/20 text-teal-300 border border-teal-500/30 text-xs font-semibold px-2.5 py-1 rounded-full flex items-center gap-1.5">
             <Scale className="w-3.5 h-3.5" />
-            UK EAPC Statutory Validator
+            Netherlands RDW &amp; EN 15194 Validator
           </span>
           <span className="bg-slate-800 text-slate-300 text-xs font-mono px-2 py-0.5 rounded">
-            SI 1983/1168 (Amended 2015)
+            Wegenverkeerswet 1994
           </span>
         </div>
 
         <h1 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight font-heading mb-2">
-          UK E-Bike Legal Compliance & EAPC Regulations Hub
+          Netherlands E-Bike Law &amp; RDW Compliance Hub
         </h1>
         <p className="text-sm text-slate-300 max-w-3xl leading-relaxed">
-          Test any e-bike specifications against UK Electrically Assisted Pedal Cycles (EAPC) law and the Road Traffic Act 1988 to verify whether it can be ridden legally on UK roads and cycle paths with zero road tax, licence, or insurance.
+          Test any e-bike specifications against Dutch Road Traffic Law (Wegenverkeerswet 1994), RDW vehicle categories, and European Standard EN 15194 to verify whether it rides freely on Dutch fietspaden without kenteken registration or WA insurance.
         </p>
       </div>
 
@@ -63,7 +62,7 @@ export const EapcValidator: React.FC = () => {
               <div className="flex justify-between items-baseline text-xs">
                 <span className="text-slate-300 font-medium">Motor Continuous Rated Output:</span>
                 <span className={`font-mono font-bold text-sm ${isPowerLegal ? 'text-emerald-400' : 'text-red-400'}`}>
-                  {motorWatts} Watts {isPowerLegal ? '(UK Legal)' : '(Exceeds 250W limit)'}
+                  {motorWatts} Watts {isPowerLegal ? '(NL Fietspad Legal)' : '(Exceeds 250W limit)'}
                 </span>
               </div>
               <input
@@ -77,10 +76,10 @@ export const EapcValidator: React.FC = () => {
                 className="w-full accent-teal-500 cursor-pointer"
               />
               <div className="flex justify-between text-[10px] text-slate-500 font-mono">
-                <span className="text-emerald-400 font-bold">250W (UK EAPC Max)</span>
+                <span className="text-emerald-400 font-bold">250W (NL / EU Max)</span>
                 <span>500W</span>
-                <span>750W (US Class 2)</span>
-                <span>1000W</span>
+                <span>750W (Moped/Off-Road)</span>
+                <span>1000W+</span>
               </div>
             </div>
 
@@ -89,24 +88,24 @@ export const EapcValidator: React.FC = () => {
               <div className="flex justify-between items-baseline text-xs">
                 <span className="text-slate-300 font-medium">Maximum Assisted Cutoff Speed:</span>
                 <span className={`font-mono font-bold text-sm ${isSpeedLegal ? 'text-emerald-400' : 'text-red-400'}`}>
-                  {cutoffSpeedMph} mph ({Math.round(cutoffSpeedMph * 1.609)} km/h)
+                  {cutoffSpeedKmh} km/h
                 </span>
               </div>
               <input
                 aria-label="Maximum Assisted Cutoff Speed"
                 type="range"
-                min="10"
-                max="32"
-                step="0.5"
-                value={cutoffSpeedMph}
-                onChange={(e) => setCutoffSpeedMph(Number(e.target.value))}
+                min="15"
+                max="50"
+                step="1"
+                value={cutoffSpeedKmh}
+                onChange={(e) => setCutoffSpeedKmh(Number(e.target.value))}
                 className="w-full accent-teal-500 cursor-pointer"
               />
               <div className="flex justify-between text-[10px] text-slate-500 font-mono">
-                <span>10 mph</span>
-                <span className="text-emerald-400 font-bold">15.5 mph / 25 km/h (UK Limit)</span>
-                <span>20 mph (US Class 1/2)</span>
-                <span>28 mph (S-Pedelec)</span>
+                <span>15 km/h</span>
+                <span className="text-emerald-400 font-bold">25 km/h (NL Fietspad Limit)</span>
+                <span>32 km/h (Non-EU)</span>
+                <span>45 km/h (L1e-B RDW)</span>
               </div>
             </div>
 
@@ -140,8 +139,8 @@ export const EapcValidator: React.FC = () => {
                   }`}
                 >
                   <div>
-                    <span className="font-bold block text-slate-200">2. Walk Assist Button (Capped at 3.7 mph / 6 km/h)</span>
-                    <span className="text-[11px] text-slate-400">Helps push loaded bike up ramps without pedalling (100% UK Legal)</span>
+                    <span className="font-bold block text-slate-200">2. Walk Assist Button (Capped at 6 km/h)</span>
+                    <span className="text-[11px] text-slate-400">Helps push loaded bike up viaduct ramps (100% NL Legal)</span>
                   </div>
                   <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
                 </button>
@@ -155,8 +154,8 @@ export const EapcValidator: React.FC = () => {
                   }`}
                 >
                   <div>
-                    <span className="font-bold block text-red-300">3. Independent "Twist & Go" Throttle (over 3.7 mph)</span>
-                    <span className="text-[11px] text-slate-400">Requires GB Type Approval or L1e-A registration to be road legal</span>
+                    <span className="font-bold block text-red-300">3. Independent Twist Throttle (over 6 km/h)</span>
+                    <span className="text-[11px] text-slate-400">Requires EU L1e-B COC approval + RDW kenteken for road use</span>
                   </div>
                   <BadgeAlert className="w-4 h-4 text-red-400 shrink-0" />
                 </button>
@@ -167,8 +166,8 @@ export const EapcValidator: React.FC = () => {
             <div className="space-y-2">
               <div className="flex justify-between items-baseline text-xs">
                 <span className="text-slate-300 font-medium">Rider Age:</span>
-                <span className={`font-mono font-bold text-sm ${isAgeLegal ? 'text-emerald-400' : 'text-red-400'}`}>
-                  {riderAge} Years Old {isAgeLegal ? '(Legal in UK)' : '(Under legal age of 14)'}
+                <span className="font-mono font-bold text-sm text-emerald-400">
+                  {riderAge} Years Old {isAgeL1eEligible ? '(Fietspad & L1e-B Eligible)' : '(250W Fietspad Legal Only)'}
                 </span>
               </div>
               <input
@@ -182,9 +181,9 @@ export const EapcValidator: React.FC = () => {
                 className="w-full accent-teal-500 cursor-pointer"
               />
               <div className="flex justify-between text-[10px] text-slate-500 font-mono">
-                <span>10 (Illegal)</span>
-                <span className="text-emerald-400 font-bold">14 (UK Minimum Age)</span>
-                <span>25</span>
+                <span>10 (Fietspad OK)</span>
+                <span className="text-emerald-400 font-bold">16 (RDW L1e-B Min Age)</span>
+                <span>28</span>
                 <span>75</span>
               </div>
             </div>
@@ -207,14 +206,14 @@ export const EapcValidator: React.FC = () => {
               </div>
               <div>
                 <span className="text-[10px] uppercase font-mono font-bold tracking-wider text-slate-400">
-                  UK ROAD LEGALITY VERDICT
+                  NETHERLANDS ROAD LEGALITY VERDICT
                 </span>
                 <h3 className={`text-lg font-bold font-heading ${
                   is100PercentLegalEapc ? 'text-emerald-400' : 'text-red-400'
                 }`}>
                   {is100PercentLegalEapc
-                    ? '100% UK Road-Legal EAPC (Electrically Assisted Pedal Cycle)'
-                    : 'Restricted / Classified as Motor Vehicle (Speed Pedelec or Illegal)'}
+                    ? '100% NL Fietspad Legal (EN 15194 Pedelec)'
+                    : 'RDW Kenteken Required (L1e-B / Bromfiets) or Off-Road Only'}
                 </h3>
               </div>
             </div>
@@ -230,49 +229,49 @@ export const EapcValidator: React.FC = () => {
               </div>
 
               <div className="flex items-center justify-between">
-                <span className="text-slate-300">Assisted Cutoff ≤ 15.5 mph:</span>
+                <span className="text-slate-300">Assisted Cutoff ≤ 25 km/h:</span>
                 <span className={isSpeedLegal ? 'text-emerald-400 font-bold flex items-center gap-1' : 'text-red-400 font-bold flex items-center gap-1'}>
                   {isSpeedLegal ? <CheckCircle2 className="w-3.5 h-3.5" /> : <XCircle className="w-3.5 h-3.5" />}
-                  {cutoffSpeedMph} mph ({isSpeedLegal ? 'Pass' : 'Exceeds 15.5mph limit'})
+                  {cutoffSpeedKmh} km/h ({isSpeedLegal ? 'Pass' : 'Exceeds 25 km/h limit'})
                 </span>
               </div>
 
               <div className="flex items-center justify-between">
-                <span className="text-slate-300">Pedal Assist & Throttle Rules:</span>
+                <span className="text-slate-300">Pedal Assist &amp; Throttle Rules:</span>
                 <span className={isThrottleLegal ? 'text-emerald-400 font-bold flex items-center gap-1' : 'text-red-400 font-bold flex items-center gap-1'}>
                   {isThrottleLegal ? <CheckCircle2 className="w-3.5 h-3.5" /> : <XCircle className="w-3.5 h-3.5" />}
-                  {throttleMode === 'full-throttle' ? 'Twist throttle over 3.7mph (Non-compliant)' : 'Compliant'}
+                  {throttleMode === 'full-throttle' ? 'Throttle over 6 km/h (L1e-B / Track)' : 'Compliant'}
                 </span>
               </div>
 
               <div className="flex items-center justify-between">
-                <span className="text-slate-300">Minimum Rider Age 14+:</span>
-                <span className={isAgeLegal ? 'text-emerald-400 font-bold flex items-center gap-1' : 'text-red-400 font-bold flex items-center gap-1'}>
-                  {isAgeLegal ? <CheckCircle2 className="w-3.5 h-3.5" /> : <XCircle className="w-3.5 h-3.5" />}
-                  {riderAge} yrs old ({isAgeLegal ? 'Pass' : 'Under 14 years old'})
+                <span className="text-slate-300">Rider Age Classification:</span>
+                <span className="text-emerald-400 font-bold flex items-center gap-1">
+                  <CheckCircle2 className="w-3.5 h-3.5" />
+                  {riderAge} yrs ({isAgeL1eEligible ? 'Fietspad & L1e-B Eligible' : '250W Pedelec Only'})
                 </span>
               </div>
             </div>
 
             {/* Legal Privilege Summary */}
             <div className="bg-slate-950/80 border border-slate-800 rounded-xl p-4 text-xs space-y-2">
-              <h4 className="font-semibold text-slate-200">Legal Rights & Privileges on UK Infrastructure:</h4>
+              <h4 className="font-semibold text-slate-200">Legal Status on Netherlands Infrastructure:</h4>
               <div className="grid grid-cols-2 gap-2 text-[11px]">
                 <div className="text-slate-300">
                   <span className="text-slate-500 block">Driving Licence:</span>
-                  <span className="font-semibold text-white">{is100PercentLegalEapc ? 'None Required' : 'CBT / Category AM Required'}</span>
+                  <span className="font-semibold text-white">{is100PercentLegalEapc ? 'None Required' : 'Category AM / B Required (16+)'}</span>
                 </div>
                 <div className="text-slate-300">
-                  <span className="text-slate-500 block">Road Tax (VED):</span>
-                  <span className="font-semibold text-white">{is100PercentLegalEapc ? '£0 (Exempt)' : 'Subject to VED'}</span>
+                  <span className="text-slate-500 block">RDW Plate &amp; WA Insurance:</span>
+                  <span className="font-semibold text-white">{is100PercentLegalEapc ? '€0 (Exempt)' : 'RDW Kenteken + WA Mandatory'}</span>
                 </div>
                 <div className="text-slate-300">
-                  <span className="text-slate-500 block">Cycle Lanes & Towpaths:</span>
-                  <span className="font-semibold text-white">{is100PercentLegalEapc ? '100% Permitted' : 'Strictly Prohibited'}</span>
+                  <span className="text-slate-500 block">Dutch Fietspaden:</span>
+                  <span className="font-semibold text-white">{is100PercentLegalEapc ? '100% Permitted' : 'Bromfietspad / Carriageway Only'}</span>
                 </div>
                 <div className="text-slate-300">
-                  <span className="text-slate-500 block">Motorcycle Helmet:</span>
-                  <span className="font-semibold text-white">{is100PercentLegalEapc ? 'Standard Cycle Helmet (Optional)' : 'Compulsory Full Face / Dot Helmet'}</span>
+                  <span className="text-slate-500 block">Helmet Requirement:</span>
+                  <span className="font-semibold text-white">{is100PercentLegalEapc ? 'Optional (Standard Cycle Helmet)' : 'Compulsory NTA 8776 / ECE Helmet'}</span>
                 </div>
               </div>
             </div>
@@ -282,13 +281,13 @@ export const EapcValidator: React.FC = () => {
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-5 space-y-3 text-xs">
             <h3 className="font-bold text-white uppercase tracking-wider flex items-center gap-1.5">
               <BookOpen className="w-4 h-4 text-indigo-400" />
-              UK Legislation Reference & Penalties
+              Netherlands Legislation Reference &amp; Penalties
             </h3>
             <p className="text-slate-400 leading-relaxed text-[11px]">
-              Under Section 32 of the Road Traffic Act 1988 and the Electrically Assisted Pedal Cycles Regulations 1983 (as amended by SI 2015/24), an electric bicycle that meets EAPC standards is not treated as a motor vehicle in England, Scotland, or Wales.
+              Under the Dutch Road Traffic Act (Wegenverkeerswet 1994) and Regeling voertuigen, an electric bicycle meeting EU EN 15194 standards (≤250W, ≤25 km/h pedal-assist) is classified identically to a conventional bicycle across all 12 Dutch provinces.
             </p>
             <p className="text-slate-400 leading-relaxed text-[11px]">
-              Riding a non-compliant e-bike (e.g. 500W+ or full twist throttle) on a public road without registration, tax, or third-party insurance risks <strong>6 penalty points on your driving licence, a £300 fixed penalty notice, and vehicle seizure under Section 165A</strong>.
+              Riding a non-homologated 500W+ or full-throttle electric dirt bike on Dutch public roads or fietspaden without RDW kenteken registration and WA insurance risks a <strong>€310+ Politie fine, civil liability, and vehicle seizure</strong>. For street use, choose our COC-homologated L1e-B models or restrict high-power MX bikes to closed circuits.
             </p>
           </div>
         </div>

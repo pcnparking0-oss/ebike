@@ -26,15 +26,15 @@ export const AboutUs: React.FC<AboutUsProps> = ({ onNavigateToView }) => {
       <div className="bg-white border border-slate-200/90 rounded-3xl p-6 sm:p-10 shadow-xs relative overflow-hidden">
         <div className="max-w-3xl space-y-4">
           <div className="inline-flex items-center gap-2 bg-blue-50 border border-blue-200 text-blue-700 text-xs font-bold px-3 py-1 rounded-full shadow-2xs">
-            <span className="text-sm">🇬🇧</span> Official UK Authorized Electric Dirt Bikes Distributor
+            <span className="text-sm">🇳🇱</span> Official Netherlands Authorized Electric Dirt Bikes Distributor
           </div>
           
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 font-heading tracking-tight leading-tight">
-            Powering the Future of Electric Off-Road & Motocross in the UK
+            Powering the Future of Electric Off-Road &amp; Motocross in the Netherlands
           </h1>
           
           <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-            DirtVolt was established to provide riders with authorized access to the world's most cutting-edge electric dirt bikes, motocross machines, road-legal electric enduro, e-MTB, and youth quads—complete with factory warranties, express dispatch, and professional workshop support.
+            DirtVolt was established to provide riders across the Netherlands and Benelux with authorized access to the world's most cutting-edge electric dirt bikes, motocross machines, road-legal electric enduro, e-MTB, and youth quads—complete with factory warranties, express PostNL &amp; DHL dispatch, and professional workshop support in Amsterdam.
           </p>
 
           <div className="pt-2 flex items-center gap-3 flex-wrap">
@@ -59,11 +59,11 @@ export const AboutUs: React.FC<AboutUsProps> = ({ onNavigateToView }) => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8 pt-8 border-t border-slate-100">
           <div className="p-3 bg-slate-50 rounded-2xl border border-slate-100">
             <span className="text-2xl sm:text-3xl font-extrabold text-slate-900 font-heading block">10,000+</span>
-            <span className="text-xs text-slate-500 font-medium">Bikes Delivered Across UK</span>
+            <span className="text-xs text-slate-500 font-medium">Bikes Delivered Across Netherlands</span>
           </div>
           <div className="p-3 bg-slate-50 rounded-2xl border border-slate-100">
             <span className="text-2xl sm:text-3xl font-extrabold text-blue-600 font-heading block">100%</span>
-            <span className="text-xs text-slate-500 font-medium">Official UK Stock & Parts</span>
+            <span className="text-xs text-slate-500 font-medium">Official Netherlands Stock &amp; Parts</span>
           </div>
           <div className="p-3 bg-slate-50 rounded-2xl border border-slate-100">
             <span className="text-2xl sm:text-3xl font-extrabold text-emerald-600 font-heading block">4.9 / 5</span>
@@ -71,7 +71,7 @@ export const AboutUs: React.FC<AboutUsProps> = ({ onNavigateToView }) => {
           </div>
           <div className="p-3 bg-slate-50 rounded-2xl border border-slate-100">
             <span className="text-2xl sm:text-3xl font-extrabold text-indigo-600 font-heading block">2 Years</span>
-            <span className="text-xs text-slate-500 font-medium">Official UK Warranty</span>
+            <span className="text-xs text-slate-500 font-medium">Official NL &amp; EU Warranty</span>
           </div>
         </div>
       </div>
@@ -95,10 +95,10 @@ export const AboutUs: React.FC<AboutUsProps> = ({ onNavigateToView }) => {
             <Wrench className="w-6 h-6" />
           </div>
           <h2 className="text-lg font-bold text-slate-900 font-heading">
-            UK Workshop & Spares Depot
+            Netherlands Workshop &amp; Spares Depot
           </h2>
           <p className="text-xs text-slate-600 leading-relaxed">
-            Our UK technical workshop stocks replacement controllers, high-output lithium batteries, fast chargers, upgraded sprockets, and brake kits. Never wait weeks for overseas parts.
+            Our Amsterdam technical workshop stocks replacement controllers, high-output lithium batteries, fast chargers, upgraded sprockets, and brake kits. Fast PostNL &amp; DHL delivery across all Dutch provinces.
           </p>
         </div>
 
@@ -134,15 +134,15 @@ export const AboutUs: React.FC<AboutUsProps> = ({ onNavigateToView }) => {
           <ul className="space-y-2 text-xs text-slate-700 pt-2">
             <li className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-              <span>Full compliance with Consumer Rights Act & 30-Day Guarantee</span>
+              <span>Full compliance with the Dutch Civil Code &amp; 30-Day Guarantee</span>
             </li>
             <li className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-              <span>Flexible payment options with 0% interest and Klarna installments</span>
+              <span>Flexible payment options with iDEAL, 0% interest and Klarna / In3</span>
             </li>
             <li className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-              <span>2-Year Comprehensive Warranty with dedicated technical hotline support</span>
+              <span>2-Year Comprehensive NL Warranty with dedicated Amsterdam workshop support</span>
             </li>
           </ul>
         </div>
@@ -181,7 +181,7 @@ export const AboutUs: React.FC<AboutUsProps> = ({ onNavigateToView }) => {
             Need Help Choosing the Right Electric Dirt Bike?
           </h2>
           <p className="text-xs text-slate-300 max-w-xl leading-relaxed">
-            Our UK technical specialists are on hand to advise on road-legal registration, power ratings, battery sizing, and youth models.
+            Our Netherlands technical specialists in Amsterdam, Rotterdam, and Eindhoven are on hand to advise on RDW registration, power ratings, battery sizing, and youth models.
           </p>
         </div>
         

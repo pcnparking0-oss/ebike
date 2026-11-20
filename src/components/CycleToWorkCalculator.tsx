@@ -54,17 +54,17 @@ export const CycleToWorkCalculator: React.FC = () => {
     setQuoteError(null);
 
     const taxBandLabels: Record<string, string> = {
-      basic: 'Basic Rate (20%)',
-      higher: 'Higher Rate (40%)',
-      additional: 'Additional Rate (45%)',
+      basic: 'Box 1 Bracket 1 (36.97%)',
+      higher: 'Effective WKR / IKC (42%)',
+      additional: 'Box 1 Top Bracket (49.5%)',
     };
 
     try {
       const response = await submitCycleToWorkQuote({
-        fullName: quoteFullName.trim() || 'UK Employee',
+        fullName: quoteFullName.trim() || 'Netherlands Employee',
         email: quoteEmail.trim(),
         phone: quotePhone.trim(),
-        employerName: quoteEmployer.trim() || 'UK Employer',
+        employerName: quoteEmployer.trim() || 'Dutch Employer',
         schemeName: activeSchemeObj.name,
         totalPrice,
         bikePrice,
@@ -76,7 +76,7 @@ export const CycleToWorkCalculator: React.FC = () => {
       });
 
       if (response.success) {
-        setQuoteSubmittedRef(response.quoteRef || `C2W-UK-${Math.floor(10000 + Math.random() * 90000)}`);
+        setQuoteSubmittedRef(response.quoteRef || `QUOTE-NL-${Math.floor(10000 + Math.random() * 90000)}`);
       } else {
         setQuoteError(response.error || 'Failed to dispatch quote. Please try again.');
       }
@@ -88,7 +88,7 @@ export const CycleToWorkCalculator: React.FC = () => {
     }
   };
 
-  // Typical UK public transit comparison (London zone 1-3 annual pass ~ £1,960)
+  // Typical Netherlands public transit comparison (NS Traject / OV-chipkaart annual pass ~ €2,150)
   const annualTransitCost = 2150;
   const annualEbikeNetCost = result.monthlyNetCostGBP * 12;
   const annualCommuterSavings = Math.max(0, annualTransitCost - annualEbikeNetCost);
@@ -100,19 +100,19 @@ export const CycleToWorkCalculator: React.FC = () => {
         <div className="flex items-center gap-2 mb-3">
           <span className="bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 text-xs font-semibold px-2.5 py-1 rounded-full flex items-center gap-1.5">
             <Calculator className="w-3.5 h-3.5" />
-            HMRC Salary Sacrifice Tax Engine 2026
+            Dutch WKR &amp; Fietsplan Tax Engine 2026
           </span>
           <span className="bg-amber-500/20 text-amber-300 border border-amber-500/30 text-xs font-semibold px-2.5 py-1 rounded-full flex items-center gap-1.5">
             <Zap className="w-3.5 h-3.5" />
-            Save up to 47% on E-Bikes
+            Save up to 49.5% on E-Bikes
           </span>
         </div>
 
         <h1 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight font-heading mb-2">
-          UK Cycle to Work & Salary Sacrifice Savings Calculator
+          Netherlands Fietsplan (WKR) &amp; Corporate Lease Savings Calculator
         </h1>
         <p className="text-sm text-slate-300 max-w-3xl leading-relaxed">
-          Calculate your exact net take-home salary deduction and tax savings across all major UK schemes including <strong>Cyclescheme</strong>, <strong>Green Commute Initiative (GCI)</strong>, <strong>Vivup</strong>, and <strong>Halfords Cycle2Work</strong>.
+          Calculate your exact net take-home salary exchange and Box 1 tax savings across major Dutch schemes including <strong>Werkkostenregeling (WKR)</strong>, <strong>Lease a Bike Nederland</strong>, <strong>FiscFree / NFP</strong>, and <strong>Hellorider</strong>.
         </p>
       </div>
 
@@ -123,15 +123,15 @@ export const CycleToWorkCalculator: React.FC = () => {
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 space-y-6">
             <h2 className="text-base font-bold text-white font-heading flex items-center gap-2">
               <Coins className="w-5 h-5 text-emerald-400" />
-              1. Package Cost & UK Tax Bracket
+              1. Package Cost &amp; Dutch Box 1 Tax Bracket
             </h2>
 
             {/* Bike Price Slider */}
             <div className="space-y-2">
               <div className="flex justify-between items-baseline text-xs">
-                <span className="text-slate-300 font-medium">E-Bike Retail Price:</span>
+                <span className="text-slate-300 font-medium">E-Bike Retail Price (incl. 21% BTW):</span>
                 <div className="flex items-center gap-1 bg-slate-950 px-3 py-1 rounded-lg border border-slate-800 font-mono font-bold text-white text-sm">
-                  <span>£</span>
+                  <span>€</span>
                   <input
                     aria-label="E-Bike Retail Price"
                     type="number"
@@ -152,19 +152,19 @@ export const CycleToWorkCalculator: React.FC = () => {
                 className="w-full accent-emerald-500 cursor-pointer"
               />
               <div className="flex justify-between text-[10px] text-slate-500 font-mono">
-                <span>£500</span>
-                <span>£1,899 (Apex Metro Pro)</span>
-                <span>£3,799 (Cargo / e-MTB)</span>
-                <span>£6,000</span>
+                <span>€500</span>
+                <span>€1,899 (Metro Pro)</span>
+                <span>€3,799 (Enduro / Cargo)</span>
+                <span>€6,000</span>
               </div>
             </div>
 
             {/* Accessories Slider */}
             <div className="space-y-2">
               <div className="flex justify-between items-baseline text-xs">
-                <span className="text-slate-300 font-medium">Safety Accessories & Waterproof Gear:</span>
+                <span className="text-slate-300 font-medium">ART-2+ Lock, Helmet &amp; Waterproof Gear:</span>
                 <div className="flex items-center gap-1 bg-slate-950 px-3 py-1 rounded-lg border border-slate-800 font-mono font-bold text-white text-sm">
-                  <span>£</span>
+                  <span>€</span>
                   <input
                     aria-label="Safety Accessories Price"
                     type="number"
@@ -185,16 +185,16 @@ export const CycleToWorkCalculator: React.FC = () => {
                 className="w-full accent-cyan-500 cursor-pointer"
               />
               <div className="flex justify-between text-[10px] text-slate-500 font-mono">
-                <span>£0 (None)</span>
-                <span>£189 (Ortlieb Waterproof Panniers + Lights)</span>
-                <span>£800</span>
+                <span>€0 (None)</span>
+                <span>€189 (ART-2 Lock + Ortlieb Panniers)</span>
+                <span>€800</span>
               </div>
             </div>
 
             {/* Tax Band Switcher */}
             <div className="space-y-2 pt-2 border-t border-slate-800">
               <label className="block text-xs font-semibold text-slate-200">
-                Your UK Annual Income Tax Bracket:
+                Your Dutch Annual Box 1 Income Tax Bracket:
               </label>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
                 <button
@@ -205,9 +205,9 @@ export const CycleToWorkCalculator: React.FC = () => {
                       : 'bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-700'
                   }`}
                 >
-                  <span className="font-bold text-xs block text-slate-200">Basic Rate (20%)</span>
-                  <span className="text-[11px] text-slate-400 block mt-0.5">Earnings up to £50,270</span>
-                  <span className="text-emerald-400 font-bold text-xs mt-1 block">Save 28% (Tax + NI)</span>
+                  <span className="font-bold text-xs block text-slate-200">Box 1 Standard (36.97%)</span>
+                  <span className="text-[11px] text-slate-400 block mt-0.5">Earnings up to €75,518</span>
+                  <span className="text-emerald-400 font-bold text-xs mt-1 block">Save 37% (Tax Relief)</span>
                 </button>
 
                 <button
@@ -218,9 +218,9 @@ export const CycleToWorkCalculator: React.FC = () => {
                       : 'bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-700'
                   }`}
                 >
-                  <span className="font-bold text-xs block text-slate-200">Higher Rate (40%)</span>
-                  <span className="text-[11px] text-slate-400 block mt-0.5">Earnings £50,271 - £125,140</span>
-                  <span className="text-emerald-400 font-bold text-xs mt-1 block">Save 42% (Tax + NI)</span>
+                  <span className="font-bold text-xs block text-slate-200">Effective WKR / IKC (42%)</span>
+                  <span className="text-[11px] text-slate-400 block mt-0.5">Employer WKR &amp; IKC Budget</span>
+                  <span className="text-emerald-400 font-bold text-xs mt-1 block">Save 42% (Tax Relief)</span>
                 </button>
 
                 <button
@@ -231,9 +231,9 @@ export const CycleToWorkCalculator: React.FC = () => {
                       : 'bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-700'
                   }`}
                 >
-                  <span className="font-bold text-xs block text-slate-200">Additional Rate (45%)</span>
-                  <span className="text-[11px] text-slate-400 block mt-0.5">Earnings £125,140+</span>
-                  <span className="text-emerald-400 font-bold text-xs mt-1 block">Save 47% (Tax + NI)</span>
+                  <span className="font-bold text-xs block text-slate-200">Box 1 Top Rate (49.5%)</span>
+                  <span className="text-[11px] text-slate-400 block mt-0.5">Earnings above €75,518</span>
+                  <span className="text-emerald-400 font-bold text-xs mt-1 block">Save 49.5% (Top Rate)</span>
                 </button>
               </div>
             </div>
@@ -241,7 +241,7 @@ export const CycleToWorkCalculator: React.FC = () => {
             {/* Term Months Switcher */}
             <div className="space-y-2 pt-2 border-t border-slate-800">
               <label className="block text-xs font-semibold text-slate-200">
-                Salary Sacrifice Repayment Term:
+                Salary Exchange / Lease Duration:
               </label>
               <div className="grid grid-cols-4 gap-2">
                 {[12, 18, 24, 36].map((term) => (
@@ -265,7 +265,7 @@ export const CycleToWorkCalculator: React.FC = () => {
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 space-y-4">
             <h3 className="text-sm font-bold text-white font-heading flex items-center gap-2">
               <Building2 className="w-4 h-4 text-indigo-400" />
-              Supported UK Scheme Providers
+              Supported Netherlands Scheme Providers
             </h3>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
@@ -300,7 +300,7 @@ export const CycleToWorkCalculator: React.FC = () => {
               <div>
                 <span className="text-[11px] text-slate-400 block font-mono">YOUR NET MONTHLY TAKE-HOME COST</span>
                 <span className="text-3xl sm:text-4xl font-extrabold text-emerald-400 font-heading">
-                  £{result.monthlyNetCostGBP.toFixed(2)}<span className="text-sm font-normal text-slate-400">/mo</span>
+                  €{result.monthlyNetCostGBP.toFixed(2)}<span className="text-sm font-normal text-slate-400">/mo</span>
                 </span>
               </div>
               <div className="text-right">
@@ -313,23 +313,23 @@ export const CycleToWorkCalculator: React.FC = () => {
             {/* Detailed Cost Breakdown Table */}
             <div className="space-y-2.5 text-xs">
               <div className="flex justify-between text-slate-300">
-                <span>Total Package Price (Bike + Gear):</span>
-                <span className="font-semibold text-white">£{totalPrice.toLocaleString()}</span>
+                <span>Total Package Price (incl. 21% BTW):</span>
+                <span className="font-semibold text-white">€{totalPrice.toLocaleString()}</span>
               </div>
 
               <div className="flex justify-between text-slate-400">
                 <span>Gross Monthly Salary Deduction:</span>
-                <span>£{result.monthlyGrossDeductionGBP.toFixed(2)}/mo</span>
+                <span>€{result.monthlyGrossDeductionGBP.toFixed(2)}/mo</span>
               </div>
 
               <div className="flex justify-between text-emerald-400 font-medium">
-                <span>HMRC Income Tax & NI Saved:</span>
-                <span>-£{result.totalCashSavedGBP.toFixed(2)}</span>
+                <span>Dutch Box 1 Income Tax Saved:</span>
+                <span>-€{result.totalCashSavedGBP.toFixed(2)}</span>
               </div>
 
               <div className="flex justify-between text-white font-bold pt-2 border-t border-slate-800">
                 <span>Actual Net Cost to You:</span>
-                <span className="text-emerald-400 text-sm">£{result.effectiveCostGBP.toFixed(2)}</span>
+                <span className="text-emerald-400 text-sm">€{result.effectiveCostGBP.toFixed(2)}</span>
               </div>
             </div>
 
@@ -337,13 +337,13 @@ export const CycleToWorkCalculator: React.FC = () => {
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 space-y-2 text-xs">
               <span className="font-semibold text-slate-200 flex items-center gap-1.5">
                 <TrendingUp className="w-4 h-4 text-emerald-400" />
-                Annual Public Transit Savings Comparison
+                Annual NS / OV-chipkaart Savings Comparison
               </span>
               <p className="text-slate-400 text-[11px] leading-relaxed">
-                Average UK train/commute pass: <strong>£{annualTransitCost.toLocaleString()}/yr</strong>. Your e-bike net cost: <strong>£{Math.round(annualEbikeNetCost)}/yr</strong>.
+                Average Dutch train/commute pass: <strong>€{annualTransitCost.toLocaleString()}/yr</strong>. Your e-bike net cost: <strong>€{Math.round(annualEbikeNetCost)}/yr</strong>.
               </p>
               <div className="bg-emerald-950/50 border border-emerald-500/30 rounded p-2 text-emerald-300 font-bold text-center text-xs">
-                🎉 You save approx. £{annualCommuterSavings.toLocaleString()} in year 1!
+                🎉 You save approx. €{annualCommuterSavings.toLocaleString()} in year 1!
               </div>
             </div>
 
@@ -359,17 +359,17 @@ export const CycleToWorkCalculator: React.FC = () => {
                 className="w-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold py-3 px-4 rounded-xl text-xs transition-all flex items-center justify-center gap-2 cursor-pointer shadow-lg shadow-emerald-950/60"
               >
                 <FileCheck className="w-4 h-4" />
-                <span>Generate Official Scheme Employer Quote</span>
+                <span>Generate Official Fietsplan Employer Quote</span>
               </button>
               <p className="text-[10px] text-slate-500 text-center">
-                Dispatched directly to your inbox and registered with our UK fleet desk at sales@ebikessale.online.
+                Dispatched directly to your inbox and registered with our Netherlands fleet desk at sales@ebikessale.online.
               </p>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Official Cycle to Work Scheme Quote Modal */}
+      {/* Official Fietsplan Scheme Quote Modal */}
       {isQuoteModalOpen && (
         <div className="fixed inset-0 z-50 overflow-y-auto bg-slate-950/75 backdrop-blur-xs flex items-center justify-center p-4">
           <div className="relative w-full max-w-lg bg-white rounded-2xl shadow-2xl border border-slate-200 overflow-hidden text-slate-900">
@@ -381,10 +381,10 @@ export const CycleToWorkCalculator: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-sm text-white font-heading">
-                    Official UK Cycle Scheme Employer Quote
+                    Official Netherlands Fietsplan Employer Quote
                   </h3>
                   <p className="text-[11px] text-slate-400">
-                    Scheme: {activeSchemeObj.name} • {termMonths}-Month Salary Sacrifice
+                    Scheme: {activeSchemeObj.name} • {termMonths}-Month WKR Exchange
                   </p>
                 </div>
               </div>
@@ -417,25 +417,25 @@ export const CycleToWorkCalculator: React.FC = () => {
 
                   <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 text-left text-xs space-y-2">
                     <div className="flex justify-between text-slate-600">
-                      <span>Package Value:</span>
-                      <span className="font-semibold text-slate-900">£{totalPrice.toLocaleString()}</span>
+                      <span>Package Value (incl. 21% BTW):</span>
+                      <span className="font-semibold text-slate-900">€{totalPrice.toLocaleString()}</span>
                     </div>
                     <div className="flex justify-between text-slate-600">
                       <span>Net Monthly Salary Deduction:</span>
-                      <span className="font-bold text-emerald-700">£{result.monthlyNetCostGBP.toFixed(2)}/mo</span>
+                      <span className="font-bold text-emerald-700">€{result.monthlyNetCostGBP.toFixed(2)}/mo</span>
                     </div>
                     <div className="flex justify-between text-slate-600">
-                      <span>Total Tax &amp; NI Saved:</span>
-                      <span className="font-bold text-emerald-700">£{result.totalCashSavedGBP.toFixed(2)}</span>
+                      <span>Total Dutch Box 1 Tax Saved:</span>
+                      <span className="font-bold text-emerald-700">€{result.totalCashSavedGBP.toFixed(2)}</span>
                     </div>
                     <div className="flex justify-between text-slate-600 border-t border-slate-200 pt-2">
-                      <span>Fleet Desk Notification:</span>
+                      <span>NL Fleet Desk Notification:</span>
                       <span className="font-mono text-blue-600">sales@ebikessale.online</span>
                     </div>
                   </div>
 
                   <p className="text-[11px] text-slate-500 leading-relaxed">
-                    Submit this quote reference into your employer’s <strong>{activeSchemeObj.name}</strong> portal or forward directly to your HR/Payroll department.
+                    Submit this quote reference into your employer’s <strong>{activeSchemeObj.name}</strong> portal or forward directly to your HR/Payroll department for WKR processing.
                   </p>
 
                   <button
@@ -457,16 +457,16 @@ export const CycleToWorkCalculator: React.FC = () => {
                   {/* Summary Box */}
                   <div className="bg-slate-50 border border-slate-200 rounded-xl p-3.5 space-y-1.5">
                     <div className="flex justify-between text-slate-600">
-                      <span>Calculated Package:</span>
-                      <span className="font-bold text-slate-900">£{totalPrice.toLocaleString()}</span>
+                      <span>Calculated Package (incl. 21% BTW):</span>
+                      <span className="font-bold text-slate-900">€{totalPrice.toLocaleString()}</span>
                     </div>
                     <div className="flex justify-between text-slate-600">
                       <span>Estimated Net Cost:</span>
-                      <span className="font-bold text-emerald-700">£{result.monthlyNetCostGBP.toFixed(2)} / month</span>
+                      <span className="font-bold text-emerald-700">€{result.monthlyNetCostGBP.toFixed(2)} / month</span>
                     </div>
                     <div className="flex justify-between text-slate-600">
-                      <span>Total Government Savings:</span>
-                      <span className="font-bold text-emerald-700">£{result.totalCashSavedGBP.toFixed(2)} ({result.totalSavingPercentage}%)</span>
+                      <span>Total Dutch WKR Tax Savings:</span>
+                      <span className="font-bold text-emerald-700">€{result.totalCashSavedGBP.toFixed(2)} ({result.totalSavingPercentage}%)</span>
                     </div>
                   </div>
 
@@ -479,7 +479,7 @@ export const CycleToWorkCalculator: React.FC = () => {
                       <input
                         type="email"
                         required
-                        placeholder="work.email@company.co.uk"
+                        placeholder="naam@bedrijf.nl"
                         value={quoteEmail}
                         onChange={(e) => setQuoteEmail(e.target.value)}
                         className="w-full bg-white border border-slate-200 rounded-xl pl-9 pr-3 py-2 text-xs text-slate-900 focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600 font-medium"
@@ -496,7 +496,7 @@ export const CycleToWorkCalculator: React.FC = () => {
                         <User className="w-3.5 h-3.5 text-slate-400 absolute left-3 top-3" />
                         <input
                           type="text"
-                          placeholder="Your Name"
+                          placeholder="Jan de Vries"
                           value={quoteFullName}
                           onChange={(e) => setQuoteFullName(e.target.value)}
                           className="w-full bg-white border border-slate-200 rounded-xl pl-9 pr-3 py-2 text-xs text-slate-900 focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600"
@@ -512,7 +512,7 @@ export const CycleToWorkCalculator: React.FC = () => {
                         <Building2 className="w-3.5 h-3.5 text-slate-400 absolute left-3 top-3" />
                         <input
                           type="text"
-                          placeholder="e.g. NHS, BBC, Deloitte"
+                          placeholder="e.g. ASML, Philips, ING"
                           value={quoteEmployer}
                           onChange={(e) => setQuoteEmployer(e.target.value)}
                           className="w-full bg-white border border-slate-200 rounded-xl pl-9 pr-3 py-2 text-xs text-slate-900 focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600"
@@ -529,7 +529,7 @@ export const CycleToWorkCalculator: React.FC = () => {
                       <Phone className="w-3.5 h-3.5 text-slate-400 absolute left-3 top-3" />
                       <input
                         type="tel"
-                        placeholder="07xxx xxxxxx"
+                        placeholder="+31 6 1234 5678"
                         value={quotePhone}
                         onChange={(e) => setQuotePhone(e.target.value)}
                         className="w-full bg-white border border-slate-200 rounded-xl pl-9 pr-3 py-2 text-xs text-slate-900 focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600"

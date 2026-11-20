@@ -192,7 +192,7 @@ export const HomePage: React.FC<HomePageProps> = ({
 
                   {/* Quick specs overlay on hover */}
                   <div className="absolute bottom-2.5 left-2.5 right-2.5 flex items-center justify-between text-[11px] text-white/90 bg-slate-950/80 backdrop-blur-md px-2.5 py-1 rounded-lg border border-white/10 opacity-90">
-                    <span className="font-semibold">{product.technicalSpecs.topSpeedMph} MPH</span>
+                    <span className="font-semibold">{Math.round((product.technicalSpecs.topSpeedMph || product.eapcCompliance.maxAssistedSpeedMph) * 1.609)} km/h</span>
                     <span className="text-slate-400">•</span>
                     <span className="font-semibold">{product.technicalSpecs.rangeMiles}</span>
                     <span className="text-slate-400">•</span>
@@ -231,21 +231,21 @@ export const HomePage: React.FC<HomePageProps> = ({
                     <div className="flex items-baseline justify-between">
                       <div>
                         <span className="font-extrabold text-slate-950 text-lg sm:text-xl font-heading">
-                          £{product.priceGBP.toLocaleString()}
+                          €{product.priceGBP.toLocaleString()}
                         </span>
                         {product.rrpGBP > product.priceGBP && (
                           <span className="text-[11px] text-slate-400 line-through ml-2 font-medium">
-                            RRP £{product.rrpGBP.toLocaleString()}
+                            RRP €{product.rrpGBP.toLocaleString()}
                           </span>
                         )}
                       </div>
                       <span className="text-[10px] font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 px-1.5 py-0.5 rounded">
-                        In Stock UK
+                        In Stock NL
                       </span>
                     </div>
                     <p className="text-[11px] text-blue-600 font-semibold flex items-center gap-1">
                       <Zap className="w-3 h-3" />
-                      <span>From £{monthlyEstimate}/mo with 0% Finance</span>
+                      <span>From €{monthlyEstimate}/mo with 0% Finance</span>
                     </p>
                   </div>
 
@@ -300,7 +300,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                 Explore All DirtVolt Models
               </h2>
               <p className="text-xs sm:text-sm text-slate-500 mt-1">
-                Browse our complete UK stock of high-power electric motocross, enduro, youth bikes, quads, and official accessories.
+                Browse our complete Netherlands stock of high-power electric motocross, enduro, youth bikes, quads, and official accessories.
               </p>
             </div>
             <div className="flex items-center gap-2">
@@ -389,7 +389,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                       <div className="absolute top-2.5 left-2.5 right-2.5 flex items-center justify-between gap-1.5">
                         <span className="bg-slate-900/85 backdrop-blur-md border border-white/10 text-white text-[10px] font-bold px-2 py-0.5 rounded-md flex items-center gap-1 shadow-xs">
                           <ShieldCheck className="w-3 h-3 text-blue-400" />
-                          {product.eapcCompliance.ukRoadLegalStatus.includes('Road-Legal') ? 'Road-Legal' : product.eapcCompliance.ukRoadLegalStatus.includes('100%') ? 'EAPC 250W' : 'Off-Road MX'}
+                          {product.eapcCompliance.ukRoadLegalStatus.includes('Road-Legal') ? 'Road-Legal' : product.eapcCompliance.ukRoadLegalStatus.includes('100%') ? 'EN 15194 250W' : 'Off-Road MX'}
                         </span>
                         <span className="bg-slate-900/85 backdrop-blur-md border border-emerald-500/30 text-emerald-400 text-[10px] font-bold px-2 py-0.5 rounded-md flex items-center gap-1 shadow-xs">
                           <CloudRain className="w-3 h-3 text-emerald-400" />
@@ -410,7 +410,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                         )}
                         {product.technicalSpecs.maxRangeMiles > 0 && (
                           <span className="bg-slate-950/80 backdrop-blur-md border border-white/10 text-white text-[10px] px-2 py-0.5 rounded-md font-mono font-semibold shadow-xs">
-                            🔋 {product.technicalSpecs.maxRangeMiles} mi
+                            🔋 {Math.round(product.technicalSpecs.maxRangeMiles * 1.609)} km
                           </span>
                         )}
                       </div>
@@ -440,23 +440,23 @@ export const HomePage: React.FC<HomePageProps> = ({
                         <div className="flex items-baseline justify-between">
                           <div className="flex items-baseline gap-2">
                             <span className="text-lg sm:text-xl font-extrabold text-slate-950 font-heading">
-                              £{product.priceGBP.toLocaleString()}
+                              €{product.priceGBP.toLocaleString()}
                             </span>
                             {product.rrpGBP > product.priceGBP && (
                               <span className="text-xs text-slate-400 line-through font-medium">
-                                RRP £{product.rrpGBP.toLocaleString()}
+                                RRP €{product.rrpGBP.toLocaleString()}
                               </span>
                             )}
                           </div>
                           <span className="text-[10px] font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 px-1.5 py-0.5 rounded">
-                            In Stock UK
+                            In Stock NL
                           </span>
                         </div>
 
                         <div className="bg-slate-50 border border-slate-200/90 rounded-xl p-2 flex items-center justify-between text-[11px]">
                           <span className="text-slate-600 font-medium">0% Finance:</span>
                           <span className="text-blue-600 font-bold">
-                            From £{monthlyEstimate}/mo
+                            From €{monthlyEstimate}/mo
                           </span>
                         </div>
 
@@ -501,7 +501,7 @@ export const HomePage: React.FC<HomePageProps> = ({
               Why Riders Choose DirtVolt
             </h2>
             <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
-              Authorized UK distributor for the world's most capable electric off-road and all-terrain machines with dedicated workshop support.
+              Authorized Netherlands distributor for the world's most capable electric off-road and all-terrain machines with dedicated workshop support.
             </p>
           </div>
 
@@ -526,7 +526,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                 IP65 / IP67 Weatherproofing
               </h3>
               <p className="text-xs text-slate-300 leading-relaxed">
-                Sealed battery enclosures and motor encasements built to tackle British mud, rain, and bog trails.
+                Sealed battery enclosures and motor encasements built to tackle Dutch rain, coastal winds, forest trails, and mud.
               </p>
             </div>
 
@@ -535,10 +535,10 @@ export const HomePage: React.FC<HomePageProps> = ({
                 <Wrench className="w-5 h-5" />
               </div>
               <h3 className="font-bold text-white text-sm font-heading">
-                UK Workshop & Spares
+                Netherlands Workshop & Spares
               </h3>
               <p className="text-xs text-slate-300 leading-relaxed">
-                Comprehensive UK inventory of original replacement parts, fast chargers, upgraded batteries, and factory servicing.
+                Comprehensive Dutch inventory of original replacement parts, fast chargers, upgraded batteries, and Amsterdam factory servicing.
               </p>
             </div>
 
@@ -547,7 +547,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                 <ShieldCheck className="w-5 h-5" />
               </div>
               <h3 className="font-bold text-white text-sm font-heading">
-                2-Year UK Warranty
+                2-Year NL & EU Warranty
               </h3>
               <p className="text-xs text-slate-300 leading-relaxed">
                 Every bike is backed by official manufacturer warranty coverage with dedicated technical telephone and email support.
@@ -556,25 +556,25 @@ export const HomePage: React.FC<HomePageProps> = ({
           </div>
         </div>
       </section>
-      {/* 4. Flexible Finance & Express UK Delivery Banner */}
+      {/* 4. Flexible Finance & Express Netherlands Delivery Banner */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-gradient-to-r from-blue-950 via-slate-900 to-slate-950 text-white border border-blue-900/60 rounded-3xl p-6 sm:p-10 shadow-xl flex flex-col lg:flex-row items-center justify-between gap-8 relative overflow-hidden">
           <div className="space-y-3 max-w-2xl relative z-10">
             <div className="inline-flex items-center gap-1.5 bg-blue-500/20 text-blue-300 text-xs font-bold px-3 py-1 rounded-full border border-blue-500/30 font-mono">
               <Zap className="w-3.5 h-3.5 text-blue-400" />
-              <span>0% APR FINANCE • SPREAD THE COST</span>
+              <span>iDEAL • 0% APR FINANCE • FIETSPLAN WKR</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-extrabold font-heading text-white">
-              Spread the Cost with 0% Finance & Free UK Delivery
+              Spread the Cost with 0% Finance & Free Netherlands Delivery
             </h2>
             <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
-              Split your purchase with Klarna in 3 interest-free payments or Novuna 0% APR finance over 12-36 months. All bikes are fully inspected and dispatched within 24-48 hours.
+              Pay instantly via iDEAL, split with Klarna in 3 interest-free payments, or spread over 12-36 months. All bikes are inspected in Amsterdam and dispatched within 24-48 hours via PostNL & DHL.
             </p>
 
             <div className="flex flex-wrap gap-4 text-xs text-slate-200 pt-2 font-medium">
               <span className="flex items-center gap-1.5">
                 <CheckCircle2 className="w-4 h-4 text-emerald-400" />
-                Free 24-48h Tracked UK Delivery
+                Free 24-48h Tracked Netherlands Delivery
               </span>
               <span className="flex items-center gap-1.5">
                 <CheckCircle2 className="w-4 h-4 text-emerald-400" />
@@ -582,7 +582,7 @@ export const HomePage: React.FC<HomePageProps> = ({
               </span>
               <span className="flex items-center gap-1.5">
                 <CheckCircle2 className="w-4 h-4 text-emerald-400" />
-                Full UK Spares & Technical Support
+                Full Netherlands Spares & Technical Support
               </span>
             </div>
           </div>
@@ -613,10 +613,10 @@ export const HomePage: React.FC<HomePageProps> = ({
                 <Star key={i} className="w-4 h-4 fill-amber-400 text-amber-400" />
               ))}
             </div>
-            <span className="text-slate-900 font-bold ml-1">4.9 / 5 on Trustpilot (1,200+ UK Verified Reviews)</span>
+            <span className="text-slate-900 font-bold ml-1">4.9 / 5 on Trustpilot (1,200+ Verified Reviews)</span>
           </div>
           <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-950 font-heading">
-            Trusted by UK Riders & Motocross Enthusiasts
+            Trusted by Dutch Riders & Motocross Enthusiasts
           </h2>
         </div>
 
@@ -628,12 +628,12 @@ export const HomePage: React.FC<HomePageProps> = ({
               ))}
             </div>
             <p className="text-xs text-slate-700 leading-relaxed italic">
-              "The Sur-Ron Ultra Bee MX arrived fully assembled and ready to rip in 48 hours. The power delivery is unreal, and the IP67 sealing took everything the wet Wales trails threw at it."
+              "The Sur-Ron Ultra Bee MX arrived fully inspected and ready to ride in 48 hours. The power delivery is unreal, and the IP67 sealing handled wet Veluwe mud trails effortlessly."
             </p>
             <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
-              <span className="font-bold text-slate-950">Liam Henderson</span>
+              <span className="font-bold text-slate-950">Daan van der Berg</span>
               <span className="text-emerald-700 bg-emerald-50 border border-emerald-200 text-[10px] font-bold px-2 py-0.5 rounded">
-                Cardiff • Verified Buyer
+                Amsterdam • Verified Buyer
               </span>
             </div>
           </div>
@@ -645,12 +645,12 @@ export const HomePage: React.FC<HomePageProps> = ({
               ))}
             </div>
             <p className="text-xs text-slate-700 leading-relaxed italic">
-              "The Talaria Sting R MX4 with gearbox is so much better than belt-driven bikes. Zero maintenance worries on gritty woodland tracks, and DirtVolt's team answered all my battery care questions."
+              "The Talaria Sting R MX4 with sealed gearbox is so much better than belt-driven bikes. Zero maintenance worries on sandy Brabant tracks, and DirtVolt's team answered all my battery care questions."
             </p>
             <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
-              <span className="font-bold text-slate-950">Marcus Wright</span>
+              <span className="font-bold text-slate-950">Bram Vermeer</span>
               <span className="text-emerald-700 bg-emerald-50 border border-emerald-200 text-[10px] font-bold px-2 py-0.5 rounded">
-                Sheffield • Verified Buyer
+                Eindhoven • Verified Buyer
               </span>
             </div>
           </div>
@@ -662,12 +662,12 @@ export const HomePage: React.FC<HomePageProps> = ({
               ))}
             </div>
             <p className="text-xs text-slate-700 leading-relaxed italic">
-              "Got the GasGas MC-E 5 for my 7-year-old son. The adjustable power mode key lets him learn safely at low speed, with zero exhaust burns or carburettor headaches."
+              "Got the GasGas MC-E 5 for my 7-year-old son. The adjustable power mode key lets him learn safely at low speed, with zero exhaust noise or maintenance headaches."
             </p>
             <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
-              <span className="font-bold text-slate-950">Dave Thornton</span>
+              <span className="font-bold text-slate-950">Jeroen Bakker</span>
               <span className="text-emerald-700 bg-emerald-50 border border-emerald-200 text-[10px] font-bold px-2 py-0.5 rounded">
-                Leeds • Verified Buyer
+                Utrecht • Verified Buyer
               </span>
             </div>
           </div>

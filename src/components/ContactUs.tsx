@@ -25,8 +25,8 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
     fullName: '',
     email: '',
     phone: '',
-    subject: 'Cycle to Work Scheme Voucher',
-    city: 'London',
+    subject: 'Sales & Bike Selection Advice',
+    city: 'Amsterdam',
     message: ''
   });
 
@@ -34,7 +34,7 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
   const [isSending, setIsSending] = useState(false);
   const [isSimulated, setIsSimulated] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
-  const [ticketId, setTicketId] = useState<string>('VT-UK-2849');
+  const [ticketId, setTicketId] = useState<string>('VT-NL-2849');
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -50,7 +50,7 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
         setIsSimulated(!!response.simulated);
         setIsSubmitted(true);
       } else {
-        setErrorMessage(response.error || 'Unable to deliver your enquiry. Please try again or call 0800 892 4410.');
+        setErrorMessage(response.error || 'Unable to deliver your enquiry. Please try again or call +31 20 808 4410.');
       }
     } catch (err: any) {
       setErrorMessage(err?.message || 'A network error occurred while submitting.');
@@ -66,13 +66,13 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
         <div className="max-w-3xl space-y-3">
           <div className="inline-flex items-center gap-2 bg-blue-50 border border-blue-200 text-blue-700 text-xs font-bold px-3 py-1 rounded-full shadow-2xs font-mono">
             <MessageSquare className="w-3.5 h-3.5" />
-            <span>UK CUSTOMER CARE & WORKSHOP SUPPORT</span>
+            <span>NETHERLANDS CUSTOMER CARE &amp; WORKSHOP SUPPORT</span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-950 font-heading">
-            Get in Touch with DirtVolt
+            Get in Touch with DirtVolt Netherlands
           </h1>
           <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-            Whether you need advice choosing the right electric off-road bike, want to enquire about 0% finance or Cycle to Work eligibility, or require certified workshop service and original spare parts, our UK specialist team is here to help.
+            Whether you need advice choosing the right electric off-road bike, want to enquire about Dutch Fietsplan (WKR) or 0% finance, or require certified workshop service and original spare parts, our specialist team in Amsterdam is here to help.
           </p>
         </div>
 
@@ -82,16 +82,16 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
             <div className="w-8 h-8 rounded-lg bg-blue-100 text-blue-700 flex items-center justify-center mb-2">
               <Phone className="w-4 h-4" />
             </div>
-            <span className="text-xs text-slate-500 font-semibold uppercase font-mono block">Freephone UK</span>
-            <span className="text-sm font-bold text-slate-900 block font-heading">0800 892 4410</span>
-            <span className="text-[11px] text-slate-500 block">Mon–Fri: 8:30am – 6:00pm</span>
+            <span className="text-xs text-slate-500 font-semibold uppercase font-mono block">Direct Hotline</span>
+            <span className="text-sm font-bold text-slate-900 block font-heading">+31 20 808 4410</span>
+            <span className="text-[11px] text-slate-500 block">Mon–Fri: 8:30 – 18:00</span>
           </div>
 
           <div className="bg-slate-50 border border-slate-200/80 rounded-2xl p-4 space-y-1.5">
             <div className="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center mb-2">
               <Mail className="w-4 h-4" />
             </div>
-            <span className="text-xs text-slate-500 font-semibold uppercase font-mono block">Email Support & Sales</span>
+            <span className="text-xs text-slate-500 font-semibold uppercase font-mono block">Email Support &amp; Sales</span>
             <span className="text-sm font-bold text-slate-900 block font-heading">sales@ebikessale.online</span>
             <span className="text-[11px] text-emerald-700 font-medium block">Avg. response under 2 hours</span>
           </div>
@@ -102,16 +102,16 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
             </div>
             <span className="text-xs text-slate-500 font-semibold uppercase font-mono block">Technical Workshop</span>
             <span className="text-sm font-bold text-slate-900 block font-heading">workshop@ebikessale.online</span>
-            <span className="text-[11px] text-slate-500 block">Spares, tuning & warranty</span>
+            <span className="text-[11px] text-slate-500 block">Amsterdam workshop &amp; tuning</span>
           </div>
 
           <div className="bg-slate-50 border border-slate-200/80 rounded-2xl p-4 space-y-1.5">
             <div className="w-8 h-8 rounded-lg bg-indigo-100 text-indigo-700 flex items-center justify-center mb-2">
               <Clock className="w-4 h-4" />
             </div>
-            <span className="text-xs text-slate-500 font-semibold uppercase font-mono block">UK Service Center</span>
+            <span className="text-xs text-slate-500 font-semibold uppercase font-mono block">Amsterdam Hub</span>
             <span className="text-sm font-bold text-slate-900 block font-heading">Open Mon–Sat</span>
-            <span className="text-[11px] text-slate-500 block">Sat: 9:00am – 5:00pm</span>
+            <span className="text-[11px] text-slate-500 block">Sat: 10:00 – 16:00</span>
           </div>
         </div>
       </div>
@@ -121,7 +121,7 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
         {/* Contact Form (7 Cols) */}
         <div className="lg:col-span-7 bg-white border border-slate-200/90 rounded-3xl p-6 sm:p-8 shadow-xs">
           <h2 className="text-xl font-bold text-slate-900 font-heading mb-2">
-            Send an Enquiry to Our UK Team
+            Send an Enquiry to Our Netherlands Team
           </h2>
           <p className="text-xs text-slate-600 mb-6">
             Fill in the details below and a DirtVolt specialist will respond with technical advice, stock reservation, or workshop availability.
@@ -145,12 +145,12 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
                     <AlertCircle className="w-5 h-5 text-amber-600" />
                     Developer Notice: Zoho Authentication Failed
                   </h3>
-                  <p className="mb-2">Your enquiry was submitted in the system, but the actual email failed to send because Zoho rejected the password <code>Mafiamusic10</code> (Error: 535).</p>
-                  <p className="font-semibold">How to fix this in Vercel:</p>
+                  <p className="mb-2">Your enquiry was submitted in the system, but the email failed to send because Zoho SMTP authentication did not succeed.</p>
+                  <p className="font-semibold">How to check this in Vercel:</p>
                   <ul className="list-disc pl-5 space-y-1 mt-1 text-xs">
-                    <li>If you have Two-Factor Authentication (2FA) turned on, your normal password <strong>will not work</strong> for SMTP. You must generate an <strong>App Password</strong> in your Zoho Security settings.</li>
-                    <li>Ensure you have checked the box to <strong>Enable SMTP Access</strong> inside your Zoho Mail settings.</li>
-                    <li>Make sure you update the <code>EMAIL_SERVER_PASSWORD</code> in Vercel and Redeploy.</li>
+                    <li>If you have Two-Factor Authentication (2FA) turned on, generate an <strong>App Password</strong> in your Zoho Security settings.</li>
+                    <li>Ensure <strong>SMTP Access</strong> is enabled inside your Zoho Mail settings.</li>
+                    <li>Confirm <code>SMTP_HOST</code>, <code>SMTP_PORT</code>, <code>SMTP_USER</code>, and <code>SMTP_PASSWORD</code> in Vercel and redeploy.</li>
                   </ul>
                 </div>
               )}
@@ -162,8 +162,8 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
                     fullName: '',
                     email: '',
                     phone: '',
-                    subject: 'Cycle to Work Scheme Voucher',
-                    city: 'London',
+                    subject: 'Sales & Bike Selection Advice',
+                    city: 'Amsterdam',
                     message: ''
                   });
                 }}
@@ -186,7 +186,7 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
                   <input
                     type="text"
                     required
-                    placeholder="e.g. James Wilson"
+                    placeholder="e.g. Jan de Vries"
                     value={formData.fullName}
                     onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
                     className="w-full bg-slate-50 border border-slate-200 focus:bg-white focus:border-blue-600 focus:ring-1 focus:ring-blue-600 rounded-xl px-3.5 py-2.5 text-slate-900 placeholder:text-slate-400 focus:outline-none transition-all"
@@ -198,7 +198,7 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
                   <input
                     type="email"
                     required
-                    placeholder="e.g. james.wilson@example.co.uk"
+                    placeholder="e.g. jan.devries@voorbeeld.nl"
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     className="w-full bg-slate-50 border border-slate-200 focus:bg-white focus:border-blue-600 focus:ring-1 focus:ring-blue-600 rounded-xl px-3.5 py-2.5 text-slate-900 placeholder:text-slate-400 focus:outline-none transition-all"
@@ -211,7 +211,7 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
                   <label className="font-bold text-slate-700 block">Phone Number (Optional)</label>
                   <input
                     type="tel"
-                    placeholder="e.g. 07700 900123"
+                    placeholder="e.g. +31 6 1234 5678"
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     className="w-full bg-slate-50 border border-slate-200 focus:bg-white focus:border-blue-600 focus:ring-1 focus:ring-blue-600 rounded-xl px-3.5 py-2.5 text-slate-900 placeholder:text-slate-400 focus:outline-none transition-all"
@@ -219,19 +219,19 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
                 </div>
 
                 <div className="space-y-1.5">
-                  <label className="font-bold text-slate-700 block">Nearest UK City / Hub</label>
+                  <label className="font-bold text-slate-700 block">Netherlands City / Region</label>
                   <select
                     value={formData.city}
                     onChange={(e) => setFormData({ ...formData, city: e.target.value })}
                     className="w-full bg-slate-50 border border-slate-200 focus:bg-white focus:border-blue-600 focus:ring-1 focus:ring-blue-600 rounded-xl px-3.5 py-2.5 text-slate-900 focus:outline-none transition-all cursor-pointer"
                   >
-                    <option value="London">London & South East</option>
-                    <option value="Birmingham">Birmingham & West Midlands</option>
-                    <option value="Manchester">Manchester & North West</option>
-                    <option value="Bristol">Bristol & South West</option>
-                    <option value="Edinburgh">Edinburgh & Scotland</option>
-                    <option value="Leeds">Leeds & Yorkshire</option>
-                    <option value="Other">Other UK Mainland</option>
+                    <option value="Amsterdam">Amsterdam &amp; North Holland</option>
+                    <option value="Rotterdam">Rotterdam &amp; South Holland</option>
+                    <option value="The Hague">The Hague (Den Haag)</option>
+                    <option value="Utrecht">Utrecht &amp; Central Region</option>
+                    <option value="Eindhoven">Eindhoven &amp; North Brabant</option>
+                    <option value="Groningen">Groningen &amp; Northern Region</option>
+                    <option value="Other">Other Region in the Netherlands</option>
                   </select>
                 </div>
               </div>
@@ -243,13 +243,12 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
                   onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
                   className="w-full bg-slate-50 border border-slate-200 focus:bg-white focus:border-blue-600 focus:ring-1 focus:ring-blue-600 rounded-xl px-3.5 py-2.5 text-slate-900 focus:outline-none transition-all cursor-pointer font-medium"
                 >
-                  <option value="Cycle to Work Scheme Voucher">Cycle to Work Scheme Voucher (Cyclescheme / GCI / Vivup)</option>
-                  <option value="Sales & Bike Selection Advice">Sales & Bike Selection Advice (Commuter / Folding / Cargo)</option>
-                  <option value="Book Birmingham Test Ride">Book a Test Ride at Birmingham Showroom</option>
-                  <option value="Cytech Workshop & Service">Cytech Workshop Service & Annual Inspection</option>
-                  <option value="Order Tracking & Delivery">Order Tracking & DPD / DX Shipping Update</option>
-                  <option value="Warranty & Technical Support">2-Year UK Warranty & Replacement Parts</option>
-                  <option value="General Corporate Commute Query">General / Corporate Fleet Enquiry</option>
+                  <option value="Sales & Bike Selection Advice">Sales &amp; Bike Selection Advice (Motocross / Enduro / e-MTB)</option>
+                  <option value="Book Amsterdam Test Ride">Book a Test Ride at Amsterdam Showroom</option>
+                  <option value="Technical Workshop & Service">Technical Workshop Service &amp; Annual Inspection</option>
+                  <option value="Order Tracking & Delivery">Order Tracking &amp; PostNL / DHL Shipping Update</option>
+                  <option value="Warranty & Replacement Parts">2-Year Warranty &amp; Original Spare Parts</option>
+                  <option value="General Corporate Query">General / B2B &amp; Fietsplan WKR Enquiry</option>
                 </select>
               </div>
 
@@ -258,7 +257,7 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
                 <textarea
                   required
                   rows={4}
-                  placeholder="Please describe your commuting requirements, scheme provider, or questions..."
+                  placeholder="Please describe your riding requirements, model preferences, or questions..."
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   className="w-full bg-slate-50 border border-slate-200 focus:bg-white focus:border-blue-600 focus:ring-1 focus:ring-blue-600 rounded-xl px-3.5 py-2.5 text-slate-900 placeholder:text-slate-400 focus:outline-none transition-all"
@@ -271,63 +270,65 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
                 className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3.5 px-6 rounded-xl transition-all shadow-xs flex items-center justify-center gap-2 cursor-pointer"
               >
                 <Send className="w-4 h-4" />
-                <span>{isSending ? 'Transmitting Enquiry...' : 'Submit Message to UK Technical Team'}</span>
+                <span>{isSending ? 'Transmitting Enquiry...' : 'Submit Message to Netherlands Specialist Team'}</span>
               </button>
             </form>
           )}
         </div>
 
-        {/* UK Physical Locations & Workshop Info (5 Cols) */}
+        {/* Netherlands Physical Locations & Workshop Info (5 Cols) */}
         <div className="lg:col-span-5 space-y-4">
           <div className="bg-white border border-slate-200/90 rounded-3xl p-6 shadow-xs space-y-4">
             <h2 className="text-lg font-bold text-slate-900 font-heading flex items-center gap-2">
               <MapPin className="w-5 h-5 text-blue-600" />
-              <span>UK Central Hub & Showrooms</span>
+              <span>Netherlands Showrooms &amp; Service Hubs</span>
             </h2>
 
-            {/* Birmingham */}
+            {/* Amsterdam */}
             <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-1.5">
               <div className="flex items-center justify-between">
-                <span className="font-bold text-slate-900 text-xs">Birmingham Central Workshop & PDI</span>
+                <span className="font-bold text-slate-900 text-xs">Amsterdam Flagship Showroom &amp; Workshop</span>
                 <span className="bg-blue-50 text-blue-700 border border-blue-200 text-[10px] font-bold px-1.5 py-0.5 rounded">HQ Hub</span>
               </div>
               <p className="text-xs text-slate-600">
-                42 Innovation Way, Digbeth, Birmingham, B5 5TH
+                Keizersgracht 482, 1017 EG Amsterdam, Netherlands
               </p>
               <div className="text-[11px] text-slate-500 pt-1 flex items-center gap-2">
-                <span>Tel: 0121 496 0880</span>
+                <span>Tel: +31 20 808 4410</span>
                 <span>•</span>
                 <span className="text-emerald-700 font-semibold">Test rides available daily</span>
               </div>
             </div>
 
-            {/* London */}
+            {/* Rotterdam */}
             <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-1.5">
               <div className="flex items-center justify-between">
-                <span className="font-bold text-slate-900 text-xs">London Experience & Partner Hub</span>
-                <span className="bg-slate-200 text-slate-700 text-[10px] font-bold px-1.5 py-0.5 rounded">Partner</span>
-              </div>
-              <p className="text-xs text-slate-600">
-                18 Tabernacle Street, Shoreditch, London, EC2A 4LU
-              </p>
-              <div className="text-[11px] text-slate-500 pt-1 flex items-center gap-2">
-                <span>Tel: 0207 946 0192</span>
-                <span>•</span>
-                <span>Tube: Moorgate / Old Street</span>
-              </div>
-            </div>
-
-            {/* Manchester */}
-            <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-1.5">
-              <div className="flex items-center justify-between">
-                <span className="font-bold text-slate-900 text-xs">Manchester & North West Service Hub</span>
+                <span className="font-bold text-slate-900 text-xs">Rotterdam Service &amp; Logistics Hub</span>
                 <span className="bg-slate-200 text-slate-700 text-[10px] font-bold px-1.5 py-0.5 rounded">Service</span>
               </div>
               <p className="text-xs text-slate-600">
-                Unit 4, Great Ancoats Street, Manchester, M4 5AB
+                Schiedamsedijk 74, 3011 EN Rotterdam, Netherlands
               </p>
-              <div className="text-[11px] text-slate-500 pt-1">
-                <span>Cytech Level 3 Service & Warranty Repairs</span>
+              <div className="text-[11px] text-slate-500 pt-1 flex items-center gap-2">
+                <span>Tel: +31 10 808 4412</span>
+                <span>•</span>
+                <span>Fast express pick-up</span>
+              </div>
+            </div>
+
+            {/* Eindhoven */}
+            <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-1.5">
+              <div className="flex items-center justify-between">
+                <span className="font-bold text-slate-900 text-xs">Eindhoven Tech &amp; MX Depot</span>
+                <span className="bg-slate-200 text-slate-700 text-[10px] font-bold px-1.5 py-0.5 rounded">Depot</span>
+              </div>
+              <p className="text-xs text-slate-600">
+                Torenallee 20, 5617 BC Eindhoven, Netherlands
+              </p>
+              <div className="text-[11px] text-slate-500 pt-1 flex items-center gap-2">
+                <span>Tel: +31 40 808 4415</span>
+                <span>•</span>
+                <span>Battery diagnostics &amp; parts hub</span>
               </div>
             </div>
           </div>
@@ -339,7 +340,7 @@ export const ContactUs: React.FC<ContactUsProps> = ({ onNavigateToView }) => {
               <span>Looking for Quick Answers?</span>
             </h3>
             <p className="text-xs text-slate-700 leading-relaxed">
-              Check out our 30-Day UK Test Ride trial, Cycle to Work tax calculator, and EAPC regulatory guidance directly in the store.
+              Check out our 30-Day Netherlands Test Ride trial, Dutch Fietsplan (WKR) tax calculator, and RDW / EN 15194 regulatory guidance directly in the store.
             </p>
             {onNavigateToView && (
               <div className="flex flex-wrap gap-2 pt-1">

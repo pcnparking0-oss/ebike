@@ -97,22 +97,24 @@ export const Header: React.FC<HeaderProps> = ({
       onSelectView('shop');
     }
   };
-  const UK_CITIES = [
-    'All UK',
-    'London',
-    'Birmingham',
-    'Manchester',
-    'Leeds',
-    'Glasgow',
-    'Bristol',
-    'Sheffield',
-    'Liverpool',
-    'Edinburgh',
-    'Cardiff',
-    'Belfast',
-    'Newcastle',
-    'Nottingham'
+  const DUTCH_CITIES = [
+    'All Netherlands',
+    'Amsterdam',
+    'Rotterdam',
+    'The Hague',
+    'Utrecht',
+    'Eindhoven',
+    'Groningen',
+    'Tilburg',
+    'Almere',
+    'Breda',
+    'Nijmegen',
+    'Haarlem',
+    'Arnhem',
+    'Maastricht'
   ];
+  const LITHUANIAN_CITIES = DUTCH_CITIES;
+  const UK_CITIES = DUTCH_CITIES;
 
   const NAV_ITEMS: { id: ViewMode; label: string; href: string; icon: React.ComponentType<{ className?: string }> }[] = [
     { id: 'home', label: 'Home page', href: '/', icon: Home },
@@ -126,20 +128,20 @@ export const Header: React.FC<HeaderProps> = ({
 
   return (
     <header className="sticky top-0 z-40 w-full border-b border-slate-200/90 bg-white/95 backdrop-blur-md shadow-xs">
-      {/* UK Trust & Regulatory Top Bar */}
+      {/* Netherlands Trust & Regulatory Top Bar */}
       <div className="bg-slate-950 text-slate-300 text-xs py-2 px-4 border-b border-slate-800/80">
         <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-3">
           <div className="flex items-center gap-4 flex-wrap text-[11px] sm:text-xs">
             <span className="flex items-center gap-1.5 text-emerald-400 font-semibold tracking-tight">
-              <span className="text-sm">🇬🇧</span> Free UK Mainland 24-48h Delivery & In-Stock Guarantee
+              <span className="text-sm">🇳🇱</span> Free Netherlands 24-48h Delivery & In-Stock Guarantee
             </span>
             <span className="hidden md:inline-flex items-center gap-1.5 text-slate-300 font-medium">
               <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
-              Official UK Dealer: Sur-Ron • Talaria • Stark Varg • E-Ride Pro
+              Official Netherlands Dealer: Sur-Ron • Talaria • Stark Varg • E-Ride Pro
             </span>
             <span className="hidden lg:inline-flex items-center gap-1.5 text-amber-300 font-medium">
               <Zap className="w-3.5 h-3.5 text-amber-400" />
-              0% Finance & Klarna Available • 2-Year UK Warranty
+              iDEAL, Klarna & 0% Finance • 2-Year Warranty
             </span>
           </div>
 
@@ -149,12 +151,12 @@ export const Header: React.FC<HeaderProps> = ({
               <span className="text-[11px] font-medium text-slate-400">Local Hub:</span>
               <select
                 id="city-switcher-select"
-                aria-label="Filter by UK City"
+                aria-label="Filter by Dutch City"
                 value={selectedCity}
                 onChange={(e) => onSelectCity(e.target.value)}
                 className="bg-slate-900 border border-slate-700/80 text-slate-100 text-xs rounded-md px-2.5 py-1 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 cursor-pointer transition-colors"
               >
-                {UK_CITIES.map((c) => (
+                {DUTCH_CITIES.map((c) => (
                   <option key={c} value={c}>
                     {c}
                   </option>
@@ -163,7 +165,7 @@ export const Header: React.FC<HeaderProps> = ({
             </div>
             <span className="text-slate-700">|</span>
             <span className="text-[11px] text-slate-400 font-mono hidden sm:inline">
-              UK VAT: GB 894 1209 44
+              BTW: NL863412098B01
             </span>
           </div>
         </div>
@@ -190,13 +192,13 @@ export const Header: React.FC<HeaderProps> = ({
             />
           </div>
           <div className="min-w-0">
-            <div className="flex items-center gap-1.5">
+            <div className="flex items-center gap-1.5" data-no-translate="true">
               <span className="text-lg sm:text-xl font-extrabold tracking-tight text-slate-950 font-heading">
                 DIRT<span className="text-blue-600">VOLT</span>
               </span>
             </div>
             <p className="text-[9.5px] sm:text-[11px] text-slate-500 font-medium tracking-tight leading-tight block">
-              Official Electric Dirt Bikes, Motocross & High-Performance e-MTB Store
+              Official Netherlands Electric Dirt Bikes, Talaria &amp; Sur-Ron Store
             </p>
           </div>
         </a>
@@ -315,7 +317,7 @@ export const Header: React.FC<HeaderProps> = ({
                             ⚡ Electric Quads
                           </span>
                           <span className="hidden sm:inline-block text-[10px] bg-amber-500/20 text-amber-300 border border-amber-500/30 px-2 py-0.5 rounded-full font-mono">
-                            volttrail.org Dropdown Menu Spec
+                            Official Netherlands Range
                           </span>
                         </div>
                         <a
@@ -331,7 +333,7 @@ export const Header: React.FC<HeaderProps> = ({
                         </a>
                       </div>
 
-                      {/* 3 Columns exact layout from volttrail.org */}
+                      {/* 3 Columns Electric Quads layout */}
                       <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 sm:gap-6">
                         {/* Col 1: By Rider */}
                         <div className="space-y-3">
@@ -474,15 +476,15 @@ export const Header: React.FC<HeaderProps> = ({
                         </div>
                       </div>
 
-                      {/* Footer guarantee bar matching UK stock guarantees */}
+                      {/* Footer guarantee bar matching NL stock guarantees */}
                       <div className="mt-4 pt-3 border-t border-slate-800/80 flex flex-wrap items-center justify-between text-[11px] text-slate-400 gap-2">
                         <span className="flex items-center gap-1.5 text-slate-300">
                           <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
-                          Next-Day UK Dispatch Available on In-Stock Quads
+                          Next-Day Netherlands Dispatch Available on In-Stock Quads
                         </span>
                         <span className="flex items-center gap-1.5 text-slate-300">
                           <Zap className="w-3.5 h-3.5 text-amber-400" />
-                          0% Interest-Free Finance via Klarna & Clearpay
+                          iDEAL, Klarna & 0% Interest-Free Finance
                         </span>
                       </div>
                     </div>
@@ -655,11 +657,11 @@ export const Header: React.FC<HeaderProps> = ({
                           <div className="pt-2 border-t border-slate-800/80 space-y-1.5 text-[11px] text-slate-400">
                             <div className="flex items-center gap-2 text-slate-300">
                               <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
-                              <span>Next-Day UK Dispatch on In-Stock Quads</span>
+                              <span>Next-Day Netherlands Dispatch on In-Stock Quads</span>
                             </div>
                             <div className="flex items-center gap-2 text-slate-300">
                               <Zap className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-                              <span>0% Finance with Klarna & Clearpay</span>
+                              <span>iDEAL, Klarna & 0% Interest-Free Finance</span>
                             </div>
                           </div>
                         </div>

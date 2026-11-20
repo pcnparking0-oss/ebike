@@ -1,4 +1,4 @@
-// All 155 authentic products from volttrail.org (53 bikes + 9 quads + 93 parts & accessories)
+// All 155 authentic products for DirtVolt Netherlands (53 bikes + 9 quads + 93 parts & accessories)
 import { Product } from '../../types';
 
 export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
@@ -7,8 +7,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "ultra-bee",
     "name": "Ultra Bee MX 2025",
     "brand": "Sur-Ron",
-    "subtitle": "Sur-Ron • 11kW peak • 55mph • 50mi range",
-    "tagline": "11kW peak | 55mph | 50mi range",
+    "subtitle": "Sur-Ron • 11kW peak • 88 km/h • 80 km range",
+    "tagline": "11kW peak | 88 km/h | 80 km range",
     "category": "Electric Dirt Bikes",
     "priceGBP": 4999,
     "rrpGBP": 4999,
@@ -23,18 +23,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-ultra-bee.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "The Sur-Ron Ultra Bee MX 2025 is the do-it-all mid-weight electric dirt bike, delivering 11kW peak power, around 55mph and up to 50 miles of range. A favourite step-up for adult riders who have outgrown the Light Bee X.",
-    "metaTitle": "Ultra Bee MX 2025 | Sur-Ron – VoltTrail UK",
-    "metaDescription": "Ultra Bee MX 2025 by Sur-Ron. £4,999 at VoltTrail. Free UK delivery and finance available.",
+    "description": "The Sur-Ron Ultra Bee MX 2025 is the do-it-all mid-weight electric dirt bike, delivering 11kW peak power, around 88 km/h and up to 80 km of range. A favourite step-up for adult riders who have outgrown the Light Bee X.",
+    "metaTitle": "Ultra Bee MX 2025 | Sur-Ron – DirtVolt Netherlands",
+    "metaDescription": "Ultra Bee MX 2025 by Sur-Ron. €4,999 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 3850,
       "batteryBrand": "Sur-Ron High-Discharge Li-Ion",
-      "rangeMiles": "Up to 50 miles",
+      "rangeMiles": "Up to 80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -61,27 +61,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Ultra Bee MX 2025 road legal in the UK?",
-        "answer": "The Ultra Bee MX 2025 is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Ultra Bee MX 2025 road legal in the Netherlands?",
+        "answer": "The Ultra Bee MX 2025 is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Ultra Bee MX 2025 go?",
-        "answer": "Depending on rider weight and terrain, it reaches 55mph."
+        "answer": "Depending on rider weight and terrain, it reaches 88 km/h."
       },
       {
         "question": "What warranty is included with the Ultra Bee MX 2025?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -95,8 +96,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     ],
     "specs": [
       "11kW peak",
-      "55mph",
-      "50mi range"
+      "88 km/h",
+      "80 km range"
     ],
     "colours": [
       {
@@ -116,7 +117,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Racing Red"
       }
     ],
-    "finance": "~£139/mo",
+    "finance": "~€139/mo",
     "type": "bike"
   },
   {
@@ -124,8 +125,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "lbx",
     "name": "Light Bee X (LBX)",
     "brand": "Sur-Ron",
-    "subtitle": "Sur-Ron • 6kW peak • 45mph • 47mi range",
-    "tagline": "6kW peak | 45mph | 47mi range",
+    "subtitle": "Sur-Ron • 6kW peak • 72 km/h • 76 km range",
+    "tagline": "6kW peak | 72 km/h | 76 km range",
     "category": "Electric Dirt Bikes",
     "priceGBP": 3199,
     "rrpGBP": 3199,
@@ -140,18 +141,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-lbx.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "The Sur-Ron Light Bee X (LBX) is the UK's best-selling electric dirt bike. 6kW peak power, ~45mph, 47-mile range. Lightweight, agile and endlessly upgradeable — perfect for trails, pit-bike racing and backyard riding. Also sold as the Sur-Ron Light Bee X 2026. The LBX is compatible with 60V and 72V upgrade batteries from eWatt, DHS and Chi Battery Systems.",
-    "metaTitle": "Light Bee X (LBX) | Sur-Ron – VoltTrail UK",
-    "metaDescription": "Light Bee X (LBX) by Sur-Ron. £3,199 at VoltTrail. Free UK delivery and finance available.",
+    "description": "The Sur-Ron Light Bee X (LBX) is the Netherlands' best-selling electric dirt bike. 6kW peak power, ~72 km/h, 76 km range. Lightweight, agile and endlessly upgradeable — perfect for trails, pit-bike racing and backyard riding. Also sold as the Sur-Ron Light Bee X 2026. The LBX is compatible with 60V and 72V upgrade batteries from eWatt, DHS and Chi Battery Systems.",
+    "metaTitle": "Light Bee X (LBX) | Sur-Ron – DirtVolt Netherlands",
+    "metaDescription": "Light Bee X (LBX) by Sur-Ron. €3,199 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2100,
       "batteryBrand": "Sur-Ron High-Discharge Li-Ion",
-      "rangeMiles": "Up to 47 miles",
+      "rangeMiles": "Up to 76 km",
       "maxRangeMiles": 47,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -178,27 +179,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Light Bee X (LBX) road legal in the UK?",
-        "answer": "The Light Bee X (LBX) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Light Bee X (LBX) road legal in the Netherlands?",
+        "answer": "The Light Bee X (LBX) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Light Bee X (LBX) go?",
-        "answer": "Depending on rider weight and terrain, it reaches 45mph."
+        "answer": "Depending on rider weight and terrain, it reaches 72 km/h."
       },
       {
         "question": "What warranty is included with the Light Bee X (LBX)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -211,8 +213,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     ],
     "specs": [
       "6kW peak",
-      "45mph",
-      "47mi range"
+      "72 km/h",
+      "76 km range"
     ],
     "colours": [
       {
@@ -232,7 +234,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Stealth Black"
       }
     ],
-    "finance": "~£89/mo",
+    "finance": "~€89/mo",
     "type": "bike"
   },
   {
@@ -240,8 +242,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "lbx-road",
     "name": "Light Bee L1e – Road Legal",
     "brand": "Sur-Ron",
-    "subtitle": "Sur-Ron • 6kW peak • 28mph restricted • L1e road legal",
-    "tagline": "6kW peak | 28mph restricted | L1e road legal",
+    "subtitle": "Sur-Ron • 6kW peak • 45 km/h restricted • L1e road legal",
+    "tagline": "6kW peak | 45 km/h restricted | L1e road legal",
     "category": "Road-Legal Electric Dirt Bikes",
     "priceGBP": 3499,
     "rrpGBP": 3499,
@@ -256,18 +258,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-lbx-road.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "The Sur-Ron Light Bee L1e is the road-legal version of the legendary Light Bee, type-approved for UK roads. Restricted to 28mph, it needs L-plates, insurance and a CBT, making it ideal for 16+ riders. The road-legal Sur-Ron L1e — sometimes called the Surron road legal or Sur-Ron L1e — qualifies as a moped-class vehicle. Surron road legal riders need a CBT, insurance and road-legal tyres.",
-    "metaTitle": "Light Bee L1e – Road Legal | Sur-Ron – VoltTrail UK",
-    "metaDescription": "Light Bee L1e – Road Legal by Sur-Ron. £3,499 at VoltTrail. Free UK delivery and finance available.",
+    "description": "The Sur-Ron Light Bee L1e is the road-legal version of the legendary Light Bee, RDW type-approved for Dutch roads. Restricted to 45 km/h, it needs a yellow RDW kenteken, WA insurance and an AM moped licence, making it ideal for 16+ riders. The road-legal Sur-Ron L1e — sometimes called the Surron road legal or Sur-Ron L1e — qualifies as a moped-class vehicle. Surron road legal riders need an AM moped licence, WA insurance, yellow plate and road-legal tyres.",
+    "metaTitle": "Light Bee L1e – Road Legal | Sur-Ron – DirtVolt Netherlands",
+    "metaDescription": "Light Bee L1e – Road Legal by Sur-Ron. €3,499 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2100,
       "batteryBrand": "Sur-Ron High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -290,31 +292,32 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "throttleType": "Full Throttle (Requires L1e-A registration)",
       "minimumRiderAge": 16,
       "en15194Certified": true,
-      "ukRoadLegalStatus": "UK Road-Legal L1e-B / Moped (DVLA Registered)"
+      "ukRoadLegalStatus": "NL Road-Legal L1e-B / Moped (RDW Registered)"
     },
     "paaFaqs": [
       {
-        "question": "Is the Light Bee L1e – Road Legal road legal in the UK?",
-        "answer": "Yes, the Light Bee L1e – Road Legal is L1e type-approved and 100% legal for UK road use with CBT/moped licence, helmet, and registration."
+        "question": "Is the Light Bee L1e – Road Legal road legal in the Netherlands?",
+        "answer": "Yes, the Light Bee L1e – Road Legal is L1e type-approved and 100% legal for Netherlands road use with AM moped licence, yellow RDW kenteken, WA insurance, and helmet."
       },
       {
         "question": "How fast does the Light Bee L1e – Road Legal go?",
-        "answer": "Depending on rider weight and terrain, it reaches 28mph restricted."
+        "answer": "Depending on rider weight and terrain, it reaches 45 km/h restricted."
       },
       {
         "question": "What warranty is included with the Light Bee L1e – Road Legal?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -328,7 +331,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     ],
     "specs": [
       "6kW peak",
-      "28mph restricted",
+      "45 km/h restricted",
       "L1e road legal"
     ],
     "colours": [
@@ -341,7 +344,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Stealth Black"
       }
     ],
-    "finance": "~£97/mo",
+    "finance": "~€97/mo",
     "type": "bike"
   },
   {
@@ -349,8 +352,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "storm-bee",
     "name": "Storm Bee",
     "brand": "Sur-Ron",
-    "subtitle": "Sur-Ron • 21.5kW peak • 68mph • 60mi range",
-    "tagline": "21.5kW peak | 68mph | 60mi range",
+    "subtitle": "Sur-Ron • 21.5kW peak • 109 km/h • 97 km range",
+    "tagline": "21.5kW peak | 109 km/h | 97 km range",
     "category": "Electric Dirt Bikes",
     "priceGBP": 7999,
     "rrpGBP": 7999,
@@ -365,18 +368,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-storm-bee.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "The Sur-Ron Storm Bee is a full-size electric motocross machine and a genuine 1:1 replacement for a 250-350cc petrol bike, with 21.5kW peak power, around 68mph and up to 60 miles of range.",
-    "metaTitle": "Storm Bee | Sur-Ron – VoltTrail UK",
-    "metaDescription": "Storm Bee by Sur-Ron. £7,999 at VoltTrail. Free UK delivery and finance available.",
+    "description": "The Sur-Ron Storm Bee is a full-size electric motocross machine and a genuine 1:1 replacement for a 250-350cc petrol bike, with 21.5kW peak power, around 109 km/h and up to 97 km of range.",
+    "metaTitle": "Storm Bee | Sur-Ron – DirtVolt Netherlands",
+    "metaDescription": "Storm Bee by Sur-Ron. €7,999 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 7525,
       "batteryBrand": "Sur-Ron High-Discharge Li-Ion",
-      "rangeMiles": "Up to 60 miles",
+      "rangeMiles": "Up to 97 km",
       "maxRangeMiles": 60,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -403,27 +406,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Storm Bee road legal in the UK?",
-        "answer": "The Storm Bee is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Storm Bee road legal in the Netherlands?",
+        "answer": "The Storm Bee is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Storm Bee go?",
-        "answer": "Depending on rider weight and terrain, it reaches 68mph."
+        "answer": "Depending on rider weight and terrain, it reaches 109 km/h."
       },
       {
         "question": "What warranty is included with the Storm Bee?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -436,8 +440,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     ],
     "specs": [
       "21.5kW peak",
-      "68mph",
-      "60mi range"
+      "109 km/h",
+      "97 km range"
     ],
     "colours": [
       {
@@ -449,7 +453,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Red"
       }
     ],
-    "finance": "~£222/mo",
+    "finance": "~€222/mo",
     "type": "bike"
   },
   {
@@ -473,18 +477,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-hyper-bee.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The Sur-Ron Hyper Bee is the brand's youth pit-bike on 14in/12in wheels. Sur-Ron build quality and agile ride feel for younger and smaller riders. Speed-limited and off-road ready. Also known as the mini Sur-Ron or junior Sur-Ron — the Hyper Bee is the lightest Sur-Ron model, designed for younger and lighter riders who want genuine Sur-Ron quality.",
-    "metaTitle": "Hyper Bee 2025 | Sur-Ron – VoltTrail UK",
-    "metaDescription": "Hyper Bee 2025 by Sur-Ron. £2,999 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Hyper Bee 2025 | Sur-Ron – DirtVolt Netherlands",
+    "metaDescription": "Hyper Bee 2025 by Sur-Ron. €2,999 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 280,
       "batteryBrand": "Sur-Ron High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -511,8 +515,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Hyper Bee 2025 road legal in the UK?",
-        "answer": "The Hyper Bee 2025 is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Hyper Bee 2025 road legal in the Netherlands?",
+        "answer": "The Hyper Bee 2025 is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Hyper Bee 2025 go?",
@@ -520,18 +524,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Hyper Bee 2025?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -562,7 +567,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Blue"
       }
     ],
-    "finance": "~£83/mo",
+    "finance": "~€83/mo",
     "type": "bike",
     "age": "Ages 8+"
   },
@@ -571,8 +576,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "talaria-sting-r",
     "name": "Sting R MX4 – Off Road",
     "brand": "Talaria",
-    "subtitle": "Talaria • 8kW peak • 53mph • 53mi range",
-    "tagline": "8kW peak | 53mph | 53mi range",
+    "subtitle": "Talaria • 8kW peak • 85 km/h • 85 km range",
+    "tagline": "8kW peak | 85 km/h | 85 km range",
     "category": "Electric Dirt Bikes",
     "priceGBP": 3735,
     "rrpGBP": 3735,
@@ -587,18 +592,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-talaria-sting-r.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "The Talaria Sting R MX4 is a popular adult off-road electric dirt bike with 8kW peak power, around 53mph and roughly 53 miles of range. Gear-drive delivery and a tough chassis make it a strong Sur-Ron rival.",
-    "metaTitle": "Sting R MX4 – Off Road | Talaria – VoltTrail UK",
-    "metaDescription": "Sting R MX4 – Off Road by Talaria. £3,735 at VoltTrail. Free UK delivery and finance available.",
+    "description": "The Talaria Sting R MX4 is a popular adult off-road electric dirt bike with 8kW peak power, around 85 km/h and roughly 85 km of range. Gear-drive delivery and a tough chassis make it a strong Sur-Ron rival.",
+    "metaTitle": "Sting R MX4 – Off Road | Talaria – DirtVolt Netherlands",
+    "metaDescription": "Sting R MX4 – Off Road by Talaria. €3,735 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2800,
       "batteryBrand": "Talaria High-Discharge Li-Ion",
-      "rangeMiles": "Up to 53 miles",
+      "rangeMiles": "Up to 85 km",
       "maxRangeMiles": 53,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -625,27 +630,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Sting R MX4 – Off Road road legal in the UK?",
-        "answer": "The Sting R MX4 – Off Road is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Sting R MX4 – Off Road road legal in the Netherlands?",
+        "answer": "The Sting R MX4 – Off Road is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Sting R MX4 – Off Road go?",
-        "answer": "Depending on rider weight and terrain, it reaches 53mph."
+        "answer": "Depending on rider weight and terrain, it reaches 85 km/h."
       },
       {
         "question": "What warranty is included with the Sting R MX4 – Off Road?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -658,8 +664,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     ],
     "specs": [
       "8kW peak",
-      "53mph",
-      "53mi range"
+      "85 km/h",
+      "85 km range"
     ],
     "colours": [
       {
@@ -675,7 +681,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Red"
       }
     ],
-    "finance": "~£104/mo",
+    "finance": "~€104/mo",
     "type": "bike"
   },
   {
@@ -683,8 +689,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "talaria-sting-road",
     "name": "Sting L1e – Road Legal",
     "brand": "Talaria",
-    "subtitle": "Talaria • 8kW peak • 28mph L1e • Road legal",
-    "tagline": "8kW peak | 28mph L1e | Road legal",
+    "subtitle": "Talaria • 8kW peak • 45 km/h L1e • Road legal",
+    "tagline": "8kW peak | 45 km/h L1e | Road legal",
     "category": "Road-Legal Electric Dirt Bikes",
     "priceGBP": 3890,
     "rrpGBP": 3890,
@@ -699,18 +705,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-talaria-sting-road.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "The Talaria Sting L1e is the road-legal Sting, type-approved for UK roads at 28mph. It adds lights, indicators, mirrors and a number plate holder so 16+ riders can ride legally with a CBT.",
-    "metaTitle": "Sting L1e – Road Legal | Talaria – VoltTrail UK",
-    "metaDescription": "Sting L1e – Road Legal by Talaria. £3,890 at VoltTrail. Free UK delivery and finance available.",
+    "description": "The Talaria Sting L1e is the road-legal Sting, RDW type-approved for Dutch roads at 45 km/h. It adds lights, indicators, mirrors and a number plate holder so 16+ riders can ride legally with an AM moped licence and yellow RDW plate.",
+    "metaTitle": "Sting L1e – Road Legal | Talaria – DirtVolt Netherlands",
+    "metaDescription": "Sting L1e – Road Legal by Talaria. €3,890 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2800,
       "batteryBrand": "Talaria High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -733,31 +739,32 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "throttleType": "Full Throttle (Requires L1e-A registration)",
       "minimumRiderAge": 16,
       "en15194Certified": true,
-      "ukRoadLegalStatus": "UK Road-Legal L1e-B / Moped (DVLA Registered)"
+      "ukRoadLegalStatus": "NL Road-Legal L1e-B / Moped (RDW Registered)"
     },
     "paaFaqs": [
       {
-        "question": "Is the Sting L1e – Road Legal road legal in the UK?",
-        "answer": "Yes, the Sting L1e – Road Legal is L1e type-approved and 100% legal for UK road use with CBT/moped licence, helmet, and registration."
+        "question": "Is the Sting L1e – Road Legal road legal in the Netherlands?",
+        "answer": "Yes, the Sting L1e – Road Legal is L1e type-approved and 100% legal for Netherlands road use with AM moped licence, yellow RDW kenteken, WA insurance, and helmet."
       },
       {
         "question": "How fast does the Sting L1e – Road Legal go?",
-        "answer": "Depending on rider weight and terrain, it reaches 28mph L1e."
+        "answer": "Depending on rider weight and terrain, it reaches 45 km/h L1e."
       },
       {
         "question": "What warranty is included with the Sting L1e – Road Legal?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -771,7 +778,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     ],
     "specs": [
       "8kW peak",
-      "28mph L1e",
+      "45 km/h L1e",
       "Road legal"
     ],
     "colours": [
@@ -784,7 +791,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Black"
       }
     ],
-    "finance": "~£108/mo",
+    "finance": "~€108/mo",
     "type": "bike"
   },
   {
@@ -808,18 +815,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-talaria-mx5.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The Talaria Sting MX5 Pro steps up to a 72V 40Ah battery for a substantial power and range boost over 60V models. Talaria's most potent Sting, built for demanding off-road riding. Also known as the Talaria Sting Pro or Talaria Sting R Pro — the MX5 Pro is the 72V flagship of the Sting range.",
-    "metaTitle": "Sting MX5 Pro – 72V | Talaria – VoltTrail UK",
-    "metaDescription": "Sting MX5 Pro – 72V by Talaria. £3,995 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Sting MX5 Pro – 72V | Talaria – DirtVolt Netherlands",
+    "metaDescription": "Sting MX5 Pro – 72V by Talaria. €3,995 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2100,
       "batteryBrand": "Talaria High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -846,8 +853,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Sting MX5 Pro – 72V road legal in the UK?",
-        "answer": "The Sting MX5 Pro – 72V is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Sting MX5 Pro – 72V road legal in the Netherlands?",
+        "answer": "The Sting MX5 Pro – 72V is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Sting MX5 Pro – 72V go?",
@@ -855,18 +862,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Sting MX5 Pro – 72V?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -892,7 +900,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Black"
       }
     ],
-    "finance": "~£111/mo",
+    "finance": "~€111/mo",
     "type": "bike"
   },
   {
@@ -916,18 +924,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-talaria-x3.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The Talaria X3 (also known as the XXX) features a distinctive frame-spanning 60V battery design and a lightweight chassis, offering precise handling for off-road adventures.",
-    "metaTitle": "X3 (XXX) | Talaria – VoltTrail UK",
-    "metaDescription": "X3 (XXX) by Talaria. £3,235 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "X3 (XXX) | Talaria – DirtVolt Netherlands",
+    "metaDescription": "X3 (XXX) by Talaria. €3,235 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2100,
       "batteryBrand": "Talaria High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -954,8 +962,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the X3 (XXX) road legal in the UK?",
-        "answer": "The X3 (XXX) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the X3 (XXX) road legal in the Netherlands?",
+        "answer": "The X3 (XXX) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the X3 (XXX) go?",
@@ -963,18 +971,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the X3 (XXX)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -1000,7 +1009,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Blue"
       }
     ],
-    "finance": "~£90/mo",
+    "finance": "~€90/mo",
     "type": "bike"
   },
   {
@@ -1008,8 +1017,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "talaria-komodo",
     "name": "Komodo TL6000",
     "brand": "Talaria",
-    "subtitle": "Talaria • 22kW peak • 66mph • 70mi range",
-    "tagline": "22kW peak | 66mph | 70mi range",
+    "subtitle": "Talaria • 22kW peak • 106 km/h • 113 km range",
+    "tagline": "22kW peak | 106 km/h | 113 km range",
     "category": "Electric Dirt Bikes",
     "priceGBP": 5495,
     "rrpGBP": 5495,
@@ -1024,18 +1033,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-talaria-komodo.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "The Talaria Komodo TL6000 is a high-power electric dirt bike with 22kW peak power, around 66mph and up to 70 miles of range — Talaria's answer to high-end electric performance bikes.",
-    "metaTitle": "Komodo TL6000 | Talaria – VoltTrail UK",
-    "metaDescription": "Komodo TL6000 by Talaria. £5,495 at VoltTrail. Free UK delivery and finance available.",
+    "description": "The Talaria Komodo TL6000 is a high-power electric dirt bike with 22kW peak power, around 106 km/h and up to 113 km of range — Talaria's answer to high-end electric performance bikes.",
+    "metaTitle": "Komodo TL6000 | Talaria – DirtVolt Netherlands",
+    "metaDescription": "Komodo TL6000 by Talaria. €5,495 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 7700,
       "batteryBrand": "Talaria High-Discharge Li-Ion",
-      "rangeMiles": "Up to 70 miles",
+      "rangeMiles": "Up to 113 km",
       "maxRangeMiles": 70,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -1062,27 +1071,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Komodo TL6000 road legal in the UK?",
-        "answer": "The Komodo TL6000 is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Komodo TL6000 road legal in the Netherlands?",
+        "answer": "The Komodo TL6000 is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Komodo TL6000 go?",
-        "answer": "Depending on rider weight and terrain, it reaches 66mph."
+        "answer": "Depending on rider weight and terrain, it reaches 106 km/h."
       },
       {
         "question": "What warranty is included with the Komodo TL6000?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -1095,8 +1105,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     ],
     "specs": [
       "22kW peak",
-      "66mph",
-      "70mi range"
+      "106 km/h",
+      "113 km range"
     ],
     "colours": [
       {
@@ -1108,7 +1118,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Blue"
       }
     ],
-    "finance": "~£153/mo",
+    "finance": "~€153/mo",
     "type": "bike"
   },
   {
@@ -1132,18 +1142,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-stark-mx.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The Stark Varg MX 1.2 is the world's most powerful electric motocross bike: up to 80HP, 7.2kWh battery, KYB suspension and a lighter chassis with around 20% more range than the previous generation.",
-    "metaTitle": "Varg MX 1.2 | Stark Varg – VoltTrail UK",
-    "metaDescription": "Varg MX 1.2 by Stark Varg. £10,490 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Varg MX 1.2 | Stark Varg – DirtVolt Netherlands",
+    "metaDescription": "Varg MX 1.2 by Stark Varg. €10,490 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 21000,
       "batteryBrand": "Stark Varg High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -1170,8 +1180,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Varg MX 1.2 road legal in the UK?",
-        "answer": "The Varg MX 1.2 is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Varg MX 1.2 road legal in the Netherlands?",
+        "answer": "The Varg MX 1.2 is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Varg MX 1.2 go?",
@@ -1179,18 +1189,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Varg MX 1.2?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -1220,7 +1231,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Black"
       }
     ],
-    "finance": "~£291/mo",
+    "finance": "~€291/mo",
     "type": "bike"
   },
   {
@@ -1228,8 +1239,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "stark-ex",
     "name": "Varg EX – Road Legal",
     "brand": "Stark Varg",
-    "subtitle": "Stark Varg • 60kW / 80HP • Road legal • 73mi range",
-    "tagline": "60kW / 80HP | Road legal | 73mi range",
+    "subtitle": "Stark Varg • 60kW / 80HP • Road legal • 117 km range",
+    "tagline": "60kW / 80HP | Road legal | 117 km range",
     "category": "Road-Legal Electric Dirt Bikes",
     "priceGBP": 11290,
     "rrpGBP": 11290,
@@ -1244,18 +1255,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-stark-ex.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "The Stark Varg EX is the road-legal version of the Varg, adding UK road approval and an 18in rear wheel for enduro use, with up to 80HP of fully adjustable electric power.",
-    "metaTitle": "Varg EX – Road Legal | Stark Varg – VoltTrail UK",
-    "metaDescription": "Varg EX – Road Legal by Stark Varg. £11,290 at VoltTrail. Free UK delivery and finance available.",
+    "description": "The Stark Varg EX is the road-legal version of the Varg, adding Dutch RDW road approval and an 18in rear wheel for enduro use, with up to 80HP of fully adjustable electric power.",
+    "metaTitle": "Varg EX – Road Legal | Stark Varg – DirtVolt Netherlands",
+    "metaDescription": "Varg EX – Road Legal by Stark Varg. €11,290 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 21000,
       "batteryBrand": "Stark Varg High-Discharge Li-Ion",
-      "rangeMiles": "Up to 73 miles",
+      "rangeMiles": "Up to 117 km",
       "maxRangeMiles": 73,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -1278,12 +1289,12 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "throttleType": "Full Throttle (Requires L1e-A registration)",
       "minimumRiderAge": 16,
       "en15194Certified": true,
-      "ukRoadLegalStatus": "UK Road-Legal L1e-B / Moped (DVLA Registered)"
+      "ukRoadLegalStatus": "NL Road-Legal L1e-B / Moped (RDW Registered)"
     },
     "paaFaqs": [
       {
-        "question": "Is the Varg EX – Road Legal road legal in the UK?",
-        "answer": "Yes, the Varg EX – Road Legal is L1e type-approved and 100% legal for UK road use with CBT/moped licence, helmet, and registration."
+        "question": "Is the Varg EX – Road Legal road legal in the Netherlands?",
+        "answer": "Yes, the Varg EX – Road Legal is L1e type-approved and 100% legal for Netherlands road use with AM moped licence, yellow RDW kenteken, WA insurance, and helmet."
       },
       {
         "question": "How fast does the Varg EX – Road Legal go?",
@@ -1291,18 +1302,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Varg EX – Road Legal?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -1317,7 +1329,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "specs": [
       "60kW / 80HP",
       "Road legal",
-      "73mi range"
+      "117 km range"
     ],
     "colours": [
       {
@@ -1329,7 +1341,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Black"
       }
     ],
-    "finance": "~£314/mo",
+    "finance": "~€314/mo",
     "type": "bike"
   },
   {
@@ -1353,18 +1365,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-ktm-sxe5.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The KTM SX-E 5 is an advanced all-electric youth motocross bike with 5kW peak power, a 907Wh battery and fully adjustable WP Xact suspension. A genuine READY TO RACE platform for junior racers.",
-    "metaTitle": "SX-E 5 | KTM – VoltTrail UK",
-    "metaDescription": "SX-E 5 by KTM. £4,999 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "SX-E 5 | KTM – DirtVolt Netherlands",
+    "metaDescription": "SX-E 5 by KTM. €4,999 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 1750,
       "batteryBrand": "KTM High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -1391,8 +1403,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the SX-E 5 road legal in the UK?",
-        "answer": "The SX-E 5 is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the SX-E 5 road legal in the Netherlands?",
+        "answer": "The SX-E 5 is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the SX-E 5 go?",
@@ -1400,18 +1412,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the SX-E 5?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -1433,7 +1446,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "KTM Orange"
       }
     ],
-    "finance": "~£139/mo",
+    "finance": "~€139/mo",
     "type": "bike",
     "age": "Ages 8-12"
   },
@@ -1458,18 +1471,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-ktm-sxe3.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The KTM SX-E 3 is the ideal electric mini-crosser for thrill-seeking juniors, with a 3.8kW motor, 648Wh battery and six ride modes — the perfect step up from a balance bike.",
-    "metaTitle": "SX-E 3 | KTM – VoltTrail UK",
-    "metaDescription": "SX-E 3 by KTM. £4,399 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "SX-E 3 | KTM – DirtVolt Netherlands",
+    "metaDescription": "SX-E 3 by KTM. €4,399 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 1330,
       "batteryBrand": "KTM High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -1496,8 +1509,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the SX-E 3 road legal in the UK?",
-        "answer": "The SX-E 3 is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the SX-E 3 road legal in the Netherlands?",
+        "answer": "The SX-E 3 is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the SX-E 3 go?",
@@ -1505,18 +1518,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the SX-E 3?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -1538,7 +1552,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "KTM Orange"
       }
     ],
-    "finance": "~£122/mo",
+    "finance": "~€122/mo",
     "type": "bike",
     "age": "Ages 6-9"
   },
@@ -1563,18 +1577,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-ktm-sxe2.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The KTM SX-E 2 bridges the gap between a balance bike and the SX-E 3. On 10in wheels with adjustable ergonomics, it is the ideal first electric motorcycle for the youngest riders.",
-    "metaTitle": "SX-E 2 | KTM – VoltTrail UK",
-    "metaDescription": "SX-E 2 by KTM. £3,799 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "SX-E 2 | KTM – DirtVolt Netherlands",
+    "metaDescription": "SX-E 2 by KTM. €3,799 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 280,
       "batteryBrand": "KTM High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -1601,8 +1615,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the SX-E 2 road legal in the UK?",
-        "answer": "The SX-E 2 is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the SX-E 2 road legal in the Netherlands?",
+        "answer": "The SX-E 2 is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the SX-E 2 go?",
@@ -1610,18 +1624,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the SX-E 2?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -1643,7 +1658,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "KTM Orange"
       }
     ],
-    "finance": "~£106/mo",
+    "finance": "~€106/mo",
     "type": "bike",
     "age": "Ages 4-7"
   },
@@ -1652,8 +1667,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "eride-ss",
     "name": "SS 2.0 (19in) – 72V 12kW",
     "brand": "E Ride Pro",
-    "subtitle": "E Ride Pro • 12kW peak • 56mph • 50mi range",
-    "tagline": "12kW peak | 56mph | 50mi range",
+    "subtitle": "E Ride Pro • 12kW peak • 90 km/h • 80 km range",
+    "tagline": "12kW peak | 90 km/h | 80 km range",
     "category": "Electric Dirt Bikes",
     "priceGBP": 4300,
     "rrpGBP": 4300,
@@ -1668,18 +1683,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-eride-ss.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "The E Ride Pro SS 2.0 is a high-value 72V electric dirt bike with 12kW peak power and around 56mph. It sits between the Sur-Ron and Stark Varg price brackets for riders wanting more power affordably.",
-    "metaTitle": "SS 2.0 (19in) – 72V 12kW | E Ride Pro – VoltTrail UK",
-    "metaDescription": "SS 2.0 (19in) – 72V 12kW by E Ride Pro. £4,300 at VoltTrail. Free UK delivery and finance available.",
+    "description": "The E Ride Pro SS 2.0 is a high-value 72V electric dirt bike with 12kW peak power and around 90 km/h. It sits between the Sur-Ron and Stark Varg price brackets for riders wanting more power affordably.",
+    "metaTitle": "SS 2.0 (19in) – 72V 12kW | E Ride Pro – DirtVolt Netherlands",
+    "metaDescription": "SS 2.0 (19in) – 72V 12kW by E Ride Pro. €4,300 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 4200,
       "batteryBrand": "E Ride Pro High-Discharge Li-Ion",
-      "rangeMiles": "Up to 50 miles",
+      "rangeMiles": "Up to 80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -1706,27 +1721,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the SS 2.0 (19in) – 72V 12kW road legal in the UK?",
-        "answer": "The SS 2.0 (19in) – 72V 12kW is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the SS 2.0 (19in) – 72V 12kW road legal in the Netherlands?",
+        "answer": "The SS 2.0 (19in) – 72V 12kW is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the SS 2.0 (19in) – 72V 12kW go?",
-        "answer": "Depending on rider weight and terrain, it reaches 56mph."
+        "answer": "Depending on rider weight and terrain, it reaches 90 km/h."
       },
       {
         "question": "What warranty is included with the SS 2.0 (19in) – 72V 12kW?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -1739,8 +1755,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     ],
     "specs": [
       "12kW peak",
-      "56mph",
-      "50mi range"
+      "90 km/h",
+      "80 km range"
     ],
     "colours": [
       {
@@ -1752,7 +1768,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Black"
       }
     ],
-    "finance": "~£120/mo",
+    "finance": "~€120/mo",
     "type": "bike"
   },
   {
@@ -1776,18 +1792,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-eride-s.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The E Ride Pro S is the 17in, 72V 6kW model in the E Ride Pro range — a more compact, accessible off-road electric dirt bike with strong value.",
-    "metaTitle": "S (17in) – 72V 6kW | E Ride Pro – VoltTrail UK",
-    "metaDescription": "S (17in) – 72V 6kW by E Ride Pro. £3,500 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "S (17in) – 72V 6kW | E Ride Pro – DirtVolt Netherlands",
+    "metaDescription": "S (17in) – 72V 6kW by E Ride Pro. €3,500 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2100,
       "batteryBrand": "E Ride Pro High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -1814,8 +1830,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the S (17in) – 72V 6kW road legal in the UK?",
-        "answer": "The S (17in) – 72V 6kW is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the S (17in) – 72V 6kW road legal in the Netherlands?",
+        "answer": "The S (17in) – 72V 6kW is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the S (17in) – 72V 6kW go?",
@@ -1823,18 +1839,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the S (17in) – 72V 6kW?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -1860,7 +1877,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Black"
       }
     ],
-    "finance": "~£97/mo",
+    "finance": "~€97/mo",
     "type": "bike"
   },
   {
@@ -1884,18 +1901,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-rfn-ares-rally.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The RFN Ares Rally is an award-winning adult off-road electric dirt bike with a 5kW motor, long range and 200mm of suspension travel. Its convertible design adapts from enduro to trail riding tool-free.",
-    "metaTitle": "Ares Rally | RFN – VoltTrail UK",
-    "metaDescription": "Ares Rally by RFN. £3,995 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Ares Rally | RFN – DirtVolt Netherlands",
+    "metaDescription": "Ares Rally by RFN. €3,995 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 1750,
       "batteryBrand": "RFN High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -1922,8 +1939,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Ares Rally road legal in the UK?",
-        "answer": "The Ares Rally is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Ares Rally road legal in the Netherlands?",
+        "answer": "The Ares Rally is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Ares Rally go?",
@@ -1931,18 +1948,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Ares Rally?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -1968,7 +1986,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Black"
       }
     ],
-    "finance": "~£111/mo",
+    "finance": "~€111/mo",
     "type": "bike"
   },
   {
@@ -1992,18 +2010,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-rfn-ares-rally-pro.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The RFN Ares Rally Pro is the race-focused version of the Ares Rally, with a 72V 12.5kW system and top-tier components built for competition and extreme off-road performance.",
-    "metaTitle": "Ares Rally Pro | RFN – VoltTrail UK",
-    "metaDescription": "Ares Rally Pro by RFN. £4,995 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Ares Rally Pro | RFN – DirtVolt Netherlands",
+    "metaDescription": "Ares Rally Pro by RFN. €4,995 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 4375,
       "batteryBrand": "RFN High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -2030,8 +2048,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Ares Rally Pro road legal in the UK?",
-        "answer": "The Ares Rally Pro is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Ares Rally Pro road legal in the Netherlands?",
+        "answer": "The Ares Rally Pro is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Ares Rally Pro go?",
@@ -2039,18 +2057,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Ares Rally Pro?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -2076,7 +2095,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Black"
       }
     ],
-    "finance": "~£139/mo",
+    "finance": "~€139/mo",
     "type": "bike"
   },
   {
@@ -2100,18 +2119,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-rfn-ares-rs.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The RFN Ares RS Endurance is the road-legal L1e model in the Ares range, with a 74V 4kW system designed for comfortable daily commuting with light off-road capability.",
-    "metaTitle": "Ares RS Endurance (L1e) | RFN – VoltTrail UK",
-    "metaDescription": "Ares RS Endurance (L1e) by RFN. £4,295 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Ares RS Endurance (L1e) | RFN – DirtVolt Netherlands",
+    "metaDescription": "Ares RS Endurance (L1e) by RFN. €4,295 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 1400,
       "batteryBrand": "RFN High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -2134,12 +2153,12 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "throttleType": "Full Throttle (Requires L1e-A registration)",
       "minimumRiderAge": 16,
       "en15194Certified": true,
-      "ukRoadLegalStatus": "UK Road-Legal L1e-B / Moped (DVLA Registered)"
+      "ukRoadLegalStatus": "NL Road-Legal L1e-B / Moped (RDW Registered)"
     },
     "paaFaqs": [
       {
-        "question": "Is the Ares RS Endurance (L1e) road legal in the UK?",
-        "answer": "Yes, the Ares RS Endurance (L1e) is L1e type-approved and 100% legal for UK road use with CBT/moped licence, helmet, and registration."
+        "question": "Is the Ares RS Endurance (L1e) road legal in the Netherlands?",
+        "answer": "Yes, the Ares RS Endurance (L1e) is L1e type-approved and 100% legal for Netherlands road use with AM moped licence, yellow RDW kenteken, WA insurance, and helmet."
       },
       {
         "question": "How fast does the Ares RS Endurance (L1e) go?",
@@ -2147,18 +2166,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Ares RS Endurance (L1e)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": false,
     "tags": [
@@ -2184,7 +2204,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Black"
       }
     ],
-    "finance": "~£119/mo",
+    "finance": "~€119/mo",
     "type": "bike"
   },
   {
@@ -2208,18 +2228,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-rfn-warrior-sxe5.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The RFN Warrior Youth SX-E5 is a kids' electric dirt bike for ages 6–10. A balanced mix of power and control with KTM SX-E styling to build young riders' confidence off-road.",
-    "metaTitle": "Warrior Youth SX-E5 | RFN – VoltTrail UK",
-    "metaDescription": "Warrior Youth SX-E5 by RFN. £1,995 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Warrior Youth SX-E5 | RFN – DirtVolt Netherlands",
+    "metaDescription": "Warrior Youth SX-E5 by RFN. €1,995 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 280,
       "batteryBrand": "RFN High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -2246,8 +2266,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Warrior Youth SX-E5 road legal in the UK?",
-        "answer": "The Warrior Youth SX-E5 is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Warrior Youth SX-E5 road legal in the Netherlands?",
+        "answer": "The Warrior Youth SX-E5 is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Warrior Youth SX-E5 go?",
@@ -2255,18 +2275,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Warrior Youth SX-E5?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -2288,7 +2309,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Red"
       }
     ],
-    "finance": "~£55/mo",
+    "finance": "~€55/mo",
     "type": "bike",
     "age": "Ages 6-10"
   },
@@ -2313,18 +2334,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-rfn-warrior-sxe8.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The RFN Warrior Youth SX-E8 is a youth electric dirt bike for older kids, with more performance than the SX-E5 while keeping RFN's core safety technology.",
-    "metaTitle": "Warrior Youth SX-E8 | RFN – VoltTrail UK",
-    "metaDescription": "Warrior Youth SX-E8 by RFN. £2,795 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Warrior Youth SX-E8 | RFN – DirtVolt Netherlands",
+    "metaDescription": "Warrior Youth SX-E8 by RFN. €2,795 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 280,
       "batteryBrand": "RFN High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -2351,8 +2372,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Warrior Youth SX-E8 road legal in the UK?",
-        "answer": "The Warrior Youth SX-E8 is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Warrior Youth SX-E8 road legal in the Netherlands?",
+        "answer": "The Warrior Youth SX-E8 is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Warrior Youth SX-E8 go?",
@@ -2360,18 +2381,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Warrior Youth SX-E8?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -2393,7 +2415,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Red"
       }
     ],
-    "finance": "~£78/mo",
+    "finance": "~€78/mo",
     "type": "bike",
     "age": "Ages 10-14"
   },
@@ -2418,18 +2440,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-revvi-12.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "The Revvi 12in is the UK's best-selling kids' electric balance bike. At just 9kg with two speed settings, it helps children aged 2–6 learn balance and progress to throttle control with confidence.",
-    "metaTitle": "Revvi 12in Kids Electric Balance Bike | Revvi – VoltTrail UK",
-    "metaDescription": "Revvi 12in Kids Electric Balance Bike by Revvi. £325 at VoltTrail. Free UK delivery and finance available.",
+    "description": "The Revvi 12in is the Netherlands' best-selling kids' electric balance bike. At just 9kg with two speed settings, it helps children aged 2–6 learn balance and progress to throttle control with confidence.",
+    "metaTitle": "Revvi 12in Kids Electric Balance Bike | Revvi – DirtVolt Netherlands",
+    "metaDescription": "Revvi 12in Kids Electric Balance Bike by Revvi. €325 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 88,
       "batteryBrand": "Revvi High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -2456,8 +2478,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Revvi 12in Kids Electric Balance Bike road legal in the UK?",
-        "answer": "The Revvi 12in Kids Electric Balance Bike is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Revvi 12in Kids Electric Balance Bike road legal in the Netherlands?",
+        "answer": "The Revvi 12in Kids Electric Balance Bike is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Revvi 12in Kids Electric Balance Bike go?",
@@ -2465,18 +2487,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Revvi 12in Kids Electric Balance Bike?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -2531,18 +2554,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-revvi-16.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The Revvi 16in is a kids' electric balance bike for ages 4–6. 250W motor, three speed settings and larger 16in wheels for a wider variety of terrain. Steps up naturally from the Revvi 12in.",
-    "metaTitle": "Revvi 16in Kids Electric Balance Bike | Revvi – VoltTrail UK",
-    "metaDescription": "Revvi 16in Kids Electric Balance Bike by Revvi. £449 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Revvi 16in Kids Electric Balance Bike | Revvi – DirtVolt Netherlands",
+    "metaDescription": "Revvi 16in Kids Electric Balance Bike by Revvi. €449 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 88,
       "batteryBrand": "Revvi High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -2569,8 +2592,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Revvi 16in Kids Electric Balance Bike road legal in the UK?",
-        "answer": "The Revvi 16in Kids Electric Balance Bike is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Revvi 16in Kids Electric Balance Bike road legal in the Netherlands?",
+        "answer": "The Revvi 16in Kids Electric Balance Bike is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Revvi 16in Kids Electric Balance Bike go?",
@@ -2578,18 +2601,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Revvi 16in Kids Electric Balance Bike?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -2644,18 +2668,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-revvi-16-plus.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The Revvi 16in Plus adds front suspension forks, knobbly tyres and alloy rims to the popular 16in model, giving young riders genuine off-road capability on dirt tracks and pump tracks.",
-    "metaTitle": "Revvi 16in Plus Kids Electric Balance Bike | Revvi – VoltTrail UK",
-    "metaDescription": "Revvi 16in Plus Kids Electric Balance Bike by Revvi. £559 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Revvi 16in Plus Kids Electric Balance Bike | Revvi – DirtVolt Netherlands",
+    "metaDescription": "Revvi 16in Plus Kids Electric Balance Bike by Revvi. €559 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 88,
       "batteryBrand": "Revvi High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -2682,8 +2706,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Revvi 16in Plus Kids Electric Balance Bike road legal in the UK?",
-        "answer": "The Revvi 16in Plus Kids Electric Balance Bike is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Revvi 16in Plus Kids Electric Balance Bike road legal in the Netherlands?",
+        "answer": "The Revvi 16in Plus Kids Electric Balance Bike is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Revvi 16in Plus Kids Electric Balance Bike go?",
@@ -2691,18 +2715,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Revvi 16in Plus Kids Electric Balance Bike?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -2741,8 +2766,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "revvi-18",
     "name": "Revvi 18in Kids Electric Bike",
     "brand": "Revvi",
-    "subtitle": "Revvi • Ages 8-12 • 20mph • Hydraulic discs",
-    "tagline": "Ages 8-12 | 20mph | Hydraulic discs",
+    "subtitle": "Revvi • Ages 8-12 • 32 km/h • Hydraulic discs",
+    "tagline": "Ages 8-12 | 32 km/h | Hydraulic discs",
     "category": "Kids & Youth Electric Dirt Bikes",
     "priceGBP": 849,
     "rrpGBP": 849,
@@ -2757,18 +2782,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-revvi-18.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "The Revvi 18in is a popular step-up electric dirt bike for kids aged 8-12, reaching up to 20mph with hydraulic disc brakes and a lightweight aluminium frame.",
-    "metaTitle": "Revvi 18in Kids Electric Bike | Revvi – VoltTrail UK",
-    "metaDescription": "Revvi 18in Kids Electric Bike by Revvi. £849 at VoltTrail. Free UK delivery and finance available.",
+    "description": "The Revvi 18in is a popular step-up electric dirt bike for kids aged 8-12, reaching up to 32 km/h with hydraulic disc brakes and a lightweight aluminium frame.",
+    "metaTitle": "Revvi 18in Kids Electric Bike | Revvi – DirtVolt Netherlands",
+    "metaDescription": "Revvi 18in Kids Electric Bike by Revvi. €849 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 280,
       "batteryBrand": "Revvi High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -2795,27 +2820,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Revvi 18in Kids Electric Bike road legal in the UK?",
-        "answer": "The Revvi 18in Kids Electric Bike is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Revvi 18in Kids Electric Bike road legal in the Netherlands?",
+        "answer": "The Revvi 18in Kids Electric Bike is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Revvi 18in Kids Electric Bike go?",
-        "answer": "Depending on rider weight and terrain, it reaches 20mph."
+        "answer": "Depending on rider weight and terrain, it reaches 32 km/h."
       },
       {
         "question": "What warranty is included with the Revvi 18in Kids Electric Bike?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -2828,7 +2854,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     ],
     "specs": [
       "Ages 8-12",
-      "20mph",
+      "32 km/h",
       "Hydraulic discs"
     ],
     "colours": [
@@ -2841,7 +2867,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Black"
       }
     ],
-    "finance": "~£24/mo",
+    "finance": "~€24/mo",
     "type": "bike",
     "age": "Ages 8-12"
   },
@@ -2850,8 +2876,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "revvi-20",
     "name": "Revvi 20in Kids Electric Bike",
     "brand": "Revvi",
-    "subtitle": "Revvi • Ages 10+ • 22mph, 800W • Full suspension",
-    "tagline": "Ages 10+ | 22mph, 800W | Full suspension",
+    "subtitle": "Revvi • Ages 10+ • 35 km/h, 800W • Full suspension",
+    "tagline": "Ages 10+ | 35 km/h, 800W | Full suspension",
     "category": "Kids & Youth Electric Dirt Bikes",
     "priceGBP": 1099,
     "rrpGBP": 1099,
@@ -2866,18 +2892,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-revvi-20.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "The Revvi 20in is the top of the Revvi range for riders aged 10+, with an 800W motor, three speeds up to 22mph and full suspension for a genuine mini dirt bike experience.",
-    "metaTitle": "Revvi 20in Kids Electric Bike | Revvi – VoltTrail UK",
-    "metaDescription": "Revvi 20in Kids Electric Bike by Revvi. £1,099 at VoltTrail. Free UK delivery and finance available.",
+    "description": "The Revvi 20in is the top of the Revvi range for riders aged 10+, with an 800W motor, three speeds up to 35 km/h and full suspension for a genuine mini dirt bike experience.",
+    "metaTitle": "Revvi 20in Kids Electric Bike | Revvi – DirtVolt Netherlands",
+    "metaDescription": "Revvi 20in Kids Electric Bike by Revvi. €1,099 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 280,
       "batteryBrand": "Revvi High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -2904,27 +2930,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Revvi 20in Kids Electric Bike road legal in the UK?",
-        "answer": "The Revvi 20in Kids Electric Bike is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Revvi 20in Kids Electric Bike road legal in the Netherlands?",
+        "answer": "The Revvi 20in Kids Electric Bike is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Revvi 20in Kids Electric Bike go?",
-        "answer": "Depending on rider weight and terrain, it reaches 22mph, 800W."
+        "answer": "Depending on rider weight and terrain, it reaches 35 km/h, 800W."
       },
       {
         "question": "What warranty is included with the Revvi 20in Kids Electric Bike?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -2937,7 +2964,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     ],
     "specs": [
       "Ages 10+",
-      "22mph, 800W",
+      "35 km/h, 800W",
       "Full suspension"
     ],
     "colours": [
@@ -2954,7 +2981,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Green"
       }
     ],
-    "finance": "~£31/mo",
+    "finance": "~€31/mo",
     "type": "bike",
     "age": "Ages 10+"
   },
@@ -2979,18 +3006,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-funbikes-mx350.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The FunBikes MX350 is a 350W, 36V kids' electric dirt bike with a lithium battery. An affordable, fun entry point for younger off-road riders aged 5–9.",
-    "metaTitle": "MX350 350W Kids Electric Dirt Bike | FunBikes – VoltTrail UK",
-    "metaDescription": "MX350 350W Kids Electric Dirt Bike by FunBikes. £325 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "MX350 350W Kids Electric Dirt Bike | FunBikes – DirtVolt Netherlands",
+    "metaDescription": "MX350 350W Kids Electric Dirt Bike by FunBikes. €325 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 122,
       "batteryBrand": "FunBikes High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -3017,8 +3044,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the MX350 350W Kids Electric Dirt Bike road legal in the UK?",
-        "answer": "The MX350 350W Kids Electric Dirt Bike is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the MX350 350W Kids Electric Dirt Bike road legal in the Netherlands?",
+        "answer": "The MX350 350W Kids Electric Dirt Bike is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the MX350 350W Kids Electric Dirt Bike go?",
@@ -3026,18 +3053,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the MX350 350W Kids Electric Dirt Bike?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -3068,8 +3096,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "funbikes-790",
     "name": "MXR 790W – Ages 6–10",
     "brand": "FunBikes",
-    "subtitle": "FunBikes • 790W • 15mph • Adjustable limiter",
-    "tagline": "790W | 15mph | Adjustable limiter",
+    "subtitle": "FunBikes • 790W • 24 km/h • Adjustable limiter",
+    "tagline": "790W | 24 km/h | Adjustable limiter",
     "category": "Kids & Youth Electric Dirt Bikes",
     "priceGBP": 435,
     "rrpGBP": 500,
@@ -3084,18 +3112,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-funbikes-790.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "The FunBikes MXR 790W is a kids' electric dirt bike for ages 6–10. Up to 15mph with an adjustable speed limiter, sturdy frame and lightweight build. A confident first off-road bike.",
-    "metaTitle": "MXR 790W – Ages 6–10 | FunBikes – VoltTrail UK",
-    "metaDescription": "MXR 790W – Ages 6–10 by FunBikes. £435 at VoltTrail. Free UK delivery and finance available.",
+    "description": "The FunBikes MXR 790W is a kids' electric dirt bike for ages 6–10. Up to 24 km/h with an adjustable speed limiter, sturdy frame and lightweight build. A confident first off-road bike.",
+    "metaTitle": "MXR 790W – Ages 6–10 | FunBikes – DirtVolt Netherlands",
+    "metaDescription": "MXR 790W – Ages 6–10 by FunBikes. €435 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 277,
       "batteryBrand": "FunBikes High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -3122,27 +3150,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the MXR 790W – Ages 6–10 road legal in the UK?",
-        "answer": "The MXR 790W – Ages 6–10 is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the MXR 790W – Ages 6–10 road legal in the Netherlands?",
+        "answer": "The MXR 790W – Ages 6–10 is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the MXR 790W – Ages 6–10 go?",
-        "answer": "Depending on rider weight and terrain, it reaches 15mph."
+        "answer": "Depending on rider weight and terrain, it reaches 24 km/h."
       },
       {
         "question": "What warranty is included with the MXR 790W – Ages 6–10?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -3156,7 +3185,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     ],
     "specs": [
       "790W",
-      "15mph",
+      "24 km/h",
       "Adjustable limiter"
     ],
     "colours": [
@@ -3182,8 +3211,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "funbikes-1400",
     "name": "MXR 1400W – Ages 10–14",
     "brand": "FunBikes",
-    "subtitle": "FunBikes • 1400W • 20mph • Adjustable limiter",
-    "tagline": "1400W | 20mph | Adjustable limiter",
+    "subtitle": "FunBikes • 1400W • 32 km/h • Adjustable limiter",
+    "tagline": "1400W | 32 km/h | Adjustable limiter",
     "category": "Kids & Youth Electric Dirt Bikes",
     "priceGBP": 799,
     "rrpGBP": 799,
@@ -3198,18 +3227,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-funbikes-1400.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "The FunBikes MXR 1400W is a kids' electric dirt bike for ages 10–14. 1400W motor, up to 20mph with an adjustable speed limiter — more power as young riders build confidence.",
-    "metaTitle": "MXR 1400W – Ages 10–14 | FunBikes – VoltTrail UK",
-    "metaDescription": "MXR 1400W – Ages 10–14 by FunBikes. £799 at VoltTrail. Free UK delivery and finance available.",
+    "description": "The FunBikes MXR 1400W is a kids' electric dirt bike for ages 10–14. 1400W motor, up to 32 km/h with an adjustable speed limiter — more power as young riders build confidence.",
+    "metaTitle": "MXR 1400W – Ages 10–14 | FunBikes – DirtVolt Netherlands",
+    "metaDescription": "MXR 1400W – Ages 10–14 by FunBikes. €799 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 490,
       "batteryBrand": "FunBikes High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -3236,27 +3265,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the MXR 1400W – Ages 10–14 road legal in the UK?",
-        "answer": "The MXR 1400W – Ages 10–14 is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the MXR 1400W – Ages 10–14 road legal in the Netherlands?",
+        "answer": "The MXR 1400W – Ages 10–14 is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the MXR 1400W – Ages 10–14 go?",
-        "answer": "Depending on rider weight and terrain, it reaches 20mph."
+        "answer": "Depending on rider weight and terrain, it reaches 32 km/h."
       },
       {
         "question": "What warranty is included with the MXR 1400W – Ages 10–14?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -3269,7 +3299,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     ],
     "specs": [
       "1400W",
-      "20mph",
+      "32 km/h",
       "Adjustable limiter"
     ],
     "colours": [
@@ -3282,7 +3312,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Blue"
       }
     ],
-    "finance": "~£22/mo",
+    "finance": "~€22/mo",
     "type": "bike",
     "age": "Ages 10-14"
   },
@@ -3291,8 +3321,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "funbikes-1800",
     "name": "MXR 1800W 2025",
     "brand": "FunBikes",
-    "subtitle": "FunBikes • 1800W • 25mph • Lithium battery",
-    "tagline": "1800W | 25mph | Lithium battery",
+    "subtitle": "FunBikes • 1800W • 40 km/h • Lithium battery",
+    "tagline": "1800W | 40 km/h | Lithium battery",
     "category": "Kids & Youth Electric Dirt Bikes",
     "priceGBP": 995,
     "rrpGBP": 995,
@@ -3307,18 +3337,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-funbikes-1800.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "The FunBikes MXR 1800W is the most powerful bike in the MXR range, with 1800W, up to 25mph and a lithium battery — built for older, more confident young riders.",
-    "metaTitle": "MXR 1800W 2025 | FunBikes – VoltTrail UK",
-    "metaDescription": "MXR 1800W 2025 by FunBikes. £995 at VoltTrail. Free UK delivery and finance available.",
+    "description": "The FunBikes MXR 1800W is the most powerful bike in the MXR range, with 1800W, up to 40 km/h and a lithium battery — built for older, more confident young riders.",
+    "metaTitle": "MXR 1800W 2025 | FunBikes – DirtVolt Netherlands",
+    "metaDescription": "MXR 1800W 2025 by FunBikes. €995 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 630,
       "batteryBrand": "FunBikes High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -3345,27 +3375,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the MXR 1800W 2025 road legal in the UK?",
-        "answer": "The MXR 1800W 2025 is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the MXR 1800W 2025 road legal in the Netherlands?",
+        "answer": "The MXR 1800W 2025 is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the MXR 1800W 2025 go?",
-        "answer": "Depending on rider weight and terrain, it reaches 25mph."
+        "answer": "Depending on rider weight and terrain, it reaches 40 km/h."
       },
       {
         "question": "What warranty is included with the MXR 1800W 2025?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -3379,7 +3410,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     ],
     "specs": [
       "1800W",
-      "25mph",
+      "40 km/h",
       "Lithium battery"
     ],
     "colours": [
@@ -3396,7 +3427,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Black"
       }
     ],
-    "finance": "~£28/mo",
+    "finance": "~€28/mo",
     "type": "bike",
     "age": "Ages 12+"
   },
@@ -3405,8 +3436,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "razor-mx350",
     "name": "MX350 Dirt Rocket",
     "brand": "Razor",
-    "subtitle": "Razor • Up to 14mph • Steel frame • Ages 13+",
-    "tagline": "Up to 14mph | Steel frame | Ages 13+",
+    "subtitle": "Razor • Up to 23 km/h • Steel frame • Ages 13+",
+    "tagline": "Up to 23 km/h | Steel frame | Ages 13+",
     "category": "Kids & Youth Electric Dirt Bikes",
     "priceGBP": 325,
     "rrpGBP": 325,
@@ -3421,18 +3452,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-razor-mx350.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "The Razor MX350 Dirt Rocket is a well-known, affordable kids' electric dirt bike. Up to 14mph, steel frame and authentic MX styling — a trusted first electric bike for ages 7+.",
-    "metaTitle": "MX350 Dirt Rocket | Razor – VoltTrail UK",
-    "metaDescription": "MX350 Dirt Rocket by Razor. £325 at VoltTrail. Free UK delivery and finance available.",
+    "description": "The Razor MX350 Dirt Rocket is a well-known, affordable kids' electric dirt bike. Up to 23 km/h, steel frame and authentic MX styling — a trusted first electric bike for ages 7+.",
+    "metaTitle": "MX350 Dirt Rocket | Razor – DirtVolt Netherlands",
+    "metaDescription": "MX350 Dirt Rocket by Razor. €325 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 280,
       "batteryBrand": "Razor High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -3459,27 +3490,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the MX350 Dirt Rocket road legal in the UK?",
-        "answer": "The MX350 Dirt Rocket is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the MX350 Dirt Rocket road legal in the Netherlands?",
+        "answer": "The MX350 Dirt Rocket is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the MX350 Dirt Rocket go?",
-        "answer": "Depending on rider weight and terrain, it reaches Up to 14mph."
+        "answer": "Depending on rider weight and terrain, it reaches Up to 23 km/h."
       },
       {
         "question": "What warranty is included with the MX350 Dirt Rocket?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -3491,7 +3523,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "stock"
     ],
     "specs": [
-      "Up to 14mph",
+      "Up to 23 km/h",
       "Steel frame",
       "Ages 13+"
     ],
@@ -3510,8 +3542,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "razor-mx400",
     "name": "MX400 Dirt Rocket",
     "brand": "Razor",
-    "subtitle": "Razor • Up to 14mph • Steel frame • Ages 13+",
-    "tagline": "Up to 14mph | Steel frame | Ages 13+",
+    "subtitle": "Razor • Up to 23 km/h • Steel frame • Ages 13+",
+    "tagline": "Up to 23 km/h | Steel frame | Ages 13+",
     "category": "Kids & Youth Electric Dirt Bikes",
     "priceGBP": 399,
     "rrpGBP": 399,
@@ -3526,18 +3558,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-razor-mx400.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "The Razor MX400 Dirt Rocket is a step up from the MX350 — a slightly larger kids' electric dirt bike with a steel frame, 14mph top speed and authentic off-road design for ages 7+.",
-    "metaTitle": "MX400 Dirt Rocket | Razor – VoltTrail UK",
-    "metaDescription": "MX400 Dirt Rocket by Razor. £399 at VoltTrail. Free UK delivery and finance available.",
+    "description": "The Razor MX400 Dirt Rocket is a step up from the MX350 — a slightly larger kids' electric dirt bike with a steel frame, 23 km/h top speed and authentic off-road design for ages 7+.",
+    "metaTitle": "MX400 Dirt Rocket | Razor – DirtVolt Netherlands",
+    "metaDescription": "MX400 Dirt Rocket by Razor. €399 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 280,
       "batteryBrand": "Razor High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -3564,27 +3596,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the MX400 Dirt Rocket road legal in the UK?",
-        "answer": "The MX400 Dirt Rocket is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the MX400 Dirt Rocket road legal in the Netherlands?",
+        "answer": "The MX400 Dirt Rocket is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the MX400 Dirt Rocket go?",
-        "answer": "Depending on rider weight and terrain, it reaches Up to 14mph."
+        "answer": "Depending on rider weight and terrain, it reaches Up to 23 km/h."
       },
       {
         "question": "What warranty is included with the MX400 Dirt Rocket?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -3596,7 +3629,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "stock"
     ],
     "specs": [
-      "Up to 14mph",
+      "Up to 23 km/h",
       "Steel frame",
       "Ages 13+"
     ],
@@ -3615,8 +3648,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "ktm-freeride-e",
     "name": "Freeride E 2025",
     "brand": "KTM",
-    "subtitle": "KTM • 19.2kW peak • 59mph • 5.5kWh battery",
-    "tagline": "19.2kW peak | 59mph | 5.5kWh battery",
+    "subtitle": "KTM • 19.2kW peak • 95 km/h • 5.5kWh battery",
+    "tagline": "19.2kW peak | 95 km/h | 5.5kWh battery",
     "category": "Road-Legal Electric Dirt Bikes",
     "priceGBP": 8999,
     "rrpGBP": 8999,
@@ -3631,18 +3664,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-ktm-freeride-e.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "The KTM Freeride E is the first road-legal KTM electric enduro bike, rebuilt from the ground up with an in-house motor, chromoly steel frame, WP XPLOR suspension and 5.5kWh battery. Hot-swap capable, three ride modes, 59mph top speed.",
-    "metaTitle": "Freeride E 2025 | KTM – VoltTrail UK",
-    "metaDescription": "Freeride E 2025 by KTM. £8,999 at VoltTrail. Free UK delivery and finance available.",
+    "description": "The KTM Freeride E is the first road-legal KTM electric enduro bike, rebuilt from the ground up with an in-house motor, chromoly steel frame, WP XPLOR suspension and 5.5kWh battery. Hot-swap capable, three ride modes, 95 km/h top speed.",
+    "metaTitle": "Freeride E 2025 | KTM – DirtVolt Netherlands",
+    "metaDescription": "Freeride E 2025 by KTM. €8,999 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 6720,
       "batteryBrand": "KTM High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -3665,31 +3698,32 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "throttleType": "Full Throttle (Requires L1e-A registration)",
       "minimumRiderAge": 16,
       "en15194Certified": true,
-      "ukRoadLegalStatus": "UK Road-Legal L1e-B / Moped (DVLA Registered)"
+      "ukRoadLegalStatus": "NL Road-Legal L1e-B / Moped (RDW Registered)"
     },
     "paaFaqs": [
       {
-        "question": "Is the Freeride E 2025 road legal in the UK?",
-        "answer": "Yes, the Freeride E 2025 is L1e type-approved and 100% legal for UK road use with CBT/moped licence, helmet, and registration."
+        "question": "Is the Freeride E 2025 road legal in the Netherlands?",
+        "answer": "Yes, the Freeride E 2025 is L1e type-approved and 100% legal for Netherlands road use with AM moped licence, yellow RDW kenteken, WA insurance, and helmet."
       },
       {
         "question": "How fast does the Freeride E 2025 go?",
-        "answer": "Depending on rider weight and terrain, it reaches 59mph."
+        "answer": "Depending on rider weight and terrain, it reaches 95 km/h."
       },
       {
         "question": "What warranty is included with the Freeride E 2025?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -3704,7 +3738,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     ],
     "specs": [
       "19.2kW peak",
-      "59mph",
+      "95 km/h",
       "5.5kWh battery"
     ],
     "colours": [
@@ -3713,7 +3747,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "KTM Orange"
       }
     ],
-    "finance": "~£250/mo",
+    "finance": "~€250/mo",
     "type": "bike"
   },
   {
@@ -3721,8 +3755,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "zero-xb",
     "name": "XB 2026",
     "brand": "Zero",
-    "subtitle": "Zero • 9.8bhp • 47mi range • Road legal L1e",
-    "tagline": "9.8bhp | 47mi range | Road legal L1e",
+    "subtitle": "Zero • 9.8bhp • 76 km range • Road legal L1e",
+    "tagline": "9.8bhp | 76 km range | Road legal L1e",
     "category": "Road-Legal Electric Dirt Bikes",
     "priceGBP": 3890,
     "rrpGBP": 3890,
@@ -3737,18 +3771,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-zero-xb.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "The Zero XB is a road-legal lightweight electric dirt bike with CBT-accessible A1 category type approval. 9.8bhp, 2.4kWh battery, 47-mile range and off-road CST tyres — ideal for younger riders and commuters wanting trail capability. As an L1e type-approved electric bike, the Zero XB sits in the same licence category as a 125 electric bike — CBT or full licence required, no A1 or A2 needed.",
-    "metaTitle": "XB 2026 | Zero – VoltTrail UK",
-    "metaDescription": "XB 2026 by Zero. £3,890 at VoltTrail. Free UK delivery and finance available.",
+    "description": "The Zero XB is a road-legal lightweight electric dirt bike with A1 licence-accessible category type approval. 9.8bhp, 2.4kWh battery, 76 km range and off-road CST tyres — ideal for younger riders and commuters wanting trail capability. As an L1e type-approved electric bike, the Zero XB sits in the same licence category as a 125 electric bike — AM moped licence or Category B driving licence required, no A1 or A2 needed.",
+    "metaTitle": "XB 2026 | Zero – DirtVolt Netherlands",
+    "metaDescription": "XB 2026 by Zero. €3,890 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2100,
       "batteryBrand": "Zero High-Discharge Li-Ion",
-      "rangeMiles": "Up to 47 miles",
+      "rangeMiles": "Up to 76 km",
       "maxRangeMiles": 47,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -3771,12 +3805,12 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "throttleType": "Full Throttle (Requires L1e-A registration)",
       "minimumRiderAge": 16,
       "en15194Certified": true,
-      "ukRoadLegalStatus": "UK Road-Legal L1e-B / Moped (DVLA Registered)"
+      "ukRoadLegalStatus": "NL Road-Legal L1e-B / Moped (RDW Registered)"
     },
     "paaFaqs": [
       {
-        "question": "Is the XB 2026 road legal in the UK?",
-        "answer": "Yes, the XB 2026 is L1e type-approved and 100% legal for UK road use with CBT/moped licence, helmet, and registration."
+        "question": "Is the XB 2026 road legal in the Netherlands?",
+        "answer": "Yes, the XB 2026 is L1e type-approved and 100% legal for Netherlands road use with AM moped licence, yellow RDW kenteken, WA insurance, and helmet."
       },
       {
         "question": "How fast does the XB 2026 go?",
@@ -3784,18 +3818,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the XB 2026?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -3809,7 +3844,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     ],
     "specs": [
       "9.8bhp",
-      "47mi range",
+      "76 km range",
       "Road legal L1e"
     ],
     "colours": [
@@ -3822,7 +3857,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Black"
       }
     ],
-    "finance": "~£108/mo",
+    "finance": "~€108/mo",
     "type": "bike"
   },
   {
@@ -3830,8 +3865,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "zero-xe",
     "name": "XE 2026",
     "brand": "Zero",
-    "subtitle": "Zero • 21bhp • 65mi range • 21/18in wheels",
-    "tagline": "21bhp | 65mi range | 21/18in wheels",
+    "subtitle": "Zero • 21bhp • 105 km range • 21/18in wheels",
+    "tagline": "21bhp | 105 km range | 21/18in wheels",
     "category": "Road-Legal Electric Dirt Bikes",
     "priceGBP": 5590,
     "rrpGBP": 5590,
@@ -3846,18 +3881,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-zero-xe.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "The Zero XE is Zero's flagship electric dirt bike — 21bhp, 4.3kWh battery, 65-mile range on a 21/18in wheel setup with fully adjustable KKE suspension. Road legal (A1), serious off-road capability, 53mph top speed.",
-    "metaTitle": "XE 2026 | Zero – VoltTrail UK",
-    "metaDescription": "XE 2026 by Zero. £5,590 at VoltTrail. Free UK delivery and finance available.",
+    "description": "The Zero XE is Zero's flagship electric dirt bike — 21bhp, 4.3kWh battery, 105 km range on a 21/18in wheel setup with fully adjustable KKE suspension. Road legal (A1), serious off-road capability, 85 km/h top speed.",
+    "metaTitle": "XE 2026 | Zero – DirtVolt Netherlands",
+    "metaDescription": "XE 2026 by Zero. €5,590 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2100,
       "batteryBrand": "Zero High-Discharge Li-Ion",
-      "rangeMiles": "Up to 65 miles",
+      "rangeMiles": "Up to 105 km",
       "maxRangeMiles": 65,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -3880,12 +3915,12 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "throttleType": "Full Throttle (Requires L1e-A registration)",
       "minimumRiderAge": 16,
       "en15194Certified": true,
-      "ukRoadLegalStatus": "UK Road-Legal L1e-B / Moped (DVLA Registered)"
+      "ukRoadLegalStatus": "NL Road-Legal L1e-B / Moped (RDW Registered)"
     },
     "paaFaqs": [
       {
-        "question": "Is the XE 2026 road legal in the UK?",
-        "answer": "Yes, the XE 2026 is L1e type-approved and 100% legal for UK road use with CBT/moped licence, helmet, and registration."
+        "question": "Is the XE 2026 road legal in the Netherlands?",
+        "answer": "Yes, the XE 2026 is L1e type-approved and 100% legal for Netherlands road use with AM moped licence, yellow RDW kenteken, WA insurance, and helmet."
       },
       {
         "question": "How fast does the XE 2026 go?",
@@ -3893,18 +3928,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the XE 2026?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -3919,7 +3955,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     ],
     "specs": [
       "21bhp",
-      "65mi range",
+      "105 km range",
       "21/18in wheels"
     ],
     "colours": [
@@ -3932,7 +3968,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Black"
       }
     ],
-    "finance": "~£155/mo",
+    "finance": "~€155/mo",
     "type": "bike"
   },
   {
@@ -3956,18 +3992,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-stark-sm.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The Stark Varg SM is the supermoto variant of the world's most powerful electric motocross bike — same 80HP motor and 7.2kWh battery, now on 17in supermoto wheels with road-biased tyres for track days and road use.",
-    "metaTitle": "Varg SM | Stark Varg – VoltTrail UK",
-    "metaDescription": "Varg SM by Stark Varg. £9,995 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Varg SM | Stark Varg – DirtVolt Netherlands",
+    "metaDescription": "Varg SM by Stark Varg. €9,995 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2520,
       "batteryBrand": "Stark Varg High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -3990,12 +4026,12 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "throttleType": "Full Throttle (Requires L1e-A registration)",
       "minimumRiderAge": 16,
       "en15194Certified": true,
-      "ukRoadLegalStatus": "UK Road-Legal L1e-B / Moped (DVLA Registered)"
+      "ukRoadLegalStatus": "NL Road-Legal L1e-B / Moped (RDW Registered)"
     },
     "paaFaqs": [
       {
-        "question": "Is the Varg SM road legal in the UK?",
-        "answer": "Yes, the Varg SM is L1e type-approved and 100% legal for UK road use with CBT/moped licence, helmet, and registration."
+        "question": "Is the Varg SM road legal in the Netherlands?",
+        "answer": "Yes, the Varg SM is L1e type-approved and 100% legal for Netherlands road use with AM moped licence, yellow RDW kenteken, WA insurance, and helmet."
       },
       {
         "question": "How fast does the Varg SM go?",
@@ -4003,18 +4039,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Varg SM?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -4040,7 +4077,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Black"
       }
     ],
-    "finance": "~£278/mo",
+    "finance": "~€278/mo",
     "type": "bike"
   },
   {
@@ -4064,18 +4101,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-talaria-dragon.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The Talaria Dragon is Talaria's full-power adult electric dirt bike — aggressive MX-inspired design, high-torque motor and long-range battery built for serious off-road riders who want more than a trail bike.",
-    "metaTitle": "Dragon | Talaria – VoltTrail UK",
-    "metaDescription": "Dragon by Talaria. £3,999 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Dragon | Talaria – DirtVolt Netherlands",
+    "metaDescription": "Dragon by Talaria. €3,999 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2100,
       "batteryBrand": "Talaria High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -4102,8 +4139,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Dragon road legal in the UK?",
-        "answer": "The Dragon is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Dragon road legal in the Netherlands?",
+        "answer": "The Dragon is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Dragon go?",
@@ -4111,18 +4148,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Dragon?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -4148,7 +4186,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Black"
       }
     ],
-    "finance": "~£111/mo",
+    "finance": "~€111/mo",
     "type": "bike"
   },
   {
@@ -4156,8 +4194,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "talaria-sting-mx3",
     "name": "Sting MX3",
     "brand": "Talaria",
-    "subtitle": "Talaria • 6kW peak • ~40mph • 60V 38Ah",
-    "tagline": "6kW peak | ~40mph | 60V 38Ah",
+    "subtitle": "Talaria • 6kW peak • ~64 km/h • 60V 38Ah",
+    "tagline": "6kW peak | ~64 km/h | 60V 38Ah",
     "category": "Electric Dirt Bikes",
     "priceGBP": 2799,
     "rrpGBP": 2799,
@@ -4172,18 +4210,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-talaria-sting-mx3.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The Talaria Sting MX3 is the entry-level Sting — 60V 38Ah battery, 6kW peak power and full off-road suspension. The perfect introduction to the Talaria range at a competitive price point. The Talaria Sting MX3 uses the same proven frame as the MX4 (Sting R) — the MX3 and MX4 designations refer to the battery generation, not a different chassis.",
-    "metaTitle": "Sting MX3 | Talaria – VoltTrail UK",
-    "metaDescription": "Sting MX3 by Talaria. £2,799 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Sting MX3 | Talaria – DirtVolt Netherlands",
+    "metaDescription": "Sting MX3 by Talaria. €2,799 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2100,
       "batteryBrand": "Talaria High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -4210,27 +4248,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Sting MX3 road legal in the UK?",
-        "answer": "The Sting MX3 is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Sting MX3 road legal in the Netherlands?",
+        "answer": "The Sting MX3 is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Sting MX3 go?",
-        "answer": "Depending on rider weight and terrain, it reaches ~40mph."
+        "answer": "Depending on rider weight and terrain, it reaches ~64 km/h."
       },
       {
         "question": "What warranty is included with the Sting MX3?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -4243,7 +4282,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     ],
     "specs": [
       "6kW peak",
-      "~40mph",
+      "~64 km/h",
       "60V 38Ah"
     ],
     "colours": [
@@ -4256,7 +4295,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Black"
       }
     ],
-    "finance": "~£78/mo",
+    "finance": "~€78/mo",
     "type": "bike"
   },
   {
@@ -4280,18 +4319,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-talaria-sting-xxx.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The Talaria Sting XXX is the crossover model — combining the Sting's proven frame with a unique battery configuration designed for maximum aftermarket upgrade potential. Popular with performance-oriented riders. Also known as the Talaria Triple X or Talaria XXX Pro — the Sting XXX is the upgrade-focused model in the Talaria range.",
-    "metaTitle": "Sting XXX | Talaria – VoltTrail UK",
-    "metaDescription": "Sting XXX by Talaria. £3,299 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Sting XXX | Talaria – DirtVolt Netherlands",
+    "metaDescription": "Sting XXX by Talaria. €3,299 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2100,
       "batteryBrand": "Talaria High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -4318,8 +4357,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Sting XXX road legal in the UK?",
-        "answer": "The Sting XXX is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Sting XXX road legal in the Netherlands?",
+        "answer": "The Sting XXX is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Sting XXX go?",
@@ -4327,18 +4366,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Sting XXX?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -4364,7 +4404,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Red"
       }
     ],
-    "finance": "~£92/mo",
+    "finance": "~€92/mo",
     "type": "bike"
   },
   {
@@ -4372,8 +4412,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "talaria-x3-pro",
     "name": "X3 Pro",
     "brand": "Talaria",
-    "subtitle": "Talaria • 6kW peak • ~47mph • Upgraded suspension",
-    "tagline": "6kW peak | ~47mph | Upgraded suspension",
+    "subtitle": "Talaria • 6kW peak • ~76 km/h • Upgraded suspension",
+    "tagline": "6kW peak | ~76 km/h | Upgraded suspension",
     "category": "Electric Dirt Bikes",
     "priceGBP": 3499,
     "rrpGBP": 3499,
@@ -4388,18 +4428,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-talaria-x3-pro.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The Talaria X3 Pro is the upgraded variant of the X3 (XXX) — enhanced suspension components, improved brake system and higher-spec finishing for riders wanting the X3 platform with factory-level refinement.",
-    "metaTitle": "X3 Pro | Talaria – VoltTrail UK",
-    "metaDescription": "X3 Pro by Talaria. £3,499 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "X3 Pro | Talaria – DirtVolt Netherlands",
+    "metaDescription": "X3 Pro by Talaria. €3,499 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2100,
       "batteryBrand": "Talaria High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -4426,27 +4466,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the X3 Pro road legal in the UK?",
-        "answer": "The X3 Pro is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the X3 Pro road legal in the Netherlands?",
+        "answer": "The X3 Pro is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the X3 Pro go?",
-        "answer": "Depending on rider weight and terrain, it reaches ~47mph."
+        "answer": "Depending on rider weight and terrain, it reaches ~76 km/h."
       },
       {
         "question": "What warranty is included with the X3 Pro?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -4459,7 +4500,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     ],
     "specs": [
       "6kW peak",
-      "~47mph",
+      "~76 km/h",
       "Upgraded suspension"
     ],
     "colours": [
@@ -4472,7 +4513,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Red"
       }
     ],
-    "finance": "~£97/mo",
+    "finance": "~€97/mo",
     "type": "bike"
   },
   {
@@ -4480,8 +4521,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "gasgas-mce2",
     "name": "MC-E 2 2025",
     "brand": "GasGas",
-    "subtitle": "GasGas • 2kW continuous • Up to 20mph • Ages 4–10",
-    "tagline": "2kW continuous | Up to 20mph | Ages 4–10",
+    "subtitle": "GasGas • 2kW continuous • Up to 32 km/h • Ages 4–10",
+    "tagline": "2kW continuous | Up to 32 km/h | Ages 4–10",
     "category": "Kids & Youth Electric Dirt Bikes",
     "priceGBP": 3299,
     "rrpGBP": 3299,
@@ -4496,18 +4537,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-gasgas-mce2.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The GasGas MC-E 2 2025 is the entry-level electric motocross bike from the KTM group — built on KTM SX-E underpinnings with distinctive GasGas Red livery. Designed for young riders stepping up to competitive MX. Also listed as the Gas Gas MC-E 2 — the GasGas and Gas Gas spellings are used interchangeably for this model.",
-    "metaTitle": "MC-E 2 2025 | GasGas – VoltTrail UK",
-    "metaDescription": "MC-E 2 2025 by GasGas. £3,299 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "MC-E 2 2025 | GasGas – DirtVolt Netherlands",
+    "metaDescription": "MC-E 2 2025 by GasGas. €3,299 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 700,
       "batteryBrand": "GasGas High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -4534,27 +4575,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the MC-E 2 2025 road legal in the UK?",
-        "answer": "The MC-E 2 2025 is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the MC-E 2 2025 road legal in the Netherlands?",
+        "answer": "The MC-E 2 2025 is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the MC-E 2 2025 go?",
-        "answer": "Depending on rider weight and terrain, it reaches Up to 20mph."
+        "answer": "Depending on rider weight and terrain, it reaches Up to 32 km/h."
       },
       {
         "question": "What warranty is included with the MC-E 2 2025?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -4567,7 +4609,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     ],
     "specs": [
       "2kW continuous",
-      "Up to 20mph",
+      "Up to 32 km/h",
       "Ages 4–10"
     ],
     "colours": [
@@ -4584,8 +4626,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "gasgas-mce5",
     "name": "MC-E 5 2025",
     "brand": "GasGas",
-    "subtitle": "GasGas • 5kW peak • ~50mph • Ages 12+",
-    "tagline": "5kW peak | ~50mph | Ages 12+",
+    "subtitle": "GasGas • 5kW peak • ~80 km/h • Ages 12+",
+    "tagline": "5kW peak | ~80 km/h | Ages 12+",
     "category": "Kids & Youth Electric Dirt Bikes",
     "priceGBP": 5299,
     "rrpGBP": 5299,
@@ -4600,18 +4642,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-gasgas-mce5.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The GasGas MC-E 5 2025 is the full-size youth/junior electric motocross bike — same KTM SX-E 5 platform with GasGas Red livery, WP suspension and competition-spec geometry for riders aged 12 and up. Also listed as the Gas Gas MC-E 5 — built on the same platform as the KTM SX-E 5 with GasGas Red livery.",
-    "metaTitle": "MC-E 5 2025 | GasGas – VoltTrail UK",
-    "metaDescription": "MC-E 5 2025 by GasGas. £5,299 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "MC-E 5 2025 | GasGas – DirtVolt Netherlands",
+    "metaDescription": "MC-E 5 2025 by GasGas. €5,299 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 1750,
       "batteryBrand": "GasGas High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -4638,27 +4680,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the MC-E 5 2025 road legal in the UK?",
-        "answer": "The MC-E 5 2025 is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the MC-E 5 2025 road legal in the Netherlands?",
+        "answer": "The MC-E 5 2025 is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the MC-E 5 2025 go?",
-        "answer": "Depending on rider weight and terrain, it reaches ~50mph."
+        "answer": "Depending on rider weight and terrain, it reaches ~80 km/h."
       },
       {
         "question": "What warranty is included with the MC-E 5 2025?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -4671,7 +4714,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     ],
     "specs": [
       "5kW peak",
-      "~50mph",
+      "~80 km/h",
       "Ages 12+"
     ],
     "colours": [
@@ -4688,8 +4731,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "eride-sr",
     "name": "SR (19in) – 72V 12kW",
     "brand": "E Ride Pro",
-    "subtitle": "E Ride Pro • 12kW peak • ~55mph • 72V 50Ah",
-    "tagline": "12kW peak | ~55mph | 72V 50Ah",
+    "subtitle": "E Ride Pro • 12kW peak • ~88 km/h • 72V 50Ah",
+    "tagline": "12kW peak | ~88 km/h | 72V 50Ah",
     "category": "Electric Dirt Bikes",
     "priceGBP": 3999,
     "rrpGBP": 3999,
@@ -4704,18 +4747,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-eride-sr.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The E Ride Pro SR is the flagship full-size model in the E Ride Pro range — 72V 50Ah battery, 12kW peak power, 19in front wheel and aggressive off-road geometry. The most capable E Ride Pro built.",
-    "metaTitle": "SR (19in) – 72V 12kW | E Ride Pro – VoltTrail UK",
-    "metaDescription": "SR (19in) – 72V 12kW by E Ride Pro. £3,999 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "SR (19in) – 72V 12kW | E Ride Pro – DirtVolt Netherlands",
+    "metaDescription": "SR (19in) – 72V 12kW by E Ride Pro. €3,999 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 4200,
       "batteryBrand": "E Ride Pro High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -4742,27 +4785,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the SR (19in) – 72V 12kW road legal in the UK?",
-        "answer": "The SR (19in) – 72V 12kW is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the SR (19in) – 72V 12kW road legal in the Netherlands?",
+        "answer": "The SR (19in) – 72V 12kW is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the SR (19in) – 72V 12kW go?",
-        "answer": "Depending on rider weight and terrain, it reaches ~55mph."
+        "answer": "Depending on rider weight and terrain, it reaches ~88 km/h."
       },
       {
         "question": "What warranty is included with the SR (19in) – 72V 12kW?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -4775,7 +4819,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     ],
     "specs": [
       "12kW peak",
-      "~55mph",
+      "~88 km/h",
       "72V 50Ah"
     ],
     "colours": [
@@ -4788,7 +4832,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Black"
       }
     ],
-    "finance": "~£111/mo",
+    "finance": "~€111/mo",
     "type": "bike"
   },
   {
@@ -4796,8 +4840,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "razor-mx125",
     "name": "MX125 Dirt Rocket",
     "brand": "Razor",
-    "subtitle": "Razor • Up to 8mph • Steel frame • Ages 6+",
-    "tagline": "Up to 8mph | Steel frame | Ages 6+",
+    "subtitle": "Razor • Up to 13 km/h • Steel frame • Ages 6+",
+    "tagline": "Up to 13 km/h | Steel frame | Ages 6+",
     "category": "Kids & Youth Electric Dirt Bikes",
     "priceGBP": 249,
     "rrpGBP": 249,
@@ -4812,18 +4856,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-razor-mx125.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The Razor MX125 is a compact electric dirt bike for younger children aged 6 and up — smaller frame than the MX350, lightweight steel construction and speed-limited to keep early riders safe and confident.",
-    "metaTitle": "MX125 Dirt Rocket | Razor – VoltTrail UK",
-    "metaDescription": "MX125 Dirt Rocket by Razor. £249 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "MX125 Dirt Rocket | Razor – DirtVolt Netherlands",
+    "metaDescription": "MX125 Dirt Rocket by Razor. €249 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 280,
       "batteryBrand": "Razor High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -4850,27 +4894,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the MX125 Dirt Rocket road legal in the UK?",
-        "answer": "The MX125 Dirt Rocket is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the MX125 Dirt Rocket road legal in the Netherlands?",
+        "answer": "The MX125 Dirt Rocket is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the MX125 Dirt Rocket go?",
-        "answer": "Depending on rider weight and terrain, it reaches Up to 8mph."
+        "answer": "Depending on rider weight and terrain, it reaches Up to 13 km/h."
       },
       {
         "question": "What warranty is included with the MX125 Dirt Rocket?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -4882,7 +4927,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "stock"
     ],
     "specs": [
-      "Up to 8mph",
+      "Up to 13 km/h",
       "Steel frame",
       "Ages 6+"
     ],
@@ -4900,8 +4945,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "razor-mx650",
     "name": "MX650 Dirt Rocket",
     "brand": "Razor",
-    "subtitle": "Razor • Up to 17mph • 36V battery • Ages 16+",
-    "tagline": "Up to 17mph | 36V battery | Ages 16+",
+    "subtitle": "Razor • Up to 27 km/h • 36V battery • Ages 16+",
+    "tagline": "Up to 27 km/h | 36V battery | Ages 16+",
     "category": "Electric Dirt Bikes",
     "priceGBP": 499,
     "rrpGBP": 499,
@@ -4916,18 +4961,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-razor-mx650.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "The Razor MX650 Dirt Rocket is the largest and most powerful Razor electric dirt bike — 36V battery, up to 17mph, steel frame and chain-drive for riders aged 16 and up. A big step up from the MX400.",
-    "metaTitle": "MX650 Dirt Rocket | Razor – VoltTrail UK",
-    "metaDescription": "MX650 Dirt Rocket by Razor. £499 at VoltTrail. Free UK delivery and finance available.",
+    "description": "The Razor MX650 Dirt Rocket is the largest and most powerful Razor electric dirt bike — 36V battery, up to 27 km/h, steel frame and chain-drive for riders aged 16 and up. A big step up from the MX400.",
+    "metaTitle": "MX650 Dirt Rocket | Razor – DirtVolt Netherlands",
+    "metaDescription": "MX650 Dirt Rocket by Razor. €499 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2100,
       "batteryBrand": "Razor High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -4954,27 +4999,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the MX650 Dirt Rocket road legal in the UK?",
-        "answer": "The MX650 Dirt Rocket is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the MX650 Dirt Rocket road legal in the Netherlands?",
+        "answer": "The MX650 Dirt Rocket is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the MX650 Dirt Rocket go?",
-        "answer": "Depending on rider weight and terrain, it reaches Up to 17mph."
+        "answer": "Depending on rider weight and terrain, it reaches Up to 27 km/h."
       },
       {
         "question": "What warranty is included with the MX650 Dirt Rocket?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -4986,7 +5032,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "stock"
     ],
     "specs": [
-      "Up to 17mph",
+      "Up to 27 km/h",
       "36V battery",
       "Ages 16+"
     ],
@@ -5020,18 +5066,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-segway-xaber.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The Segway Xaber 300 is a compact electric quad/ATV from Segway Powersports — intelligent IOV connectivity, responsive handling and durable build for recreational off-road riding. Ideal for younger adult riders.",
-    "metaTitle": "Xaber 300 | Segway – VoltTrail UK",
-    "metaDescription": "Xaber 300 by Segway. £2,999 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Xaber 300 | Segway – DirtVolt Netherlands",
+    "metaDescription": "Xaber 300 by Segway. €2,999 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 1050,
       "batteryBrand": "Segway High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -5058,8 +5104,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Xaber 300 road legal in the UK?",
-        "answer": "The Xaber 300 is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Xaber 300 road legal in the Netherlands?",
+        "answer": "The Xaber 300 is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Xaber 300 go?",
@@ -5067,18 +5113,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Xaber 300?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -5100,7 +5147,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Blue"
       }
     ],
-    "finance": "~£83/mo",
+    "finance": "~€83/mo",
     "type": "bike"
   },
   {
@@ -5124,18 +5171,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-segway-xafari.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The Segway Xafari is a lifestyle electric ATV built for adventure — rugged off-road capability combined with Segway's smart IOV system. Comfortable enough for trail riding, capable enough for demanding terrain.",
-    "metaTitle": "Xafari | Segway – VoltTrail UK",
-    "metaDescription": "Xafari by Segway. £3,499 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Xafari | Segway – DirtVolt Netherlands",
+    "metaDescription": "Xafari by Segway. €3,499 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 1050,
       "batteryBrand": "Segway High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -5162,8 +5209,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Xafari road legal in the UK?",
-        "answer": "The Xafari is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Xafari road legal in the Netherlands?",
+        "answer": "The Xafari is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Xafari go?",
@@ -5171,18 +5218,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Xafari?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -5204,7 +5252,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Green"
       }
     ],
-    "finance": "~£97/mo",
+    "finance": "~€97/mo",
     "type": "bike"
   },
   {
@@ -5228,18 +5276,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-segway-xyber.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The Segway Xyber is the performance electric ATV in the Segway Powersports range — higher power output, sport-tuned suspension and aggressive styling for riders who want maximum performance from an electric quad.",
-    "metaTitle": "Xyber | Segway – VoltTrail UK",
-    "metaDescription": "Xyber by Segway. £4,999 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Xyber | Segway – DirtVolt Netherlands",
+    "metaDescription": "Xyber by Segway. €4,999 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 1050,
       "batteryBrand": "Segway High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -5266,8 +5314,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Xyber road legal in the UK?",
-        "answer": "The Xyber is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Xyber road legal in the Netherlands?",
+        "answer": "The Xyber is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Xyber go?",
@@ -5275,18 +5323,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Xyber?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -5308,7 +5357,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Red"
       }
     ],
-    "finance": "~£139/mo",
+    "finance": "~€139/mo",
     "type": "bike"
   },
   {
@@ -5332,18 +5381,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-stacyc-12.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The STACYC 12eDRIVE is a balance bike for children aged 2–5 — ultra-lightweight, electric-assist throttle and two speed settings help young riders build confidence and progress naturally to pedal bikes.",
-    "metaTitle": "12eDRIVE | STACYC – VoltTrail UK",
-    "metaDescription": "12eDRIVE by STACYC. £399 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "12eDRIVE | STACYC – DirtVolt Netherlands",
+    "metaDescription": "12eDRIVE by STACYC. €399 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 280,
       "batteryBrand": "STACYC High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -5370,8 +5419,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the 12eDRIVE road legal in the UK?",
-        "answer": "The 12eDRIVE is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the 12eDRIVE road legal in the Netherlands?",
+        "answer": "The 12eDRIVE is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the 12eDRIVE go?",
@@ -5379,18 +5428,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the 12eDRIVE?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -5440,18 +5490,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-stacyc-16.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The STACYC 16eDRIVE Brushless is the upgraded version for children aged 4–7 — brushless motor for smoother power delivery, three speed settings and larger 16in wheels for growing riders stepping up from the 12.",
-    "metaTitle": "16eDRIVE Brushless | STACYC – VoltTrail UK",
-    "metaDescription": "16eDRIVE Brushless by STACYC. £499 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "16eDRIVE Brushless | STACYC – DirtVolt Netherlands",
+    "metaDescription": "16eDRIVE Brushless by STACYC. €499 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 280,
       "batteryBrand": "STACYC High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -5478,8 +5528,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the 16eDRIVE Brushless road legal in the UK?",
-        "answer": "The 16eDRIVE Brushless is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the 16eDRIVE Brushless road legal in the Netherlands?",
+        "answer": "The 16eDRIVE Brushless is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the 16eDRIVE Brushless go?",
@@ -5487,18 +5537,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the 16eDRIVE Brushless?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -5548,18 +5599,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-stacyc-18.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The STACYC 18eDRIVE is designed for children aged 5–9 — 18in wheels, brushless motor, three speed settings and compatible with standard power tool batteries from DeWalt, Milwaukee and Makita for convenient charging.",
-    "metaTitle": "18eDRIVE | STACYC – VoltTrail UK",
-    "metaDescription": "18eDRIVE by STACYC. £549 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "18eDRIVE | STACYC – DirtVolt Netherlands",
+    "metaDescription": "18eDRIVE by STACYC. €549 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 280,
       "batteryBrand": "STACYC High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -5586,8 +5637,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the 18eDRIVE road legal in the UK?",
-        "answer": "The 18eDRIVE is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the 18eDRIVE road legal in the Netherlands?",
+        "answer": "The 18eDRIVE is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the 18eDRIVE go?",
@@ -5595,18 +5646,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the 18eDRIVE?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -5656,18 +5708,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-stacyc-20.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The STACYC 20eDRIVE is the largest STACYC model for children aged 6–10 — 20in wheels, brushless motor and three adjustable speed settings. Bridges the gap between balance bikes and full electric dirt bikes perfectly.",
-    "metaTitle": "20eDRIVE | STACYC – VoltTrail UK",
-    "metaDescription": "20eDRIVE by STACYC. £599 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "20eDRIVE | STACYC – DirtVolt Netherlands",
+    "metaDescription": "20eDRIVE by STACYC. €599 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 280,
       "batteryBrand": "STACYC High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -5694,8 +5746,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the 20eDRIVE road legal in the UK?",
-        "answer": "The 20eDRIVE is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the 20eDRIVE road legal in the Netherlands?",
+        "answer": "The 20eDRIVE is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the 20eDRIVE go?",
@@ -5703,18 +5755,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the 20eDRIVE?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -5748,8 +5801,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "segway-snarler",
     "name": "Snarler ATV6 Electric",
     "brand": "Segway",
-    "subtitle": "Segway • 30kW • 50mph • Utility ATV",
-    "tagline": "30kW | 50mph | Utility ATV",
+    "subtitle": "Segway • 30kW • 80 km/h • Utility ATV",
+    "tagline": "30kW | 80 km/h | Utility ATV",
     "category": "Electric Quads & UTVs",
     "priceGBP": 6999,
     "rrpGBP": 6999,
@@ -5764,18 +5817,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-segway-snarler.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "The Segway Snarler ATV6 is an electric utility quad with 30kW of power and around 50mph, combining Segway-Ninebot engineering with all-terrain capability.",
-    "metaTitle": "Snarler ATV6 Electric | Segway – VoltTrail UK",
-    "metaDescription": "Snarler ATV6 Electric by Segway. £6,999 at VoltTrail. Free UK delivery and finance available.",
+    "description": "The Segway Snarler ATV6 is an electric utility quad with 30kW of power and around 80 km/h, combining Segway-Ninebot engineering with all-terrain capability.",
+    "metaTitle": "Snarler ATV6 Electric | Segway – DirtVolt Netherlands",
+    "metaDescription": "Snarler ATV6 Electric by Segway. €6,999 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 10500,
       "batteryBrand": "Segway High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -5802,27 +5855,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Snarler ATV6 Electric road legal in the UK?",
-        "answer": "The Snarler ATV6 Electric is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Snarler ATV6 Electric road legal in the Netherlands?",
+        "answer": "The Snarler ATV6 Electric is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Snarler ATV6 Electric go?",
-        "answer": "Depending on rider weight and terrain, it reaches 50mph."
+        "answer": "Depending on rider weight and terrain, it reaches 80 km/h."
       },
       {
         "question": "What warranty is included with the Snarler ATV6 Electric?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -5835,7 +5889,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     ],
     "specs": [
       "30kW",
-      "50mph",
+      "80 km/h",
       "Utility ATV"
     ],
     "colours": [
@@ -5848,7 +5902,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Grey"
       }
     ],
-    "finance": "~£194/mo",
+    "finance": "~€194/mo",
     "type": "quad"
   },
   {
@@ -5872,18 +5926,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-ecorider-explorer-gt.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "The Eco Rider Explorer GT is a UK-made adult electric quad with 4-wheel direct drive, a 3000W brushless motor and around 70km of range — built for farms, estates and utility work.",
-    "metaTitle": "Explorer GT Electric Quad | Eco Rider – VoltTrail UK",
-    "metaDescription": "Explorer GT Electric Quad by Eco Rider. £5,054 at VoltTrail. Free UK delivery and finance available.",
+    "description": "The Eco Rider Explorer GT is a European-spec adult electric quad with 4-wheel direct drive, a 3000W brushless motor and around 70km of range — built for farms, estates and utility work.",
+    "metaTitle": "Explorer GT Electric Quad | Eco Rider – DirtVolt Netherlands",
+    "metaDescription": "Explorer GT Electric Quad by Eco Rider. €5,054 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 1050,
       "batteryBrand": "Eco Rider High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -5910,8 +5964,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Explorer GT Electric Quad road legal in the UK?",
-        "answer": "The Explorer GT Electric Quad is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Explorer GT Electric Quad road legal in the Netherlands?",
+        "answer": "The Explorer GT Electric Quad is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Explorer GT Electric Quad go?",
@@ -5919,18 +5973,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Explorer GT Electric Quad?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -5956,7 +6011,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Black"
       }
     ],
-    "finance": "~£140/mo",
+    "finance": "~€140/mo",
     "type": "quad"
   },
   {
@@ -5980,18 +6035,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-ecorider-explorer.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The Eco Rider Explorer is a 2100W brushless electric utility quad with a tow ball and front winch, offering 40-50km of range for silent, low-maintenance estate and farm work.",
-    "metaTitle": "Explorer 2100W Electric Quad | Eco Rider – VoltTrail UK",
-    "metaDescription": "Explorer 2100W Electric Quad by Eco Rider. £4,295 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Explorer 2100W Electric Quad | Eco Rider – DirtVolt Netherlands",
+    "metaDescription": "Explorer 2100W Electric Quad by Eco Rider. €4,295 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 735,
       "batteryBrand": "Eco Rider High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -6018,8 +6073,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Explorer 2100W Electric Quad road legal in the UK?",
-        "answer": "The Explorer 2100W Electric Quad is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Explorer 2100W Electric Quad road legal in the Netherlands?",
+        "answer": "The Explorer 2100W Electric Quad is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Explorer 2100W Electric Quad go?",
@@ -6027,18 +6082,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Explorer 2100W Electric Quad?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -6064,7 +6120,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Grey"
       }
     ],
-    "finance": "~£119/mo",
+    "finance": "~€119/mo",
     "type": "quad"
   },
   {
@@ -6088,18 +6144,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-ecorider-shredder.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The Eco Rider Shredder is the sport-focused model in the Eco Rider electric quad range, built for off-road fun with zero emissions and near-silent running.",
-    "metaTitle": "Shredder Electric Sport Quad | Eco Rider – VoltTrail UK",
-    "metaDescription": "Shredder Electric Sport Quad by Eco Rider. £3,995 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Shredder Electric Sport Quad | Eco Rider – DirtVolt Netherlands",
+    "metaDescription": "Shredder Electric Sport Quad by Eco Rider. €3,995 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2100,
       "batteryBrand": "Eco Rider High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -6126,8 +6182,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Shredder Electric Sport Quad road legal in the UK?",
-        "answer": "The Shredder Electric Sport Quad is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Shredder Electric Sport Quad road legal in the Netherlands?",
+        "answer": "The Shredder Electric Sport Quad is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Shredder Electric Sport Quad go?",
@@ -6135,18 +6191,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Shredder Electric Sport Quad?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -6172,7 +6229,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Red"
       }
     ],
-    "finance": "~£111/mo",
+    "finance": "~€111/mo",
     "type": "quad"
   },
   {
@@ -6196,18 +6253,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-segway-kids-quad.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The Segway Junior Electric Quad is a youth-sized electric ATV with a speed limiter, bringing Segway engineering to younger riders for safe off-road fun.",
-    "metaTitle": "Segway Junior Electric Quad | Segway – VoltTrail UK",
-    "metaDescription": "Segway Junior Electric Quad by Segway. £1,499 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Segway Junior Electric Quad | Segway – DirtVolt Netherlands",
+    "metaDescription": "Segway Junior Electric Quad by Segway. €1,499 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 280,
       "batteryBrand": "Segway High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -6234,8 +6291,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Segway Junior Electric Quad road legal in the UK?",
-        "answer": "The Segway Junior Electric Quad is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Segway Junior Electric Quad road legal in the Netherlands?",
+        "answer": "The Segway Junior Electric Quad is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Segway Junior Electric Quad go?",
@@ -6243,18 +6300,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Segway Junior Electric Quad?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -6288,8 +6346,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "funbikes-quad-500",
     "name": "Kids Quad 500W – Ages 6–12",
     "brand": "FunBikes",
-    "subtitle": "FunBikes • 500W • 10mph • Adjustable limiter",
-    "tagline": "500W | 10mph | Adjustable limiter",
+    "subtitle": "FunBikes • 500W • 16 km/h • Adjustable limiter",
+    "tagline": "500W | 16 km/h | Adjustable limiter",
     "category": "Electric Quads & UTVs",
     "priceGBP": 499,
     "rrpGBP": 499,
@@ -6304,18 +6362,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-funbikes-quad-500.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "The FunBikes Kids Quad 500W is an electric quad bike for children aged 6-12, reaching up to 10mph with an adjustable speed limiter.",
-    "metaTitle": "Kids Quad 500W – Ages 6–12 | FunBikes – VoltTrail UK",
-    "metaDescription": "Kids Quad 500W – Ages 6–12 by FunBikes. £499 at VoltTrail. Free UK delivery and finance available.",
+    "description": "The FunBikes Kids Quad 500W is an electric quad bike for children aged 6-12, reaching up to 16 km/h with an adjustable speed limiter.",
+    "metaTitle": "Kids Quad 500W – Ages 6–12 | FunBikes – DirtVolt Netherlands",
+    "metaDescription": "Kids Quad 500W – Ages 6–12 by FunBikes. €499 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 175,
       "batteryBrand": "FunBikes High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -6342,27 +6400,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Kids Quad 500W – Ages 6–12 road legal in the UK?",
-        "answer": "The Kids Quad 500W – Ages 6–12 is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Kids Quad 500W – Ages 6–12 road legal in the Netherlands?",
+        "answer": "The Kids Quad 500W – Ages 6–12 is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Kids Quad 500W – Ages 6–12 go?",
-        "answer": "Depending on rider weight and terrain, it reaches 10mph."
+        "answer": "Depending on rider weight and terrain, it reaches 16 km/h."
       },
       {
         "question": "What warranty is included with the Kids Quad 500W – Ages 6–12?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -6374,7 +6433,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     ],
     "specs": [
       "500W",
-      "10mph",
+      "16 km/h",
       "Adjustable limiter"
     ],
     "colours": [
@@ -6400,8 +6459,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "funbikes-quad-1000",
     "name": "Kids Quad 1000W – Ages 10+",
     "brand": "FunBikes",
-    "subtitle": "FunBikes • 1000W • 18mph • Lithium battery",
-    "tagline": "1000W | 18mph | Lithium battery",
+    "subtitle": "FunBikes • 1000W • 29 km/h • Lithium battery",
+    "tagline": "1000W | 29 km/h | Lithium battery",
     "category": "Electric Quads & UTVs",
     "priceGBP": 699,
     "rrpGBP": 699,
@@ -6416,18 +6475,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-funbikes-quad-1000.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "The FunBikes Kids Quad 1000W is an electric quad for ages 10+, with 1000W of power, up to 18mph and a lithium battery.",
-    "metaTitle": "Kids Quad 1000W – Ages 10+ | FunBikes – VoltTrail UK",
-    "metaDescription": "Kids Quad 1000W – Ages 10+ by FunBikes. £699 at VoltTrail. Free UK delivery and finance available.",
+    "description": "The FunBikes Kids Quad 1000W is an electric quad for ages 10+, with 1000W of power, up to 29 km/h and a lithium battery.",
+    "metaTitle": "Kids Quad 1000W – Ages 10+ | FunBikes – DirtVolt Netherlands",
+    "metaDescription": "Kids Quad 1000W – Ages 10+ by FunBikes. €699 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 350,
       "batteryBrand": "FunBikes High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -6454,27 +6513,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Kids Quad 1000W – Ages 10+ road legal in the UK?",
-        "answer": "The Kids Quad 1000W – Ages 10+ is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Kids Quad 1000W – Ages 10+ road legal in the Netherlands?",
+        "answer": "The Kids Quad 1000W – Ages 10+ is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Kids Quad 1000W – Ages 10+ go?",
-        "answer": "Depending on rider weight and terrain, it reaches 18mph."
+        "answer": "Depending on rider weight and terrain, it reaches 29 km/h."
       },
       {
         "question": "What warranty is included with the Kids Quad 1000W – Ages 10+?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -6486,7 +6546,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     ],
     "specs": [
       "1000W",
-      "18mph",
+      "29 km/h",
       "Lithium battery"
     ],
     "colours": [
@@ -6499,7 +6559,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Black"
       }
     ],
-    "finance": "~£19/mo",
+    "finance": "~€19/mo",
     "type": "quad",
     "age": "Ages 10+"
   },
@@ -6524,18 +6584,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-funbikes-quad-1500.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The FunBikes Kids Quad 1500W is the most powerful kids' quad in the FunBikes range. Built for teenage riders with an adjustable speed limiter, lithium battery and robust off-road build.",
-    "metaTitle": "Kids Quad 1500W – Teens | FunBikes – VoltTrail UK",
-    "metaDescription": "Kids Quad 1500W – Teens by FunBikes. £899 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Kids Quad 1500W – Teens | FunBikes – DirtVolt Netherlands",
+    "metaDescription": "Kids Quad 1500W – Teens by FunBikes. €899 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 525,
       "batteryBrand": "FunBikes High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -6562,8 +6622,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Kids Quad 1500W – Teens road legal in the UK?",
-        "answer": "The Kids Quad 1500W – Teens is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Kids Quad 1500W – Teens road legal in the Netherlands?",
+        "answer": "The Kids Quad 1500W – Teens is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Kids Quad 1500W – Teens go?",
@@ -6571,18 +6631,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Kids Quad 1500W – Teens?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -6607,7 +6668,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
         "name": "Blue"
       }
     ],
-    "finance": "~£25/mo",
+    "finance": "~€25/mo",
     "type": "quad",
     "age": "Ages 12+"
   },
@@ -6616,8 +6677,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "razor-quad",
     "name": "Razor Dirt Quad – Kids Electric ATV",
     "brand": "Razor",
-    "subtitle": "Razor • 350W • Up to 8mph • Ages 8+",
-    "tagline": "350W | Up to 8mph | Ages 8+",
+    "subtitle": "Razor • 350W • Up to 13 km/h • Ages 8+",
+    "tagline": "350W | Up to 13 km/h | Ages 8+",
     "category": "Electric Quads & UTVs",
     "priceGBP": 399,
     "rrpGBP": 399,
@@ -6632,18 +6693,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-razor-quad.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "The Razor Dirt Quad is a kids' electric ATV with 350W of power and up to 8mph. Designed for off-road fun for children aged 8 and over — safe, sturdy and easy to control.",
-    "metaTitle": "Razor Dirt Quad – Kids Electric ATV | Razor – VoltTrail UK",
-    "metaDescription": "Razor Dirt Quad – Kids Electric ATV by Razor. £399 at VoltTrail. Free UK delivery and finance available.",
+    "description": "The Razor Dirt Quad is a kids' electric ATV with 350W of power and up to 13 km/h. Designed for off-road fun for children aged 8 and over — safe, sturdy and easy to control.",
+    "metaTitle": "Razor Dirt Quad – Kids Electric ATV | Razor – DirtVolt Netherlands",
+    "metaDescription": "Razor Dirt Quad – Kids Electric ATV by Razor. €399 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 122,
       "batteryBrand": "Razor High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 2.5,
       "removableBattery": true,
@@ -6670,27 +6731,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Razor Dirt Quad – Kids Electric ATV road legal in the UK?",
-        "answer": "The Razor Dirt Quad – Kids Electric ATV is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Razor Dirt Quad – Kids Electric ATV road legal in the Netherlands?",
+        "answer": "The Razor Dirt Quad – Kids Electric ATV is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Razor Dirt Quad – Kids Electric ATV go?",
-        "answer": "Depending on rider weight and terrain, it reaches Up to 8mph."
+        "answer": "Depending on rider weight and terrain, it reaches Up to 13 km/h."
       },
       {
         "question": "What warranty is included with the Razor Dirt Quad – Kids Electric ATV?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -6702,7 +6764,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     ],
     "specs": [
       "350W",
-      "Up to 8mph",
+      "Up to 13 km/h",
       "Ages 8+"
     ],
     "colours": [
@@ -6736,18 +6798,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-surron-lightbee.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Genuine replacement 60V lithium-ion battery pack for the Sur-Ron Light Bee X and Light Bee L1e. High-quality 21700 cells with a smart BMS restore full range and performance to your electric dirt bike.",
-    "metaTitle": "Sur-Ron Light Bee 60V Replacement Battery | Sur-Ron – VoltTrail UK",
-    "metaDescription": "Sur-Ron Light Bee 60V Replacement Battery by Sur-Ron. £699 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Sur-Ron Light Bee 60V Replacement Battery | Sur-Ron – DirtVolt Netherlands",
+    "metaDescription": "Sur-Ron Light Bee 60V Replacement Battery by Sur-Ron. €699 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Sur-Ron High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -6774,8 +6836,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Sur-Ron Light Bee 60V Replacement Battery road legal in the UK?",
-        "answer": "The Sur-Ron Light Bee 60V Replacement Battery is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Sur-Ron Light Bee 60V Replacement Battery road legal in the Netherlands?",
+        "answer": "The Sur-Ron Light Bee 60V Replacement Battery is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Sur-Ron Light Bee 60V Replacement Battery go?",
@@ -6783,18 +6845,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Sur-Ron Light Bee 60V Replacement Battery?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -6817,8 +6880,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "chg-surron-lightbee",
     "name": "Sur-Ron Light Bee 60V Charger (10A)",
     "brand": "Sur-Ron",
-    "subtitle": "Sur-Ron • 60V 10A output • ~3hr charge • UK plug",
-    "tagline": "60V 10A output | ~3hr charge | UK plug",
+    "subtitle": "Sur-Ron • 60V 10A output • ~3hr charge • EU Schuko plug",
+    "tagline": "60V 10A output | ~3hr charge | EU Schuko plug",
     "category": "Batteries & Chargers",
     "priceGBP": 89,
     "rrpGBP": 89,
@@ -6833,18 +6896,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-chg-surron-lightbee.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "Official Sur-Ron 10A fast charger for the 60V Light Bee X and L1e. Intelligent power delivery with over-voltage, temperature and short-circuit protection. Full charge in around 2.5-3.5 hours from any UK socket.",
-    "metaTitle": "Sur-Ron Light Bee 60V Charger (10A) | Sur-Ron – VoltTrail UK",
-    "metaDescription": "Sur-Ron Light Bee 60V Charger (10A) by Sur-Ron. £89 at VoltTrail. Free UK delivery and finance available.",
+    "description": "Official Sur-Ron 10A fast charger for the 60V Light Bee X and L1e. Intelligent power delivery with over-voltage, temperature and short-circuit protection. Full charge in around 2.5-3.5 hours from any EU 230V socket.",
+    "metaTitle": "Sur-Ron Light Bee 60V Charger (10A) | Sur-Ron – DirtVolt Netherlands",
+    "metaDescription": "Sur-Ron Light Bee 60V Charger (10A) by Sur-Ron. €89 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Sur-Ron High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -6871,8 +6934,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Sur-Ron Light Bee 60V Charger (10A) road legal in the UK?",
-        "answer": "The Sur-Ron Light Bee 60V Charger (10A) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Sur-Ron Light Bee 60V Charger (10A) road legal in the Netherlands?",
+        "answer": "The Sur-Ron Light Bee 60V Charger (10A) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Sur-Ron Light Bee 60V Charger (10A) go?",
@@ -6880,18 +6943,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Sur-Ron Light Bee 60V Charger (10A)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -6903,7 +6967,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "specs": [
       "60V 10A output",
       "~3hr charge",
-      "UK plug"
+      "EU Schuko plug"
     ],
     "colours": [],
     "finance": null,
@@ -6930,18 +6994,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-surron-stormbee.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Genuine replacement 104V high-voltage lithium-ion battery pack for the Sur-Ron Storm Bee. Delivers the full power and range the Storm Bee was built for.",
-    "metaTitle": "Sur-Ron Storm Bee 104V Replacement Battery | Sur-Ron – VoltTrail UK",
-    "metaDescription": "Sur-Ron Storm Bee 104V Replacement Battery by Sur-Ron. £2,499 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Sur-Ron Storm Bee 104V Replacement Battery | Sur-Ron – DirtVolt Netherlands",
+    "metaDescription": "Sur-Ron Storm Bee 104V Replacement Battery by Sur-Ron. €2,499 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Sur-Ron High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -6968,8 +7032,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Sur-Ron Storm Bee 104V Replacement Battery road legal in the UK?",
-        "answer": "The Sur-Ron Storm Bee 104V Replacement Battery is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Sur-Ron Storm Bee 104V Replacement Battery road legal in the Netherlands?",
+        "answer": "The Sur-Ron Storm Bee 104V Replacement Battery is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Sur-Ron Storm Bee 104V Replacement Battery go?",
@@ -6977,18 +7041,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Sur-Ron Storm Bee 104V Replacement Battery?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -7003,7 +7068,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "Fits Storm Bee"
     ],
     "colours": [],
-    "finance": "~£69/mo",
+    "finance": "~€69/mo",
     "type": "part"
   },
   {
@@ -7011,8 +7076,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "chg-surron-stormbee",
     "name": "Sur-Ron Storm Bee 104V Fast Charger",
     "brand": "Sur-Ron",
-    "subtitle": "Sur-Ron • 104V fast charger • High-voltage • UK plug",
-    "tagline": "104V fast charger | High-voltage | UK plug",
+    "subtitle": "Sur-Ron • 104V fast charger • High-voltage • EU Schuko plug",
+    "tagline": "104V fast charger | High-voltage | EU Schuko plug",
     "category": "Batteries & Chargers",
     "priceGBP": 169,
     "rrpGBP": 169,
@@ -7027,18 +7092,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-chg-surron-stormbee.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Official Sur-Ron high-voltage fast charger for the 104V Storm Bee battery. Engineered for safe, stable charging with full battery protection.",
-    "metaTitle": "Sur-Ron Storm Bee 104V Fast Charger | Sur-Ron – VoltTrail UK",
-    "metaDescription": "Sur-Ron Storm Bee 104V Fast Charger by Sur-Ron. £169 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Sur-Ron Storm Bee 104V Fast Charger | Sur-Ron – DirtVolt Netherlands",
+    "metaDescription": "Sur-Ron Storm Bee 104V Fast Charger by Sur-Ron. €169 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Sur-Ron High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -7065,8 +7130,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Sur-Ron Storm Bee 104V Fast Charger road legal in the UK?",
-        "answer": "The Sur-Ron Storm Bee 104V Fast Charger is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Sur-Ron Storm Bee 104V Fast Charger road legal in the Netherlands?",
+        "answer": "The Sur-Ron Storm Bee 104V Fast Charger is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Sur-Ron Storm Bee 104V Fast Charger go?",
@@ -7074,18 +7139,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Sur-Ron Storm Bee 104V Fast Charger?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -7097,7 +7163,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "specs": [
       "104V fast charger",
       "High-voltage",
-      "UK plug"
+      "EU Schuko plug"
     ],
     "colours": [],
     "finance": null,
@@ -7124,18 +7190,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-surron-ultrabee.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Genuine replacement 74V lithium-ion battery pack for the Sur-Ron Ultra Bee. High-capacity cells with smart BMS for maximum range and performance.",
-    "metaTitle": "Sur-Ron Ultra Bee 74V Replacement Battery | Sur-Ron – VoltTrail UK",
-    "metaDescription": "Sur-Ron Ultra Bee 74V Replacement Battery by Sur-Ron. £1,599 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Sur-Ron Ultra Bee 74V Replacement Battery | Sur-Ron – DirtVolt Netherlands",
+    "metaDescription": "Sur-Ron Ultra Bee 74V Replacement Battery by Sur-Ron. €1,599 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Sur-Ron High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -7162,8 +7228,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Sur-Ron Ultra Bee 74V Replacement Battery road legal in the UK?",
-        "answer": "The Sur-Ron Ultra Bee 74V Replacement Battery is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Sur-Ron Ultra Bee 74V Replacement Battery road legal in the Netherlands?",
+        "answer": "The Sur-Ron Ultra Bee 74V Replacement Battery is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Sur-Ron Ultra Bee 74V Replacement Battery go?",
@@ -7171,18 +7237,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Sur-Ron Ultra Bee 74V Replacement Battery?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -7197,7 +7264,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "Fits Ultra Bee"
     ],
     "colours": [],
-    "finance": "~£44/mo",
+    "finance": "~€44/mo",
     "type": "part"
   },
   {
@@ -7205,8 +7272,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "chg-surron-ultrabee",
     "name": "Sur-Ron Ultra Bee 74V Charger",
     "brand": "Sur-Ron",
-    "subtitle": "Sur-Ron • 74V fast charger • Smart protection • UK plug",
-    "tagline": "74V fast charger | Smart protection | UK plug",
+    "subtitle": "Sur-Ron • 74V fast charger • Smart protection • EU Schuko plug",
+    "tagline": "74V fast charger | Smart protection | EU Schuko plug",
     "category": "Batteries & Chargers",
     "priceGBP": 129,
     "rrpGBP": 129,
@@ -7221,18 +7288,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-chg-surron-ultrabee.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "Official Sur-Ron fast charger for the 74V Ultra Bee battery pack. Reliable, protected charging from any standard UK socket.",
-    "metaTitle": "Sur-Ron Ultra Bee 74V Charger | Sur-Ron – VoltTrail UK",
-    "metaDescription": "Sur-Ron Ultra Bee 74V Charger by Sur-Ron. £129 at VoltTrail. Free UK delivery and finance available.",
+    "description": "Official Sur-Ron fast charger for the 74V Ultra Bee battery pack. Reliable, protected charging from any standard EU 230V socket.",
+    "metaTitle": "Sur-Ron Ultra Bee 74V Charger | Sur-Ron – DirtVolt Netherlands",
+    "metaDescription": "Sur-Ron Ultra Bee 74V Charger by Sur-Ron. €129 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Sur-Ron High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -7259,8 +7326,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Sur-Ron Ultra Bee 74V Charger road legal in the UK?",
-        "answer": "The Sur-Ron Ultra Bee 74V Charger is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Sur-Ron Ultra Bee 74V Charger road legal in the Netherlands?",
+        "answer": "The Sur-Ron Ultra Bee 74V Charger is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Sur-Ron Ultra Bee 74V Charger go?",
@@ -7268,18 +7335,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Sur-Ron Ultra Bee 74V Charger?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -7291,7 +7359,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "specs": [
       "74V fast charger",
       "Smart protection",
-      "UK plug"
+      "EU Schuko plug"
     ],
     "colours": [],
     "finance": null,
@@ -7318,18 +7386,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-surron-hyperbee.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Genuine replacement 58V lithium-ion battery pack for the Sur-Ron Hyper Bee youth electric dirt bike. Official Sur-Ron spec — full capacity, integrated BMS.",
-    "metaTitle": "Sur-Ron Hyper Bee 58V Replacement Battery | Sur-Ron – VoltTrail UK",
-    "metaDescription": "Sur-Ron Hyper Bee 58V Replacement Battery by Sur-Ron. £749 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Sur-Ron Hyper Bee 58V Replacement Battery | Sur-Ron – DirtVolt Netherlands",
+    "metaDescription": "Sur-Ron Hyper Bee 58V Replacement Battery by Sur-Ron. €749 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Sur-Ron High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -7356,8 +7424,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Sur-Ron Hyper Bee 58V Replacement Battery road legal in the UK?",
-        "answer": "The Sur-Ron Hyper Bee 58V Replacement Battery is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Sur-Ron Hyper Bee 58V Replacement Battery road legal in the Netherlands?",
+        "answer": "The Sur-Ron Hyper Bee 58V Replacement Battery is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Sur-Ron Hyper Bee 58V Replacement Battery go?",
@@ -7365,18 +7433,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Sur-Ron Hyper Bee 58V Replacement Battery?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -7399,8 +7468,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "chg-surron-hyperbee",
     "name": "Sur-Ron Hyper Bee 58V Charger",
     "brand": "Sur-Ron",
-    "subtitle": "Sur-Ron • 58V charger • Smart protection • UK plug",
-    "tagline": "58V charger | Smart protection | UK plug",
+    "subtitle": "Sur-Ron • 58V charger • Smart protection • EU Schuko plug",
+    "tagline": "58V charger | Smart protection | EU Schuko plug",
     "category": "Batteries & Chargers",
     "priceGBP": 79,
     "rrpGBP": 79,
@@ -7415,18 +7484,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-chg-surron-hyperbee.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "Official Sur-Ron charger for the 58V Hyper Bee battery pack. Safe, protected charging from any UK socket.",
-    "metaTitle": "Sur-Ron Hyper Bee 58V Charger | Sur-Ron – VoltTrail UK",
-    "metaDescription": "Sur-Ron Hyper Bee 58V Charger by Sur-Ron. £79 at VoltTrail. Free UK delivery and finance available.",
+    "description": "Official Sur-Ron charger for the 58V Hyper Bee battery pack. Safe, protected charging from any EU 230V socket.",
+    "metaTitle": "Sur-Ron Hyper Bee 58V Charger | Sur-Ron – DirtVolt Netherlands",
+    "metaDescription": "Sur-Ron Hyper Bee 58V Charger by Sur-Ron. €79 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Sur-Ron High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -7453,8 +7522,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Sur-Ron Hyper Bee 58V Charger road legal in the UK?",
-        "answer": "The Sur-Ron Hyper Bee 58V Charger is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Sur-Ron Hyper Bee 58V Charger road legal in the Netherlands?",
+        "answer": "The Sur-Ron Hyper Bee 58V Charger is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Sur-Ron Hyper Bee 58V Charger go?",
@@ -7462,18 +7531,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Sur-Ron Hyper Bee 58V Charger?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -7485,7 +7555,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "specs": [
       "58V charger",
       "Smart protection",
-      "UK plug"
+      "EU Schuko plug"
     ],
     "colours": [],
     "finance": null,
@@ -7512,18 +7582,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-talaria-stingr.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Genuine replacement 60V 45Ah lithium-ion battery pack for the Talaria Sting R MX4. 2.7kWh of high-quality LG cells for extended range.",
-    "metaTitle": "Talaria Sting R 60V 45Ah Replacement Battery | Talaria – VoltTrail UK",
-    "metaDescription": "Talaria Sting R 60V 45Ah Replacement Battery by Talaria. £899 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Talaria Sting R 60V 45Ah Replacement Battery | Talaria – DirtVolt Netherlands",
+    "metaDescription": "Talaria Sting R 60V 45Ah Replacement Battery by Talaria. €899 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 945,
       "batteryBrand": "Talaria High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -7550,8 +7620,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Talaria Sting R 60V 45Ah Replacement Battery road legal in the UK?",
-        "answer": "The Talaria Sting R 60V 45Ah Replacement Battery is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Talaria Sting R 60V 45Ah Replacement Battery road legal in the Netherlands?",
+        "answer": "The Talaria Sting R 60V 45Ah Replacement Battery is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Talaria Sting R 60V 45Ah Replacement Battery go?",
@@ -7559,18 +7629,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Talaria Sting R 60V 45Ah Replacement Battery?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -7585,7 +7656,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "Fits Sting R MX4"
     ],
     "colours": [],
-    "finance": "~£25/mo",
+    "finance": "~€25/mo",
     "type": "part"
   },
   {
@@ -7609,18 +7680,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-talaria-sting38.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Genuine OEM 60V 38Ah lithium-ion battery pack for the Talaria Sting, Sting L1e, TL45 and TL3000. Removable pack with cell balancing BMS.",
-    "metaTitle": "Talaria Sting 60V 38Ah Replacement Battery | Talaria – VoltTrail UK",
-    "metaDescription": "Talaria Sting 60V 38Ah Replacement Battery by Talaria. £799 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Talaria Sting 60V 38Ah Replacement Battery | Talaria – DirtVolt Netherlands",
+    "metaDescription": "Talaria Sting 60V 38Ah Replacement Battery by Talaria. €799 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Talaria High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -7647,8 +7718,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Talaria Sting 60V 38Ah Replacement Battery road legal in the UK?",
-        "answer": "The Talaria Sting 60V 38Ah Replacement Battery is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Talaria Sting 60V 38Ah Replacement Battery road legal in the Netherlands?",
+        "answer": "The Talaria Sting 60V 38Ah Replacement Battery is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Talaria Sting 60V 38Ah Replacement Battery go?",
@@ -7656,18 +7727,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Talaria Sting 60V 38Ah Replacement Battery?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -7682,7 +7754,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "Fits Sting / L1e / X3"
     ],
     "colours": [],
-    "finance": "~£22/mo",
+    "finance": "~€22/mo",
     "type": "part"
   },
   {
@@ -7690,8 +7762,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "chg-talaria-60v",
     "name": "Talaria 60V OEM Charger",
     "brand": "Talaria",
-    "subtitle": "Talaria • 60V charger • ~3hr charge • UK plug",
-    "tagline": "60V charger | ~3hr charge | UK plug",
+    "subtitle": "Talaria • 60V charger • ~3hr charge • EU Schuko plug",
+    "tagline": "60V charger | ~3hr charge | EU Schuko plug",
     "category": "Batteries & Chargers",
     "priceGBP": 99,
     "rrpGBP": 99,
@@ -7706,18 +7778,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-chg-talaria-60v.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Official Talaria 60V OEM charger for the Sting, Sting R, Sting L1e and X3. The Sting R charger achieves a full 0-100% charge in around 3 hours.",
-    "metaTitle": "Talaria 60V OEM Charger | Talaria – VoltTrail UK",
-    "metaDescription": "Talaria 60V OEM Charger by Talaria. £99 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Talaria 60V OEM Charger | Talaria – DirtVolt Netherlands",
+    "metaDescription": "Talaria 60V OEM Charger by Talaria. €99 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Talaria High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -7744,8 +7816,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Talaria 60V OEM Charger road legal in the UK?",
-        "answer": "The Talaria 60V OEM Charger is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Talaria 60V OEM Charger road legal in the Netherlands?",
+        "answer": "The Talaria 60V OEM Charger is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Talaria 60V OEM Charger go?",
@@ -7753,18 +7825,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Talaria 60V OEM Charger?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -7776,7 +7849,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "specs": [
       "60V charger",
       "~3hr charge",
-      "UK plug"
+      "EU Schuko plug"
     ],
     "colours": [],
     "finance": null,
@@ -7803,18 +7876,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-talaria-72v.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Genuine replacement 72V 40Ah lithium-ion battery pack (2,880Wh) for the Talaria Sting MX5 Pro and Komodo. Talaria's most powerful battery with advanced BMS.",
-    "metaTitle": "Talaria 72V 40Ah Replacement Battery (MX5 / Komodo) | Talaria – VoltTrail UK",
-    "metaDescription": "Talaria 72V 40Ah Replacement Battery (MX5 / Komodo) by Talaria. £1,099 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Talaria 72V 40Ah Replacement Battery (MX5 / Komodo) | Talaria – DirtVolt Netherlands",
+    "metaDescription": "Talaria 72V 40Ah Replacement Battery (MX5 / Komodo) by Talaria. €1,099 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 308,
       "batteryBrand": "Talaria High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -7841,8 +7914,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Talaria 72V 40Ah Replacement Battery (MX5 / Komodo) road legal in the UK?",
-        "answer": "The Talaria 72V 40Ah Replacement Battery (MX5 / Komodo) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Talaria 72V 40Ah Replacement Battery (MX5 / Komodo) road legal in the Netherlands?",
+        "answer": "The Talaria 72V 40Ah Replacement Battery (MX5 / Komodo) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Talaria 72V 40Ah Replacement Battery (MX5 / Komodo) go?",
@@ -7850,18 +7923,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Talaria 72V 40Ah Replacement Battery (MX5 / Komodo)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -7876,7 +7950,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "Fits MX5 Pro & Komodo"
     ],
     "colours": [],
-    "finance": "~£31/mo",
+    "finance": "~€31/mo",
     "type": "part"
   },
   {
@@ -7884,8 +7958,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "chg-talaria-72v",
     "name": "Talaria 72V Charger (MX5 / Komodo)",
     "brand": "Talaria",
-    "subtitle": "Talaria • 72V charger • Smart protection • UK plug",
-    "tagline": "72V charger | Smart protection | UK plug",
+    "subtitle": "Talaria • 72V charger • Smart protection • EU Schuko plug",
+    "tagline": "72V charger | Smart protection | EU Schuko plug",
     "category": "Batteries & Chargers",
     "priceGBP": 119,
     "rrpGBP": 119,
@@ -7900,18 +7974,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-chg-talaria-72v.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Official Talaria 72V charger for the Sting MX5 Pro and Komodo battery packs. Not interchangeable with 60V Talaria models.",
-    "metaTitle": "Talaria 72V Charger (MX5 / Komodo) | Talaria – VoltTrail UK",
-    "metaDescription": "Talaria 72V Charger (MX5 / Komodo) by Talaria. £119 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Talaria 72V Charger (MX5 / Komodo) | Talaria – DirtVolt Netherlands",
+    "metaDescription": "Talaria 72V Charger (MX5 / Komodo) by Talaria. €119 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Talaria High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -7938,8 +8012,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Talaria 72V Charger (MX5 / Komodo) road legal in the UK?",
-        "answer": "The Talaria 72V Charger (MX5 / Komodo) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Talaria 72V Charger (MX5 / Komodo) road legal in the Netherlands?",
+        "answer": "The Talaria 72V Charger (MX5 / Komodo) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Talaria 72V Charger (MX5 / Komodo) go?",
@@ -7947,18 +8021,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Talaria 72V Charger (MX5 / Komodo)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -7970,7 +8045,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "specs": [
       "72V charger",
       "Smart protection",
-      "UK plug"
+      "EU Schuko plug"
     ],
     "colours": [],
     "finance": null,
@@ -7997,18 +8072,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-stark-varg.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "Genuine replacement 6.5kWh battery pack for the Stark Varg MX 1.2 and Varg EX. Patented magnesium housing, integrated BMS. UK stock, free delivery. \"Flying V\" case for cooling and a class-leading capacity-to-weight ratio.",
-    "metaTitle": "Stark Varg 6.5kWh Replacement Battery Pack | Stark Varg – VoltTrail UK",
-    "metaDescription": "Stark Varg 6.5kWh Replacement Battery Pack by Stark Varg. £3,499 at VoltTrail. Free UK delivery and finance available.",
+    "description": "Genuine replacement 6.5kWh battery pack for the Stark Varg MX 1.2 and Varg EX. Patented magnesium housing, integrated BMS. Netherlands Amsterdam stock, free delivery. \"Flying V\" case for cooling and a class-leading capacity-to-weight ratio.",
+    "metaTitle": "Stark Varg 6.5kWh Replacement Battery Pack | Stark Varg – DirtVolt Netherlands",
+    "metaDescription": "Stark Varg 6.5kWh Replacement Battery Pack by Stark Varg. €3,499 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2275,
       "batteryBrand": "Stark Varg High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -8035,8 +8110,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Stark Varg 6.5kWh Replacement Battery Pack road legal in the UK?",
-        "answer": "The Stark Varg 6.5kWh Replacement Battery Pack is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Stark Varg 6.5kWh Replacement Battery Pack road legal in the Netherlands?",
+        "answer": "The Stark Varg 6.5kWh Replacement Battery Pack is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Stark Varg 6.5kWh Replacement Battery Pack go?",
@@ -8044,18 +8119,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Stark Varg 6.5kWh Replacement Battery Pack?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -8070,7 +8146,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "Fits Varg MX & EX"
     ],
     "colours": [],
-    "finance": "~£97/mo",
+    "finance": "~€97/mo",
     "type": "part"
   },
   {
@@ -8094,18 +8170,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-chg-stark-varg.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Official Stark Varg 3.3kW fast charger. Delivers a full battery charge in under 2 hours from a standard 220V power socket.",
-    "metaTitle": "Stark Varg 3.3kW Fast Charger | Stark Varg – VoltTrail UK",
-    "metaDescription": "Stark Varg 3.3kW Fast Charger by Stark Varg. £349 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Stark Varg 3.3kW Fast Charger | Stark Varg – DirtVolt Netherlands",
+    "metaDescription": "Stark Varg 3.3kW Fast Charger by Stark Varg. €349 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 1155,
       "batteryBrand": "Stark Varg High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -8132,8 +8208,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Stark Varg 3.3kW Fast Charger road legal in the UK?",
-        "answer": "The Stark Varg 3.3kW Fast Charger is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Stark Varg 3.3kW Fast Charger road legal in the Netherlands?",
+        "answer": "The Stark Varg 3.3kW Fast Charger is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Stark Varg 3.3kW Fast Charger go?",
@@ -8141,18 +8217,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Stark Varg 3.3kW Fast Charger?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -8191,18 +8268,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-chg-stark-110v.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "110V charging adapter for the Stark Varg fast charger — essential for UK riders whose mains socket is 110V. Plug-and-play fit for the standard Stark Varg charger.",
-    "metaTitle": "Stark Varg 110V Charging Adapter | Stark Varg – VoltTrail UK",
-    "metaDescription": "Stark Varg 110V Charging Adapter by Stark Varg. £89 at VoltTrail. Free UK delivery and finance available.",
+    "description": "110V charging adapter for the Stark Varg fast charger — essential for Netherlands riders whose mains socket is 110V. Plug-and-play fit for the standard Stark Varg charger.",
+    "metaTitle": "Stark Varg 110V Charging Adapter | Stark Varg – DirtVolt Netherlands",
+    "metaDescription": "Stark Varg 110V Charging Adapter by Stark Varg. €89 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Stark Varg High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -8229,8 +8306,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Stark Varg 110V Charging Adapter road legal in the UK?",
-        "answer": "The Stark Varg 110V Charging Adapter is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Stark Varg 110V Charging Adapter road legal in the Netherlands?",
+        "answer": "The Stark Varg 110V Charging Adapter is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Stark Varg 110V Charging Adapter go?",
@@ -8238,18 +8315,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Stark Varg 110V Charging Adapter?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -8288,18 +8366,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-ktm-sxe5.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Genuine KTM PowerPack lithium-ion battery for the SX-E 5. 84 cells in a die-cast aluminium casing storing 907Wh, with an integrated battery management system.",
-    "metaTitle": "KTM PowerPack 907Wh Battery (SX-E 5) | KTM – VoltTrail UK",
-    "metaDescription": "KTM PowerPack 907Wh Battery (SX-E 5) by KTM. £1,299 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "KTM PowerPack 907Wh Battery (SX-E 5) | KTM – DirtVolt Netherlands",
+    "metaDescription": "KTM PowerPack 907Wh Battery (SX-E 5) by KTM. €1,299 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 317,
       "batteryBrand": "KTM High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -8326,8 +8404,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the KTM PowerPack 907Wh Battery (SX-E 5) road legal in the UK?",
-        "answer": "The KTM PowerPack 907Wh Battery (SX-E 5) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the KTM PowerPack 907Wh Battery (SX-E 5) road legal in the Netherlands?",
+        "answer": "The KTM PowerPack 907Wh Battery (SX-E 5) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the KTM PowerPack 907Wh Battery (SX-E 5) go?",
@@ -8335,18 +8413,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the KTM PowerPack 907Wh Battery (SX-E 5)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -8361,7 +8440,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "Fits SX-E 5"
     ],
     "colours": [],
-    "finance": "~£36/mo",
+    "finance": "~€36/mo",
     "type": "part"
   },
   {
@@ -8385,18 +8464,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-ktm-sxe3.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Genuine KTM PowerPack lithium-ion battery for the SX-E 3. 60 cells storing 648Wh with an integrated BMS. The SX-E 3 can also be upgraded to the larger SX-E 5 pack.",
-    "metaTitle": "KTM PowerPack 648Wh Battery (SX-E 3) | KTM – VoltTrail UK",
-    "metaDescription": "KTM PowerPack 648Wh Battery (SX-E 3) by KTM. £999 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "KTM PowerPack 648Wh Battery (SX-E 3) | KTM – DirtVolt Netherlands",
+    "metaDescription": "KTM PowerPack 648Wh Battery (SX-E 3) by KTM. €999 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 227,
       "batteryBrand": "KTM High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -8423,8 +8502,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the KTM PowerPack 648Wh Battery (SX-E 3) road legal in the UK?",
-        "answer": "The KTM PowerPack 648Wh Battery (SX-E 3) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the KTM PowerPack 648Wh Battery (SX-E 3) road legal in the Netherlands?",
+        "answer": "The KTM PowerPack 648Wh Battery (SX-E 3) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the KTM PowerPack 648Wh Battery (SX-E 3) go?",
@@ -8432,18 +8511,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the KTM PowerPack 648Wh Battery (SX-E 3)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -8458,7 +8538,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "Fits SX-E 3"
     ],
     "colours": [],
-    "finance": "~£28/mo",
+    "finance": "~€28/mo",
     "type": "part"
   },
   {
@@ -8482,18 +8562,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-chg-ktm.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Official KTM 900W worldwide charger for the SX-E 2, SX-E 3 and SX-E 5. Connects to any 80-240V socket and charges the SX-E 5 from 0-80% in just 45 minutes.",
-    "metaTitle": "KTM 900W Charger (SX-E Range) | KTM – VoltTrail UK",
-    "metaDescription": "KTM 900W Charger (SX-E Range) by KTM. £249 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "KTM 900W Charger (SX-E Range) | KTM – DirtVolt Netherlands",
+    "metaDescription": "KTM 900W Charger (SX-E Range) by KTM. €249 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 315,
       "batteryBrand": "KTM High-Discharge Li-Ion",
-      "rangeMiles": "Up to 45 miles",
+      "rangeMiles": "Up to 72 km",
       "maxRangeMiles": 45,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -8520,8 +8600,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the KTM 900W Charger (SX-E Range) road legal in the UK?",
-        "answer": "The KTM 900W Charger (SX-E Range) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the KTM 900W Charger (SX-E Range) road legal in the Netherlands?",
+        "answer": "The KTM 900W Charger (SX-E Range) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the KTM 900W Charger (SX-E Range) go?",
@@ -8529,18 +8609,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the KTM 900W Charger (SX-E Range)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -8579,18 +8660,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-eride-72v.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Replacement 72V lithium-ion battery pack for the E Ride Pro SS 2.0 and S electric dirt bikes. Please contact us to confirm the exact pack for your model.",
-    "metaTitle": "E Ride Pro 72V Replacement Battery | E Ride Pro – VoltTrail UK",
-    "metaDescription": "E Ride Pro 72V Replacement Battery by E Ride Pro. £849 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "E Ride Pro 72V Replacement Battery | E Ride Pro – DirtVolt Netherlands",
+    "metaDescription": "E Ride Pro 72V Replacement Battery by E Ride Pro. €849 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "E Ride Pro High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -8617,8 +8698,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the E Ride Pro 72V Replacement Battery road legal in the UK?",
-        "answer": "The E Ride Pro 72V Replacement Battery is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the E Ride Pro 72V Replacement Battery road legal in the Netherlands?",
+        "answer": "The E Ride Pro 72V Replacement Battery is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the E Ride Pro 72V Replacement Battery go?",
@@ -8626,18 +8707,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the E Ride Pro 72V Replacement Battery?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -8652,7 +8734,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "Smart BMS"
     ],
     "colours": [],
-    "finance": "~£24/mo",
+    "finance": "~€24/mo",
     "type": "part"
   },
   {
@@ -8660,8 +8742,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "chg-eride-72v",
     "name": "E Ride Pro 72V Charger",
     "brand": "E Ride Pro",
-    "subtitle": "E Ride Pro • 72V charger • Smart protection • UK plug",
-    "tagline": "72V charger | Smart protection | UK plug",
+    "subtitle": "E Ride Pro • 72V charger • Smart protection • EU Schuko plug",
+    "tagline": "72V charger | Smart protection | EU Schuko plug",
     "category": "Batteries & Chargers",
     "priceGBP": 109,
     "rrpGBP": 109,
@@ -8676,18 +8758,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-chg-eride-72v.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "Replacement 72V charger for the E Ride Pro SS 2.0 and S electric dirt bikes. Safe, protected charging from a standard UK socket.",
-    "metaTitle": "E Ride Pro 72V Charger | E Ride Pro – VoltTrail UK",
-    "metaDescription": "E Ride Pro 72V Charger by E Ride Pro. £109 at VoltTrail. Free UK delivery and finance available.",
+    "description": "Replacement 72V charger for the E Ride Pro SS 2.0 and S electric dirt bikes. Safe, protected charging from a standard EU 230V socket.",
+    "metaTitle": "E Ride Pro 72V Charger | E Ride Pro – DirtVolt Netherlands",
+    "metaDescription": "E Ride Pro 72V Charger by E Ride Pro. €109 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "E Ride Pro High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -8714,8 +8796,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the E Ride Pro 72V Charger road legal in the UK?",
-        "answer": "The E Ride Pro 72V Charger is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the E Ride Pro 72V Charger road legal in the Netherlands?",
+        "answer": "The E Ride Pro 72V Charger is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the E Ride Pro 72V Charger go?",
@@ -8723,18 +8805,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the E Ride Pro 72V Charger?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -8746,7 +8829,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "specs": [
       "72V charger",
       "Smart protection",
-      "UK plug"
+      "EU Schuko plug"
     ],
     "colours": [],
     "finance": null,
@@ -8773,18 +8856,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-rfn-ares.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Replacement lithium-ion battery pack for the RFN Ares Rally and Rally Pro electric dirt bikes. Please contact us to confirm the exact pack for your model and year.",
-    "metaTitle": "RFN Ares Replacement Battery | RFN – VoltTrail UK",
-    "metaDescription": "RFN Ares Replacement Battery by RFN. £849 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "RFN Ares Replacement Battery | RFN – DirtVolt Netherlands",
+    "metaDescription": "RFN Ares Replacement Battery by RFN. €849 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "RFN High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -8811,8 +8894,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the RFN Ares Replacement Battery road legal in the UK?",
-        "answer": "The RFN Ares Replacement Battery is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the RFN Ares Replacement Battery road legal in the Netherlands?",
+        "answer": "The RFN Ares Replacement Battery is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the RFN Ares Replacement Battery go?",
@@ -8820,18 +8903,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the RFN Ares Replacement Battery?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -8846,7 +8930,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "RFN OEM"
     ],
     "colours": [],
-    "finance": "~£24/mo",
+    "finance": "~€24/mo",
     "type": "part"
   },
   {
@@ -8854,8 +8938,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "chg-rfn",
     "name": "RFN OEM Charger",
     "brand": "RFN",
-    "subtitle": "RFN • RFN OEM charger • Smart protection • UK plug",
-    "tagline": "RFN OEM charger | Smart protection | UK plug",
+    "subtitle": "RFN • RFN OEM charger • Smart protection • EU Schuko plug",
+    "tagline": "RFN OEM charger | Smart protection | EU Schuko plug",
     "category": "Batteries & Chargers",
     "priceGBP": 99,
     "rrpGBP": 99,
@@ -8870,18 +8954,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-chg-rfn.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "RFN OEM charger for the Ares and Warrior ranges. Reliable, protected charging from a standard UK socket.",
-    "metaTitle": "RFN OEM Charger | RFN – VoltTrail UK",
-    "metaDescription": "RFN OEM Charger by RFN. £99 at VoltTrail. Free UK delivery and finance available.",
+    "description": "RFN OEM charger for the Ares and Warrior ranges. Reliable, protected charging from a standard EU 230V socket.",
+    "metaTitle": "RFN OEM Charger | RFN – DirtVolt Netherlands",
+    "metaDescription": "RFN OEM Charger by RFN. €99 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "RFN High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -8908,8 +8992,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the RFN OEM Charger road legal in the UK?",
-        "answer": "The RFN OEM Charger is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the RFN OEM Charger road legal in the Netherlands?",
+        "answer": "The RFN OEM Charger is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the RFN OEM Charger go?",
@@ -8917,18 +9001,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the RFN OEM Charger?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -8940,7 +9025,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "specs": [
       "RFN OEM charger",
       "Smart protection",
-      "UK plug"
+      "EU Schuko plug"
     ],
     "colours": [],
     "finance": null,
@@ -8967,18 +9052,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-revvi-3618.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Genuine removable 36V 5.0Ah battery pack to fit the Revvi 18in kids electric bike. Easy to swap for extended ride time.",
-    "metaTitle": "Revvi 36V 5.0Ah Battery (18in) | Revvi – VoltTrail UK",
-    "metaDescription": "Revvi 36V 5.0Ah Battery (18in) by Revvi. £99 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Revvi 36V 5.0Ah Battery (18in) | Revvi – DirtVolt Netherlands",
+    "metaDescription": "Revvi 36V 5.0Ah Battery (18in) by Revvi. €99 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Revvi High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -9005,8 +9090,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Revvi 36V 5.0Ah Battery (18in) road legal in the UK?",
-        "answer": "The Revvi 36V 5.0Ah Battery (18in) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Revvi 36V 5.0Ah Battery (18in) road legal in the Netherlands?",
+        "answer": "The Revvi 36V 5.0Ah Battery (18in) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Revvi 36V 5.0Ah Battery (18in) go?",
@@ -9014,18 +9099,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Revvi 36V 5.0Ah Battery (18in)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -9048,8 +9134,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "chg-revvi-36v",
     "name": "Revvi 36V 3.0A Charger (18in / 20in)",
     "brand": "Revvi",
-    "subtitle": "Revvi • 36V 3.0A • Fits 18in & 20in • UK plug",
-    "tagline": "36V 3.0A | Fits 18in & 20in | UK plug",
+    "subtitle": "Revvi • 36V 3.0A • Fits 18in & 20in • EU Schuko plug",
+    "tagline": "36V 3.0A | Fits 18in & 20in | EU Schuko plug",
     "category": "Batteries & Chargers",
     "priceGBP": 39,
     "rrpGBP": 39,
@@ -9064,18 +9150,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-chg-revvi-36v.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Genuine Revvi 36V 3.0A charger for the Revvi 18in and 20in kids' electric bikes. Official OEM replacement — safe, compatible and purpose-built for the Revvi range.",
-    "metaTitle": "Revvi 36V 3.0A Charger (18in / 20in) | Revvi – VoltTrail UK",
-    "metaDescription": "Revvi 36V 3.0A Charger (18in / 20in) by Revvi. £39 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Revvi 36V 3.0A Charger (18in / 20in) | Revvi – DirtVolt Netherlands",
+    "metaDescription": "Revvi 36V 3.0A Charger (18in / 20in) by Revvi. €39 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Revvi High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -9102,8 +9188,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Revvi 36V 3.0A Charger (18in / 20in) road legal in the UK?",
-        "answer": "The Revvi 36V 3.0A Charger (18in / 20in) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Revvi 36V 3.0A Charger (18in / 20in) road legal in the Netherlands?",
+        "answer": "The Revvi 36V 3.0A Charger (18in / 20in) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Revvi 36V 3.0A Charger (18in / 20in) go?",
@@ -9111,18 +9197,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Revvi 36V 3.0A Charger (18in / 20in)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -9134,7 +9221,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "specs": [
       "36V 3.0A",
       "Fits 18in & 20in",
-      "UK plug"
+      "EU Schuko plug"
     ],
     "colours": [],
     "finance": null,
@@ -9158,21 +9245,21 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "gtin13": "5060890100087",
     "mpn": "MPN-REVVI-BATREVVISMALL",
     "images": [
-      "https://volttrail.org/og-image.jpg"
+      "/images/site-icon.png"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Replacement battery pack for the Revvi 12in and 16in kids electric balance bikes. Please contact us to confirm the correct pack for your model.",
-    "metaTitle": "Revvi Battery (12in / 16in) | Revvi – VoltTrail UK",
-    "metaDescription": "Revvi Battery (12in / 16in) by Revvi. £69 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Revvi Battery (12in / 16in) | Revvi – DirtVolt Netherlands",
+    "metaDescription": "Revvi Battery (12in / 16in) by Revvi. €69 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Revvi High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -9199,8 +9286,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Revvi Battery (12in / 16in) road legal in the UK?",
-        "answer": "The Revvi Battery (12in / 16in) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Revvi Battery (12in / 16in) road legal in the Netherlands?",
+        "answer": "The Revvi Battery (12in / 16in) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Revvi Battery (12in / 16in) go?",
@@ -9208,18 +9295,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Revvi Battery (12in / 16in)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -9242,8 +9330,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "slug": "chg-razor-24v",
     "name": "Razor 24V 2A Charger (MX350 / MX400)",
     "brand": "Razor",
-    "subtitle": "Razor • 24V 2A • Fits MX350 & MX400 • UK plug",
-    "tagline": "24V 2A | Fits MX350 & MX400 | UK plug",
+    "subtitle": "Razor • 24V 2A • Fits MX350 & MX400 • EU Schuko plug",
+    "tagline": "24V 2A | Fits MX350 & MX400 | EU Schuko plug",
     "category": "Batteries & Chargers",
     "priceGBP": 25,
     "rrpGBP": 25,
@@ -9258,18 +9346,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-chg-razor-24v.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Replacement 24V 2A battery charger for the Razor MX350 and MX400 Dirt Rocket electric dirt bikes. Genuine-spec replacement to keep your child riding safely.",
-    "metaTitle": "Razor 24V 2A Charger (MX350 / MX400) | Razor – VoltTrail UK",
-    "metaDescription": "Razor 24V 2A Charger (MX350 / MX400) by Razor. £25 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Razor 24V 2A Charger (MX350 / MX400) | Razor – DirtVolt Netherlands",
+    "metaDescription": "Razor 24V 2A Charger (MX350 / MX400) by Razor. €25 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Razor High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -9296,8 +9384,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Razor 24V 2A Charger (MX350 / MX400) road legal in the UK?",
-        "answer": "The Razor 24V 2A Charger (MX350 / MX400) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Razor 24V 2A Charger (MX350 / MX400) road legal in the Netherlands?",
+        "answer": "The Razor 24V 2A Charger (MX350 / MX400) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Razor 24V 2A Charger (MX350 / MX400) go?",
@@ -9305,18 +9393,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Razor 24V 2A Charger (MX350 / MX400)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -9328,7 +9417,7 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "specs": [
       "24V 2A",
       "Fits MX350 & MX400",
-      "UK plug"
+      "EU Schuko plug"
     ],
     "colours": [],
     "finance": null,
@@ -9355,18 +9444,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-razor-24v.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Replacement 24V battery set (2 x 12V) for the Razor MX350 and MX400 Dirt Rocket electric dirt bikes. Restore full runtime and performance to your Razor.",
-    "metaTitle": "Razor 24V Battery Set (MX350 / MX400) | Razor – VoltTrail UK",
-    "metaDescription": "Razor 24V Battery Set (MX350 / MX400) by Razor. £59 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Razor 24V Battery Set (MX350 / MX400) | Razor – DirtVolt Netherlands",
+    "metaDescription": "Razor 24V Battery Set (MX350 / MX400) by Razor. €59 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Razor High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -9393,8 +9482,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Razor 24V Battery Set (MX350 / MX400) road legal in the UK?",
-        "answer": "The Razor 24V Battery Set (MX350 / MX400) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Razor 24V Battery Set (MX350 / MX400) road legal in the Netherlands?",
+        "answer": "The Razor 24V Battery Set (MX350 / MX400) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Razor 24V Battery Set (MX350 / MX400) go?",
@@ -9402,18 +9491,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Razor 24V Battery Set (MX350 / MX400)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -9435,8 +9525,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "helmet-mx",
     "slug": "helmet-mx",
     "name": "Off-Road MX Helmet – Adult",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • ECE 22.06 • Lightweight • Multiple sizes",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • ECE 22.06 • Lightweight • Multiple sizes",
     "tagline": "ECE 22.06 | Lightweight | Multiple sizes",
     "category": "Helmets & Protection",
     "priceGBP": 89,
@@ -9447,28 +9537,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-HELMET-MX",
     "gtin13": "5060890100090",
-    "mpn": "MPN-VOLTTRAIL-HELMETMX",
+    "mpn": "MPN-DIRTVOLT-HELMETMX",
     "images": [
       "https://volttrail.org/images/product-helmet-mx.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "An ECE 22.06-certified adult off-road MX helmet — lightweight, well-ventilated and available in multiple sizes for electric dirt bike and quad riding.",
-    "metaTitle": "Off-Road MX Helmet – Adult | VoltTrail – VoltTrail UK",
-    "metaDescription": "Off-Road MX Helmet – Adult by VoltTrail. £89 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Off-Road MX Helmet – Adult | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Off-Road MX Helmet – Adult by DirtVolt. €89 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -9490,8 +9580,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Off-Road MX Helmet – Adult road legal in the UK?",
-        "answer": "The Off-Road MX Helmet – Adult is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Off-Road MX Helmet – Adult road legal in the Netherlands?",
+        "answer": "The Off-Road MX Helmet – Adult is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Off-Road MX Helmet – Adult go?",
@@ -9499,18 +9589,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Off-Road MX Helmet – Adult?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -9549,8 +9640,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "helmet-kids",
     "slug": "helmet-kids",
     "name": "Kids Off-Road MX Helmet",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • ECE certified • Junior sizes • Lightweight",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • ECE certified • Junior sizes • Lightweight",
     "tagline": "ECE certified | Junior sizes | Lightweight",
     "category": "Helmets & Protection",
     "priceGBP": 49,
@@ -9561,28 +9652,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-HELMET-KIDS",
     "gtin13": "5060890100091",
-    "mpn": "MPN-VOLTTRAIL-HELMETKIDS",
+    "mpn": "MPN-DIRTVOLT-HELMETKIDS",
     "images": [
       "https://volttrail.org/images/product-helmet-kids.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "ECE-certified kids' off-road MX helmet in junior sizes. Lightweight shell, padded interior and adjustable fit — essential head protection for young electric dirt bike and quad riders.",
-    "metaTitle": "Kids Off-Road MX Helmet | VoltTrail – VoltTrail UK",
-    "metaDescription": "Kids Off-Road MX Helmet by VoltTrail. £49 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Kids Off-Road MX Helmet | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Kids Off-Road MX Helmet by DirtVolt. €49 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -9604,8 +9695,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Kids Off-Road MX Helmet road legal in the UK?",
-        "answer": "The Kids Off-Road MX Helmet is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Kids Off-Road MX Helmet road legal in the Netherlands?",
+        "answer": "The Kids Off-Road MX Helmet is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Kids Off-Road MX Helmet go?",
@@ -9613,18 +9704,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Kids Off-Road MX Helmet?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -9659,8 +9751,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "body-armour",
     "slug": "body-armour",
     "name": "Body Armour Set – Chest & Back",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • CE Level 1 • Adult • Lightweight",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • CE Level 1 • Adult • Lightweight",
     "tagline": "CE Level 1 | Adult | Lightweight",
     "category": "Helmets & Protection",
     "priceGBP": 65,
@@ -9671,28 +9763,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-BODY-ARMOUR",
     "gtin13": "5060890100092",
-    "mpn": "MPN-VOLTTRAIL-BODYARMOUR",
+    "mpn": "MPN-DIRTVOLT-BODYARMOUR",
     "images": [
       "https://volttrail.org/images/product-body-armour.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "A CE Level 1 body armour set with chest and back protection — lightweight off-road protection for adult electric dirt bike and quad riders.",
-    "metaTitle": "Body Armour Set – Chest & Back | VoltTrail – VoltTrail UK",
-    "metaDescription": "Body Armour Set – Chest & Back by VoltTrail. £65 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Body Armour Set – Chest & Back | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Body Armour Set – Chest & Back by DirtVolt. €65 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -9714,8 +9806,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Body Armour Set – Chest & Back road legal in the UK?",
-        "answer": "The Body Armour Set – Chest & Back is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Body Armour Set – Chest & Back road legal in the Netherlands?",
+        "answer": "The Body Armour Set – Chest & Back is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Body Armour Set – Chest & Back go?",
@@ -9723,18 +9815,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Body Armour Set – Chest & Back?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -9756,8 +9849,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "mx-goggles",
     "slug": "mx-goggles",
     "name": "MX Goggles – Anti-Fog",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • Anti-fog lens • Adjustable strap • Tear-off ready",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • Anti-fog lens • Adjustable strap • Tear-off ready",
     "tagline": "Anti-fog lens | Adjustable strap | Tear-off ready",
     "category": "Helmets & Protection",
     "priceGBP": 25,
@@ -9768,28 +9861,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-MX-GOGGLES",
     "gtin13": "5060890100093",
-    "mpn": "MPN-VOLTTRAIL-MXGOGGLES",
+    "mpn": "MPN-DIRTVOLT-MXGOGGLES",
     "images": [
       "https://volttrail.org/images/product-mx-goggles.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Anti-fog MX goggles with an adjustable strap and tear-off compatibility — clear vision for off-road electric dirt bike and quad riding.",
-    "metaTitle": "MX Goggles – Anti-Fog | VoltTrail – VoltTrail UK",
-    "metaDescription": "MX Goggles – Anti-Fog by VoltTrail. £25 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "MX Goggles – Anti-Fog | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "MX Goggles – Anti-Fog by DirtVolt. €25 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -9811,8 +9904,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the MX Goggles – Anti-Fog road legal in the UK?",
-        "answer": "The MX Goggles – Anti-Fog is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the MX Goggles – Anti-Fog road legal in the Netherlands?",
+        "answer": "The MX Goggles – Anti-Fog is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the MX Goggles – Anti-Fog go?",
@@ -9820,18 +9913,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the MX Goggles – Anti-Fog?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -9863,8 +9957,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "mx-gloves",
     "slug": "mx-gloves",
     "name": "Off-Road Riding Gloves",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • Breathable • Touchscreen • All sizes",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • Breathable • Touchscreen • All sizes",
     "tagline": "Breathable | Touchscreen | All sizes",
     "category": "Riding Gear & Clothing",
     "priceGBP": 22,
@@ -9875,28 +9969,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-MX-GLOVES",
     "gtin13": "5060890100094",
-    "mpn": "MPN-VOLTTRAIL-MXGLOVES",
+    "mpn": "MPN-DIRTVOLT-MXGLOVES",
     "images": [
       "https://volttrail.org/images/product-mx-gloves.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Breathable off-road riding gloves with touchscreen-compatible fingertips, available in all sizes for electric dirt bike and quad riders.",
-    "metaTitle": "Off-Road Riding Gloves | VoltTrail – VoltTrail UK",
-    "metaDescription": "Off-Road Riding Gloves by VoltTrail. £22 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Off-Road Riding Gloves | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Off-Road Riding Gloves by DirtVolt. €22 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -9918,8 +10012,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Off-Road Riding Gloves road legal in the UK?",
-        "answer": "The Off-Road Riding Gloves is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Off-Road Riding Gloves road legal in the Netherlands?",
+        "answer": "The Off-Road Riding Gloves is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Off-Road Riding Gloves go?",
@@ -9927,18 +10021,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Off-Road Riding Gloves?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -9969,8 +10064,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "mx-boots",
     "slug": "mx-boots",
     "name": "Motocross Boots – Adult",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • Ankle support • Buckle closure • Off-road sole",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • Ankle support • Buckle closure • Off-road sole",
     "tagline": "Ankle support | Buckle closure | Off-road sole",
     "category": "Riding Gear & Clothing",
     "priceGBP": 119,
@@ -9981,28 +10076,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-MX-BOOTS",
     "gtin13": "5060890100095",
-    "mpn": "MPN-VOLTTRAIL-MXBOOTS",
+    "mpn": "MPN-DIRTVOLT-MXBOOTS",
     "images": [
       "https://volttrail.org/images/product-mx-boots.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Adult motocross boots with strong ankle support, secure buckle closure and a grippy off-road sole for electric dirt bike and quad riding.",
-    "metaTitle": "Motocross Boots – Adult | VoltTrail – VoltTrail UK",
-    "metaDescription": "Motocross Boots – Adult by VoltTrail. £119 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Motocross Boots – Adult | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Motocross Boots – Adult by DirtVolt. €119 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -10024,8 +10119,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Motocross Boots – Adult road legal in the UK?",
-        "answer": "The Motocross Boots – Adult is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Motocross Boots – Adult road legal in the Netherlands?",
+        "answer": "The Motocross Boots – Adult is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Motocross Boots – Adult go?",
@@ -10033,18 +10128,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Motocross Boots – Adult?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -10075,8 +10171,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "chain-sprocket",
     "slug": "chain-sprocket",
     "name": "Chain & Sprocket Kit",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • Off-road spec • Sur-Ron/Talaria fit • Durable",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • Off-road spec • Sur-Ron/Talaria fit • Durable",
     "tagline": "Off-road spec | Sur-Ron/Talaria fit | Durable",
     "category": "Parts & Upgrades",
     "priceGBP": 59,
@@ -10087,28 +10183,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-CHAIN-SPROCKET",
     "gtin13": "5060890100096",
-    "mpn": "MPN-VOLTTRAIL-CHAINSPROCKET",
+    "mpn": "MPN-DIRTVOLT-CHAINSPROCKET",
     "images": [
       "https://volttrail.org/images/product-chain-sprocket.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "A durable off-road chain and sprocket kit sized to fit popular Sur-Ron and Talaria electric dirt bikes.",
-    "metaTitle": "Chain & Sprocket Kit | VoltTrail – VoltTrail UK",
-    "metaDescription": "Chain & Sprocket Kit by VoltTrail. £59 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Chain & Sprocket Kit | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Chain & Sprocket Kit by DirtVolt. €59 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -10130,8 +10226,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Chain & Sprocket Kit road legal in the UK?",
-        "answer": "The Chain & Sprocket Kit is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Chain & Sprocket Kit road legal in the Netherlands?",
+        "answer": "The Chain & Sprocket Kit is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Chain & Sprocket Kit go?",
@@ -10139,18 +10235,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Chain & Sprocket Kit?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -10172,8 +10269,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "brake-pads",
     "slug": "brake-pads",
     "name": "Performance Brake Pads (Pair)",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • Sintered • Strong bite • Long life",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • Sintered • Strong bite • Long life",
     "tagline": "Sintered | Strong bite | Long life",
     "category": "Parts & Upgrades",
     "priceGBP": 29,
@@ -10184,28 +10281,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-BRAKE-PADS",
     "gtin13": "5060890100097",
-    "mpn": "MPN-VOLTTRAIL-BRAKEPADS",
+    "mpn": "MPN-DIRTVOLT-BRAKEPADS",
     "images": [
       "https://volttrail.org/images/product-brake-pads.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Sintered performance brake pads (sold as a pair) offering a strong bite and long service life for electric dirt bikes.",
-    "metaTitle": "Performance Brake Pads (Pair) | VoltTrail – VoltTrail UK",
-    "metaDescription": "Performance Brake Pads (Pair) by VoltTrail. £29 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Performance Brake Pads (Pair) | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Performance Brake Pads (Pair) by DirtVolt. €29 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -10227,8 +10324,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Performance Brake Pads (Pair) road legal in the UK?",
-        "answer": "The Performance Brake Pads (Pair) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Performance Brake Pads (Pair) road legal in the Netherlands?",
+        "answer": "The Performance Brake Pads (Pair) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Performance Brake Pads (Pair) go?",
@@ -10236,18 +10333,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Performance Brake Pads (Pair)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -10269,8 +10367,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "offroad-tyre",
     "slug": "offroad-tyre",
     "name": "Off-Road Knobbly Tyre",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • 19in / 18in • Off-road tread • Tube type",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • 19in / 18in • Off-road tread • Tube type",
     "tagline": "19in / 18in | Off-road tread | Tube type",
     "category": "Tyres & Wheels",
     "priceGBP": 45,
@@ -10281,28 +10379,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-OFFROAD-TYRE",
     "gtin13": "5060890100098",
-    "mpn": "MPN-VOLTTRAIL-OFFROADTYRE",
+    "mpn": "MPN-DIRTVOLT-OFFROADTYRE",
     "images": [
       "https://volttrail.org/images/product-offroad-tyre.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "An off-road knobbly tyre in 19in and 18in fitments, with an aggressive tread pattern for grip on dirt, trails and tracks.",
-    "metaTitle": "Off-Road Knobbly Tyre | VoltTrail – VoltTrail UK",
-    "metaDescription": "Off-Road Knobbly Tyre by VoltTrail. £45 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Off-Road Knobbly Tyre | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Off-Road Knobbly Tyre by DirtVolt. €45 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -10324,8 +10422,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Off-Road Knobbly Tyre road legal in the UK?",
-        "answer": "The Off-Road Knobbly Tyre is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Off-Road Knobbly Tyre road legal in the Netherlands?",
+        "answer": "The Off-Road Knobbly Tyre is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Off-Road Knobbly Tyre go?",
@@ -10333,18 +10431,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Off-Road Knobbly Tyre?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -10366,8 +10465,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "front-sprocket",
     "slug": "front-sprocket",
     "name": "Upgraded Front Sprocket",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • Sur-Ron / Talaria fit • Changes gearing • Hardened steel",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • Sur-Ron / Talaria fit • Changes gearing • Hardened steel",
     "tagline": "Sur-Ron / Talaria fit | Changes gearing | Hardened steel",
     "category": "Parts & Upgrades",
     "priceGBP": 24,
@@ -10378,28 +10477,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-FRONT-SPROCKET",
     "gtin13": "5060890100099",
-    "mpn": "MPN-VOLTTRAIL-FRONTSPROCKET",
+    "mpn": "MPN-DIRTVOLT-FRONTSPROCKET",
     "images": [
       "https://volttrail.org/images/product-front-sprocket.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "An upgraded front sprocket for Sur-Ron and Talaria electric dirt bikes — the cheapest, most popular performance mod. Change your gearing for more top speed or more low-end torque to suit your riding.",
-    "metaTitle": "Upgraded Front Sprocket | VoltTrail – VoltTrail UK",
-    "metaDescription": "Upgraded Front Sprocket by VoltTrail. £24 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Upgraded Front Sprocket | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Upgraded Front Sprocket by DirtVolt. €24 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -10421,8 +10520,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Upgraded Front Sprocket road legal in the UK?",
-        "answer": "The Upgraded Front Sprocket is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Upgraded Front Sprocket road legal in the Netherlands?",
+        "answer": "The Upgraded Front Sprocket is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Upgraded Front Sprocket go?",
@@ -10430,18 +10529,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Upgraded Front Sprocket?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -10463,8 +10563,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "inner-tube",
     "slug": "inner-tube",
     "name": "Heavy-Duty Inner Tube (19in / 18in)",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • 19in / 18in • Heavy-duty • Puncture spare",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • 19in / 18in • Heavy-duty • Puncture spare",
     "tagline": "19in / 18in | Heavy-duty | Puncture spare",
     "category": "Parts & Upgrades",
     "priceGBP": 15,
@@ -10475,28 +10575,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-INNER-TUBE",
     "gtin13": "5060890100100",
-    "mpn": "MPN-VOLTTRAIL-INNERTUBE",
+    "mpn": "MPN-DIRTVOLT-INNERTUBE",
     "images": [
       "https://volttrail.org/images/product-inner-tube.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "A heavy-duty inner tube for 19in and 18in electric dirt bike wheels. A high-wear consumable — keep a spare for trail-side puncture repairs.",
-    "metaTitle": "Heavy-Duty Inner Tube (19in / 18in) | VoltTrail – VoltTrail UK",
-    "metaDescription": "Heavy-Duty Inner Tube (19in / 18in) by VoltTrail. £15 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Heavy-Duty Inner Tube (19in / 18in) | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Heavy-Duty Inner Tube (19in / 18in) by DirtVolt. €15 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -10518,8 +10618,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Heavy-Duty Inner Tube (19in / 18in) road legal in the UK?",
-        "answer": "The Heavy-Duty Inner Tube (19in / 18in) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Heavy-Duty Inner Tube (19in / 18in) road legal in the Netherlands?",
+        "answer": "The Heavy-Duty Inner Tube (19in / 18in) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Heavy-Duty Inner Tube (19in / 18in) go?",
@@ -10527,18 +10627,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Heavy-Duty Inner Tube (19in / 18in)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -10560,8 +10661,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "handlebar-kit",
     "slug": "handlebar-kit",
     "name": "Handlebar & Grips Upgrade Kit",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • Tapered alloy bar • Off-road grips • Universal fit",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • Tapered alloy bar • Off-road grips • Universal fit",
     "tagline": "Tapered alloy bar | Off-road grips | Universal fit",
     "category": "Parts & Upgrades",
     "priceGBP": 45,
@@ -10572,28 +10673,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-HANDLEBAR-KIT",
     "gtin13": "5060890100101",
-    "mpn": "MPN-VOLTTRAIL-HANDLEBARKIT",
+    "mpn": "MPN-DIRTVOLT-HANDLEBARKIT",
     "images": [
       "https://volttrail.org/images/product-handlebar-kit.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "A handlebar and grips upgrade kit for electric dirt bikes — a popular comfort and control upgrade, and a common replacement after a fall. Improves feel and confidence on the trail.",
-    "metaTitle": "Handlebar & Grips Upgrade Kit | VoltTrail – VoltTrail UK",
-    "metaDescription": "Handlebar & Grips Upgrade Kit by VoltTrail. £45 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Handlebar & Grips Upgrade Kit | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Handlebar & Grips Upgrade Kit by DirtVolt. €45 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -10615,8 +10716,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Handlebar & Grips Upgrade Kit road legal in the UK?",
-        "answer": "The Handlebar & Grips Upgrade Kit is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Handlebar & Grips Upgrade Kit road legal in the Netherlands?",
+        "answer": "The Handlebar & Grips Upgrade Kit is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Handlebar & Grips Upgrade Kit go?",
@@ -10624,18 +10725,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Handlebar & Grips Upgrade Kit?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -10657,8 +10759,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "kickstand",
     "slug": "kickstand",
     "name": "Folding Side Stand / Kickstand",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • Sur-Ron / Talaria fit • Heavy-duty • Spring-loaded",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • Sur-Ron / Talaria fit • Heavy-duty • Spring-loaded",
     "tagline": "Sur-Ron / Talaria fit | Heavy-duty | Spring-loaded",
     "category": "Parts & Upgrades",
     "priceGBP": 35,
@@ -10669,28 +10771,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-KICKSTAND",
     "gtin13": "5060890100102",
-    "mpn": "MPN-VOLTTRAIL-KICKSTAND",
+    "mpn": "MPN-DIRTVOLT-KICKSTAND",
     "images": [
       "https://volttrail.org/images/product-kickstand.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "A folding side stand for Sur-Ron and Talaria electric dirt bikes. The OEM stand is a common early weak point — this heavy-duty replacement is a popular upgrade.",
-    "metaTitle": "Folding Side Stand / Kickstand | VoltTrail – VoltTrail UK",
-    "metaDescription": "Folding Side Stand / Kickstand by VoltTrail. £35 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Folding Side Stand / Kickstand | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Folding Side Stand / Kickstand by DirtVolt. €35 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -10712,8 +10814,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Folding Side Stand / Kickstand road legal in the UK?",
-        "answer": "The Folding Side Stand / Kickstand is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Folding Side Stand / Kickstand road legal in the Netherlands?",
+        "answer": "The Folding Side Stand / Kickstand is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Folding Side Stand / Kickstand go?",
@@ -10721,18 +10823,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Folding Side Stand / Kickstand?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -10754,8 +10857,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "led-headlight",
     "slug": "led-headlight",
     "name": "LED Headlight Upgrade",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • High-output LED • Low power draw • Off-road & road use",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • High-output LED • Low power draw • Off-road & road use",
     "tagline": "High-output LED | Low power draw | Off-road & road use",
     "category": "Parts & Upgrades",
     "priceGBP": 49,
@@ -10766,28 +10869,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-LED-HEADLIGHT",
     "gtin13": "5060890100103",
-    "mpn": "MPN-VOLTTRAIL-LEDHEADLIGHT",
+    "mpn": "MPN-DIRTVOLT-LEDHEADLIGHT",
     "images": [
       "https://volttrail.org/images/product-led-headlight.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "An LED headlight upgrade for electric dirt bikes — the top off-road visibility upgrade and an essential part of any road-legal conversion. Bright, low-draw and durable.",
-    "metaTitle": "LED Headlight Upgrade | VoltTrail – VoltTrail UK",
-    "metaDescription": "LED Headlight Upgrade by VoltTrail. £49 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "LED Headlight Upgrade | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "LED Headlight Upgrade by DirtVolt. €49 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -10809,8 +10912,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the LED Headlight Upgrade road legal in the UK?",
-        "answer": "The LED Headlight Upgrade is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the LED Headlight Upgrade road legal in the Netherlands?",
+        "answer": "The LED Headlight Upgrade is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the LED Headlight Upgrade go?",
@@ -10818,18 +10921,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the LED Headlight Upgrade?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -10851,8 +10955,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "cooling-fan",
     "slug": "cooling-fan",
     "name": "Motor / Controller Cooling Fan Kit",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • Improves cooling • For higher power • Confirm fitment",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • Improves cooling • For higher power • Confirm fitment",
     "tagline": "Improves cooling | For higher power | Confirm fitment",
     "category": "Parts & Upgrades",
     "priceGBP": 39,
@@ -10863,28 +10967,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-COOLING-FAN",
     "gtin13": "5060890100104",
-    "mpn": "MPN-VOLTTRAIL-COOLINGFAN",
+    "mpn": "MPN-DIRTVOLT-COOLINGFAN",
     "images": [
       "https://volttrail.org/images/product-cooling-fan.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "A motor and controller cooling fan kit for electric dirt bikes — sought-after by riders pushing higher power. Helps keep your drivetrain cool on long, hard rides. Confirm fitment for your model.",
-    "metaTitle": "Motor / Controller Cooling Fan Kit | VoltTrail – VoltTrail UK",
-    "metaDescription": "Motor / Controller Cooling Fan Kit by VoltTrail. £39 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Motor / Controller Cooling Fan Kit | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Motor / Controller Cooling Fan Kit by DirtVolt. €39 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -10906,8 +11010,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Motor / Controller Cooling Fan Kit road legal in the UK?",
-        "answer": "The Motor / Controller Cooling Fan Kit is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Motor / Controller Cooling Fan Kit road legal in the Netherlands?",
+        "answer": "The Motor / Controller Cooling Fan Kit is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Motor / Controller Cooling Fan Kit go?",
@@ -10915,18 +11019,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Motor / Controller Cooling Fan Kit?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -10965,18 +11070,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-shinko-241.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The Shinko 241 dual-sport tyre in 19in — the most popular tyre in the electric dirt bike segment. Excels on hard-pack, rocky trails and the road, making it the default choice for Sur-Ron and Talaria-class bikes.",
-    "metaTitle": "Shinko 241 Dual-Sport Tyre (19in) | Shinko – VoltTrail UK",
-    "metaDescription": "Shinko 241 Dual-Sport Tyre (19in) by Shinko. £55 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Shinko 241 Dual-Sport Tyre (19in) | Shinko – DirtVolt Netherlands",
+    "metaDescription": "Shinko 241 Dual-Sport Tyre (19in) by Shinko. €55 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
       "batteryBrand": "Shinko High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -11003,8 +11108,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Shinko 241 Dual-Sport Tyre (19in) road legal in the UK?",
-        "answer": "The Shinko 241 Dual-Sport Tyre (19in) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Shinko 241 Dual-Sport Tyre (19in) road legal in the Netherlands?",
+        "answer": "The Shinko 241 Dual-Sport Tyre (19in) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Shinko 241 Dual-Sport Tyre (19in) go?",
@@ -11012,18 +11117,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Shinko 241 Dual-Sport Tyre (19in)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -11045,8 +11151,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "front-mx-tyre",
     "slug": "front-mx-tyre",
     "name": "Front Knobbly MX Tyre (70/100-19)",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • 70/100-19 front • Off-road tread • Sur-Ron / Talaria fit",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • 70/100-19 front • Off-road tread • Sur-Ron / Talaria fit",
     "tagline": "70/100-19 front | Off-road tread | Sur-Ron / Talaria fit",
     "category": "Tyres & Wheels",
     "priceGBP": 42,
@@ -11057,28 +11163,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-FRONT-MX-TYRE",
     "gtin13": "5060890100106",
-    "mpn": "MPN-VOLTTRAIL-FRONTMXTYRE",
+    "mpn": "MPN-DIRTVOLT-FRONTMXTYRE",
     "images": [
       "https://volttrail.org/images/product-front-mx-tyre.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "A front knobbly MX tyre in 70/100-19 — the front-specific companion to a rear knobbly. Aggressive tread for confident steering and grip on loose off-road terrain.",
-    "metaTitle": "Front Knobbly MX Tyre (70/100-19) | VoltTrail – VoltTrail UK",
-    "metaDescription": "Front Knobbly MX Tyre (70/100-19) by VoltTrail. £42 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Front Knobbly MX Tyre (70/100-19) | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Front Knobbly MX Tyre (70/100-19) by DirtVolt. €42 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -11100,8 +11206,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Front Knobbly MX Tyre (70/100-19) road legal in the UK?",
-        "answer": "The Front Knobbly MX Tyre (70/100-19) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Front Knobbly MX Tyre (70/100-19) road legal in the Netherlands?",
+        "answer": "The Front Knobbly MX Tyre (70/100-19) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Front Knobbly MX Tyre (70/100-19) go?",
@@ -11109,18 +11215,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Front Knobbly MX Tyre (70/100-19)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -11142,8 +11249,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "tyre-tubes-pair",
     "slug": "tyre-tubes-pair",
     "name": "Heavy-Duty Tyre Tubes (Pair)",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • Pair of tubes • Heavy-duty • 19in / 18in",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • Pair of tubes • Heavy-duty • 19in / 18in",
     "tagline": "Pair of tubes | Heavy-duty | 19in / 18in",
     "category": "Tyres & Wheels",
     "priceGBP": 22,
@@ -11154,28 +11261,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-TYRE-TUBES-PAIR",
     "gtin13": "5060890100107",
-    "mpn": "MPN-VOLTTRAIL-TYRETUBESPAIR",
+    "mpn": "MPN-DIRTVOLT-TYRETUBESPAIR",
     "images": [
       "https://volttrail.org/images/product-tyre-tubes-pair.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "A pair of heavy-duty tyre tubes for electric dirt bikes — a high-turnover consumable bought with every new tyre. Keep spares for trail-side repairs.",
-    "metaTitle": "Heavy-Duty Tyre Tubes (Pair) | VoltTrail – VoltTrail UK",
-    "metaDescription": "Heavy-Duty Tyre Tubes (Pair) by VoltTrail. £22 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Heavy-Duty Tyre Tubes (Pair) | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Heavy-Duty Tyre Tubes (Pair) by DirtVolt. €22 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -11197,8 +11304,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Heavy-Duty Tyre Tubes (Pair) road legal in the UK?",
-        "answer": "The Heavy-Duty Tyre Tubes (Pair) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Heavy-Duty Tyre Tubes (Pair) road legal in the Netherlands?",
+        "answer": "The Heavy-Duty Tyre Tubes (Pair) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Heavy-Duty Tyre Tubes (Pair) go?",
@@ -11206,18 +11313,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Heavy-Duty Tyre Tubes (Pair)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -11239,8 +11347,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "wheel-rear",
     "slug": "wheel-rear",
     "name": "Complete Rear Wheel (19in, Tyre Fitted)",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • 19in rear • Tyre pre-fitted • Confirm fitment",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • 19in rear • Tyre pre-fitted • Confirm fitment",
     "tagline": "19in rear | Tyre pre-fitted | Confirm fitment",
     "category": "Tyres & Wheels",
     "priceGBP": 199,
@@ -11251,28 +11359,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-WHEEL-REAR",
     "gtin13": "5060890100108",
-    "mpn": "MPN-VOLTTRAIL-WHEELREAR",
+    "mpn": "MPN-DIRTVOLT-WHEELREAR",
     "images": [
       "https://volttrail.org/images/product-wheel-rear.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "A complete rear wheel for 19in electric dirt bikes with the tyre already fitted. Saves a workshop visit — a popular choice after rim damage. Confirm fitment for your model.",
-    "metaTitle": "Complete Rear Wheel (19in, Tyre Fitted) | VoltTrail – VoltTrail UK",
-    "metaDescription": "Complete Rear Wheel (19in, Tyre Fitted) by VoltTrail. £199 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Complete Rear Wheel (19in, Tyre Fitted) | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Complete Rear Wheel (19in, Tyre Fitted) by DirtVolt. €199 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -11294,8 +11402,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Complete Rear Wheel (19in, Tyre Fitted) road legal in the UK?",
-        "answer": "The Complete Rear Wheel (19in, Tyre Fitted) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Complete Rear Wheel (19in, Tyre Fitted) road legal in the Netherlands?",
+        "answer": "The Complete Rear Wheel (19in, Tyre Fitted) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Complete Rear Wheel (19in, Tyre Fitted) go?",
@@ -11303,18 +11411,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Complete Rear Wheel (19in, Tyre Fitted)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -11336,8 +11445,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "wheel-front",
     "slug": "wheel-front",
     "name": "Complete Front Wheel (19in, Tyre Fitted)",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • 19in front • Tyre pre-fitted • Confirm fitment",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • 19in front • Tyre pre-fitted • Confirm fitment",
     "tagline": "19in front | Tyre pre-fitted | Confirm fitment",
     "category": "Tyres & Wheels",
     "priceGBP": 189,
@@ -11348,28 +11457,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-WHEEL-FRONT",
     "gtin13": "5060890100109",
-    "mpn": "MPN-VOLTTRAIL-WHEELFRONT",
+    "mpn": "MPN-DIRTVOLT-WHEELFRONT",
     "images": [
       "https://volttrail.org/images/product-wheel-front.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "A complete front wheel for 19in electric dirt bikes with the tyre already fitted. Sold as a pair option with the rear wheel — a fast fix after rim damage. Confirm fitment for your model.",
-    "metaTitle": "Complete Front Wheel (19in, Tyre Fitted) | VoltTrail – VoltTrail UK",
-    "metaDescription": "Complete Front Wheel (19in, Tyre Fitted) by VoltTrail. £189 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Complete Front Wheel (19in, Tyre Fitted) | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Complete Front Wheel (19in, Tyre Fitted) by DirtVolt. €189 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -11391,8 +11500,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Complete Front Wheel (19in, Tyre Fitted) road legal in the UK?",
-        "answer": "The Complete Front Wheel (19in, Tyre Fitted) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Complete Front Wheel (19in, Tyre Fitted) road legal in the Netherlands?",
+        "answer": "The Complete Front Wheel (19in, Tyre Fitted) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Complete Front Wheel (19in, Tyre Fitted) go?",
@@ -11400,18 +11509,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Complete Front Wheel (19in, Tyre Fitted)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -11450,18 +11560,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-lbx-ewatt-60v.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
-    "description": "The eWatt 60V 53Ah is the most popular drop-in upgrade battery for the Sur-Ron Light Bee X — 18kW peak power, 3,180Wh capacity and a 40-mile range increase over stock. Works with the OEM controller. 2-year warranty.",
-    "metaTitle": "eWatt 60V 53Ah Long Range Battery (Sur-Ron LBX) | eWatt – VoltTrail UK",
-    "metaDescription": "eWatt 60V 53Ah Long Range Battery (Sur-Ron LBX) by eWatt. £849 at VoltTrail. Free UK delivery and finance available.",
+    "description": "The eWatt 60V 53Ah is the most popular drop-in upgrade battery for the Sur-Ron Light Bee X — 18kW peak power, 3,180Wh capacity and a 64 km range increase over stock. Works with the OEM controller. 2-year warranty.",
+    "metaTitle": "eWatt 60V 53Ah Long Range Battery (Sur-Ron LBX) | eWatt – DirtVolt Netherlands",
+    "metaDescription": "eWatt 60V 53Ah Long Range Battery (Sur-Ron LBX) by eWatt. €849 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 6300,
       "batteryBrand": "eWatt High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -11488,8 +11598,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the eWatt 60V 53Ah Long Range Battery (Sur-Ron LBX) road legal in the UK?",
-        "answer": "The eWatt 60V 53Ah Long Range Battery (Sur-Ron LBX) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the eWatt 60V 53Ah Long Range Battery (Sur-Ron LBX) road legal in the Netherlands?",
+        "answer": "The eWatt 60V 53Ah Long Range Battery (Sur-Ron LBX) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the eWatt 60V 53Ah Long Range Battery (Sur-Ron LBX) go?",
@@ -11497,18 +11607,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the eWatt 60V 53Ah Long Range Battery (Sur-Ron LBX)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -11548,18 +11659,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-lbx-ewatt-72v.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The eWatt 72V Race Battery v5 delivers 28kW peak power and 3,276Wh capacity for Sur-Ron Light Bee X — designed for racers and performance riders. Requires aftermarket controller. 2-year warranty.",
-    "metaTitle": "eWatt 72V Race Battery v5 (Sur-Ron LBX) | eWatt – VoltTrail UK",
-    "metaDescription": "eWatt 72V Race Battery v5 (Sur-Ron LBX) by eWatt. £1,199 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "eWatt 72V Race Battery v5 (Sur-Ron LBX) | eWatt – DirtVolt Netherlands",
+    "metaDescription": "eWatt 72V Race Battery v5 (Sur-Ron LBX) by eWatt. €1,199 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 9800,
       "batteryBrand": "eWatt High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -11586,8 +11697,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the eWatt 72V Race Battery v5 (Sur-Ron LBX) road legal in the UK?",
-        "answer": "The eWatt 72V Race Battery v5 (Sur-Ron LBX) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the eWatt 72V Race Battery v5 (Sur-Ron LBX) road legal in the Netherlands?",
+        "answer": "The eWatt 72V Race Battery v5 (Sur-Ron LBX) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the eWatt 72V Race Battery v5 (Sur-Ron LBX) go?",
@@ -11595,18 +11706,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the eWatt 72V Race Battery v5 (Sur-Ron LBX)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -11646,18 +11758,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-lbx-dhs.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The DHS GT 72V 50Ah is the best-value performance upgrade for the Sur-Ron LBX — 20kW real-world power, ships with charger included, no lead time. Same battery that powers the 28kW Ventus One. Plug-and-play fit.",
-    "metaTitle": "DHS GT 72V 50Ah Battery (Sur-Ron LBX) | DHS – VoltTrail UK",
-    "metaDescription": "DHS GT 72V 50Ah Battery (Sur-Ron LBX) by DHS. £1,099 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "DHS GT 72V 50Ah Battery (Sur-Ron LBX) | DHS – DirtVolt Netherlands",
+    "metaDescription": "DHS GT 72V 50Ah Battery (Sur-Ron LBX) by DHS. €1,099 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 7000,
       "batteryBrand": "DHS High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -11684,8 +11796,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the DHS GT 72V 50Ah Battery (Sur-Ron LBX) road legal in the UK?",
-        "answer": "The DHS GT 72V 50Ah Battery (Sur-Ron LBX) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the DHS GT 72V 50Ah Battery (Sur-Ron LBX) road legal in the Netherlands?",
+        "answer": "The DHS GT 72V 50Ah Battery (Sur-Ron LBX) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the DHS GT 72V 50Ah Battery (Sur-Ron LBX) go?",
@@ -11693,18 +11805,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the DHS GT 72V 50Ah Battery (Sur-Ron LBX)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -11744,18 +11857,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-lbx-chi-60max.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The Chi Battery Gladiator 60 Max is a premium 60V 60Ah upgrade battery for the Sur-Ron LBX — high-capacity cells, smart BMS with Bluetooth monitoring and a durable sealed casing for long-term reliability.",
-    "metaTitle": "Gladiator 60 Max 60V 60Ah (Sur-Ron LBX) | Chi Battery – VoltTrail UK",
-    "metaDescription": "Gladiator 60 Max 60V 60Ah (Sur-Ron LBX) by Chi Battery. £949 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Gladiator 60 Max 60V 60Ah (Sur-Ron LBX) | Chi Battery – DirtVolt Netherlands",
+    "metaDescription": "Gladiator 60 Max 60V 60Ah (Sur-Ron LBX) by Chi Battery. €949 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Chi Battery High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -11782,8 +11895,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Gladiator 60 Max 60V 60Ah (Sur-Ron LBX) road legal in the UK?",
-        "answer": "The Gladiator 60 Max 60V 60Ah (Sur-Ron LBX) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Gladiator 60 Max 60V 60Ah (Sur-Ron LBX) road legal in the Netherlands?",
+        "answer": "The Gladiator 60 Max 60V 60Ah (Sur-Ron LBX) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Gladiator 60 Max 60V 60Ah (Sur-Ron LBX) go?",
@@ -11791,18 +11904,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Gladiator 60 Max 60V 60Ah (Sur-Ron LBX)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -11842,18 +11956,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-lbx-chi-60tour.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The Chi Battery Gladiator 60 Touring 60V 70Ah is the maximum-range upgrade for Sur-Ron LBX riders — 70Ah capacity gives the longest possible ride time while remaining compatible with the OEM controller and motor.",
-    "metaTitle": "Gladiator 60 Touring 60V 70Ah (Sur-Ron LBX) | Chi Battery – VoltTrail UK",
-    "metaDescription": "Gladiator 60 Touring 60V 70Ah (Sur-Ron LBX) by Chi Battery. £1,049 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Gladiator 60 Touring 60V 70Ah (Sur-Ron LBX) | Chi Battery – DirtVolt Netherlands",
+    "metaDescription": "Gladiator 60 Touring 60V 70Ah (Sur-Ron LBX) by Chi Battery. €1,049 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Chi Battery High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -11880,8 +11994,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Gladiator 60 Touring 60V 70Ah (Sur-Ron LBX) road legal in the UK?",
-        "answer": "The Gladiator 60 Touring 60V 70Ah (Sur-Ron LBX) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Gladiator 60 Touring 60V 70Ah (Sur-Ron LBX) road legal in the Netherlands?",
+        "answer": "The Gladiator 60 Touring 60V 70Ah (Sur-Ron LBX) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Gladiator 60 Touring 60V 70Ah (Sur-Ron LBX) go?",
@@ -11889,18 +12003,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Gladiator 60 Touring 60V 70Ah (Sur-Ron LBX)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -11940,18 +12055,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-lbx-chi-x60.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The Chi Battery Gladiator X60 Compact 60V 51Ah is a slim-profile upgrade battery for the Sur-Ron LBX — increased capacity over OEM in a package that fits without modification. Smart BMS, Bluetooth monitoring.",
-    "metaTitle": "Gladiator X60 Compact 60V 51Ah (LBX) | Chi Battery – VoltTrail UK",
-    "metaDescription": "Gladiator X60 Compact 60V 51Ah (LBX) by Chi Battery. £849 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Gladiator X60 Compact 60V 51Ah (LBX) | Chi Battery – DirtVolt Netherlands",
+    "metaDescription": "Gladiator X60 Compact 60V 51Ah (LBX) by Chi Battery. €849 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Chi Battery High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -11978,8 +12093,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Gladiator X60 Compact 60V 51Ah (LBX) road legal in the UK?",
-        "answer": "The Gladiator X60 Compact 60V 51Ah (LBX) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Gladiator X60 Compact 60V 51Ah (LBX) road legal in the Netherlands?",
+        "answer": "The Gladiator X60 Compact 60V 51Ah (LBX) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Gladiator X60 Compact 60V 51Ah (LBX) go?",
@@ -11987,18 +12102,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Gladiator X60 Compact 60V 51Ah (LBX)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -12038,18 +12154,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-lbx-chi-x72.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The Chi Battery Gladiator X72 Compact 72V 38Ah delivers performance-level voltage in a compact form factor for the Sur-Ron LBX — requires aftermarket controller, delivers up to 25kW peak power with a compatible setup.",
-    "metaTitle": "Gladiator X72 Compact 72V 38Ah (LBX) | Chi Battery – VoltTrail UK",
-    "metaDescription": "Gladiator X72 Compact 72V 38Ah (LBX) by Chi Battery. £999 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Gladiator X72 Compact 72V 38Ah (LBX) | Chi Battery – DirtVolt Netherlands",
+    "metaDescription": "Gladiator X72 Compact 72V 38Ah (LBX) by Chi Battery. €999 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 8750,
       "batteryBrand": "Chi Battery High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -12076,8 +12192,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Gladiator X72 Compact 72V 38Ah (LBX) road legal in the UK?",
-        "answer": "The Gladiator X72 Compact 72V 38Ah (LBX) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Gladiator X72 Compact 72V 38Ah (LBX) road legal in the Netherlands?",
+        "answer": "The Gladiator X72 Compact 72V 38Ah (LBX) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Gladiator X72 Compact 72V 38Ah (LBX) go?",
@@ -12085,18 +12201,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Gladiator X72 Compact 72V 38Ah (LBX)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -12136,18 +12253,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-ubee-ewatt-80v.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The eWatt Ultra Bee 80V 76Ah bundle is the definitive upgrade for the Sur-Ron Ultra Bee — 6,080Wh capacity, complete bundle including battery lid and fast charger. Designed for riders who want maximum range and power.",
-    "metaTitle": "eWatt Ultra Bee 80V 76Ah Bundle + Lid + Charger | eWatt – VoltTrail UK",
-    "metaDescription": "eWatt Ultra Bee 80V 76Ah Bundle + Lid + Charger by eWatt. £2,199 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "eWatt Ultra Bee 80V 76Ah Bundle + Lid + Charger | eWatt – DirtVolt Netherlands",
+    "metaDescription": "eWatt Ultra Bee 80V 76Ah Bundle + Lid + Charger by eWatt. €2,199 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 28,
       "batteryBrand": "eWatt High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -12174,8 +12291,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the eWatt Ultra Bee 80V 76Ah Bundle + Lid + Charger road legal in the UK?",
-        "answer": "The eWatt Ultra Bee 80V 76Ah Bundle + Lid + Charger is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the eWatt Ultra Bee 80V 76Ah Bundle + Lid + Charger road legal in the Netherlands?",
+        "answer": "The eWatt Ultra Bee 80V 76Ah Bundle + Lid + Charger is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the eWatt Ultra Bee 80V 76Ah Bundle + Lid + Charger go?",
@@ -12183,18 +12300,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the eWatt Ultra Bee 80V 76Ah Bundle + Lid + Charger?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -12234,18 +12352,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-ubee-ebmx-81v.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The EBMX 81V Ultra Bee Performance Pack is a high-output upgrade battery for the Sur-Ron Ultra Bee — comes complete with battery lid and fast charger. High-discharge cells deliver serious power increase over OEM.",
-    "metaTitle": "EBMX 81V Ultra Bee Performance Pack + Lid + Charger | EBMX – VoltTrail UK",
-    "metaDescription": "EBMX 81V Ultra Bee Performance Pack + Lid + Charger by EBMX. £2,099 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "EBMX 81V Ultra Bee Performance Pack + Lid + Charger | EBMX – DirtVolt Netherlands",
+    "metaDescription": "EBMX 81V Ultra Bee Performance Pack + Lid + Charger by EBMX. €2,099 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "EBMX High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -12272,8 +12390,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the EBMX 81V Ultra Bee Performance Pack + Lid + Charger road legal in the UK?",
-        "answer": "The EBMX 81V Ultra Bee Performance Pack + Lid + Charger is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the EBMX 81V Ultra Bee Performance Pack + Lid + Charger road legal in the Netherlands?",
+        "answer": "The EBMX 81V Ultra Bee Performance Pack + Lid + Charger is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the EBMX 81V Ultra Bee Performance Pack + Lid + Charger go?",
@@ -12281,18 +12399,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the EBMX 81V Ultra Bee Performance Pack + Lid + Charger?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -12332,18 +12451,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-tal-ewatt-60v.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The eWatt 60V 53Ah is the most popular drop-in upgrade for the Talaria Sting MX3 and MX4 — 18kW peak power, 3,180Wh capacity and significantly extended range. Works with the stock OEM controller. 2-year warranty.",
-    "metaTitle": "eWatt 60V 53Ah Long Range Battery (Talaria Sting) | eWatt – VoltTrail UK",
-    "metaDescription": "eWatt 60V 53Ah Long Range Battery (Talaria Sting) by eWatt. £849 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "eWatt 60V 53Ah Long Range Battery (Talaria Sting) | eWatt – DirtVolt Netherlands",
+    "metaDescription": "eWatt 60V 53Ah Long Range Battery (Talaria Sting) by eWatt. €849 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 6300,
       "batteryBrand": "eWatt High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -12370,8 +12489,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the eWatt 60V 53Ah Long Range Battery (Talaria Sting) road legal in the UK?",
-        "answer": "The eWatt 60V 53Ah Long Range Battery (Talaria Sting) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the eWatt 60V 53Ah Long Range Battery (Talaria Sting) road legal in the Netherlands?",
+        "answer": "The eWatt 60V 53Ah Long Range Battery (Talaria Sting) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the eWatt 60V 53Ah Long Range Battery (Talaria Sting) go?",
@@ -12379,18 +12498,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the eWatt 60V 53Ah Long Range Battery (Talaria Sting)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -12430,18 +12550,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-tal-ewatt-72v.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The eWatt 72V 42Ah Race Battery v5 delivers 28kW peak for the Talaria Sting MX3, MX4 and MX5 — the battery used on competitive e-moto race bikes. Requires aftermarket controller. 2-year warranty.",
-    "metaTitle": "eWatt 72V 42Ah Race Battery (Talaria Sting) | eWatt – VoltTrail UK",
-    "metaDescription": "eWatt 72V 42Ah Race Battery (Talaria Sting) by eWatt. £1,199 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "eWatt 72V 42Ah Race Battery (Talaria Sting) | eWatt – DirtVolt Netherlands",
+    "metaDescription": "eWatt 72V 42Ah Race Battery (Talaria Sting) by eWatt. €1,199 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 9800,
       "batteryBrand": "eWatt High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -12468,8 +12588,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the eWatt 72V 42Ah Race Battery (Talaria Sting) road legal in the UK?",
-        "answer": "The eWatt 72V 42Ah Race Battery (Talaria Sting) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the eWatt 72V 42Ah Race Battery (Talaria Sting) road legal in the Netherlands?",
+        "answer": "The eWatt 72V 42Ah Race Battery (Talaria Sting) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the eWatt 72V 42Ah Race Battery (Talaria Sting) go?",
@@ -12477,18 +12597,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the eWatt 72V 42Ah Race Battery (Talaria Sting)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -12528,18 +12649,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-tal-ebmx-74v.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The EBMX 74V 44Ah battery for the Talaria XXX delivers 30kW peak power — comes with battery lid and wiring harness. Requires EBMX X-9000 controller. IP67 rated, 3,256Wh capacity.",
-    "metaTitle": "EBMX 74V 44Ah Battery (Talaria XXX) | EBMX – VoltTrail UK",
-    "metaDescription": "EBMX 74V 44Ah Battery (Talaria XXX) by EBMX. £1,499 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "EBMX 74V 44Ah Battery (Talaria XXX) | EBMX – DirtVolt Netherlands",
+    "metaDescription": "EBMX 74V 44Ah Battery (Talaria XXX) by EBMX. €1,499 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 10500,
       "batteryBrand": "EBMX High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -12566,8 +12687,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the EBMX 74V 44Ah Battery (Talaria XXX) road legal in the UK?",
-        "answer": "The EBMX 74V 44Ah Battery (Talaria XXX) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the EBMX 74V 44Ah Battery (Talaria XXX) road legal in the Netherlands?",
+        "answer": "The EBMX 74V 44Ah Battery (Talaria XXX) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the EBMX 74V 44Ah Battery (Talaria XXX) go?",
@@ -12575,18 +12696,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the EBMX 74V 44Ah Battery (Talaria XXX)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -12626,18 +12748,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-tal-72v-oem.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Genuine Talaria OEM 72V 40Ah replacement battery for the Sting MX5 Pro and Komodo TL6000 — factory-spec cells and BMS ensuring full compatibility, warranty and consistent performance across all ride modes.",
-    "metaTitle": "Talaria MX5 Pro OEM 72V 40Ah Replacement Battery | Talaria – VoltTrail UK",
-    "metaDescription": "Talaria MX5 Pro OEM 72V 40Ah Replacement Battery by Talaria. £799 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Talaria MX5 Pro OEM 72V 40Ah Replacement Battery | Talaria – DirtVolt Netherlands",
+    "metaDescription": "Talaria MX5 Pro OEM 72V 40Ah Replacement Battery by Talaria. €799 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Talaria High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -12664,8 +12786,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Talaria MX5 Pro OEM 72V 40Ah Replacement Battery road legal in the UK?",
-        "answer": "The Talaria MX5 Pro OEM 72V 40Ah Replacement Battery is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Talaria MX5 Pro OEM 72V 40Ah Replacement Battery road legal in the Netherlands?",
+        "answer": "The Talaria MX5 Pro OEM 72V 40Ah Replacement Battery is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Talaria MX5 Pro OEM 72V 40Ah Replacement Battery go?",
@@ -12673,18 +12795,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Talaria MX5 Pro OEM 72V 40Ah Replacement Battery?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -12724,18 +12847,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-tal-xxx-60v.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Genuine Talaria OEM 60V replacement battery for the Sting XXX — factory-spec cells and integrated BMS for full compatibility and warranty coverage. Restores original range and power output.",
-    "metaTitle": "Talaria XXX OEM 60V Battery Replacement | Talaria – VoltTrail UK",
-    "metaDescription": "Talaria XXX OEM 60V Battery Replacement by Talaria. £699 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Talaria XXX OEM 60V Battery Replacement | Talaria – DirtVolt Netherlands",
+    "metaDescription": "Talaria XXX OEM 60V Battery Replacement by Talaria. €699 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "Talaria High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -12762,8 +12885,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Talaria XXX OEM 60V Battery Replacement road legal in the UK?",
-        "answer": "The Talaria XXX OEM 60V Battery Replacement is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Talaria XXX OEM 60V Battery Replacement road legal in the Netherlands?",
+        "answer": "The Talaria XXX OEM 60V Battery Replacement is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Talaria XXX OEM 60V Battery Replacement go?",
@@ -12771,18 +12894,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Talaria XXX OEM 60V Battery Replacement?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -12822,18 +12946,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-eride-ss-oem.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Genuine E Ride Pro OEM 72V 40Ah replacement battery for the SS 2.0 — factory-spec lithium cells with integrated BMS. Restores full power and range to your E Ride Pro SS electric dirt bike.",
-    "metaTitle": "E Ride Pro SS 72V 40Ah OEM Battery | E Ride Pro – VoltTrail UK",
-    "metaDescription": "E Ride Pro SS 72V 40Ah OEM Battery by E Ride Pro. £699 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "E Ride Pro SS 72V 40Ah OEM Battery | E Ride Pro – DirtVolt Netherlands",
+    "metaDescription": "E Ride Pro SS 72V 40Ah OEM Battery by E Ride Pro. €699 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "E Ride Pro High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -12860,8 +12984,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the E Ride Pro SS 72V 40Ah OEM Battery road legal in the UK?",
-        "answer": "The E Ride Pro SS 72V 40Ah OEM Battery is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the E Ride Pro SS 72V 40Ah OEM Battery road legal in the Netherlands?",
+        "answer": "The E Ride Pro SS 72V 40Ah OEM Battery is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the E Ride Pro SS 72V 40Ah OEM Battery go?",
@@ -12869,18 +12993,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the E Ride Pro SS 72V 40Ah OEM Battery?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -12920,18 +13045,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-eride-sr-oem.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Genuine E Ride Pro OEM 72V 50Ah replacement battery for the SR model — high-capacity factory pack with integrated BMS. Maximum range and full power restoration for the E Ride Pro SR.",
-    "metaTitle": "E Ride Pro SR 72V 50Ah OEM Battery | E Ride Pro – VoltTrail UK",
-    "metaDescription": "E Ride Pro SR 72V 50Ah OEM Battery by E Ride Pro. £749 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "E Ride Pro SR 72V 50Ah OEM Battery | E Ride Pro – DirtVolt Netherlands",
+    "metaDescription": "E Ride Pro SR 72V 50Ah OEM Battery by E Ride Pro. €749 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "E Ride Pro High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -12958,8 +13083,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the E Ride Pro SR 72V 50Ah OEM Battery road legal in the UK?",
-        "answer": "The E Ride Pro SR 72V 50Ah OEM Battery is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the E Ride Pro SR 72V 50Ah OEM Battery road legal in the Netherlands?",
+        "answer": "The E Ride Pro SR 72V 50Ah OEM Battery is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the E Ride Pro SR 72V 50Ah OEM Battery go?",
@@ -12967,18 +13092,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the E Ride Pro SR 72V 50Ah OEM Battery?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -13018,18 +13144,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-bat-eride-s-bundle.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The E Ride Pro S 72V 30Ah Battery and Charger Bundle gives you everything needed to restore or replace your E Ride Pro S power system — OEM-spec battery and compatible charger in a single purchase.",
-    "metaTitle": "E Ride Pro S 72V 30Ah Battery + Charger Bundle | E Ride Pro – VoltTrail UK",
-    "metaDescription": "E Ride Pro S 72V 30Ah Battery + Charger Bundle by E Ride Pro. £649 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "E Ride Pro S 72V 30Ah Battery + Charger Bundle | E Ride Pro – DirtVolt Netherlands",
+    "metaDescription": "E Ride Pro S 72V 30Ah Battery + Charger Bundle by E Ride Pro. €649 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "E Ride Pro High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -13056,8 +13182,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the E Ride Pro S 72V 30Ah Battery + Charger Bundle road legal in the UK?",
-        "answer": "The E Ride Pro S 72V 30Ah Battery + Charger Bundle is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the E Ride Pro S 72V 30Ah Battery + Charger Bundle road legal in the Netherlands?",
+        "answer": "The E Ride Pro S 72V 30Ah Battery + Charger Bundle is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the E Ride Pro S 72V 30Ah Battery + Charger Bundle go?",
@@ -13065,18 +13191,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the E Ride Pro S 72V 30Ah Battery + Charger Bundle?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -13099,8 +13226,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "chg-60v-std",
     "slug": "chg-60v-std",
     "name": "60V Standard Aftermarket Charger",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • 60V output • Universal fit • Overcharge protection",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • 60V output • Universal fit • Overcharge protection",
     "tagline": "60V output | Universal fit | Overcharge protection",
     "category": "Batteries & Chargers",
     "priceGBP": 79,
@@ -13111,28 +13238,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-CHG-60V-STD",
     "gtin13": "5060890100127",
-    "mpn": "MPN-VOLTTRAIL-CHG60VSTD",
+    "mpn": "MPN-DIRTVOLT-CHG60VSTD",
     "images": [
       "https://volttrail.org/images/product-chg-60v-std.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "60V standard aftermarket charger compatible with Sur-Ron Light Bee X, Talaria Sting MX3/MX4 and other 60V electric dirt bikes. Reliable charging at the correct voltage — a solid backup or replacement charger.",
-    "metaTitle": "60V Standard Aftermarket Charger | VoltTrail – VoltTrail UK",
-    "metaDescription": "60V Standard Aftermarket Charger by VoltTrail. £79 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "60V Standard Aftermarket Charger | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "60V Standard Aftermarket Charger by DirtVolt. €79 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -13154,8 +13281,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the 60V Standard Aftermarket Charger road legal in the UK?",
-        "answer": "The 60V Standard Aftermarket Charger is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the 60V Standard Aftermarket Charger road legal in the Netherlands?",
+        "answer": "The 60V Standard Aftermarket Charger is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the 60V Standard Aftermarket Charger go?",
@@ -13163,18 +13290,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the 60V Standard Aftermarket Charger?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -13196,8 +13324,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "chg-72v-std",
     "slug": "chg-72v-std",
     "name": "72V Standard Aftermarket Charger",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • 72V output • Universal fit • Overcharge protection",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • 72V output • Universal fit • Overcharge protection",
     "tagline": "72V output | Universal fit | Overcharge protection",
     "category": "Batteries & Chargers",
     "priceGBP": 89,
@@ -13208,28 +13336,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-CHG-72V-STD",
     "gtin13": "5060890100128",
-    "mpn": "MPN-VOLTTRAIL-CHG72VSTD",
+    "mpn": "MPN-DIRTVOLT-CHG72VSTD",
     "images": [
       "https://volttrail.org/images/product-chg-72v-std.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "72V standard aftermarket charger for Sur-Ron upgrade batteries, Talaria MX5 Pro and other 72V electric dirt bike systems. Essential if you're running a 72V upgrade battery without a matching charger.",
-    "metaTitle": "72V Standard Aftermarket Charger | VoltTrail – VoltTrail UK",
-    "metaDescription": "72V Standard Aftermarket Charger by VoltTrail. £89 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "72V Standard Aftermarket Charger | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "72V Standard Aftermarket Charger by DirtVolt. €89 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -13251,8 +13379,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the 72V Standard Aftermarket Charger road legal in the UK?",
-        "answer": "The 72V Standard Aftermarket Charger is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the 72V Standard Aftermarket Charger road legal in the Netherlands?",
+        "answer": "The 72V Standard Aftermarket Charger is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the 72V Standard Aftermarket Charger go?",
@@ -13260,18 +13388,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the 72V Standard Aftermarket Charger?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -13310,18 +13439,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-chg-ewatt-fast.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "The eWatt / EBMX / CCW fast charger reduces charge times by up to 150% compared to standard chargers. Compatible with all eWatt, EBMX and Charged Cycle Works battery packs for Sur-Ron and Talaria.",
-    "metaTitle": "Fast Charger for eWatt / EBMX / CCW Battery Packs | eWatt – VoltTrail UK",
-    "metaDescription": "Fast Charger for eWatt / EBMX / CCW Battery Packs by eWatt. £149 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Fast Charger for eWatt / EBMX / CCW Battery Packs | eWatt – DirtVolt Netherlands",
+    "metaDescription": "Fast Charger for eWatt / EBMX / CCW Battery Packs by eWatt. €149 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "eWatt High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -13348,8 +13477,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Fast Charger for eWatt / EBMX / CCW Battery Packs road legal in the UK?",
-        "answer": "The Fast Charger for eWatt / EBMX / CCW Battery Packs is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Fast Charger for eWatt / EBMX / CCW Battery Packs road legal in the Netherlands?",
+        "answer": "The Fast Charger for eWatt / EBMX / CCW Battery Packs is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Fast Charger for eWatt / EBMX / CCW Battery Packs go?",
@@ -13357,18 +13486,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Fast Charger for eWatt / EBMX / CCW Battery Packs?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -13407,18 +13537,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-chg-74v-xxx.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "74V charger for EBMX, eWatt and CCW 74V battery packs used in the Talaria XXX — the correct charger voltage for 74V aftermarket systems. Required when upgrading to a 74V battery on the Talaria platform.",
-    "metaTitle": "74V Charger for EBMX / eWatt XXX Battery Packs | EBMX – VoltTrail UK",
-    "metaDescription": "74V Charger for EBMX / eWatt XXX Battery Packs by EBMX. £99 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "74V Charger for EBMX / eWatt XXX Battery Packs | EBMX – DirtVolt Netherlands",
+    "metaDescription": "74V Charger for EBMX / eWatt XXX Battery Packs by EBMX. €99 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 2400,
       "batteryBrand": "EBMX High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -13445,8 +13575,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the 74V Charger for EBMX / eWatt XXX Battery Packs road legal in the UK?",
-        "answer": "The 74V Charger for EBMX / eWatt XXX Battery Packs is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the 74V Charger for EBMX / eWatt XXX Battery Packs road legal in the Netherlands?",
+        "answer": "The 74V Charger for EBMX / eWatt XXX Battery Packs is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the 74V Charger for EBMX / eWatt XXX Battery Packs go?",
@@ -13454,18 +13584,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the 74V Charger for EBMX / eWatt XXX Battery Packs?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -13487,8 +13618,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "elbow-pads",
     "slug": "elbow-pads",
     "name": "Elbow Pads – Off-Road",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • CE rated • Hard shell • Breathable mesh",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • CE rated • Hard shell • Breathable mesh",
     "tagline": "CE rated | Hard shell | Breathable mesh",
     "category": "Helmets & Protection",
     "priceGBP": 29,
@@ -13499,28 +13630,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-ELBOW-PADS",
     "gtin13": "5060890100131",
-    "mpn": "MPN-VOLTTRAIL-ELBOWPADS",
+    "mpn": "MPN-DIRTVOLT-ELBOWPADS",
     "images": [
       "https://volttrail.org/images/product-elbow-pads.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "CE-rated elbow pads for electric dirt bike and quad riding — hard-shell impact protection with breathable mesh backing. Essential protection for trail riding, MX and off-road use.",
-    "metaTitle": "Elbow Pads – Off-Road | VoltTrail – VoltTrail UK",
-    "metaDescription": "Elbow Pads – Off-Road by VoltTrail. £29 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Elbow Pads – Off-Road | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Elbow Pads – Off-Road by DirtVolt. €29 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -13542,8 +13673,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Elbow Pads – Off-Road road legal in the UK?",
-        "answer": "The Elbow Pads – Off-Road is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Elbow Pads – Off-Road road legal in the Netherlands?",
+        "answer": "The Elbow Pads – Off-Road is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Elbow Pads – Off-Road go?",
@@ -13551,18 +13682,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Elbow Pads – Off-Road?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -13585,8 +13717,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "knee-shin-guards",
     "slug": "knee-shin-guards",
     "name": "Knee & Shin Guards",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • Hard-shell knee • Integrated shin • Adjustable straps",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • Hard-shell knee • Integrated shin • Adjustable straps",
     "tagline": "Hard-shell knee | Integrated shin | Adjustable straps",
     "category": "Helmets & Protection",
     "priceGBP": 39,
@@ -13597,28 +13729,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-KNEE-SHIN-GUARDS",
     "gtin13": "5060890100132",
-    "mpn": "MPN-VOLTTRAIL-KNEESHINGUARDS",
+    "mpn": "MPN-DIRTVOLT-KNEESHINGUARDS",
     "images": [
       "https://volttrail.org/images/product-knee-shin-guards.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Combined knee and shin guards for electric dirt bike riding — hard-shell knee cup with integrated shin plate. Adjustable straps for a secure fit. Compatible with all riding boots and MX trousers.",
-    "metaTitle": "Knee & Shin Guards | VoltTrail – VoltTrail UK",
-    "metaDescription": "Knee & Shin Guards by VoltTrail. £39 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Knee & Shin Guards | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Knee & Shin Guards by DirtVolt. €39 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -13640,8 +13772,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Knee & Shin Guards road legal in the UK?",
-        "answer": "The Knee & Shin Guards is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Knee & Shin Guards road legal in the Netherlands?",
+        "answer": "The Knee & Shin Guards is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Knee & Shin Guards go?",
@@ -13649,18 +13781,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Knee & Shin Guards?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -13683,8 +13816,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "neck-brace",
     "slug": "neck-brace",
     "name": "Neck Brace – Off-Road MX",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • Cervical protection • Quick-release • Helmet compatible",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • Cervical protection • Quick-release • Helmet compatible",
     "tagline": "Cervical protection | Quick-release | Helmet compatible",
     "category": "Helmets & Protection",
     "priceGBP": 69,
@@ -13695,28 +13828,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-NECK-BRACE",
     "gtin13": "5060890100133",
-    "mpn": "MPN-VOLTTRAIL-NECKBRACE",
+    "mpn": "MPN-DIRTVOLT-NECKBRACE",
     "images": [
       "https://volttrail.org/images/product-neck-brace.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Off-road neck brace providing critical cervical spine protection for MX and trail riding. Lightweight construction with quick-release chest strap — compatible with most full-face helmets and chest protectors.",
-    "metaTitle": "Neck Brace – Off-Road MX | VoltTrail – VoltTrail UK",
-    "metaDescription": "Neck Brace – Off-Road MX by VoltTrail. £69 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Neck Brace – Off-Road MX | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Neck Brace – Off-Road MX by DirtVolt. €69 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -13738,8 +13871,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Neck Brace – Off-Road MX road legal in the UK?",
-        "answer": "The Neck Brace – Off-Road MX is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Neck Brace – Off-Road MX road legal in the Netherlands?",
+        "answer": "The Neck Brace – Off-Road MX is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Neck Brace – Off-Road MX go?",
@@ -13747,18 +13880,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Neck Brace – Off-Road MX?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -13781,8 +13915,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "chest-youth",
     "slug": "chest-youth",
     "name": "Chest Protector – Youth",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • Hard shell • Back plate • Ages 6–14",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • Hard shell • Back plate • Ages 6–14",
     "tagline": "Hard shell | Back plate | Ages 6–14",
     "category": "Helmets & Protection",
     "priceGBP": 39,
@@ -13793,28 +13927,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-CHEST-YOUTH",
     "gtin13": "5060890100134",
-    "mpn": "MPN-VOLTTRAIL-CHESTYOUTH",
+    "mpn": "MPN-DIRTVOLT-CHESTYOUTH",
     "images": [
       "https://volttrail.org/images/product-chest-youth.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Youth chest protector with back plate for young electric dirt bike and quad riders — lightweight hard-shell construction with ventilation channels. Fits ages 6–14 and pairs with all standard youth MX gear.",
-    "metaTitle": "Chest Protector – Youth | VoltTrail – VoltTrail UK",
-    "metaDescription": "Chest Protector – Youth by VoltTrail. £39 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Chest Protector – Youth | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Chest Protector – Youth by DirtVolt. €39 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -13836,8 +13970,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Chest Protector – Youth road legal in the UK?",
-        "answer": "The Chest Protector – Youth is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Chest Protector – Youth road legal in the Netherlands?",
+        "answer": "The Chest Protector – Youth is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Chest Protector – Youth go?",
@@ -13845,18 +13979,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Chest Protector – Youth?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -13879,8 +14014,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "mx-jersey-adult",
     "slug": "mx-jersey-adult",
     "name": "MX Jersey + Pants Combo – Adult",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • Moisture wicking • Articulated knees • Reinforced seat",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • Moisture wicking • Articulated knees • Reinforced seat",
     "tagline": "Moisture wicking | Articulated knees | Reinforced seat",
     "category": "Riding Gear & Clothing",
     "priceGBP": 79,
@@ -13891,28 +14026,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-MX-JERSEY-ADULT",
     "gtin13": "5060890100135",
-    "mpn": "MPN-VOLTTRAIL-MXJERSEYADULT",
+    "mpn": "MPN-DIRTVOLT-MXJERSEYADULT",
     "images": [
       "https://volttrail.org/images/product-mx-jersey-adult.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Adult MX jersey and pants combo — moisture-wicking fabric, articulated knees and reinforced seat panel. Designed for electric dirt bike and motocross riding across a range of sizes.",
-    "metaTitle": "MX Jersey + Pants Combo – Adult | VoltTrail – VoltTrail UK",
-    "metaDescription": "MX Jersey + Pants Combo – Adult by VoltTrail. £79 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "MX Jersey + Pants Combo – Adult | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "MX Jersey + Pants Combo – Adult by DirtVolt. €79 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -13934,8 +14069,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the MX Jersey + Pants Combo – Adult road legal in the UK?",
-        "answer": "The MX Jersey + Pants Combo – Adult is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the MX Jersey + Pants Combo – Adult road legal in the Netherlands?",
+        "answer": "The MX Jersey + Pants Combo – Adult is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the MX Jersey + Pants Combo – Adult go?",
@@ -13943,18 +14078,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the MX Jersey + Pants Combo – Adult?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -13990,8 +14126,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "mx-jersey-youth",
     "slug": "mx-jersey-youth",
     "name": "MX Jersey + Pants Combo – Youth",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • Youth sizing • Moisture wicking • Reinforced knees",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • Youth sizing • Moisture wicking • Reinforced knees",
     "tagline": "Youth sizing | Moisture wicking | Reinforced knees",
     "category": "Riding Gear & Clothing",
     "priceGBP": 59,
@@ -14002,28 +14138,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-MX-JERSEY-YOUTH",
     "gtin13": "5060890100136",
-    "mpn": "MPN-VOLTTRAIL-MXJERSEYYOUTH",
+    "mpn": "MPN-DIRTVOLT-MXJERSEYYOUTH",
     "images": [
       "https://volttrail.org/images/product-mx-jersey-youth.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Youth MX jersey and pants combo for young riders — moisture-wicking fabric in a youth-sized cut with reinforced knee panels. Pairs with youth chest protectors and knee guards for full protection.",
-    "metaTitle": "MX Jersey + Pants Combo – Youth | VoltTrail – VoltTrail UK",
-    "metaDescription": "MX Jersey + Pants Combo – Youth by VoltTrail. £59 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "MX Jersey + Pants Combo – Youth | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "MX Jersey + Pants Combo – Youth by DirtVolt. €59 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -14045,8 +14181,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the MX Jersey + Pants Combo – Youth road legal in the UK?",
-        "answer": "The MX Jersey + Pants Combo – Youth is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the MX Jersey + Pants Combo – Youth road legal in the Netherlands?",
+        "answer": "The MX Jersey + Pants Combo – Youth is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the MX Jersey + Pants Combo – Youth go?",
@@ -14054,18 +14190,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the MX Jersey + Pants Combo – Youth?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -14101,8 +14238,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "goggle-youth",
     "slug": "goggle-youth",
     "name": "MX Goggles – Youth Anti-Fog",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • Anti-fog dual lens • Foam seal • Youth fit",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • Anti-fog dual lens • Foam seal • Youth fit",
     "tagline": "Anti-fog dual lens | Foam seal | Youth fit",
     "category": "Helmets & Protection",
     "priceGBP": 24,
@@ -14113,28 +14250,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-GOGGLE-YOUTH",
     "gtin13": "5060890100137",
-    "mpn": "MPN-VOLTTRAIL-GOGGLEYOUTH",
+    "mpn": "MPN-DIRTVOLT-GOGGLEYOUTH",
     "images": [
       "https://volttrail.org/images/product-goggle-youth.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Youth anti-fog MX goggles for young electric dirt bike and quad riders — dual-pane lens for fog resistance, foam face seal and wide field of view. Fits most youth helmets with standard goggle ports.",
-    "metaTitle": "MX Goggles – Youth Anti-Fog | VoltTrail – VoltTrail UK",
-    "metaDescription": "MX Goggles – Youth Anti-Fog by VoltTrail. £24 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "MX Goggles – Youth Anti-Fog | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "MX Goggles – Youth Anti-Fog by DirtVolt. €24 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -14156,8 +14293,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the MX Goggles – Youth Anti-Fog road legal in the UK?",
-        "answer": "The MX Goggles – Youth Anti-Fog is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the MX Goggles – Youth Anti-Fog road legal in the Netherlands?",
+        "answer": "The MX Goggles – Youth Anti-Fog is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the MX Goggles – Youth Anti-Fog go?",
@@ -14165,18 +14302,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the MX Goggles – Youth Anti-Fog?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -14199,8 +14337,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "gloves-youth",
     "slug": "gloves-youth",
     "name": "MX Gloves – Youth",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • Knuckle protection • Pre-curved • Youth sizing",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • Knuckle protection • Pre-curved • Youth sizing",
     "tagline": "Knuckle protection | Pre-curved | Youth sizing",
     "category": "Riding Gear & Clothing",
     "priceGBP": 19,
@@ -14211,28 +14349,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-GLOVES-YOUTH",
     "gtin13": "5060890100138",
-    "mpn": "MPN-VOLTTRAIL-GLOVESYOUTH",
+    "mpn": "MPN-DIRTVOLT-GLOVESYOUTH",
     "images": [
       "https://volttrail.org/images/product-gloves-youth.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Youth MX riding gloves for young electric dirt bike riders — knuckle protection, pre-curved fingers and a breathable back panel. Touchscreen-compatible fingertips and secure hook-and-loop closure.",
-    "metaTitle": "MX Gloves – Youth | VoltTrail – VoltTrail UK",
-    "metaDescription": "MX Gloves – Youth by VoltTrail. £19 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "MX Gloves – Youth | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "MX Gloves – Youth by DirtVolt. €19 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -14254,8 +14392,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the MX Gloves – Youth road legal in the UK?",
-        "answer": "The MX Gloves – Youth is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the MX Gloves – Youth road legal in the Netherlands?",
+        "answer": "The MX Gloves – Youth is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the MX Gloves – Youth go?",
@@ -14263,18 +14401,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the MX Gloves – Youth?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -14306,8 +14445,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "boots-youth",
     "slug": "boots-youth",
     "name": "Off-Road Boots – Youth",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • Ankle support • Non-slip sole • Buckle closure",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • Ankle support • Non-slip sole • Buckle closure",
     "tagline": "Ankle support | Non-slip sole | Buckle closure",
     "category": "Riding Gear & Clothing",
     "priceGBP": 79,
@@ -14318,28 +14457,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-BOOTS-YOUTH",
     "gtin13": "5060890100139",
-    "mpn": "MPN-VOLTTRAIL-BOOTSYOUTH",
+    "mpn": "MPN-DIRTVOLT-BOOTSYOUTH",
     "images": [
       "https://volttrail.org/images/product-boots-youth.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Youth off-road riding boots with reinforced ankle support, non-slip sole and buckle closure system. Designed for young electric dirt bike and quad riders who need proper foot and ankle protection.",
-    "metaTitle": "Off-Road Boots – Youth | VoltTrail – VoltTrail UK",
-    "metaDescription": "Off-Road Boots – Youth by VoltTrail. £79 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Off-Road Boots – Youth | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Off-Road Boots – Youth by DirtVolt. €79 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -14361,8 +14500,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Off-Road Boots – Youth road legal in the UK?",
-        "answer": "The Off-Road Boots – Youth is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Off-Road Boots – Youth road legal in the Netherlands?",
+        "answer": "The Off-Road Boots – Youth is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Off-Road Boots – Youth go?",
@@ -14370,18 +14509,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Off-Road Boots – Youth?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -14413,8 +14553,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "helmet-youth",
     "slug": "helmet-youth",
     "name": "Full-Face MX Helmet – Youth",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • ECE certified • Youth sizing • Ventilated",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • ECE certified • Youth sizing • Ventilated",
     "tagline": "ECE certified | Youth sizing | Ventilated",
     "category": "Helmets & Protection",
     "priceGBP": 79,
@@ -14425,28 +14565,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-HELMET-YOUTH",
     "gtin13": "5060890100140",
-    "mpn": "MPN-VOLTTRAIL-HELMETYOUTH",
+    "mpn": "MPN-DIRTVOLT-HELMETYOUTH",
     "images": [
       "https://volttrail.org/images/product-helmet-youth.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "ECE-certified full-face MX helmet in youth sizes — lightweight shell, ventilated chin bar and padded interior for young electric dirt bike and quad riders. An essential safety item for all off-road riding.",
-    "metaTitle": "Full-Face MX Helmet – Youth | VoltTrail – VoltTrail UK",
-    "metaDescription": "Full-Face MX Helmet – Youth by VoltTrail. £79 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Full-Face MX Helmet – Youth | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Full-Face MX Helmet – Youth by DirtVolt. €79 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -14468,8 +14608,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Full-Face MX Helmet – Youth road legal in the UK?",
-        "answer": "The Full-Face MX Helmet – Youth is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Full-Face MX Helmet – Youth road legal in the Netherlands?",
+        "answer": "The Full-Face MX Helmet – Youth is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Full-Face MX Helmet – Youth go?",
@@ -14477,18 +14617,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Full-Face MX Helmet – Youth?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -14524,8 +14665,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "waterproof-cover",
     "slug": "waterproof-cover",
     "name": "Waterproof Bike Cover",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • 210D Oxford fabric • Elasticated hem • Lock port",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • 210D Oxford fabric • Elasticated hem • Lock port",
     "tagline": "210D Oxford fabric | Elasticated hem | Lock port",
     "category": "Parts & Upgrades",
     "priceGBP": 29,
@@ -14536,28 +14677,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-WATERPROOF-COVER",
     "gtin13": "5060890100141",
-    "mpn": "MPN-VOLTTRAIL-WATERPROOFCOVER",
+    "mpn": "MPN-DIRTVOLT-WATERPROOFCOVER",
     "images": [
       "https://volttrail.org/images/product-waterproof-cover.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Waterproof bike cover for electric dirt bikes — heavy-duty 210D Oxford fabric with elasticated hem and lock port. Protects your bike from rain, dust and UV damage when stored outdoors or in a van.",
-    "metaTitle": "Waterproof Bike Cover | VoltTrail – VoltTrail UK",
-    "metaDescription": "Waterproof Bike Cover by VoltTrail. £29 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Waterproof Bike Cover | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Waterproof Bike Cover by DirtVolt. €29 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -14579,8 +14720,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Waterproof Bike Cover road legal in the UK?",
-        "answer": "The Waterproof Bike Cover is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Waterproof Bike Cover road legal in the Netherlands?",
+        "answer": "The Waterproof Bike Cover is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Waterproof Bike Cover go?",
@@ -14588,18 +14729,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Waterproof Bike Cover?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -14621,8 +14763,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "paddock-stand",
     "slug": "paddock-stand",
     "name": "Rear Paddock Stand",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • Adjustable spools • Steel frame • Universal fit",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • Adjustable spools • Steel frame • Universal fit",
     "tagline": "Adjustable spools | Steel frame | Universal fit",
     "category": "Parts & Upgrades",
     "priceGBP": 49,
@@ -14633,28 +14775,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-PADDOCK-STAND",
     "gtin13": "5060890100142",
-    "mpn": "MPN-VOLTTRAIL-PADDOCKSTAND",
+    "mpn": "MPN-DIRTVOLT-PADDOCKSTAND",
     "images": [
       "https://volttrail.org/images/product-paddock-stand.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Rear paddock stand for electric dirt bikes and light motorcycles — adjustable spools, powder-coated steel frame and a low profile for easy use in tight spaces. Ideal for maintenance and workshop storage.",
-    "metaTitle": "Rear Paddock Stand | VoltTrail – VoltTrail UK",
-    "metaDescription": "Rear Paddock Stand by VoltTrail. £49 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Rear Paddock Stand | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Rear Paddock Stand by DirtVolt. €49 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -14676,8 +14818,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Rear Paddock Stand road legal in the UK?",
-        "answer": "The Rear Paddock Stand is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Rear Paddock Stand road legal in the Netherlands?",
+        "answer": "The Rear Paddock Stand is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Rear Paddock Stand go?",
@@ -14685,18 +14827,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Rear Paddock Stand?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -14718,8 +14861,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "loading-ramp",
     "slug": "loading-ramp",
     "name": "Aluminium Loading Ramp",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • 270kg rated • Anti-slip • Folds flat",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • 270kg rated • Anti-slip • Folds flat",
     "tagline": "270kg rated | Anti-slip | Folds flat",
     "category": "Parts & Upgrades",
     "priceGBP": 89,
@@ -14730,28 +14873,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-LOADING-RAMP",
     "gtin13": "5060890100143",
-    "mpn": "MPN-VOLTTRAIL-LOADINGRAMP",
+    "mpn": "MPN-DIRTVOLT-LOADINGRAMP",
     "images": [
       "https://volttrail.org/images/product-loading-ramp.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Aluminium folding loading ramp for electric dirt bikes — lightweight yet rated to 270kg, with anti-slip surface and ratchet hooks for van or trailer loading. Folds flat for easy storage.",
-    "metaTitle": "Aluminium Loading Ramp | VoltTrail – VoltTrail UK",
-    "metaDescription": "Aluminium Loading Ramp by VoltTrail. £89 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Aluminium Loading Ramp | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Aluminium Loading Ramp by DirtVolt. €89 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -14773,8 +14916,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Aluminium Loading Ramp road legal in the UK?",
-        "answer": "The Aluminium Loading Ramp is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Aluminium Loading Ramp road legal in the Netherlands?",
+        "answer": "The Aluminium Loading Ramp is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Aluminium Loading Ramp go?",
@@ -14782,18 +14925,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Aluminium Loading Ramp?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -14815,8 +14959,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "lipo-bag",
     "slug": "lipo-bag",
     "name": "Fireproof LiPo Battery Storage Bag",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • Fireproof lining • Double-zip • All battery sizes",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • Fireproof lining • Double-zip • All battery sizes",
     "tagline": "Fireproof lining | Double-zip | All battery sizes",
     "category": "Parts & Upgrades",
     "priceGBP": 19,
@@ -14827,28 +14971,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-LIPO-BAG",
     "gtin13": "5060890100144",
-    "mpn": "MPN-VOLTTRAIL-LIPOBAG",
+    "mpn": "MPN-DIRTVOLT-LIPOBAG",
     "images": [
       "https://volttrail.org/images/product-lipo-bag.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Fireproof LiPo battery storage bag for safe charging and storage of lithium-ion electric bike batteries — high-temperature resistant lining with double-zip closure. Essential safety item for any battery-powered bike.",
-    "metaTitle": "Fireproof LiPo Battery Storage Bag | VoltTrail – VoltTrail UK",
-    "metaDescription": "Fireproof LiPo Battery Storage Bag by VoltTrail. £19 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Fireproof LiPo Battery Storage Bag | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Fireproof LiPo Battery Storage Bag by DirtVolt. €19 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -14870,8 +15014,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Fireproof LiPo Battery Storage Bag road legal in the UK?",
-        "answer": "The Fireproof LiPo Battery Storage Bag is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Fireproof LiPo Battery Storage Bag road legal in the Netherlands?",
+        "answer": "The Fireproof LiPo Battery Storage Bag is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Fireproof LiPo Battery Storage Bag go?",
@@ -14879,18 +15023,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Fireproof LiPo Battery Storage Bag?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -14912,8 +15057,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "torque-wrench",
     "slug": "torque-wrench",
     "name": "Torque Wrench (5–25Nm)",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • 5–25Nm range • Click-type • Electric bike spec",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • 5–25Nm range • Click-type • Electric bike spec",
     "tagline": "5–25Nm range | Click-type | Electric bike spec",
     "category": "Parts & Upgrades",
     "priceGBP": 39,
@@ -14924,28 +15069,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-TORQUE-WRENCH",
     "gtin13": "5060890100145",
-    "mpn": "MPN-VOLTTRAIL-TORQUEWRENCH",
+    "mpn": "MPN-DIRTVOLT-TORQUEWRENCH",
     "images": [
       "https://volttrail.org/images/product-torque-wrench.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Click-type torque wrench covering the 5–25Nm range used for most electric dirt bike maintenance — sprocket bolts, caliper bolts and axle nuts. Prevents overtightening that can damage aluminium threads.",
-    "metaTitle": "Torque Wrench (5–25Nm) | VoltTrail – VoltTrail UK",
-    "metaDescription": "Torque Wrench (5–25Nm) by VoltTrail. £39 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Torque Wrench (5–25Nm) | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Torque Wrench (5–25Nm) by DirtVolt. €39 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -14967,8 +15112,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Torque Wrench (5–25Nm) road legal in the UK?",
-        "answer": "The Torque Wrench (5–25Nm) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Torque Wrench (5–25Nm) road legal in the Netherlands?",
+        "answer": "The Torque Wrench (5–25Nm) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Torque Wrench (5–25Nm) go?",
@@ -14976,18 +15121,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Torque Wrench (5–25Nm)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -15010,8 +15156,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "tool-kit",
     "slug": "tool-kit",
     "name": "Basic Tool Kit (Hex, Torx, Spanners)",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • Hex + Torx + Spanners • Roll case • Fits all e-bikes",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • Hex + Torx + Spanners • Roll case • Fits all e-bikes",
     "tagline": "Hex + Torx + Spanners | Roll case | Fits all e-bikes",
     "category": "Parts & Upgrades",
     "priceGBP": 29,
@@ -15022,28 +15168,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-TOOL-KIT",
     "gtin13": "5060890100146",
-    "mpn": "MPN-VOLTTRAIL-TOOLKIT",
+    "mpn": "MPN-DIRTVOLT-TOOLKIT",
     "images": [
       "https://volttrail.org/images/product-tool-kit.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Compact hex, Torx and spanner kit covering every fastener on Sur-Ron, Talaria and most electric dirt bikes — includes T25/T30/T40 Torx, 4–10mm hex keys and open-end spanners in a roll case.",
-    "metaTitle": "Basic Tool Kit (Hex, Torx, Spanners) | VoltTrail – VoltTrail UK",
-    "metaDescription": "Basic Tool Kit (Hex, Torx, Spanners) by VoltTrail. £29 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Basic Tool Kit (Hex, Torx, Spanners) | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Basic Tool Kit (Hex, Torx, Spanners) by DirtVolt. €29 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -15065,8 +15211,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Basic Tool Kit (Hex, Torx, Spanners) road legal in the UK?",
-        "answer": "The Basic Tool Kit (Hex, Torx, Spanners) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Basic Tool Kit (Hex, Torx, Spanners) road legal in the Netherlands?",
+        "answer": "The Basic Tool Kit (Hex, Torx, Spanners) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Basic Tool Kit (Hex, Torx, Spanners) go?",
@@ -15074,18 +15220,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Basic Tool Kit (Hex, Torx, Spanners)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -15108,8 +15255,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "hydration-pack",
     "slug": "hydration-pack",
     "name": "Hydration Pack – 2L",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • 2L bladder • Tool pockets • Fits over armour",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • 2L bladder • Tool pockets • Fits over armour",
     "tagline": "2L bladder | Tool pockets | Fits over armour",
     "category": "Riding Gear & Clothing",
     "priceGBP": 49,
@@ -15120,28 +15267,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-HYDRATION-PACK",
     "gtin13": "5060890100147",
-    "mpn": "MPN-VOLTTRAIL-HYDRATIONPACK",
+    "mpn": "MPN-DIRTVOLT-HYDRATIONPACK",
     "images": [
       "https://volttrail.org/images/product-hydration-pack.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Off-road hydration pack with 2L bladder and tool pockets for trail and enduro riders — lightweight harness with chest strap and magnetic tube clip. Fits over body armour and works with all riding positions.",
-    "metaTitle": "Hydration Pack – 2L | VoltTrail – VoltTrail UK",
-    "metaDescription": "Hydration Pack – 2L by VoltTrail. £49 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Hydration Pack – 2L | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Hydration Pack – 2L by DirtVolt. €49 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -15163,8 +15310,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Hydration Pack – 2L road legal in the UK?",
-        "answer": "The Hydration Pack – 2L is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Hydration Pack – 2L road legal in the Netherlands?",
+        "answer": "The Hydration Pack – 2L is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Hydration Pack – 2L go?",
@@ -15172,18 +15319,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Hydration Pack – 2L?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -15206,8 +15354,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "tie-down-straps",
     "slug": "tie-down-straps",
     "name": "Dirt Bike Tie-Down Straps (Set of 4)",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • 500kg rated • Soft loop hooks • Set of 4",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • 500kg rated • Soft loop hooks • Set of 4",
     "tagline": "500kg rated | Soft loop hooks | Set of 4",
     "category": "Parts & Upgrades",
     "priceGBP": 29,
@@ -15218,28 +15366,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-TIE-DOWN-STRAPS",
     "gtin13": "5060890100148",
-    "mpn": "MPN-VOLTTRAIL-TIEDOWNSTRAPS",
+    "mpn": "MPN-DIRTVOLT-TIEDOWNSTRAPS",
     "images": [
       "https://volttrail.org/images/product-tie-down-straps.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Set of 4 ratchet tie-down straps rated to 500kg for securing electric dirt bikes in vans and trailers — soft loop hooks prevent frame damage, compact storage in the included carry bag.",
-    "metaTitle": "Dirt Bike Tie-Down Straps (Set of 4) | VoltTrail – VoltTrail UK",
-    "metaDescription": "Dirt Bike Tie-Down Straps (Set of 4) by VoltTrail. £29 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Dirt Bike Tie-Down Straps (Set of 4) | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Dirt Bike Tie-Down Straps (Set of 4) by DirtVolt. €29 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -15261,8 +15409,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Dirt Bike Tie-Down Straps (Set of 4) road legal in the UK?",
-        "answer": "The Dirt Bike Tie-Down Straps (Set of 4) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Dirt Bike Tie-Down Straps (Set of 4) road legal in the Netherlands?",
+        "answer": "The Dirt Bike Tie-Down Straps (Set of 4) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Dirt Bike Tie-Down Straps (Set of 4) go?",
@@ -15270,18 +15418,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Dirt Bike Tie-Down Straps (Set of 4)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -15303,8 +15452,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "bike-wash",
     "slug": "bike-wash",
     "name": "Bike Wash & Cleaner Spray",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • Biodegradable • Battery-safe • 500ml spray",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • Biodegradable • Battery-safe • 500ml spray",
     "tagline": "Biodegradable | Battery-safe | 500ml spray",
     "category": "Parts & Upgrades",
     "priceGBP": 12,
@@ -15315,28 +15464,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-BIKE-WASH",
     "gtin13": "5060890100149",
-    "mpn": "MPN-VOLTTRAIL-BIKEWASH",
+    "mpn": "MPN-DIRTVOLT-BIKEWASH",
     "images": [
       "https://volttrail.org/images/product-bike-wash.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Biodegradable bike wash and cleaner spray safe for electric dirt bikes — formulated to remove mud, oil and trail grime without damaging battery seals, connectors or painted surfaces.",
-    "metaTitle": "Bike Wash & Cleaner Spray | VoltTrail – VoltTrail UK",
-    "metaDescription": "Bike Wash & Cleaner Spray by VoltTrail. £12 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Bike Wash & Cleaner Spray | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Bike Wash & Cleaner Spray by DirtVolt. €12 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -15358,8 +15507,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Bike Wash & Cleaner Spray road legal in the UK?",
-        "answer": "The Bike Wash & Cleaner Spray is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Bike Wash & Cleaner Spray road legal in the Netherlands?",
+        "answer": "The Bike Wash & Cleaner Spray is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Bike Wash & Cleaner Spray go?",
@@ -15367,18 +15516,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Bike Wash & Cleaner Spray?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -15400,8 +15550,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "chain-lube",
     "slug": "chain-lube",
     "name": "Chain Lube / Drivetrain Lube",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • Water resistant • E-bike safe • Extends chain life",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • Water resistant • E-bike safe • Extends chain life",
     "tagline": "Water resistant | E-bike safe | Extends chain life",
     "category": "Parts & Upgrades",
     "priceGBP": 12,
@@ -15412,28 +15562,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-CHAIN-LUBE",
     "gtin13": "5060890100150",
-    "mpn": "MPN-VOLTTRAIL-CHAINLUBE",
+    "mpn": "MPN-DIRTVOLT-CHAINLUBE",
     "images": [
       "https://volttrail.org/images/product-chain-lube.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Drivetrain chain lube formulated for electric dirt bike chains and sprockets — water-resistant formula reduces wear and extends chain life. Suitable for Sur-Ron, Talaria, Stark Varg and all e-moto drivetrains.",
-    "metaTitle": "Chain Lube / Drivetrain Lube | VoltTrail – VoltTrail UK",
-    "metaDescription": "Chain Lube / Drivetrain Lube by VoltTrail. £12 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Chain Lube / Drivetrain Lube | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Chain Lube / Drivetrain Lube by DirtVolt. €12 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -15455,8 +15605,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Chain Lube / Drivetrain Lube road legal in the UK?",
-        "answer": "The Chain Lube / Drivetrain Lube is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Chain Lube / Drivetrain Lube road legal in the Netherlands?",
+        "answer": "The Chain Lube / Drivetrain Lube is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Chain Lube / Drivetrain Lube go?",
@@ -15464,18 +15614,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Chain Lube / Drivetrain Lube?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -15497,8 +15648,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "puncture-kit",
     "slug": "puncture-kit",
     "name": "Puncture Repair Kit",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • Tubeless plugs • CO2 cartridges • Compact carry case",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • Tubeless plugs • CO2 cartridges • Compact carry case",
     "tagline": "Tubeless plugs | CO2 cartridges | Compact carry case",
     "category": "Parts & Upgrades",
     "priceGBP": 15,
@@ -15509,28 +15660,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-PUNCTURE-KIT",
     "gtin13": "5060890100151",
-    "mpn": "MPN-VOLTTRAIL-PUNCTUREKIT",
+    "mpn": "MPN-DIRTVOLT-PUNCTUREKIT",
     "images": [
       "https://volttrail.org/images/product-puncture-kit.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Tubeless puncture repair kit for electric dirt bikes — includes plugs, reamer tool, insertion needle and CO2 cartridges. Get you back riding without removing the wheel. Fits all standard tyre valves.",
-    "metaTitle": "Puncture Repair Kit | VoltTrail – VoltTrail UK",
-    "metaDescription": "Puncture Repair Kit by VoltTrail. £15 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Puncture Repair Kit | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Puncture Repair Kit by DirtVolt. €15 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -15552,8 +15703,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Puncture Repair Kit road legal in the UK?",
-        "answer": "The Puncture Repair Kit is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Puncture Repair Kit road legal in the Netherlands?",
+        "answer": "The Puncture Repair Kit is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Puncture Repair Kit go?",
@@ -15561,18 +15712,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Puncture Repair Kit?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -15594,8 +15746,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "battery-terminal",
     "slug": "battery-terminal",
     "name": "Battery Terminal Protector Spray",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • Anti-corrosion • Moisture barrier • All connectors",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • Anti-corrosion • Moisture barrier • All connectors",
     "tagline": "Anti-corrosion | Moisture barrier | All connectors",
     "category": "Parts & Upgrades",
     "priceGBP": 9,
@@ -15606,28 +15758,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-BATTERY-TERMINAL",
     "gtin13": "5060890100152",
-    "mpn": "MPN-VOLTTRAIL-BATTERYTERMINAL",
+    "mpn": "MPN-DIRTVOLT-BATTERYTERMINAL",
     "images": [
       "https://volttrail.org/images/product-battery-terminal.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Battery terminal protector spray for electric dirt bike connectors and exposed battery terminals — forms a moisture-resistant barrier to prevent corrosion and maintain good electrical contact year-round.",
-    "metaTitle": "Battery Terminal Protector Spray | VoltTrail – VoltTrail UK",
-    "metaDescription": "Battery Terminal Protector Spray by VoltTrail. £9 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Battery Terminal Protector Spray | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Battery Terminal Protector Spray by DirtVolt. €9 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -15649,8 +15801,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Battery Terminal Protector Spray road legal in the UK?",
-        "answer": "The Battery Terminal Protector Spray is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Battery Terminal Protector Spray road legal in the Netherlands?",
+        "answer": "The Battery Terminal Protector Spray is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Battery Terminal Protector Spray go?",
@@ -15658,18 +15810,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Battery Terminal Protector Spray?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -15708,18 +15861,18 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       "https://volttrail.org/images/product-gloves-airmatic.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "100% Airmatic FA25 off-road gloves — lightweight four-way stretch construction with silicone grip palm, perforated back panel and premium knuckle protection. A top-tier glove for serious trail and MX riders.",
-    "metaTitle": "Airmatic FA25 Off-Road Gloves | 100% – VoltTrail UK",
-    "metaDescription": "Airmatic FA25 Off-Road Gloves by 100%. £49 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Airmatic FA25 Off-Road Gloves | 100% – DirtVolt Netherlands",
+    "metaDescription": "Airmatic FA25 Off-Road Gloves by 100%. €49 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
       "batteryBrand": "100% High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
@@ -15746,8 +15899,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Airmatic FA25 Off-Road Gloves road legal in the UK?",
-        "answer": "The Airmatic FA25 Off-Road Gloves is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Airmatic FA25 Off-Road Gloves road legal in the Netherlands?",
+        "answer": "The Airmatic FA25 Off-Road Gloves is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Airmatic FA25 Off-Road Gloves go?",
@@ -15755,18 +15908,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Airmatic FA25 Off-Road Gloves?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [
@@ -15798,8 +15952,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "id": "centre-stand",
     "slug": "centre-stand",
     "name": "Centre Stand (Sur-Ron Compatible)",
-    "brand": "VoltTrail",
-    "subtitle": "VoltTrail • Bolt-on fit • Steel construction • Sur-Ron compatible",
+    "brand": "DirtVolt",
+    "subtitle": "DirtVolt • Bolt-on fit • Steel construction • Sur-Ron compatible",
     "tagline": "Bolt-on fit | Steel construction | Sur-Ron compatible",
     "category": "Parts & Upgrades",
     "priceGBP": 59,
@@ -15810,28 +15964,28 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     "stockCount": 8,
     "sku": "VT-CENTRE-STAND",
     "gtin13": "5060890100154",
-    "mpn": "MPN-VOLTTRAIL-CENTRESTAND",
+    "mpn": "MPN-DIRTVOLT-CENTRESTAND",
     "images": [
       "https://volttrail.org/images/product-centre-stand.jpg"
     ],
     "ukHighlights": [
-      "Official VoltTrail UK Spec & Guarantee",
-      "Free UK Mainland Delivery (1–3 Days)",
+      "Official DirtVolt Netherlands Spec & Guarantee",
+      "Free Netherlands Delivery (24–48h PostNL / DHL)",
       "0% APR Pay in 4 Available",
-      "Full UK Manufacturer Warranty & Spares Support"
+      "Full Netherlands 2-Year Warranty & Amsterdam Spares Support"
     ],
     "description": "Centre stand compatible with Sur-Ron Light Bee X, Storm Bee and Ultra Bee — bolt-on steel construction allows the bike to stand upright for maintenance, washing and display without a paddock stand.",
-    "metaTitle": "Centre Stand (Sur-Ron Compatible) | VoltTrail – VoltTrail UK",
-    "metaDescription": "Centre Stand (Sur-Ron Compatible) by VoltTrail. £59 at VoltTrail. Free UK delivery and finance available.",
+    "metaTitle": "Centre Stand (Sur-Ron Compatible) | DirtVolt – DirtVolt Netherlands",
+    "metaDescription": "Centre Stand (Sur-Ron Compatible) by DirtVolt. €59 at DirtVolt Netherlands. Free NL delivery and iDEAL / finance available.",
     "technicalSpecs": {
       "batteryCapacityWh": 0,
-      "batteryBrand": "VoltTrail High-Discharge Li-Ion",
-      "rangeMiles": "35–50 miles",
+      "batteryBrand": "DirtVolt High-Discharge Li-Ion",
+      "rangeMiles": "56–80 km",
       "maxRangeMiles": 50,
       "chargingTimeHours": 3.5,
       "removableBattery": true,
       "motorType": "Direct Drive Motor",
-      "motorBrand": "VoltTrail",
+      "motorBrand": "DirtVolt",
       "motorPowerW": 0,
       "torqueNm": 35,
       "weightKg": 4,
@@ -15853,8 +16007,8 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
     },
     "paaFaqs": [
       {
-        "question": "Is the Centre Stand (Sur-Ron Compatible) road legal in the UK?",
-        "answer": "The Centre Stand (Sur-Ron Compatible) is built for off-road riding, tracks, and private land with owner permission under UK law."
+        "question": "Is the Centre Stand (Sur-Ron Compatible) road legal in the Netherlands?",
+        "answer": "The Centre Stand (Sur-Ron Compatible) is built for off-road riding, tracks, and private land with owner permission under Dutch road traffic law (Wegenverkeerswet 1994)."
       },
       {
         "question": "How fast does the Centre Stand (Sur-Ron Compatible) go?",
@@ -15862,18 +16016,19 @@ export const VOLTTRAIL_ALL_PRODUCTS: Product[] = [
       },
       {
         "question": "What warranty is included with the Centre Stand (Sur-Ron Compatible)?",
-        "answer": "VoltTrail provides full UK warranty coverage and technical assistance with genuine spare parts readily stocked."
+        "answer": "DirtVolt provides full Netherlands warranty coverage and technical assistance with genuine spare parts readily stocked."
       }
     ],
     "idealForCities": [
-      "All UK",
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Bristol",
-      "Leeds",
-      "Edinburgh",
-      "Glasgow"
+      "All Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Haarlem",
+      "Maastricht"
     ],
     "featured": true,
     "tags": [

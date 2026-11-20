@@ -37,6 +37,7 @@ export interface TechnicalSpecs {
   brakes: string;
   tyres: string;
   cycleToWorkEligible: boolean;
+  topSpeedMph?: number;
   foldedDimensions?: string;
   cargoCapacityKg?: number;
 }

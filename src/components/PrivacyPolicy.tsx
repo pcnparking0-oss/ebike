@@ -22,19 +22,19 @@ export const PrivacyPolicy: React.FC<PrivacyPolicyProps> = ({ onNavigateToView }
       <div className="bg-white border border-slate-200/90 rounded-2xl p-6 sm:p-8 shadow-xs">
         <div className="flex items-center gap-2 text-xs text-blue-600 font-bold uppercase tracking-wider mb-2">
           <ShieldCheck className="w-4 h-4" />
-          <span>UK Data Protection & GDPR Compliant</span>
+          <span>EU GDPR &amp; Dutch AVG Compliant</span>
         </div>
         <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 font-heading">
-          Privacy & Cookie Policy
+          Privacy &amp; Cookie Policy
         </h1>
         <p className="text-xs sm:text-sm text-slate-600 mt-2 leading-relaxed">
-          Apex Ebikes UK is committed to protecting your personal data in full compliance with the UK General Data Protection Regulation (UK GDPR) and the Data Protection Act 2018.
+          DirtVolt B.V. (Netherlands) is committed to protecting your personal data in full compliance with the EU General Data Protection Regulation (EU GDPR / AVG) and the Dutch GDPR Implementation Act (Uitvoeringswet AVG / UAVG).
         </p>
 
         <div className="mt-4 pt-4 border-t border-slate-100 flex flex-wrap gap-4 text-xs text-slate-500">
           <span className="flex items-center gap-1.5 font-medium">
             <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
-            ICO Registration: ZA892104
+            KvK Amsterdam: 84920315
           </span>
           <span className="flex items-center gap-1.5 font-medium">
             <Lock className="w-3.5 h-3.5 text-blue-600" />
@@ -58,13 +58,13 @@ export const PrivacyPolicy: React.FC<PrivacyPolicyProps> = ({ onNavigateToView }
             </h2>
           </div>
           <p className="text-xs text-slate-600 leading-relaxed">
-            When you interact with Apex Ebikes UK, place an order, or request Cycle to Work documentation, we may collect the following categories of personal data:
+            When you interact with DirtVolt Netherlands, place an order, or submit an official enquiry, we may collect the following categories of personal data:
           </p>
           <ul className="space-y-2 text-xs text-slate-700 list-disc list-inside leading-relaxed pl-2">
-            <li><strong>Identity & Contact Details:</strong> Full name, billing and mainland UK shipping address, email address, and phone number for courier delivery alerts.</li>
-            <li><strong>Cycle to Work Information:</strong> Employer name, company scheme reference code, and certificate redemption identifiers.</li>
-            <li><strong>Transactional Data:</strong> Payment method references, order history, warranty registration records, and Cytech workshop service logs.</li>
-            <li><strong>Technical & Session Data:</strong> IP address, device type, browser settings, and local preferences to ensure seamless checkout functionality.</li>
+            <li><strong>Identity &amp; Contact Details:</strong> Full name, company name (for 21% BTW invoices), billing and Dutch delivery address (including city/province and postal code), email address, and phone number for courier delivery alerts.</li>
+            <li><strong>Order &amp; Purchase Specifications:</strong> Model selected, custom battery voltage, off-road or RDW road-legal specs, and serial/VIN number registration.</li>
+            <li><strong>Transactional Data:</strong> iDEAL and SEPA transfer transaction references, card payment token identifiers, BTW invoicing records, and certified warranty service logs.</li>
+            <li><strong>Technical &amp; Session Data:</strong> IP address, device type, browser settings, and regional Netherlands preferences to ensure seamless checkout functionality.</li>
           </ul>
         </div>
 
@@ -73,20 +73,20 @@ export const PrivacyPolicy: React.FC<PrivacyPolicyProps> = ({ onNavigateToView }
           <div className="flex items-center gap-2">
             <FileCheck className="w-5 h-5 text-emerald-600" />
             <h2 className="text-base font-bold text-slate-900 font-heading">
-              2. Legal Basis & How We Use Your Data
+              2. Legal Basis &amp; How We Use Your Data
             </h2>
           </div>
           <p className="text-xs text-slate-600 leading-relaxed">
-            We only process your personal information when we have a valid lawful basis under UK GDPR:
+            We only process your personal information when we have a valid lawful basis under EU GDPR (AVG):
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs pt-1">
             <div className="bg-slate-50 border border-slate-200 rounded-xl p-3.5 space-y-1">
               <span className="font-bold text-slate-900 block">Contractual Performance</span>
-              <p className="text-slate-600">To assemble, inspect, and dispatch your e-bike order, communicate delivery tracking with DPD/DX Freight, and honour your 2-year UK warranty.</p>
+              <p className="text-slate-600">To inspect, prepare, and dispatch your electric bike order across the Netherlands, coordinate tracking with PostNL / DHL Parcel Nederland, and honour your 2-year warranty at our Amsterdam technical center.</p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-xl p-3.5 space-y-1">
-              <span className="font-bold text-slate-900 block">Legal & Statutory Obligations</span>
-              <p className="text-slate-600">Complying with UK HMRC VAT reporting requirements and verifying the 14+ minimum statutory rider age for EAPC cycles.</p>
+              <span className="font-bold text-slate-900 block">Legal &amp; Statutory Obligations</span>
+              <p className="text-slate-600">Complying with Dutch Tax and Customs Administration (Belastingdienst) 21% BTW accounting rules and regulatory EU EN 15194 / Dutch RDW classifications.</p>
             </div>
           </div>
         </div>
@@ -96,17 +96,16 @@ export const PrivacyPolicy: React.FC<PrivacyPolicyProps> = ({ onNavigateToView }
           <div className="flex items-center gap-2">
             <Lock className="w-5 h-5 text-indigo-600" />
             <h2 className="text-base font-bold text-slate-900 font-heading">
-              3. Payment Security & Third-Party Service Providers
+              3. Payment Security &amp; Third-Party Service Providers
             </h2>
           </div>
           <p className="text-xs text-slate-600 leading-relaxed">
-            We never store raw credit/debit card numbers on our servers. All financial transactions are securely tokenized through PCI-DSS Level 1 certified processors:
+            We never store raw credit/debit card numbers on our servers. All financial transactions are securely tokenized through PCI-DSS Level 1 certified processors and Dutch iDEAL / European SEPA banking:
           </p>
           <ul className="space-y-1 text-xs text-slate-700 list-disc list-inside leading-relaxed pl-2">
-            <li><strong>Novuna Personal Finance:</strong> 0% APR regulated consumer credit applications.</li>
-            <li><strong>Klarna Bank AB:</strong> Pay in 3 interest-free instalment arrangements.</li>
-            <li><strong>Cyclescheme / GCI / Vivup:</strong> Salary sacrifice certificate verification.</li>
-            <li><strong>DPD UK & DX Freight:</strong> Delivery name, address, and mobile SMS dispatch notifications.</li>
+            <li><strong>iDEAL &amp; European SEPA Gateway:</strong> Instant Dutch iDEAL clearing and EUR SEPA bank transfers under PSD2 banking standards.</li>
+            <li><strong>PCI-DSS Certified Payment Gateways:</strong> 3D Secure 2.0 encrypted card processing and Klarna / In3 installment verification.</li>
+            <li><strong>PostNL &amp; DHL Parcel Nederland:</strong> Secure freight dispatch, delivery tracking, and SMS package arrival notifications across the Netherlands.</li>
           </ul>
         </div>
 
@@ -115,15 +114,15 @@ export const PrivacyPolicy: React.FC<PrivacyPolicyProps> = ({ onNavigateToView }
           <div className="flex items-center gap-2">
             <UserCheck className="w-5 h-5 text-amber-600" />
             <h2 className="text-base font-bold text-slate-900 font-heading">
-              4. Your UK GDPR Rights
+              4. Your EU GDPR (AVG) Rights
             </h2>
           </div>
           <p className="text-xs text-slate-600 leading-relaxed">
-            Under UK data protection laws, you retain the following enforceable rights:
+            Under EU and Dutch data protection laws (supervised by the Autoriteit Persoonsgegevens / AP), you retain the following enforceable rights:
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs pt-1">
             <div className="bg-slate-50 border border-slate-200 rounded-xl p-3">
-              <span className="font-bold text-slate-900 block">Right to Access & Copy</span>
+              <span className="font-bold text-slate-900 block">Right to Access &amp; Copy</span>
               <span className="text-slate-600">Request a complete copy of all personal records held in our systems.</span>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-xl p-3">
@@ -142,7 +141,7 @@ export const PrivacyPolicy: React.FC<PrivacyPolicyProps> = ({ onNavigateToView }
       <div className="bg-slate-50 border border-slate-200 rounded-xl p-5 text-xs text-slate-600 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
         <div>
           <h3 className="font-bold text-slate-900">Data Protection Officer (DPO) Inquiries:</h3>
-          <p className="mt-0.5">To exercise any statutory data rights or query cookie preferences, email our data team directly.</p>
+          <p className="mt-0.5">To exercise any statutory data rights or query cookie preferences, email our Amsterdam compliance team directly at dpo@ebikessale.online or contact DirtVolt B.V., Keizersgracht 482, 1017 EG Amsterdam.</p>
         </div>
         <a
           href="mailto:dpo@ebikessale.online"

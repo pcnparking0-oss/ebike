@@ -12,42 +12,42 @@ export interface CycleSchemeProvider {
 export const UK_CYCLE_SCHEMES: CycleSchemeProvider[] = [
   {
     id: 'cyclescheme',
-    name: 'Cyclescheme (Blackhawk Network)',
-    maxLimit: 'No Limit (Employer chosen, typically £3,000 - £10,000)',
-    popularEmployers: 'NHS, Civil Service, BBC, Barclays, Tesco, Unilever',
-    processingTime: 'Instant / 24-48 hours digital voucher',
-    endOfHireFeeNote: 'Transfer to "Free Ownership" after small refundable deposit at 4 years'
+    name: 'Fietsplan via Werkkostenregeling (WKR)',
+    maxLimit: 'No Statutory Cap (Employer WKR budget / Lease)',
+    popularEmployers: 'ASML, Philips, ING, Rabobank, Shell NL, Dutch Municipalities',
+    processingTime: 'Instant / 24-48 hours proforma invoice & HR approval',
+    endOfHireFeeNote: 'Direct employee ownership or 7% annual fiscal bijtelling lease'
   },
   {
     id: 'gci',
-    name: 'Green Commute Initiative (GCI)',
-    maxLimit: 'Unlimited (FCA Authorised for high-value e-bikes & cargo bikes)',
-    popularEmployers: 'Universities, Tech Firms, Legal Practices, Councils',
-    processingTime: 'Fast online voucher redemption',
-    endOfHireFeeNote: 'Zero end-of-scheme ownership fee (Free transfer of ownership)'
+    name: 'Lease a Bike Nederland',
+    maxLimit: 'Up to €10,000+ (All-in corporate lease & e-mobility)',
+    popularEmployers: 'KPN, Coolblue, Universiteit van Amsterdam, Tech & Legal',
+    processingTime: 'Fast online employer portal voucher',
+    endOfHireFeeNote: 'Flexible buyout option at 15-20% residual value after 36 months'
   },
   {
     id: 'vivup',
-    name: 'Vivup Employee Benefits',
-    maxLimit: 'Up to £5,000+ (dependent on employer policy)',
-    popularEmployers: 'NHS Trusts, Local Authorities, Police Services',
-    processingTime: 'Online portal integration',
-    endOfHireFeeNote: 'Extended use agreement with minimal end payment'
+    name: 'FiscFree / NFP Fietsplan',
+    maxLimit: 'Up to €5,000+ via gross-net salary exchange',
+    popularEmployers: 'Hospitals (UMC), Rijksoverheid, Police, Education',
+    processingTime: 'Digital HR & payroll integration',
+    endOfHireFeeNote: '100% ownership from day one with gross salary tax relief'
   },
   {
     id: 'halfords',
-    name: 'Halfords Cycle2Work',
-    maxLimit: 'Up to £3,000+ through partner network',
-    popularEmployers: 'Royal Mail, Sainsbury\'s, Marks & Spencer, British Airways',
+    name: 'Hellorider Corporate E-Mobility',
+    maxLimit: 'Up to €7,500+ through Dutch employer network',
+    popularEmployers: 'Schiphol Group, Albert Heijn / Ahold, PostNL, ABN AMRO',
     processingTime: 'Direct digital voucher redemption',
-    endOfHireFeeNote: 'Zero-cost ownership retention options available'
+    endOfHireFeeNote: 'Includes theft insurance and nationwide roadside assistance'
   }
 ];
 
 export interface TaxCalculationResult {
   retailPrice: number;
-  taxBandRate: number; // 0.20, 0.40, 0.45
-  niRate: number; // 0.08 for basic, 0.02 for higher/additional
+  taxBandRate: number; // Dutch Box 1 income tax relief rate
+  niRate: number; // Social / pension contribution factor
   totalSavingPercentage: number;
   totalCashSavedGBP: number;
   effectiveCostGBP: number;
@@ -61,18 +61,18 @@ export function calculateCycleToWorkSavings(
   taxBand: 'basic' | 'higher' | 'additional',
   termMonths: 12 | 18 | 24 | 36 = 12
 ): TaxCalculationResult {
-  let incomeTaxRate = 0.20;
-  let niRate = 0.08; // Employee Class 1 National Insurance
+  let incomeTaxRate = 0.3697; // Dutch Box 1 Bracket 1 (up to €75,518)
+  let niRate = 0.0;
 
   if (taxBand === 'higher') {
-    incomeTaxRate = 0.40;
-    niRate = 0.02;
+    incomeTaxRate = 0.42; // Combined WKR / IKC effective employer & payroll tax bracket
+    niRate = 0.0;
   } else if (taxBand === 'additional') {
-    incomeTaxRate = 0.45;
-    niRate = 0.02;
+    incomeTaxRate = 0.495; // Dutch Box 1 Top Bracket (49.50%)
+    niRate = 0.0;
   }
 
-  const combinedSavingRate = incomeTaxRate + niRate; // 28% or 42% or 47%
+  const combinedSavingRate = incomeTaxRate + niRate;
   const totalCashSaved = Math.round(price * combinedSavingRate * 100) / 100;
   const effectiveCost = Math.round((price - totalCashSaved) * 100) / 100;
   const monthlyGross = Math.round((price / termMonths) * 100) / 100;
@@ -109,25 +109,25 @@ export function generateProductJsonLd(product: Product) {
     "offers": {
       "@type": "Offer",
       "url": `https://ebikessale.online/products/${product.slug}`,
-      "priceCurrency": "GBP",
+      "priceCurrency": "EUR",
       "price": product.priceGBP.toFixed(2),
       "priceValidUntil": "2026-12-31",
       "itemCondition": "https://schema.org/NewCondition",
       "availability": product.inStock ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
       "seller": {
         "@type": "Organization",
-        "name": "DirtVolt Ltd"
+        "name": "DirtVolt B.V."
       },
       "shippingDetails": {
         "@type": "OfferShippingDetails",
         "shippingRate": {
           "@type": "MonetaryAmount",
           "value": "0.00",
-          "currency": "GBP"
+          "currency": "EUR"
         },
         "shippingDestination": {
           "@type": "DefinedRegion",
-          "addressCountry": "GB"
+          "addressCountry": "NL"
         },
         "deliveryTime": {
           "@type": "ShippingDeliveryTime",
@@ -147,7 +147,7 @@ export function generateProductJsonLd(product: Product) {
       },
       "hasMerchantReturnPolicy": {
         "@type": "MerchantReturnPolicy",
-        "applicableCountry": "GB",
+        "applicableCountry": "NL",
         "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
         "merchantReturnDays": 30,
         "returnMethod": "https://schema.org/ReturnByMail",
@@ -164,8 +164,8 @@ export function generateProductJsonLd(product: Product) {
     "additionalProperty": [
       {
         "@type": "PropertyValue",
-        "name": "UK EAPC Compliance",
-        "value": `${product.eapcCompliance.continuousRatedPowerW}W Continuous, ${product.eapcCompliance.maxAssistedSpeedMph}mph Cutoff`
+        "name": "EU EN 15194 & Dutch RDW Compliance",
+        "value": `${product.eapcCompliance.continuousRatedPowerW}W Continuous, ${Math.round(product.eapcCompliance.maxAssistedSpeedMph * 1.609)} km/h Cutoff`
       },
       {
         "@type": "PropertyValue",
@@ -184,8 +184,8 @@ export function generateProductJsonLd(product: Product) {
       },
       {
         "@type": "PropertyValue",
-        "name": "Cycle to Work Eligible",
-        "value": "Yes (HMRC Tax Free Scheme)"
+        "name": "Dutch Fietsplan (WKR) Eligible",
+        "value": "Yes (Netherlands WKR / Lease a Bike Compatible)"
       }
     ]
   };
@@ -197,23 +197,23 @@ export function generateLocalBusinessJsonLd() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "BicycleStore",
-    "name": "DirtVolt Flagship Hub",
+    "name": "DirtVolt Netherlands Flagship Showroom & Hub",
     "image": "https://images.unsplash.com/photo-1571068316344-75bc76f77890?auto=format&fit=crop&w=1200&q=80",
-    "@id": "https://ebikessale.online/#london-store",
+    "@id": "https://ebikessale.online/#amsterdam-store",
     "url": "https://ebikessale.online",
-    "telephone": "+44 20 7946 0888",
-    "priceRange": "£££",
+    "telephone": "+31 20 808 4410",
+    "priceRange": "€€€",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "142-144 Old Street, Shoreditch",
-      "addressLocality": "London",
-      "postalCode": "EC1V 9BW",
-      "addressCountry": "GB"
+      "streetAddress": "Keizersgracht 482",
+      "addressLocality": "Amsterdam",
+      "postalCode": "1017 EG",
+      "addressCountry": "NL"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 51.5255,
-      "longitude": -0.0886
+      "latitude": 52.3649,
+      "longitude": 4.8878
     },
     "openingHoursSpecification": [
       {
@@ -230,21 +230,23 @@ export function generateLocalBusinessJsonLd() {
       }
     ],
     "paymentAccepted": [
+      "iDEAL",
+      "SEPA Bank Transfer",
       "Credit Card",
       "Debit Card",
-      "Cyclescheme",
-      "Green Commute Initiative",
-      "Vivup",
       "Klarna",
-      "Novuna Finance",
       "Apple Pay",
       "Google Pay"
     ],
-    "currenciesAccepted": "GBP",
+    "currenciesAccepted": "EUR",
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
-      "name": "UK Road Legal Electric Bikes",
+      "name": "Netherlands Electric Dirt Bikes & E-Bikes",
       "itemListElement": [
+        {
+          "@type": "OfferCatalog",
+          "name": "Electric Dirt Bikes"
+        },
         {
           "@type": "OfferCatalog",
           "name": "Commuter E-Bikes"
@@ -252,10 +254,6 @@ export function generateLocalBusinessJsonLd() {
         {
           "@type": "OfferCatalog",
           "name": "Folding E-Bikes"
-        },
-        {
-          "@type": "OfferCatalog",
-          "name": "Cargo E-Bikes"
         }
       ]
     }

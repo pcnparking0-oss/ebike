@@ -23,6 +23,8 @@ function apiDevPlugin(): Plugin {
               handlerModule = await import('./api/subscribe.ts');
             } else if (endpoint === 'send-email') {
               handlerModule = await import('./api/send-email.ts');
+            } else if (endpoint === 'translate') {
+              handlerModule = await import('./api/translate.ts');
             }
 
             if (handlerModule && handlerModule.default) {

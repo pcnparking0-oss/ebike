@@ -54,7 +54,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
   const [voucherError, setVoucherError] = useState<string | null>(null);
 
   const subtotal = items.reduce((sum, item) => sum + item.product.priceGBP * item.quantity, 0);
-  const ukVatIncluded = Math.round((subtotal / 6) * 100) / 100; // 20% VAT inside total
+  const dutchVatIncluded = Math.round((subtotal * 21 / 121) * 100) / 100; // 21% Dutch BTW inside total
   const shippingCost = subtotal >= 50 ? 0 : 4.95;
   const total = Math.max(0, subtotal - voucherDiscount + shippingCost);
 
@@ -65,7 +65,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
     if (code.includes('C2W') || code.includes('SCHEME') || code.includes('CYCLE')) {
       const discount = Math.round(subtotal * 0.35);
       setVoucherDiscount(discount);
-      setAppliedVoucher(`Cycle to Work Certificate (${code})`);
+      setAppliedVoucher(`Cycle Scheme Certificate (${code})`);
       setVoucherCode('');
     } else if (code === 'VOLT10' || code === 'APEX10' || code === 'DIRT10') {
       const discount = Math.round(subtotal * 0.10);
@@ -73,7 +73,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
       setAppliedVoucher('DirtVolt 10% Welcome Discount');
       setVoucherCode('');
     } else {
-      setVoucherError('Voucher code not recognised. Try "DIRT10" for 10% off or "CYCLESCHEME-2026" for Cycle to Work voucher.');
+      setVoucherError('Voucher code not recognised. Try "DIRT10" for 10% off.');
     }
   };
 
@@ -101,9 +101,9 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
         <div className="bg-emerald-50 border-b border-emerald-200 px-5 py-2.5 flex items-center justify-between text-xs text-emerald-900">
           <div className="flex items-center gap-2">
             <Truck className="w-4 h-4 text-emerald-600 shrink-0" />
-            <span className="font-semibold">Free 24-48h Tracked UK Delivery Qualified</span>
+            <span className="font-semibold">Free 24-48h Tracked Netherlands Delivery Qualified</span>
           </div>
-          <span className="font-extrabold text-emerald-700 font-mono">£0.00</span>
+          <span className="font-extrabold text-emerald-700 font-mono">€0.00</span>
         </div>
 
         {/* Content */}
@@ -172,7 +172,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                         </div>
 
                         <span className="font-extrabold text-slate-950 text-xs font-heading">
-                          £{(item.product.priceGBP * item.quantity).toLocaleString()}
+                          €{(item.product.priceGBP * item.quantity).toLocaleString()}
                         </span>
                       </div>
                     </div>
@@ -189,7 +189,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                 <form onSubmit={handleApplyVoucher} className="flex gap-2">
                   <input
                     type="text"
-                    placeholder="e.g. VOLT10 or CYCLESCHEME"
+                    placeholder="e.g. VOLT10 or DIRT10"
                     value={voucherCode}
                     onChange={(e) => {
                       setVoucherCode(e.target.value);
@@ -232,25 +232,25 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
             <div className="space-y-1.5 text-xs">
               <div className="flex justify-between text-slate-600">
                 <span>Subtotal (Net of Discounts):</span>
-                <span className="text-slate-950 font-semibold">£{subtotal.toLocaleString()}</span>
+                <span className="text-slate-950 font-semibold">€{subtotal.toLocaleString()}</span>
               </div>
               {voucherDiscount > 0 && (
                 <div className="flex justify-between text-emerald-700 font-medium">
                   <span>Discount Applied:</span>
-                  <span>-£{voucherDiscount.toLocaleString()}</span>
+                  <span>-€{voucherDiscount.toLocaleString()}</span>
                 </div>
               )}
               <div className="flex justify-between text-slate-600">
-                <span>UK Mainland Shipping:</span>
+                <span>Netherlands Nationwide Shipping:</span>
                 <span className="text-emerald-700 font-bold">FREE (24-48h Tracked)</span>
               </div>
               <div className="flex justify-between text-slate-500 text-[11px]">
-                <span>Estimated UK VAT (20% Included):</span>
-                <span>£{ukVatIncluded.toFixed(2)}</span>
+                <span>Estimated Dutch BTW / VAT (21% Included):</span>
+                <span>€{dutchVatIncluded.toFixed(2)}</span>
               </div>
               <div className="flex justify-between text-sm font-bold text-slate-950 pt-2 border-t border-slate-200">
                 <span>Total Amount Due:</span>
-                <span className="text-slate-950 font-extrabold text-lg font-heading">£{total.toLocaleString()}</span>
+                <span className="text-slate-950 font-extrabold text-lg font-heading">€{total.toLocaleString()}</span>
               </div>
             </div>
 

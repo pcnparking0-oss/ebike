@@ -64,7 +64,7 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
       });
     }
 
-    const { email = '', source = 'UK E-Bike Handbook & Trail Dispatch' } = body || {};
+    const { email = '', source = 'Netherlands E-Mobility & Trail Dispatch' } = body || {};
 
     if (!email || !email.includes('@')) {
       setStatus(400);
@@ -83,7 +83,7 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
       text: `New subscriber registered on ebikessale.online:\n\nEmail: ${email}\nSource: ${source}\nDate: ${timestamp}`,
       html: wrapHtmlTemplate(`
         <h2 style="font-size: 18px; font-weight: 800; color: #0f172a; margin: 0 0 12px 0;">
-          New Newsletter &amp; Handbook Subscriber
+          New Newsletter &amp; Trail Dispatch Subscriber
         </h2>
         <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px; margin-bottom: 16px;">
           <tr>
@@ -115,25 +115,25 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
       try {
         await sendEmail({
           to: email,
-          subject: 'Your 2026 UK E-Bike Tax & Buying Handbook Download - DirtVolt',
-          text: `Welcome to DirtVolt UK!\n\nThank you for requesting our 42-page UK E-Bike Tax & Buying Handbook.\n\nKey Highlights Inside:\n- Complete HMRC Salary Sacrifice 2026 guidelines (Cyclescheme, GCI, Vivup)\n- EAPC 250W vs Off-road electric dirt bike legal boundaries\n- British climate weatherproofing & Cytech winter battery checklists\n\nIf you have any questions regarding electric dirt bikes, utility quads, or 0% finance options, simply reply to this email or call 0800 892 4410.\n\nDirtVolt UK Customer Team\nsales@ebikessale.online`,
+          subject: 'Your 2026 Netherlands E-Dirt Bike & Trail Guide - DirtVolt',
+          text: `Welcome to DirtVolt Netherlands!\n\nThank you for requesting our 2026 Electric Dirt Bike & Dutch Trail Guide.\n\nKey Highlights Inside:\n- Dutch Road Traffic Rules (Wegenverkeerswet / RDW) & EU EN 15194 regulations\n- Off-road enduro tracks & forest trail networks across the Netherlands (Veluwe, Utrechtse Heuvelrug, Brabant)\n- Coastal weatherproofing & winter battery maintenance\n\nIf you have any questions regarding electric dirt bikes or stock availability in Amsterdam, simply reply to this email or call +31 20 808 4410.\n\nDirtVolt Netherlands Team\nsales@ebikessale.online\nKeizersgracht 482, 1017 EG Amsterdam`,
           html: wrapHtmlTemplate(`
             <h2 style="font-size: 20px; font-weight: 800; color: #0f172a; margin: 0 0 12px 0;">
-              Welcome to DirtVolt UK
+              Welcome to DirtVolt Netherlands
             </h2>
             <p style="font-size: 14px; line-height: 22px; color: #475569; margin: 0 0 16px 0;">
-              Thank you for subscribing to the <strong>DirtVolt UK Trail Dispatch</strong>. Your official 2026 UK E-Bike Tax &amp; Buying Handbook is ready for review.
+              Thank you for subscribing to the <strong>DirtVolt Netherlands Trail Dispatch</strong>. Your official 2026 Electric Dirt Bike &amp; Dutch E-Mobility Guide is ready.
             </p>
 
             <div style="background-color: #eff6ff; border: 1px solid #bfdbfe; border-radius: 12px; padding: 18px; margin: 20px 0;">
               <h3 style="font-size: 14px; font-weight: 700; color: #1e40af; margin: 0 0 8px 0;">
-                📘 Included in Your 2026 Handbook:
+                📘 Included in Your 2026 Guide:
               </h3>
               <ul style="margin: 0; padding-left: 20px; font-size: 13px; line-height: 20px; color: #1e3a8a;">
-                <li>HMRC salary sacrifice rules &amp; how to save up to 47% via Cycle to Work</li>
-                <li>EAPC 250W vs Off-Road Dirt Bike statutory boundaries</li>
-                <li>British weatherproofing (IP67) &amp; Cytech winter battery maintenance</li>
-                <li>Official UK spare parts sourcing &amp; 2-year warranty protections</li>
+                <li>Dutch Road Traffic Rules (RDW / Wegenverkeerswet) &amp; EU EN 15194 statutory guidelines</li>
+                <li>Off-road enduro trails &amp; motocross tracks across Gelderland, Brabant, and Utrecht</li>
+                <li>Coastal rain &amp; wind battery care &amp; IP67 waterproofing checklists</li>
+                <li>Official manufacturer spare parts sourcing &amp; 2-year warranty protections in Amsterdam</li>
               </ul>
             </div>
 
@@ -144,9 +144,9 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
             </div>
 
             <p style="font-size: 12px; color: #64748b; margin: 20px 0 0 0; text-align: center;">
-              DirtVolt UK • 142-144 Old Street, Shoreditch, London • Freephone: 0800 892 4410
+              DirtVolt Netherlands • Keizersgracht 482, 1017 EG Amsterdam • Direct Hotline: +31 20 808 4410
             </p>
-          `, 'Your UK E-Bike Handbook is enclosed.'),
+          `, 'Your Netherlands E-Dirt Bike Guide is enclosed.'),
         });
       } catch (custErr) {
         console.warn('Subscriber email delivery error (non-fatal):', custErr);
@@ -156,7 +156,7 @@ export default async function handler(req: ExtendedRequest, res: ExtendedRespons
     setStatus(200);
     sendJson({
       success: true,
-      message: 'Subscription confirmed and handbook dispatched via Zoho Mail.',
+      message: 'Subscription confirmed and guide dispatched via Zoho Mail.',
     });
   } catch (error: any) {
     console.error('Subscribe handler error:', error);

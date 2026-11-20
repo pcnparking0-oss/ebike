@@ -71,7 +71,7 @@ export async function sendEmail(options: EmailOptions): Promise<SendResult> {
   });
 
   const mailOptions = {
-    from: `DirtVolt UK <${config.from}>`,
+    from: `DirtVolt Netherlands <${config.from}>`,
     to: options.to,
     replyTo: options.replyTo,
     subject: options.subject,
@@ -116,7 +116,7 @@ export function wrapHtmlTemplate(contentHtml: string, previewText: string = ''):
         <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #ffffff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
           <tr>
             <td style="background-color: #0f172a; padding: 24px 32px; text-align: center;">
-              <h1 style="color: #ffffff; font-size: 24px; margin: 0; font-weight: 800; letter-spacing: -0.5px;">DIRTVOLT UK</h1>
+              <h1 style="color: #ffffff; font-size: 24px; margin: 0; font-weight: 800; letter-spacing: -0.5px;">DIRTVOLT NETHERLANDS</h1>
             </td>
           </tr>
           <tr>

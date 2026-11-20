@@ -1,4 +1,4 @@
-# DirtVolt Robots.txt - High-Performance Electric Dirt Bikes UK
+# DirtVolt Netherlands Robots.txt - High-Performance Electric Dirt Bikes Netherlands
 User-agent: *
 Allow: /
 
@@ -8,8 +8,8 @@ Disallow: /checkout/
 Disallow: /basket/
 
 # Canonical Sitemaps
-Sitemap: https://dirtvolt.co.uk/sitemap.xml
-Sitemap: https://dirtvolt.co.uk/sitemap-pages.xml
-Sitemap: https://dirtvolt.co.uk/sitemap-categories.xml
-Sitemap: https://dirtvolt.co.uk/sitemap-products.xml
-Sitemap: https://dirtvolt.co.uk/sitemap-blog.xml
+Sitemap: https://ebikessale.online/sitemap.xml
+Sitemap: https://ebikessale.online/sitemap-pages.xml
+Sitemap: https://ebikessale.online/sitemap-categories.xml
+Sitemap: https://ebikessale.online/sitemap-products.xml
+Sitemap: https://ebikessale.online/sitemap-blog.xml
